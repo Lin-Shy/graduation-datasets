@@ -1,0 +1,22 @@
+{
+  "schema": "chapter2_current_binding",
+  "files": {
+    "dataset.json": "e16456eda55184f009cd5c2e050ba2e0b2acc3d107c9e373c0748bb91ea3b107",
+    "objective/dataset.json": "c5f4afea3f0ad8bfd1b6b60fc06e6f1d8304a2ffd5b40b8db94e06d318c0fc3e",
+    "objective/model/questions.json": "d4b6a283729ed1c8b2682bd00d58ac0e0b25cbc412ef8d67566260f53c8008b4",
+    "objective/questions.md": "7d1412f5f8c5a5b30252e131b8728d9f2e6e7e32b3b56732d178f0f8960fe9e4",
+    "objective/review/overlap.json": "046b95cdb5270a1ce6ad1f08f3a4b9e00e9550f3314098440615f8111932ef57",
+    "objective/review/selection.json": "b24bc410049a47be526a498592f6e31930429a339c14df0cfdce7b113bcd45a5",
+    "objective/scoring/annotations.json": "fa18313e62f272cf82133b291648659da3164a6c3b97f2dd702681cc39184099",
+    "objective/scoring/authoring/items.json": "e97ec41c6ac7c004fe4dc81a16400390fc4a6dd22feb773026d564b9e0d5b907",
+    "open/dataset.json": "c2af23288ad42e85f7744c68241120d73ce78d05eb758a17550164bf472d7abb",
+    "open/model/questions.json": "4c557cf673f443ee5706d98b3653876303e045b4a076b2f74452642d505d9c9c",
+    "open/questions.md": "9089dbb12c6a3b95252a6786302eceb34a9882dc650ce7212b42117ddd83b540",
+    "open/review/selection.json": "2ae314eb3925792ebd62e020c13ff1f60c88420ee9fdd9ce6b973906f75416aa",
+    "open/scoring/annotations.json": "c847653c4b326ff2b80197fa24779abbdadbc9f1e041f5d8618f084ec34993b8",
+    "open/scoring/authoring/items.json": "161eacad518514c9241054f1a07240e56eaba1021709d7046077fb3152fb38a8",
+    "open/scoring/evidence.json": "b12f902f4b0a9cfd9490b933ed9e593f49039e613b126ee812b337322902b28f"
+  },
+  "builder_sha256": "26172490625640b3bb9475c02ae3f7d30bb54086753b6ccfe4d399c28f730a5c",
+  "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6"
+}

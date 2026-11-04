@@ -1,0 +1,26 @@
+{
+  "partition": "full_evaluation",
+  "development_split": null,
+  "test_split": null,
+  "selection_by_method_scores": false,
+  "independent_human_review": "pending",
+  "new_experiments": "not_run",
+  "answering_modes": [
+    "single_pass",
+    "agentic"
+  ],
+  "part": "open",
+  "count": 100,
+  "capabilities": {
+    "S0": 25,
+    "M1": 25,
+    "S1": 25,
+    "M0": 25
+  },
+  "themes": 69,
+  "knowledge_groups": 24,
+  "source_files": 42,
+  "evidence_anchors": 127,
+  "contrast_pairs": 8,
+  "metric": "EAS; Strict auxiliary"
+}

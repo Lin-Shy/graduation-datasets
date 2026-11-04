@@ -1,0 +1,4096 @@
+{
+  "schema": "calibration_discussion_evidence_v1",
+  "created_utc": "2026-11-04T12:38:08.550417+00:00",
+  "status": "discussion_only_no_execution",
+  "calibration_protocol_sha256": "85b246b6f2580a3b19302c4625d9e9b4da3040c8c09a540be022250b4238669c",
+  "human_reference_label": "人工参考",
+  "source_provenance_record": "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/human_review_completion.json",
+  "protected_files": {
+    "graduation-datasets/chapter02_knowledge_qa/binding.json": "a202ef0302561a8ba0e3f2c658cf9ac5c61a6868987cf631bd9eff70353fc424",
+    "graduation-datasets/chapter02_knowledge_qa/open/model/questions.json": "4c557cf673f443ee5706d98b3653876303e045b4a076b2f74452642d505d9c9c",
+    "graduation-datasets/chapter02_knowledge_qa/open/scoring/annotations.json": "c847653c4b326ff2b80197fa24779abbdadbc9f1e041f5d8618f084ec34993b8",
+    "graduation-datasets/chapter02_knowledge_qa/open/scoring/authoring/items.json": "161eacad518514c9241054f1a07240e56eaba1021709d7046077fb3152fb38a8",
+    "graduation-datasets/chapter02_knowledge_qa/objective/model/questions.json": "d4b6a283729ed1c8b2682bd00d58ac0e0b25cbc412ef8d67566260f53c8008b4",
+    "graduation-datasets/chapter02_knowledge_qa/objective/scoring/annotations.json": "fa18313e62f272cf82133b291648659da3164a6c3b97f2dd702681cc39184099",
+    "graduation-datasets/chapter02_knowledge_qa/objective/scoring/authoring/items.json": "e97ec41c6ac7c004fe4dc81a16400390fc4a6dd22feb773026d564b9e0d5b907",
+    "graduation-datasets/chapter02_knowledge_qa/open/scoring/evidence.json": "b12f902f4b0a9cfd9490b933ed9e593f49039e613b126ee812b337322902b28f",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/calibration_completed_human_labels.json": "0823df7703f7af219005dbe7ed488bf317cda85a44d999f49d3598d11c4670f4",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/packets.json": "3957c57213234453d7b37751cb6fc00ed005b137e5f4583a9e610f2f6ecee440",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/acceptance/packets.json": "ab1c1e1cf2223755ff076a9a2464ffbbe6ea7098a8ed7f502fe939f14eb4bb4e",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/acceptance/blank_labels.json": "8927e16e37838a6bd5dd303ca51a82753682f7b1577bee7657f9a3b971bb3eb4",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/completed_review.html": "e78e5917da4697e3b2f7483eb7467f83f018e8af914eced0a371f4f867ce26e7",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/administration/sample_mapping.json": "22bb9238a0f86507953269562aa1600dbe4d7cd573ebaf067da67af7661cdd83",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/ai_calibration/85b246b6f258/comparison.json": "2d929ec22c3cf32bde86de04564e16f0250d230c4abff249d409f4485ffe77b2",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/ai_calibration/85b246b6f258/per_sample.json": "37971cc3f4d20d2187af21675035f144071b441613b9ffea054f87f4f73b3eb0",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/judge_prompt.txt": "4d3c55c8f4ed79b13ef3f0372e5ef0a63b4437769b1e9fdd6bf7a49ffdd80964",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/scoring_rules.json": "1081853b3f47b622eb9fe474804612c4e0324282ae4dc7a0ec6fdd5942d5439f",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/judge_contract.py": "ddeba58f75701ea8f24bac79592d1fda746fc3ee7a5669ed50c4b99328bbe8b3",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/judge_api_adapter.py": "8aa966b2933a1aea300f1d685d166d06874f86de64617bf1c2a2b064bdb12e80",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/judge_calibration.py": "cf837d5e3f52f85d4706d9801ff296bedacdbc082e68245053dc57ebac22706c",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/runner.py": "0c2b84cbc9039b425f2732f389c2d00a098a2e3aa364bf02c33402b7f98783c0",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/transport_retry.py": "83ad989e2fe3326a242a73b71c8e3eae2000a758942857b957e92a1db5af4c98",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/models.py": "c592066e32c1e42123008747d4d7f4e6f93be02fd9216c090a2ce775162ae88a",
+    "PrincipiaBlastFoam-DSH/config/llm/models.yaml": "cbe85bc0e9c9e9990c7d73680439717c6064f221f6193aba0c196fdd74d28491",
+    "PrincipiaBlastFoam-DSH/config/llm/providers.yaml": "11290e3cf9672050041847a56645381c42ff8eea01146ecfaa665dd0c6e64890",
+    "PrincipiaBlastFoam-DSH/config/llm/judging.yaml": "fa6c2afe67fcc30421c6f9a30451c59856ff3b3f01b1e5d1e0aa329abd02be92",
+    "graduation-experiment-results/chapter2_retrieval/release/planning/execution.json": "414959b1c62e51835a563351daf0cc919aea57d881f989b557eda9b5404f7bab",
+    "graduation-experiment-results/chapter2_retrieval/release/planning/judge_calibration_authorization.json": "5a9fc962fa295fad74e01b4923a5f1d4c600d3d73306b5597dc1b170d54d280a",
+    "graduation-experiment-results/chapter2_retrieval/release/planning/run_protocol.json": "d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2"
+  },
+  "selection": "top12 absolute dual-mean minus human EAS_arith among identified pairs; stable display-order tie break; two additional cancellation diagnostics",
+  "top12_orders": [
+    13,
+    3,
+    28,
+    19,
+    25,
+    36,
+    37,
+    31,
+    59,
+    48,
+    29,
+    46
+  ],
+  "additional_orders": [
+    34,
+    47
+  ],
+  "cases": [
+    {
+      "order": 13,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-fbb64ddc54d5",
+        "question": "在 blastFoam 的 burst 补丁体系中，手册说明所有字段都需要在其字典中额外增加一个条目来指定“破裂前”的边界条件。这个条目的名称是什么，它被用来做什么？同时，手册指出该条目应放在哪个字典层级？",
+        "question_id": "E28-01",
+        "question_sha256": "0b000e149df4443efaa85ca0f3a9ef255e3874125294be2cc45f238fd58954b6",
+        "annotation_sha256": "332467fd889d58dad71cc340badd56c9afe8515ad2f32abcc47b6f4effd1e3c7",
+        "conditional": false,
+        "criteria": [
+          {
+            "criterion_id": "E28-01.K1",
+            "claim": "该额外条目的名称是 intactField，用于指定字段在破裂之前的边界条件。",
+            "evidence_ids": [
+              "X_burst_general"
+            ]
+          },
+          {
+            "criterion_id": "E28-01.K2",
+            "claim": "该条目属于字段字典中的额外条目，而非补丁类型本身的定义。",
+            "evidence_ids": [
+              "X_burst_general"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "X_burst_general",
+            "path": "manual/markdown/07_burst_patches.md",
+            "file_sha256": "1c4fd9c6a681b0f0ad846967ff49ddc2737e234aa01e39536f41f493418c8097",
+            "line_start": 1,
+            "line_end": 12,
+            "label": "burst_general",
+            "excerpt": "# Burst patches\n\nThe ability to have a \"bursting\" patch can be used with the burst (external patch), burstCyclic (internal with no AMR), or burstCyclicAMI (general internal). All fields require an additional entry in their dictionaries name \"intactField\" which is used to specify the boundary condition of the field before bursting. The basic burst patch can be created using any mesh generation technique, however the cyclic variations require using the createBaffles utility, standard to OpenFOAM. See Sec. 20.5 for an example of how to create and use the patches.\n\n## 7.1 Burst models\n\nThe method to calculate where burst occurs is runtime-selectable and the inputs are placed in the constant/polyMesh/boundary file under the corresponding boundary. This can also be added in either the patch entry within blockMeshDict of snappyHexMeshDict.\n\n| Variable | Description |\n|---|---|\n| partialBurst | Can individual face burst (no by default) |\n| useDelta | Us the difference across coupled patches rather than the maximum value (yes by default) |",
+            "excerpt_sha256": "73e1a00497251f8dd4c749d29961fc2f10f84bb87f11e686f958ddbbf70b3f97"
+          }
+        ],
+        "applicability": "适用于手册所述 burst、burstCyclic、burstCyclicAMI 三类补丁的字段字典配置；不涉及具体字段物理量。",
+        "acceptable_answer_range": "等义解释、合理条件式结论及必要澄清可接受；不以关键词或引用数量替代内容判断。",
+        "critical_errors": [
+          "把条目名写成 intactPatch 或 intactBoundary",
+          "认为该条目定义补丁类型而非破裂前边界条件",
+          "认为该条目可省略"
+        ],
+        "answer": "在 blastFoam 的 burst 补丁体系中，手册说明所有字段都需要在其字典中额外增加一个条目来指定“破裂前”的边界条件。该条目的名称是 \"intactField\"，它被用来指定字段在破裂前的边界条件。该条目应放在字典的顶层，即在 burstModel 的配置层级下。",
+        "answer_sha256": "191e3b9df8c757e5f908f4f0d7f85e50d5099e46494c3b2646b30077e744ef89",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "manual/markdown/07_burst_patches.md",
+            "start": 1,
+            "end": 25
+          },
+          {
+            "path": "manual/markdown/07_burst_patches.md",
+            "start": 22,
+            "end": 67
+          }
+        ],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.625,
+          "F": 0.5,
+          "A": "not_applicable",
+          "EAS_arith": 56.25,
+          "EAS_geo": 55.90169943749474,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.625,
+            0.625
+          ],
+          "eas_arith_bounds": [
+            56.25,
+            56.25
+          ],
+          "eas_geo_bounds": [
+            55.90169943749474,
+            55.90169943749474
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.75,
+          "F": 0.75,
+          "A": "not_applicable",
+          "EAS_arith": 75.0,
+          "EAS_geo": 75.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.75,
+            0.75
+          ],
+          "eas_arith_bounds": [
+            75.0,
+            75.0
+          ],
+          "eas_geo_bounds": [
+            75.0,
+            75.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.875,
+          "F": 0.75,
+          "A": "not_applicable",
+          "EAS_arith": 81.25,
+          "EAS_geo": 81.00925873009825,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.875,
+            0.875
+          ],
+          "eas_arith_bounds": [
+            81.25,
+            81.25
+          ],
+          "eas_geo_bounds": [
+            81.00925873009825,
+            81.00925873009825
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 78.125,
+          "eas_arith_bounds": [
+            78.125,
+            78.125
+          ],
+          "EAS_geo": 78.00462936504913,
+          "eas_geo_bounds": [
+            78.00462936504913,
+            78.00462936504913
+          ],
+          "K": 0.8125,
+          "F": 0.75,
+          "A": "not_applicable",
+          "Strict": 0,
+          "coverage_bounds": [
+            0.8125,
+            0.8125
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.75,
+            0.75
+          ],
+          "A_bounds": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-fbb64ddc54d5",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E28-01.K1",
+              "score": 1,
+              "reason": "intactField名称及用途正确。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E28-01.K2",
+              "score": 0.25,
+              "reason": "开头提字段字典，但最后混淆为burstModel配置层级。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": "not_applicable",
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第13份；F：名称与功能正确，最后关于配置层级的说明存在重要错误。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-fbb64ddc54d5",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E28-01.K1",
+              "score": 1
+            },
+            {
+              "criterion_id": "E28-01.K2",
+              "score": 0.5,
+              "reason": "正确指出是字典中的额外条目，但将其定位为 burstModel 配置层级，未准确表达其应属于各字段字典。"
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": "not_applicable",
+          "reason": "条目名称和用途正确；字典层级的表述存在局部错误。"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-fbb64ddc54d5",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E28-01.K1",
+              "score": 1,
+              "reason": "正确给出条目名称 intactField，并说明用于指定字段破裂前的边界条件。"
+            },
+            {
+              "criterion_id": "E28-01.K2",
+              "score": 0.75,
+              "reason": "表达了该条目是字段字典中的额外条目，但结尾又将其位置表述为 burstModel 配置层级，造成层级归属不够准确。"
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": "not_applicable",
+          "reason": "名称和用途正确；但关于条目所在字典层级的表述不准确，手册并未将其置于 burstModel 配置层级。"
+        }
+      },
+      "discussion": {
+        "issue": "正确功能与错误配置层级混在一起",
+        "observed": "回答给出intactField与破裂前边界条件，但将“字典顶层”解释为burstModel配置层级。两AI对名称/用途给了较高部分分，对末尾层级错误的事实扣分较人工轻。",
+        "interpretation": "Gold的K2与回答包含的层级表述并不完全对应；不得仅看到“字典”一词判满分。此处是错误严重程度及复合必要点的部分分争议，不是两个AI一致即可推翻人工。",
+        "proposal": "K逐个核对名称、用途与层级含义；F依据错误是否会导致配置位置错误来区分重要错误与轻微措辞问题，不按字数投票。"
+      },
+      "human_packet_sha256": "a0bca99107e23f594b5ad4701ce8ecf23dbb0215f546863064ff5fe032a0aa7b"
+    },
+    {
+      "order": 3,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-235d4357f6f9",
+        "question": "我给Mie-Grüneisen相准备了初始p、rho、T，没有提供内能场，但在状态方程字典中设了calculateDensity yes。初始化时会先处理rho还是内能？内能计算会直接沿用原rho，还是要等密度重算后再进行？",
+        "question_id": "E53-07",
+        "question_sha256": "18428964e706a434dd2124d786b6b8802e98054fd8675e341850f361ce7448fa",
+        "annotation_sha256": "95a16093b4023e5fe733a5f1d4019b27d1d55dfcb27569c07410f49257650290",
+        "conditional": true,
+        "criteria": [
+          {
+            "criterion_id": "E53-07.K1",
+            "claim": "先用p、T计算rho。",
+            "evidence_ids": [
+              "X_thermo_initialization"
+            ]
+          },
+          {
+            "criterion_id": "E53-07.K2",
+            "claim": "密度重算后再初始化内能，不跳过前一步沿用原rho；允许准确说明更新后的rho的用途。",
+            "evidence_ids": [
+              "X_thermo_initialization"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "X_thermo_initialization",
+            "path": "manual/markdown/05_fluid_solid_thermo.md",
+            "file_sha256": "e8369aa14525d4c3adb639ae6e134af41d6d97d84484f114ef221e63c141f8dc",
+            "line_start": 1412,
+            "line_end": 1414,
+            "label": "thermo_initialization",
+            "excerpt": "## 5.9 Initialization\n\nThe initialization of fields can be handled in several ways, but $\\rho_i$, $p$, and $T$ must be given as initial conditions. Some of these fields may be overwritten, but the boundary conditions are used to construct the conserved quantities. For equations of state in the Mie-Grüneisen form, by default the pressure and density are used to initialize the internal energy. Temperature based equations of state initialize the internal energy using the density and temperature. If the \"calculateDensity\" keyword is defined, and is set to \"yes\" in the given equation of state dictionary, then the density is calculated from the pressure and temperature prior to the initialization of the internal energy. Each of the initialization methods use a Newton-Raphson root finding method to find the necessary quantities. If the internal energy field is provided in the initial conditions folder, the pressure and temperature fields are calculated directly from the density and internal energy.",
+            "excerpt_sha256": "f8604d6e43dad19b0ffbea0aefa6fd6be1ef1867255955540de8f2106c0484db"
+          }
+        ],
+        "applicability": "Mie-Grüneisen相，初始rho、p、T已给且未提供e；calculateDensity设为yes。",
+        "acceptable_answer_range": "文献明确的是先后关系；不强制猜测所有内部实现分支。更新后的rho与p用于随后计算内能的解释不属于致命错误。",
+        "critical_errors": [
+          "跳过密度重算并直接使用题设原rho。",
+          "把内能初始化放在密度重算之前，或忽略开关必须设yes。"
+        ],
+        "answer": "在Mie-Grüneisen模型中，初始化时会先处理密度（rho），然后再计算内能。由于没有提供内能场，模型会根据状态方程字典中的设置（calculateDensity yes）计算密度。因此，内能计算会直接沿用初始的rho值，而不是等密度重算后再进行。",
+        "answer_sha256": "9091a39242091cd512fd33fa1f137618c4aadd6e2c864fac4c223ea0449e3879",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.375,
+          "F": 0.5,
+          "A": 0.5,
+          "EAS_arith": 45.833333333333336,
+          "EAS_geo": 45.42801482080349,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.375,
+            0.375
+          ],
+          "eas_arith_bounds": [
+            45.833333333333336,
+            45.833333333333336
+          ],
+          "eas_geo_bounds": [
+            45.42801482080349,
+            45.42801482080349
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.375,
+          "F": 0.5,
+          "A": 0.5,
+          "EAS_arith": 45.833333333333336,
+          "EAS_geo": 45.42801482080349,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.375,
+            0.375
+          ],
+          "eas_arith_bounds": [
+            45.833333333333336,
+            45.833333333333336
+          ],
+          "eas_geo_bounds": [
+            45.42801482080349,
+            45.42801482080349
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.125,
+          "F": 0.25,
+          "A": 0,
+          "EAS_arith": 12.5,
+          "EAS_geo": 0.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.125,
+            0.125
+          ],
+          "eas_arith_bounds": [
+            12.5,
+            12.5
+          ],
+          "eas_geo_bounds": [
+            0.0,
+            0.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 29.166666666666668,
+          "eas_arith_bounds": [
+            29.166666666666668,
+            29.166666666666668
+          ],
+          "EAS_geo": 22.714007410401745,
+          "eas_geo_bounds": [
+            22.714007410401745,
+            22.714007410401745
+          ],
+          "K": 0.25,
+          "F": 0.375,
+          "A": 0.25,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.25,
+            0.25
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.375,
+            0.375
+          ],
+          "A_bounds": [
+            0.25,
+            0.25
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-235d4357f6f9",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E53-07.K1",
+              "score": 0.75,
+              "reason": "知道先处理密度，未明确由p、T重算rho。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E53-07.K2",
+              "score": 0,
+              "reason": "明确主张沿用初始rho而不等待密度重算，错误。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.5,
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第3份；F/A：前述顺序部分正确，随后对新旧rho的选择错误，整答存在直接矛盾。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-235d4357f6f9",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E53-07.K1",
+              "score": 0.75,
+              "reason": "正确表达了先处理/计算密度且calculateDensity设为yes会触发计算，但未明确说明密度是由p、T计算得到。"
+            },
+            {
+              "criterion_id": "E53-07.K2",
+              "score": 0,
+              "reason": "明确错误地说内能沿用初始rho，而正确关系是密度重算后再初始化内能。"
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.5,
+          "reason": "回答正确说明了先处理密度及开关触发，但将内能使用初始rho而非更新后rho，反转了条件下的关键结论。"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-235d4357f6f9",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E53-07.K1",
+              "score": 0.25,
+              "reason": "仅提到先处理密度并按开关计算密度，未明确表达用p、T重算rho，且后文否定重算结果用于内能。"
+            },
+            {
+              "criterion_id": "E53-07.K2",
+              "score": 0,
+              "reason": "明确称内能直接沿用初始rho、不等密度重算，与要求相反。"
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": 0,
+          "reason": "核心条件结论反向：calculateDensity yes时应先用p、T重算密度，再据此初始化内能；回答称内能沿用原rho。"
+        }
+      },
+      "discussion": {
+        "issue": "自相矛盾的回答与“核心结论反向”",
+        "observed": "前面说先处理rho、后算内能，末尾又说内能沿用初始rho。GPT与人工一致；DeepSeek将A降至0，两个AI相差33.33分。",
+        "interpretation": "既有规则“核心结论反向A=0”与“局部错误可给部分分”缺少冲突处理顺序，当前材料不足以断言某一方必然错。",
+        "proposal": "区分明确唯一的反向核心结论与未消解的双向矛盾；后者不得挑一句作完整正确答案。建议作为需确认的解释细化，统一后重新校准，不追改本轮A=0.5。"
+      },
+      "human_packet_sha256": "c50e13ede18d8c29cabf8c9086764c2dcb2530f01b8392c2a14c7cffe3d3f8ea"
+    },
+    {
+      "order": 28,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-29dfa00d1883",
+        "question": "在 blastFoam 的 AMR 中，densityGradient 误差估计器与 beginUnrefine 参数如何共同影响自由场爆炸仿真的网格演化？请结合自由场教程配置说明。",
+        "question_id": "E42-03",
+        "question_sha256": "eb7bced08c05931671dac0871a4ea679c11b7d621da630c9f2e19af652962775",
+        "annotation_sha256": "b77e023fae0de971a57303bec2d606c7497dd366ee530274b3479a061ea3cf86",
+        "conditional": false,
+        "criteria": [
+          {
+            "criterion_id": "E42-03.K1",
+            "claim": "densityGradient使用总密度定义误差；自由场教程显式errorEstimator densityGradient。",
+            "evidence_ids": [
+              "X_amr_density",
+              "X_free_mesh"
+            ]
+          },
+          {
+            "criterion_id": "E42-03.K2",
+            "claim": "自由场教程beginUnrefine=1e-5，而手册将它定义为粗化可以开始的时刻，默认0 s。",
+            "evidence_ids": [
+              "X_free_mesh",
+              "amr_general"
+            ]
+          },
+          {
+            "criterion_id": "E42-03.K3",
+            "claim": "误差估计用于确定可细化/粗化的单元，beginUnrefine提供粗化时间准入；该实例有密度指标和延后准入两个设置，但1e-5不是已知起爆时刻，也不能单凭静态配置保证整个网格一直细化或特定运行结果。",
+            "evidence_ids": [
+              "amr_general",
+              "X_free_mesh"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "X_amr_density",
+            "path": "manual/markdown/11_amr.md",
+            "file_sha256": "26ca1848c6ddee2c65bc94c57a4d6745b0ca7d2412312b63791545e864f058df",
+            "line_start": 109,
+            "line_end": 131,
+            "label": "amr_density",
+            "excerpt": "### 11.1.5 Density gradient (densityGradient)\n\nA modified density gradient was defined by Zheng et al. (2008), and uses an error defined by\n\n$$\n\\epsilon_{\\nabla\\rho} = \\max\\left( \\frac{|(\\nabla\\ln\\rho)_{C} - (\\nabla\\ln\\rho)_{own}|}{\\alpha f \\rho_{C}/dl + |(\\nabla\\ln\\rho)_{own}|},\\ \\frac{|(\\nabla\\ln\\rho)_{C} - (\\nabla\\ln\\rho)_{nei}|}{\\alpha f \\rho_{C}/dl + |(\\nabla\\ln\\rho)_{nei}|} \\right)^{f}\n$$\n(11.4)\n\nwith\n\n$$\n(\\nabla\\ln\\rho)_{C} = \\frac{\\rho_{nei} - \\rho_{own}}{|r_{nei} - r_{own}|}\n$$\n(11.5)\n\n$$\n(\\nabla\\ln\\rho)_{nei,own} = \\frac{(\\nabla\\rho)_{nei,own}(r_{nei} - r_{own})}{|r_{nei} - r_{own}|}\n$$\n(11.6)\n\n$r_{own,nei}$ is the surface normal vector, and $dl = |r_{nei} - r_{own}|$, is the distance between cell centers. This error estimator uses the total density.\n",
+            "excerpt_sha256": "1891bdcadb374dbab9553f773e863d455490e5b2901bfa5e5b468acdd2af394b"
+          },
+          {
+            "evidence_id": "X_free_mesh",
+            "path": "tutorials/blastFoam/freeField/constant/dynamicMeshDict",
+            "file_sha256": "7684c259e142187b8ca548daf5885292cd660d7f9601c03c85bf4adb75ca1970",
+            "line_start": 17,
+            "line_end": 39,
+            "label": "free_mesh",
+            "excerpt": "dynamicFvMesh   adaptiveFvMesh;\nerrorEstimator  densityGradient;\n\n// When can unrefinement start\nbeginUnrefine 1e-5;\n\n// How often to refine\nrefineInterval  3;\n\n// Refine field in between lower..upper\nlowerRefineLevel 0.1;\n\n// If value < unrefineLevel unrefine\nunrefineLevel   0.1;\n\n// Have slower than 2:1 refinement\nnBufferLayers   3;\n\n// Refine cells only up to maxRefinement levels\nmaxRefinement   3;\n\n// Write the refinement level as a volScalarField\ndumpLevel       true;",
+            "excerpt_sha256": "aa62e569970d4eb4fafd21f5d803aa8f42056034d306265592cc28b550f03f16"
+          },
+          {
+            "evidence_id": "amr_general",
+            "path": "manual/markdown/11_amr.md",
+            "file_sha256": "26ca1848c6ddee2c65bc94c57a4d6745b0ca7d2412312b63791545e864f058df",
+            "line_start": 3,
+            "line_end": 44,
+            "label": "爆轰AMR时序与探针细化",
+            "excerpt": "The dynamic mesh classes have been incorporated from the github repository SOFTX_2018_143 and is based on the work of Rettenmaier et al. (2019). This library introduces 2-D, 2-D axisymmetic, and 3-D (present in OpenFOAM-9) all with the option to include dynamic load balancing. The original work (dynamicRefineBalanceFvMesh and dynamicRefineFvMesh) has been used as the base for the adaptiveFvMesh class. This mesh type has been further developed, specifically for compressible flows, and includes modifications for improved stability with meshes created with snappyHexMesh. Additional polyhedral refinement has been ported from foam-extend's and allows for general polygon refinement.\n\nBecause the detonation of explosives may not occur when the simulation starts, the option to begin unrefinement at a designated time (\"beginUnrefine\") has been added. This allows the mesh to remain refined in specific regions even though the error is initially small.\n\nAdditionally, the movingAdaptiveFvMesh class is based on adaptiveFvMesh, and has all of the same features, but includes the ability to use mesh motion. It is recommended to use the velocityLaplacian motion solver.\n\n> **NOTE:** Whilst AMR may be used with meshes created using snappyHexMesh, regions can only be cut at level 0 when using either 2-D or axisymmetric refinement. This is due to the fact that snappyHexMesh uses a 3-D refinement, regardless of the number of solution directions. If refinement is used, the simulation will crash when the mesh is refined in these areas.\n\n> **NOTE:** Meshes that have been \"snapped\" with snappyHexMesh may work, however crashes may occur. Use at your own risk.\n\n| Entry | Description |\n|---|---|\n| balance | Is dynamic load balancing used (default is yes) |\n| protectedPatches | List of patch names that will not be refined or unrefined (default is none) |\n| nRefinementBufferLayers | Number of layers added to refinement (default is 0) |\n| nUnrefinementBufferLayers | number oy layers added to unrefinement (default is 0) |\n| refine | Use refinement (default is yes) |\n| unrefine | Use unrefinement (default is yes) |\n| refineInterval | Number of time steps between refinement (default is 1) |\n| unrefineInterval | Number of time steps between unrefinement (default is 1) |\n| balanceInterval | Number of time steps between balancing (default is 1) |\n| beginRefine | Time when refinement can begin (default is 0 s) |\n| endRefine | Time when refinement stops (default is great s) |\n| beginUnrefine | Time when unrefinement can begin (default is 0 s) |\n| endUnrefine | Time when unrefinement stops (default is great s) |\n| beginBalance | Time when balancing can begin (default is 0 s) |\n| endBalance | Time when balancing stops (default is great s) |\n| dumpLevel | Write the cell and point level as viewable fields (false by default) |\n\n## 11.1 Error estimators\n\nIn order to determine the cells that can be refined or unrefined, error estimators have been added. Generally, this is achieved by looking for a derivative or difference of a specified fields across all the faces a cell and it neighbours. The maximum value of all face errors of a given cell is taken as the cell center-based value, and is used to define the cells that should be refined. Probe locations are automatically refined up to the maximum level of refinement to remove discontinuities in probe sampling.\n\n| Entry | Description |\n|---|---|\n| lowerRefineLevel | Error that mesh is refined at |\n| unrefineLevel | Error that mesh is unrefined |\n| upperRefineLevel | Error that refinement is stopped (default is great) |\n| upperUnrefineLevel | Error that unrefinement begins to occur again (default is great) |\n| maxRefinement | Maximum number of refinement levels |\n| minDx | Minimum cell size |\n| refineProbes | Are probes refined (yes by default) |",
+            "excerpt_sha256": "78eaf208a5ff76f2893412de02d1b25635cce7844401a1ca3a20a68638662d8b"
+          }
+        ],
+        "applicability": "限定自由场教程的静态AMR设置及手册定义；具体演化仍需场值、网格与实际运行证据。",
+        "acceptable_answer_range": "等义解释、合理条件式结论及必要澄清可接受；不以关键词或引用数量替代内容判断。",
+        "critical_errors": [
+          "把beginUnrefine当空间细化阈值",
+          "把1e-5当已知起爆时刻",
+          "由选择densityGradient就保证全域网格一直细化"
+        ],
+        "answer": "在 blastFoam 的 AMR 中，densityGradient 误差估计器通过梯度信息识别需要细化的区域，而 beginUnrefine 参数控制细化的起始时间步。两者共同作用使网格在爆炸冲击波传播时自动加密，随后在冲击波衰减时逐步粗化，从而优化计算资源分配。",
+        "answer_sha256": "bb90712579b995777d34f19511d99eb034723f36a414c97ddab8cb7e47eda64b",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.25,
+          "F": 0.5,
+          "A": "not_applicable",
+          "EAS_arith": 37.5,
+          "EAS_geo": 35.35533905932738,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.25,
+            0.25
+          ],
+          "eas_arith_bounds": [
+            37.5,
+            37.5
+          ],
+          "eas_geo_bounds": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.16666666666666666,
+          "F": 0.25,
+          "A": "not_applicable",
+          "EAS_arith": 20.833333333333332,
+          "EAS_geo": 20.41241452319315,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "eas_arith_bounds": [
+            20.833333333333332,
+            20.833333333333332
+          ],
+          "eas_geo_bounds": [
+            20.41241452319315,
+            20.41241452319315
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.16666666666666666,
+          "F": 0.25,
+          "A": "not_applicable",
+          "EAS_arith": 20.833333333333332,
+          "EAS_geo": 20.41241452319315,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "eas_arith_bounds": [
+            20.833333333333332,
+            20.833333333333332
+          ],
+          "eas_geo_bounds": [
+            20.41241452319315,
+            20.41241452319315
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 20.833333333333332,
+          "eas_arith_bounds": [
+            20.833333333333332,
+            20.833333333333332
+          ],
+          "EAS_geo": 20.41241452319315,
+          "eas_geo_bounds": [
+            20.41241452319315,
+            20.41241452319315
+          ],
+          "K": 0.16666666666666666,
+          "F": 0.25,
+          "A": "not_applicable",
+          "Strict": 0,
+          "coverage_bounds": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.25,
+            0.25
+          ],
+          "A_bounds": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-29dfa00d1883",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E42-03.K1",
+              "score": 0.5,
+              "reason": "知道梯度识别细化区域，遗漏总密度及教程明确配置。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E42-03.K2",
+              "score": 0,
+              "reason": "误把beginUnrefine解释为细化起始时间步，应为粗化准入物理时刻。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E42-03.K3",
+              "score": 0.25,
+              "reason": "泛泛说先加密后粗化，未解释误差判据与粗化时间准入分工。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": "not_applicable",
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第28份；F：梯度方向正确，关键时间参数错误，且由静态配置保证特定演化。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-29dfa00d1883",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E42-03.K1",
+              "score": 0.25
+            },
+            {
+              "criterion_id": "E42-03.K2",
+              "score": 0
+            },
+            {
+              "criterion_id": "E42-03.K3",
+              "score": 0.25
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": "not_applicable"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-29dfa00d1883",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E42-03.K1",
+              "score": 0.25,
+              "reason": "仅泛泛提到通过梯度信息识别细化区域，未说明使用总密度，也未说明自由场教程显式设置errorEstimator densityGradient。"
+            },
+            {
+              "criterion_id": "E42-03.K2",
+              "score": 0,
+              "reason": "将beginUnrefine误作细化的起始时间步，且未给出自由场教程值1e-5或手册定义的粗化可开始时刻。"
+            },
+            {
+              "criterion_id": "E42-03.K3",
+              "score": 0.25,
+              "reason": "包含误差估计器用于识别细化区域及后续粗化的部分正确概念，但beginUnrefine作用判断错误，且未说明静态配置不能保证特定演化结果。"
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": "not_applicable",
+          "reason": "回答将beginUnrefine错误解释为控制细化起始时间；关键参数语义错误且未结合自由场教程配置。"
+        }
+      },
+      "discussion": {
+        "issue": "关键参数含义写反，但其余描述笼统正确",
+        "observed": "把beginUnrefine说成细化起始时间，Gold说明它是允许粗化开始的时刻；回答还有自动加密/粗化的笼统叙述。两AI完全一致，比人工低16.67分。",
+        "interpretation": "两AI一致只说明共同判断，不是额外人工真值；分歧集中在错误是否已构成整答主要事实错误，而非格式。",
+        "proposal": "F对直接影响操作的参数语义错误单列为重要错误；泛泛而正确的背景表述不能抵消该错误。仍保留部分分，不建立“一错整题0”的硬门控。"
+      },
+      "human_packet_sha256": "2fb90392ab6e68c81b421576d74024de5e88052bdf8be83e69ed824dcbc4fb76"
+    },
+    {
+      "order": 19,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-082de350f0cf",
+        "question": "我在DDT算例里改了燃速参数，初始场文件里怎么还是原来的值？这两个设置会自动同步吗？",
+        "question_id": "P06-03",
+        "question_sha256": "f063daa073c8a98cdb1b6c1f4f890265f582c2a4c06c83eb3840d17037babe19",
+        "annotation_sha256": "fc5896f6d0e9dedfe17e17c3300d7eab2468c0e170c85c1401ee73f545041aad",
+        "conditional": true,
+        "criteria": [
+          {
+            "criterion_id": "P06-03.K1",
+            "claim": "物性Su和初始场Su是两个输入位置，分别在combustionProperties和0/Su，应分别核对。",
+            "evidence_ids": [
+              "su_props",
+              "su_field"
+            ]
+          },
+          {
+            "criterion_id": "P06-03.K2",
+            "claim": "只改燃速参数不能假定初始场文件自动同步；边界也应核对，不从静态文件关系保证运行初始化顺序或全程燃速。",
+            "evidence_ids": [
+              "su_props",
+              "su_field"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "su_props",
+            "path": "tutorials/blastXiFoam/deflagrationToDetonationTransition/constant/combustionProperties",
+            "file_sha256": "40070021b268bd556c1d3f1fe858fef413799134fbdec559a271d5e93ae17cc2",
+            "line_start": 18,
+            "line_end": 28,
+            "label": "火焰速度模型/物性",
+            "excerpt": "laminarFlameSpeedCorrelation RaviPetersen;\n\nfuel            HydrogenInAir;\n\nSu              Su [0 1 -1 0 0 0 0] 0.434;\n\nSuModel         unstrained;\n\nequivalenceRatio equivalenceRatio [0 0 0 0 0 0 0] 1;\n\nsigmaExt        sigmaExt [0 0 -1 0 0 0 0] 100000;",
+            "excerpt_sha256": "4b09eb1d8bb87c3b87828465a77789071da6575c89c4636a346cd0e71df608eb"
+          },
+          {
+            "evidence_id": "su_field",
+            "path": "tutorials/blastXiFoam/deflagrationToDetonationTransition/0/Su",
+            "file_sha256": "869812b3fbb0c6735e5e69ad5181b5f464ee88e296ae9a4ce01cfa5871671cb0",
+            "line_start": 17,
+            "line_end": 31,
+            "label": "速度场初值和边界",
+            "excerpt": "dimensions      [0 1 -1 0 0 0 0];\n\ninternalField   uniform 0.434;\n\nboundaryField\n{\n    walls\n    {\n        type            zeroGradient;\n    }\n    defaultFaces\n    {\n        type            empty;\n    }\n}",
+            "excerpt_sha256": "1a7ce561859ab88686160dd6caf9c43c94c976ec43f29ecb518fe0b547e07654"
+          }
+        ],
+        "applicability": "固定版本语料范围；用户未给的本地配置和运行状态不能按参考案例补造，文档说明不等于运行或物理有效性验证。",
+        "acceptable_answer_range": "允许等义解释、正确代数形式和必要的条件澄清；不按引用数、固定句式或题干未给的具体值评分。配置问题接受任一种完整有效写法，不强制穷举未问的接口。",
+        "critical_errors": [
+          "声称修改物性文件会无条件自动改写0/Su",
+          "从两份输入断言全程燃速恒定"
+        ],
+        "answer": "在OpenFOAM中，初始场文件（如`0/U`、`0/p`等）中的值不会自动与`fvSchemes`文件中的设置同步。`fvSchemes`文件定义了求解器使用的数值方法，如时间离散化（`ddtSchemes`）、梯度计算（`gradSchemes`）、通量计算（`fluxScheme`）等，但这些设置不会影响初始场文件中的物理参数值，如燃速参数。因此，如果你在`fvSchemes`中修改了时间离散化方法（如从`Euler`改为`RK1SSP`或`RK2`），这不会改变初始场文件中的值。你需要手动在初始场文件中更新燃速参数的值。",
+        "answer_sha256": "c6557d117180bbbc98266f648e8d7753f4551eb8a9a7feb626ba1ae6157e3ac0",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.25,
+          "F": 0.5,
+          "A": 0.25,
+          "EAS_arith": 33.333333333333336,
+          "EAS_geo": 31.49802624737183,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.25,
+            0.25
+          ],
+          "eas_arith_bounds": [
+            33.333333333333336,
+            33.333333333333336
+          ],
+          "eas_geo_bounds": [
+            31.49802624737183,
+            31.49802624737183
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.375,
+          "F": 0.5,
+          "A": 0.5,
+          "EAS_arith": 45.833333333333336,
+          "EAS_geo": 45.42801482080349,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.375,
+            0.375
+          ],
+          "eas_arith_bounds": [
+            45.833333333333336,
+            45.833333333333336
+          ],
+          "eas_geo_bounds": [
+            45.42801482080349,
+            45.42801482080349
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.375,
+          "F": 0.5,
+          "A": 0.75,
+          "EAS_arith": 54.166666666666664,
+          "EAS_geo": 52.002095576297606,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.375,
+            0.375
+          ],
+          "eas_arith_bounds": [
+            54.166666666666664,
+            54.166666666666664
+          ],
+          "eas_geo_bounds": [
+            52.002095576297606,
+            52.002095576297606
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 50.0,
+          "eas_arith_bounds": [
+            50.0,
+            50.0
+          ],
+          "EAS_geo": 48.715055198550544,
+          "eas_geo_bounds": [
+            48.715055198550544,
+            48.715055198550544
+          ],
+          "K": 0.375,
+          "F": 0.5,
+          "A": 0.625,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.375,
+            0.375
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.5,
+            0.5
+          ],
+          "A_bounds": [
+            0.625,
+            0.625
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-082de350f0cf",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P06-03.K1",
+              "score": 0,
+              "reason": "未定位combustionProperties中的Su与0/Su，转而讨论fvSchemes。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "P06-03.K2",
+              "score": 0.5,
+              "reason": "不能自动同步、另行修改初始场的方向正确，但未针对实际Su输入且遗漏边界。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.25,
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第19份；F/A：把燃速物性问题转为数值格式问题，只有不能自动同步的部分判断有用。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-082de350f0cf",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P06-03.K1",
+              "score": 0.25
+            },
+            {
+              "criterion_id": "P06-03.K2",
+              "score": 0.5
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.5
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-082de350f0cf",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P06-03.K1",
+              "score": 0.25,
+              "reason": "仅提到初始场文件需手动更新，未指出 combustionProperties 与 0/Su 是两个需分别核对的输入位置，且将燃速设置与 fvSchemes 混淆。"
+            },
+            {
+              "criterion_id": "P06-03.K2",
+              "score": 0.5,
+              "reason": "正确说明不会自动同步、需手动更新初始场，但未涉及边界核对，也未说明静态文件关系不能保证初始化顺序或全程燃速。"
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.75,
+          "reason": "核心条件结论“不会自动同步、需手动更新”方向正确，但回答错误地将燃速参数与 fvSchemes 关联，遗漏 combustionProperties 和 0/Su 两个输入位置及边界核对。"
+        }
+      },
+      "discussion": {
+        "issue": "一般结论碰巧正确，实际问答场景已被替换",
+        "observed": "问题询问DDT燃速物性与初始场，回答改谈fvSchemes与时间离散，只保留“不会自动同步”的一般结论。人工A=0.25，GPT=0.5，DeepSeek=0.75。",
+        "interpretation": "可用的一般常识与对题设对象的正确解释不是同一件事。这里还存在把数值格式与燃速配置联系起来的事实/因果问题。",
+        "proposal": "先锁定题设实体与文件作用域，再判K/A；不将“不会同步”当成完整场景结论。F核查实际陈述的事实和因果，避免仅因跑题就在K、F、A重复任意扣分。"
+      },
+      "human_packet_sha256": "84808d9b121aba7d3b73a16ae34142899e2da3210666705167fba9f3e0c6b3de"
+    },
+    {
+      "order": 25,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-cf56a2b952e5",
+        "question": "densityGradient看的是总密度还是某一相的密度？它怎样衡量哪里变化大，有做归一化吗？",
+        "question_id": "E42-01",
+        "question_sha256": "cf066e93a16e46a7877ba7d9486d32ef2f2e9a176f23dcb961b5bd7ce37d1ffd",
+        "annotation_sha256": "d7136a8766bf14bfbc56770df79040fd5013947f4105bfda3ac0be7f6068f145",
+        "conditional": false,
+        "criteria": [
+          {
+            "criterion_id": "E42-01.K1",
+            "claim": "densityGradient使用总密度，不是只取某个炸药相的密度。",
+            "evidence_ids": [
+              "X_amr_density"
+            ]
+          },
+          {
+            "criterion_id": "E42-01.K2",
+            "claim": "按式(11.4)比较中心与两侧梯度量偏差，构造含梯度与尺度项的归一化比值，取较大者并带f指数；不强制背全部符号或原文矛盾定义。",
+            "evidence_ids": [
+              "X_amr_density"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "X_amr_density",
+            "path": "manual/markdown/11_amr.md",
+            "file_sha256": "26ca1848c6ddee2c65bc94c57a4d6745b0ca7d2412312b63791545e864f058df",
+            "line_start": 109,
+            "line_end": 131,
+            "label": "amr_density",
+            "excerpt": "### 11.1.5 Density gradient (densityGradient)\n\nA modified density gradient was defined by Zheng et al. (2008), and uses an error defined by\n\n$$\n\\epsilon_{\\nabla\\rho} = \\max\\left( \\frac{|(\\nabla\\ln\\rho)_{C} - (\\nabla\\ln\\rho)_{own}|}{\\alpha f \\rho_{C}/dl + |(\\nabla\\ln\\rho)_{own}|},\\ \\frac{|(\\nabla\\ln\\rho)_{C} - (\\nabla\\ln\\rho)_{nei}|}{\\alpha f \\rho_{C}/dl + |(\\nabla\\ln\\rho)_{nei}|} \\right)^{f}\n$$\n(11.4)\n\nwith\n\n$$\n(\\nabla\\ln\\rho)_{C} = \\frac{\\rho_{nei} - \\rho_{own}}{|r_{nei} - r_{own}|}\n$$\n(11.5)\n\n$$\n(\\nabla\\ln\\rho)_{nei,own} = \\frac{(\\nabla\\rho)_{nei,own}(r_{nei} - r_{own})}{|r_{nei} - r_{own}|}\n$$\n(11.6)\n\n$r_{own,nei}$ is the surface normal vector, and $dl = |r_{nei} - r_{own}|$, is the distance between cell centers. This error estimator uses the total density.\n",
+            "excerpt_sha256": "1891bdcadb374dbab9553f773e863d455490e5b2901bfa5e5b468acdd2af394b"
+          }
+        ],
+        "applicability": "固定版本语料范围；用户未给的本地配置和运行状态不能按参考案例补造，文档说明不等于运行或物理有效性验证。",
+        "acceptable_answer_range": "允许等义解释、正确代数形式和必要的条件澄清；不按引用数、固定句式或题干未给的具体值评分。配置问题接受任一种完整有效写法，不强制穷举未问的接口。",
+        "critical_errors": [
+          "声称该指标只使用单个炸药相密度",
+          "把有疑点的原文符号解释称为已核验实现事实"
+        ],
+        "answer": "densityGradient衡量的是总密度的变化。它通过计算相邻单元格之间的密度梯度（即密度的自然对数的梯度）来评估误差，具体公式为：$$\\epsilon_{\\nabla\\rho} = \\max\\left( \\frac{|(\\nabla\\ln\\rho)_{C} - (\\nabla\\ln\\rho)_{own}|}{\\alpha f \\rho_{C}/dl + |(\\nabla\\ln\\rho)_{own}|},\\ \\frac{|(\\nabla\\ln\\rho)_{C} - (\\nabla\\ln\\rho)_{nei}|}{\\alpha f \\rho_{C}/dl + |(\\nabla\\ln\\rho)_{nei}|} \\right)^{f}$$。该误差估计器并未提及归一化操作，而是直接使用总密度进行计算。",
+        "answer_sha256": "ad7d3aeabfd7e18a3d3073ef9e82cf9cf35e117077827f9dcd13fc8a439f52d1",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "manual/markdown/11_amr.md",
+            "start": 109,
+            "end": 131
+          }
+        ],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.75,
+          "F": 0.5,
+          "A": "not_applicable",
+          "EAS_arith": 62.5,
+          "EAS_geo": 61.23724356957945,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.75,
+            0.75
+          ],
+          "eas_arith_bounds": [
+            62.5,
+            62.5
+          ],
+          "eas_geo_bounds": [
+            61.23724356957945,
+            61.23724356957945
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.875,
+          "F": 0.75,
+          "A": "not_applicable",
+          "EAS_arith": 81.25,
+          "EAS_geo": 81.00925873009825,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.875,
+            0.875
+          ],
+          "eas_arith_bounds": [
+            81.25,
+            81.25
+          ],
+          "eas_geo_bounds": [
+            81.00925873009825,
+            81.00925873009825
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.75,
+          "F": 0.75,
+          "A": "not_applicable",
+          "EAS_arith": 75.0,
+          "EAS_geo": 75.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.75,
+            0.75
+          ],
+          "eas_arith_bounds": [
+            75.0,
+            75.0
+          ],
+          "eas_geo_bounds": [
+            75.0,
+            75.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 78.125,
+          "eas_arith_bounds": [
+            78.125,
+            78.125
+          ],
+          "EAS_geo": 78.00462936504913,
+          "eas_geo_bounds": [
+            78.00462936504913,
+            78.00462936504913
+          ],
+          "K": 0.8125,
+          "F": 0.75,
+          "A": "not_applicable",
+          "Strict": 0,
+          "coverage_bounds": [
+            0.8125,
+            0.8125
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.75,
+            0.75
+          ],
+          "A_bounds": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-cf56a2b952e5",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E42-01.K1",
+              "score": 1,
+              "reason": "使用总密度正确。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E42-01.K2",
+              "score": 0.5,
+              "reason": "公式主体有梯度差、分母尺度、最大值及f指数，但文字否认归一化，与比值结构矛盾。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": "not_applicable",
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第25份；F：总密度与公式主体正确，解释存在矛盾；不把有疑点的符号解释当作已核验实现。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-cf56a2b952e5",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E42-01.K1",
+              "score": 1
+            },
+            {
+              "criterion_id": "E42-01.K2",
+              "score": 0.75,
+              "reason": "公式表达了比较两侧梯度偏差的比值、取最大值并带 f 指数；但文字称未做归一化，与公式中的分母归一化相矛盾。"
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": "not_applicable"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-cf56a2b952e5",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E42-01.K1",
+              "score": 1,
+              "reason": "明确说明使用总密度，不是单相密度。"
+            },
+            {
+              "criterion_id": "E42-01.K2",
+              "score": 0.5,
+              "reason": "给出式(11.4)的max、梯度差、分母尺度项和f指数，但又称“并未提及归一化操作”，与公式含归一化比值的实质相矛盾，仅部分满足。"
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": "not_applicable",
+          "reason": "总密度判断正确，公式大体正确；但否认公式中分母尺度项构成归一化比值，属局部实质性错误。"
+        }
+      },
+      "discussion": {
+        "issue": "公式出现了，但文字解释否认了归一化",
+        "observed": "回答称使用总密度并列出公式，却又说没有归一化；两AI的F均为0.75，人工为0.5。",
+        "interpretation": "公式或关键词可能掩盖后续相反解释；原手册符号解释还有独立未决问题，不能将手册转录一致当作实现已证实。",
+        "proposal": "核对公式与自然语言结论的一致性；只用本题已冻结的专业含义评分，不自行“修正”原文有争议的符号或添加评分要求。"
+      },
+      "human_packet_sha256": "1c140da3d4e002a5ccdd3be6a89b895369b8d5c494de834506e99877ef0a0c70"
+    },
+    {
+      "order": 36,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-f4bede873d54",
+        "question": "在 blastFoam 的 function objects 配置中，conservedQuantities 功能对象用于做什么？它输出哪些量，以及通过什么字典条目指定要跟踪的场？",
+        "question_id": "E33-01",
+        "question_sha256": "96d33bc41d33ad7a43a6bf473c5ec752f2e0a67620caa2d144eff6292d04e979",
+        "annotation_sha256": "1a7168c20f114b0e032160cd9e43fc5d86b3b6fecea089b1e4b3398db4b0099a",
+        "conditional": false,
+        "criteria": [
+          {
+            "criterion_id": "E33-01.K1",
+            "claim": "conservedQuantities 计算并打印场的体积积分值，输出初始值、当前值、总差值和相对差值。",
+            "evidence_ids": [
+              "X_conserved"
+            ]
+          },
+          {
+            "criterion_id": "E33-01.K2",
+            "claim": "通过 fields 条目指定要跟踪的场。",
+            "evidence_ids": [
+              "X_conserved"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "X_conserved",
+            "path": "manual/markdown/15_function_objects.md",
+            "file_sha256": "f22133da89f48be2d66a63873d227b9fb6be40321075cb6634a5cf2f35168bbe",
+            "line_start": 64,
+            "line_end": 72,
+            "label": "conserved",
+            "excerpt": "## 15.4 conservedQuantities\n\nThe volume integrated value of fields can be computed and printed in the output of the solver. The initial, current, total difference, and relative difference is printed. Any fields can be tracked by specifying the names of the fields in the dictionary.\n\n| Entry | Description |\n|---|---|\n| fields | Fields to track |\n\n> **NOTE:** Currently, the removal and injection of values into a domain is not considered.",
+            "excerpt_sha256": "d1d67bbc80db4f86f12adad6325a2f235a2eca1b7ec08ef59900884f214284f0"
+          }
+        ],
+        "applicability": "适用于 blastFoam 手册 15_function_objects.md 中 conservedQuantities 功能对象的配置说明；不涉及具体求解器运行结果。",
+        "acceptable_answer_range": "等义解释、合理条件式结论及必要澄清可接受；不以关键词或引用数量替代内容判断。",
+        "critical_errors": [
+          "把 conservedQuantities 说成计算通量或残差",
+          "声称输出包含注入/移除修正后的守恒量"
+        ],
+        "answer": "在 blastFoam 的 function objects 配置中，conservedQuantities 功能对象用于跟踪和输出守恒量。它输出的量包括质量、动量和能量等守恒量。要跟踪的场通过字典条目中的 'fields' 指定。",
+        "answer_sha256": "2cfb8f040b7d9408527be846e439e0f0b1092eced58b4c9da494d4991f014f6b",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "manual/markdown/15_function_objects.md",
+            "start": 1,
+            "end": 20
+          }
+        ],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.625,
+          "F": 1,
+          "A": "not_applicable",
+          "EAS_arith": 81.25,
+          "EAS_geo": 79.05694150420949,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.625,
+            0.625
+          ],
+          "eas_arith_bounds": [
+            81.25,
+            81.25
+          ],
+          "eas_geo_bounds": [
+            79.05694150420949,
+            79.05694150420949
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.625,
+          "F": 0.75,
+          "A": "not_applicable",
+          "EAS_arith": 68.75,
+          "EAS_geo": 68.46531968814577,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.625,
+            0.625
+          ],
+          "eas_arith_bounds": [
+            68.75,
+            68.75
+          ],
+          "eas_geo_bounds": [
+            68.46531968814577,
+            68.46531968814577
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.5,
+          "F": 0.75,
+          "A": "not_applicable",
+          "EAS_arith": 62.5,
+          "EAS_geo": 61.23724356957945,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5,
+            0.5
+          ],
+          "eas_arith_bounds": [
+            62.5,
+            62.5
+          ],
+          "eas_geo_bounds": [
+            61.23724356957945,
+            61.23724356957945
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 65.625,
+          "eas_arith_bounds": [
+            65.625,
+            65.625
+          ],
+          "EAS_geo": 64.85128162886261,
+          "eas_geo_bounds": [
+            64.85128162886261,
+            64.85128162886261
+          ],
+          "K": 0.5625,
+          "F": 0.75,
+          "A": "not_applicable",
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5625,
+            0.5625
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.75,
+            0.75
+          ],
+          "A_bounds": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-f4bede873d54",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E33-01.K1",
+              "score": 0.25,
+              "reason": "仅笼统跟踪守恒量，遗漏体积积分、初始/当前值、总差值与相对差值。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E33-01.K2",
+              "score": 1,
+              "reason": "fields配置正确。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 1,
+          "applicability_gate": "not_applicable",
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第36份；F：已有陈述没有明确实质性错误，覆盖不足由K反映。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-f4bede873d54",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E33-01.K1",
+              "score": 0.25,
+              "reason": "仅概括说明跟踪并输出守恒量，未说明体积积分以及初始值、当前值、总差值和相对差值。",
+              "answer_quote": "用于跟踪和输出守恒量。"
+            },
+            {
+              "criterion_id": "E33-01.K2",
+              "score": 1,
+              "answer_quote": "要跟踪的场通过字典条目中的 'fields' 指定。"
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": "not_applicable"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-f4bede873d54",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E33-01.K1",
+              "score": 0,
+              "reason": "未说明计算/打印场的体积积分值，也未提及初始值、当前值、总差值和相对差值。"
+            },
+            {
+              "criterion_id": "E33-01.K2",
+              "score": 1,
+              "reason": "明确指出通过 fields 字典条目指定要跟踪的场。"
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": "not_applicable",
+          "reason": "核心配置入口正确；对输出内容的表述不完整，未涵盖体积积分值和差值输出等关键事实。"
+        }
+      },
+      "discussion": {
+        "issue": "覆盖不足被当成事实错误重复扣分",
+        "observed": "回答说明跟踪守恒量并使用fields，却没列全体积积分和各类差值输出；人工F=1、两AI均F=0.75。",
+        "interpretation": "没有说全与说错应分开；若不能指出具体错误陈述，不宜只因缺少必要点而再降低F。",
+        "proposal": "K处理遗漏；F要求指出可定位的错误断言。专业同义表达应按含义接受，不要求逐字复述Gold。"
+      },
+      "human_packet_sha256": "62536956085831a00c38329ebab4080987ad3d3323261fd0c6f3909e407892a2"
+    },
+    {
+      "order": 37,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-3f18ac0bff71",
+        "question": "在 blastFoam 的 burst 补丁体系中，手册说明所有字段都需要在其字典中额外增加一个条目来指定“破裂前”的边界条件。这个条目的名称是什么，它被用来做什么？同时，手册指出该条目应放在哪个字典层级？",
+        "question_id": "E28-01",
+        "question_sha256": "0b000e149df4443efaa85ca0f3a9ef255e3874125294be2cc45f238fd58954b6",
+        "annotation_sha256": "332467fd889d58dad71cc340badd56c9afe8515ad2f32abcc47b6f4effd1e3c7",
+        "conditional": false,
+        "criteria": [
+          {
+            "criterion_id": "E28-01.K1",
+            "claim": "该额外条目的名称是 intactField，用于指定字段在破裂之前的边界条件。",
+            "evidence_ids": [
+              "X_burst_general"
+            ]
+          },
+          {
+            "criterion_id": "E28-01.K2",
+            "claim": "该条目属于字段字典中的额外条目，而非补丁类型本身的定义。",
+            "evidence_ids": [
+              "X_burst_general"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "X_burst_general",
+            "path": "manual/markdown/07_burst_patches.md",
+            "file_sha256": "1c4fd9c6a681b0f0ad846967ff49ddc2737e234aa01e39536f41f493418c8097",
+            "line_start": 1,
+            "line_end": 12,
+            "label": "burst_general",
+            "excerpt": "# Burst patches\n\nThe ability to have a \"bursting\" patch can be used with the burst (external patch), burstCyclic (internal with no AMR), or burstCyclicAMI (general internal). All fields require an additional entry in their dictionaries name \"intactField\" which is used to specify the boundary condition of the field before bursting. The basic burst patch can be created using any mesh generation technique, however the cyclic variations require using the createBaffles utility, standard to OpenFOAM. See Sec. 20.5 for an example of how to create and use the patches.\n\n## 7.1 Burst models\n\nThe method to calculate where burst occurs is runtime-selectable and the inputs are placed in the constant/polyMesh/boundary file under the corresponding boundary. This can also be added in either the patch entry within blockMeshDict of snappyHexMeshDict.\n\n| Variable | Description |\n|---|---|\n| partialBurst | Can individual face burst (no by default) |\n| useDelta | Us the difference across coupled patches rather than the maximum value (yes by default) |",
+            "excerpt_sha256": "73e1a00497251f8dd4c749d29961fc2f10f84bb87f11e686f958ddbbf70b3f97"
+          }
+        ],
+        "applicability": "适用于手册所述 burst、burstCyclic、burstCyclicAMI 三类补丁的字段字典配置；不涉及具体字段物理量。",
+        "acceptable_answer_range": "等义解释、合理条件式结论及必要澄清可接受；不以关键词或引用数量替代内容判断。",
+        "critical_errors": [
+          "把条目名写成 intactPatch 或 intactBoundary",
+          "认为该条目定义补丁类型而非破裂前边界条件",
+          "认为该条目可省略"
+        ],
+        "answer": "在 blastFoam 的 burst 补丁体系中，手册说明所有字段都需要在其字典中额外增加一个条目来指定“破裂前”的边界条件，这个条目的名称是 \"preBurst\"，它被用来指定破裂前边界条件。该条目应放在 \"boundaryConditions\" 字典层级。",
+        "answer_sha256": "edf47fe2865764f54386acf68746ba7efd18cea333d8e64e9ff592445f11ae0d",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "blastFoam 手册",
+            "start": 1,
+            "end": 1
+          }
+        ],
+        "references_delivered": false
+      },
+      "metrics": {
+        "human": {
+          "K": 0.25,
+          "F": 0.25,
+          "A": "not_applicable",
+          "EAS_arith": 25.0,
+          "EAS_geo": 25.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.25,
+            0.25
+          ],
+          "eas_arith_bounds": [
+            25.0,
+            25.0
+          ],
+          "eas_geo_bounds": [
+            25.0,
+            25.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.625,
+          "F": 0.5,
+          "A": "not_applicable",
+          "EAS_arith": 56.25,
+          "EAS_geo": 55.90169943749474,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.625,
+            0.625
+          ],
+          "eas_arith_bounds": [
+            56.25,
+            56.25
+          ],
+          "eas_geo_bounds": [
+            55.90169943749474,
+            55.90169943749474
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.25,
+          "F": 0.25,
+          "A": "not_applicable",
+          "EAS_arith": 25.0,
+          "EAS_geo": 25.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.25,
+            0.25
+          ],
+          "eas_arith_bounds": [
+            25.0,
+            25.0
+          ],
+          "eas_geo_bounds": [
+            25.0,
+            25.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 40.625,
+          "eas_arith_bounds": [
+            40.625,
+            40.625
+          ],
+          "EAS_geo": 40.45084971874737,
+          "eas_geo_bounds": [
+            40.45084971874737,
+            40.45084971874737
+          ],
+          "K": 0.4375,
+          "F": 0.375,
+          "A": "not_applicable",
+          "Strict": 0,
+          "coverage_bounds": [
+            0.4375,
+            0.4375
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.375,
+            0.375
+          ],
+          "A_bounds": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-3f18ac0bff71",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E28-01.K1",
+              "score": 0.25,
+              "reason": "用途正确，但名称应intactField而非preBurst。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E28-01.K2",
+              "score": 0.25,
+              "reason": "只有边界配置方向的少量正确内容，boundaryConditions层级无原文支持。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": "not_applicable",
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第37份；F：关键名称和配置层级失实，仅用途部分正确。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-3f18ac0bff71",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E28-01.K1",
+              "score": 0.5,
+              "reason": "用途正确，但条目名称错误。"
+            },
+            {
+              "criterion_id": "E28-01.K2",
+              "score": 0.75,
+              "reason": "指出这是字段字典中的额外条目；所称 boundaryConditions 层级与资料不符。"
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": "not_applicable"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-3f18ac0bff71",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E28-01.K1",
+              "score": 0.5
+            },
+            {
+              "criterion_id": "E28-01.K2",
+              "score": 0
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": "not_applicable"
+        }
+      },
+      "discussion": {
+        "issue": "用途大致正确，但名称和字典层级都错误",
+        "observed": "将intactField写成preBurst，层级说成boundaryConditions。GPT比人工高31.25分，DeepSeek与人工一致，是GPT自身误差最大的案例。",
+        "interpretation": "这是同一题E28-01的另一份回答，不能与第13份合并成一次独立观察，也不能由用途相似推定条目名称正确。",
+        "proposal": "API名、字典键、参数默认值、单位方向和公式运算符按实质性事实核验；名称错误不应被“意思大概类似”自动豁免。"
+      },
+      "human_packet_sha256": "ce25e8cade7cd613e00c7aaf8ee0325d41608387825f181f2554039cf99c707f"
+    },
+    {
+      "order": 31,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-34d9eabf96e5",
+        "question": "delayedDetonation说明说用了linear，但当前phaseProperties选了什么？两处对六个点和延迟数量的说法怎样核对，哪些结论需要保留差异？",
+        "question_id": "P09-01",
+        "question_sha256": "30965517c008d78aa3f802c03fe72f6ba967e80110aa1311835bc2593afc3d69",
+        "annotation_sha256": "52e99c77136c08213a298a9b5cc87e6af686a194279d487610408abf3a38ac5a",
+        "conditional": true,
+        "criteria": [
+          {
+            "criterion_id": "P09-01.K1",
+            "claim": "说明称linear、六点且四点延迟。",
+            "evidence_ids": [
+              "delayed_readme"
+            ]
+          },
+          {
+            "criterion_id": "P09-01.K2",
+            "claim": "当前选择programmedIgnition，六点延迟序列0、5e-6、10e-6、5e-6、10e-6、0，四点非零。",
+            "evidence_ids": [
+              "delayed_select"
+            ]
+          },
+          {
+            "criterion_id": "P09-01.K3",
+            "claim": "六点/四延迟可相符，模型名称有差异；描述当前字典用显式选择，不假造二者一致或已验证实际运行。",
+            "evidence_ids": [
+              "delayed_readme",
+              "delayed_select"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "delayed_readme",
+            "path": "tutorials/blastFoam/delayedDetonation/README.md",
+            "file_sha256": "e72458fa768a62c0f2a43b295824ff987b7de0dad05cbd73ac87b5bf83b4d56b",
+            "line_start": 1,
+            "line_end": 7,
+            "label": "延迟起爆概述",
+            "excerpt": "# Delayed detonation tutorial\n\n## Notes\n\nThis is a simple case to show how to setup a case using delayed activation of points. A RDX charge is used with six activation point, with four of the six using a delayed start. A linear activation model is used, but the same setup of the detonation points can be applied to any of the other available models.\n\nThis case takes approximately 2.5 min to run on a single core desktop.",
+            "excerpt_sha256": "6dd7dd25f8c7b1cbc60506780a3653206c0b25ba595eb9dd68053e9c53d2c931"
+          },
+          {
+            "evidence_id": "delayed_select",
+            "path": "tutorials/blastFoam/delayedDetonation/constant/phaseProperties",
+            "file_sha256": "f0952d89be85b5c9ebe7e04ffe27508bd3a58799a9ffa5abaf8cf83d061bf8df",
+            "line_start": 88,
+            "line_end": 138,
+            "label": "实际激活选择/点/延迟/半径",
+            "excerpt": "    activationModel programmedIgnition;\n    initiation\n    {\n        // Detonation energy\n        E0              4.0e9;\n\n        // Detonation points\n        points\n        (\n            (0 0.02 0)\n            (0 0.1 0)\n            (0 0.2 0)\n            (0 0.3 0)\n            (0 0.4 0)\n            (0 0.5 0)\n        );\n\n        // Delays\n        delays\n        (\n            0.0\n            5e-6\n            10e-6\n            5e-6\n            10e-6\n            0.0\n        );\n\n        // Radii to set (for each point)\n        radius 0.01; // Radius of activation (overridden by radii entry)\n        radii\n        (\n            0   // use the closest cell\n            0.02\n            0.03\n            0.015\n            0.025\n            0.01\n        );\n\n        // Detonation velocity\n        vDet    7850;\n\n        // Chapman-Jouguet pressure\n        Pcj     0.1017e11;\n\n        // Linear and compression activation\n        burnModel programmedBeta;\n\n        pMin 1.1e5;\n    }",
+            "excerpt_sha256": "1c73fc87b8fbfae9bc9a1a3d52e5326c96c218bf4228ee94f34684da051b49db"
+          }
+        ],
+        "applicability": "仅依据固定版本语料回答；不把配置或手册陈述视为已验证仿真效果。",
+        "acceptable_answer_range": "允许等义解释、条件式结论及必要澄清；不要求复述参考文字或固定引用数量。",
+        "critical_errors": [
+          "实际字典选linear",
+          "因模型名称不同而说所有说明都错"
+        ],
+        "answer": "在delayedDetonation案例中，phaseProperties中选用了activationModel programmedIgnition，而非linear。关于六个点和延迟数量的说法，案例中明确列出了六个点，且每个点对应一个延迟值，因此两者一致。由于资料中未提及需要保留差异的情况，因此无需保留差异。",
+        "answer_sha256": "d6a77150250362c69a993eba986aab34647124bd70b1083a1098cd548a4ea34b",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "tutorials/blastFoam/delayedDetonation/constant/phaseProperties",
+            "start": 88,
+            "end": 90
+          },
+          {
+            "path": "tutorials/blastFoam/delayedDetonation/constant/phaseProperties",
+            "start": 95,
+            "end": 114
+          }
+        ],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.4166666666666667,
+          "F": 0.5,
+          "A": 0.5,
+          "EAS_arith": 47.22222222222223,
+          "EAS_geo": 47.05180144405143,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.4166666666666667,
+            0.4166666666666667
+          ],
+          "eas_arith_bounds": [
+            47.22222222222223,
+            47.22222222222223
+          ],
+          "eas_geo_bounds": [
+            47.05180144405143,
+            47.05180144405143
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.5833333333333334,
+          "F": 0.5,
+          "A": 0,
+          "EAS_arith": 36.111111111111114,
+          "EAS_geo": 0.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5833333333333334,
+            0.5833333333333334
+          ],
+          "eas_arith_bounds": [
+            36.111111111111114,
+            36.111111111111114
+          ],
+          "eas_geo_bounds": [
+            0.0,
+            0.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.3333333333333333,
+          "F": 0.5,
+          "A": 0,
+          "EAS_arith": 27.777777777777775,
+          "EAS_geo": 0.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "eas_arith_bounds": [
+            27.777777777777775,
+            27.777777777777775
+          ],
+          "eas_geo_bounds": [
+            0.0,
+            0.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 31.944444444444443,
+          "eas_arith_bounds": [
+            31.944444444444443,
+            31.944444444444443
+          ],
+          "EAS_geo": 0.0,
+          "eas_geo_bounds": [
+            0.0,
+            0.0
+          ],
+          "K": 0.45833333333333337,
+          "F": 0.5,
+          "A": 0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.45833333333333337,
+            0.45833333333333337
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.5,
+            0.5
+          ],
+          "A_bounds": [
+            0,
+            0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-34d9eabf96e5",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P09-01.K1",
+              "score": 0.5,
+              "reason": "涉及linear差异和六点，未说明README所称四点延迟。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "P09-01.K2",
+              "score": 0.5,
+              "reason": "当前programmedIgnition及六点正确，未核对四个非零、两个零及延迟序列。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "P09-01.K3",
+              "score": 0.25,
+              "reason": "开头承认名称差异，最后又称无需保留差异，矛盾。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.5,
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第31份；F/A：模型名称有差异应保留，六点与四点非零延迟可相符；比较部分正确但结论矛盾。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-34d9eabf96e5",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P09-01.K1",
+              "score": 0.75
+            },
+            {
+              "criterion_id": "P09-01.K2",
+              "score": 0.5
+            },
+            {
+              "criterion_id": "P09-01.K3",
+              "score": 0.5
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-34d9eabf96e5",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P09-01.K1",
+              "score": 0.25,
+              "reason": "仅提到说明中的linear与当前选择不同，未说明六点及四点延迟。"
+            },
+            {
+              "criterion_id": "P09-01.K2",
+              "score": 0.5,
+              "reason": "正确指出programmedIgnition和六个点，但未列出延迟序列，也未点明四个非零延迟。"
+            },
+            {
+              "criterion_id": "P09-01.K3",
+              "score": 0.25,
+              "reason": "指出模型名称不同，但错误地认为无需保留差异，且未说明六点与四延迟可相符。"
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0,
+          "reason": "核心配置选择正确，但“无需保留差异”与应保留模型名称差异的核心条件结论相反。"
+        }
+      },
+      "discussion": {
+        "issue": "比较说到了一部分，但否认来源差异",
+        "observed": "回答识别programmedIgnition，却称无需保留差异，且没有说明六点中四点为非零延迟；两AI将A判0，人工A=0.5。",
+        "interpretation": "既有“核心反向=0”在混合正确证据与相反结论时如何使用，与第3份构成同一尺度争议。",
+        "proposal": "把模型选择、点数与非零延迟数量分开核对；总结不得抹去来源差异。采用与第3份相同的矛盾处理原则，而非按样本单独决定。"
+      },
+      "human_packet_sha256": "3deb54a9dacd4192a4fe198228d0a7d23bbd832ef7a386558e01c5a3d913b688"
+    },
+    {
+      "order": 59,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-0849ab52ed58",
+        "question": "reacting粒径模型选用pressureBased反应率，关系中的压力按MPa表示。若误把pScale设为1而不是1e-6，粒径输运方程的哪一项受到影响？请说明正确缩放和k的压力幂形式。",
+        "question_id": "N60-03",
+        "question_sha256": "ef5518eae1031b57f57742bfe6fb28f91001896c644617eaeffde2ce738e1602",
+        "annotation_sha256": "dd651d9baee037143a3b477656521cad261d1006a4ffe43970a9c485e49270cc",
+        "conditional": true,
+        "criteria": [
+          {
+            "criterion_id": "N60-03.K1",
+            "claim": "reacting方程为partial_t d_i+u_i·grad d_i=k，k是源项。",
+            "evidence_ids": [
+              "v2_dreact"
+            ]
+          },
+          {
+            "criterion_id": "N60-03.K2",
+            "claim": "该速率为k=beta*(p*pScale)^alpha；手册给MPa示例pScale=1e-6。",
+            "evidence_ids": [
+              "v2_dpressure"
+            ]
+          },
+          {
+            "criterion_id": "N60-03.K3",
+            "claim": "误设缩放改变方程右端k中的压力幂项，不能仅说改变输出单位而不影响速率。",
+            "evidence_ids": [
+              "v2_dreact",
+              "v2_dpressure"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "v2_dreact",
+            "path": "manual/markdown/09_diameter_models.md",
+            "file_sha256": "a62ec6a288149422b050fa333dc00d356e2d126d7b959bf3403499819be3c8a1",
+            "line_start": 38,
+            "line_end": 53,
+            "label": "reacting",
+            "excerpt": "## reacting\n\nThe reacting diameter model adds an additional source term in the transport equation for the diameter to increase/decrease the local diameter based on the given reaction rate\n\n$$\n\\frac{\\partial d_i}{\\partial t} + u_i \\cdot \\nabla d_i = k\n$$\n\n(9.3)\n\nwhere k is the specified reaction rate (see Sec. 9.4)\n\n| Entry | Description |\n|---|---|\n| d | Initial diameter [m] |\n| reactionRate | Reaction rate model |",
+            "excerpt_sha256": "c4fd252d9408986ff4f42bb480cbf9e18d34f06a45362530f342b0c7247ec4ac"
+          },
+          {
+            "evidence_id": "v2_dpressure",
+            "path": "manual/markdown/09_diameter_models.md",
+            "file_sha256": "a62ec6a288149422b050fa333dc00d356e2d126d7b959bf3403499819be3c8a1",
+            "line_start": 59,
+            "line_end": 76,
+            "label": "pressureBased",
+            "excerpt": "### pressureBased\n\nThe pressureBased reaction rate uses a coefficient, pressure scale, pressure offset (in scaled units) and pressure exponent to compute the rate\n\n$$\nk = \\beta (\\bar{p})^\\alpha\n$$\n\n(9.4)\n\nand $\\bar{p} = p \\times p_{scale}$. For example, if the pressure relation is in MPa, $p_{scale} = 1e^{-6}$.\n\n| Entry | Description |\n|---|---|\n| alpha | Pressure exponent [ ] |\n| beta | Coefficient [Pa−α] |\n| pScale | Pressure scale [ ] |\n| offset | Pressure offset [Pa/pScale] |",
+            "excerpt_sha256": "be3e2c149cd8873e26bc8d2e3e0bfe8d28a401a133adae81d2c82bc068aa6d37"
+          }
+        ],
+        "applicability": "限定于固定版本blastFoam手册；手册陈述不等于仿真物理有效性证明。",
+        "acceptable_answer_range": "允许等义解释与正确代数形式；尊重原文的条件、范围和未说明事项。",
+        "critical_errors": [
+          "混淆不同模型的物理量、输入范围或适用条件；编造资料未提供的实现或性能保证。"
+        ],
+        "answer": "粒径输运方程中的压力项（通常为扩散项或源项）受到影响。正确缩放应为pScale=1e-6 MPa，k的压力幂形式为k*(p/pScale)^n，其中n为幂指数。",
+        "answer_sha256": "fee4e1869a67860d655aa8241b6b902c003a08fcb73a127eb65d44c02fd14779",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.3333333333333333,
+          "F": 0.25,
+          "A": 0.25,
+          "EAS_arith": 27.777777777777775,
+          "EAS_geo": 27.51606040745522,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "eas_arith_bounds": [
+            27.777777777777775,
+            27.777777777777775
+          ],
+          "eas_geo_bounds": [
+            27.51606040745522,
+            27.51606040745522
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.4166666666666667,
+          "F": 0.5,
+          "A": 0.5,
+          "EAS_arith": 47.22222222222223,
+          "EAS_geo": 47.05180144405143,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.4166666666666667,
+            0.4166666666666667
+          ],
+          "eas_arith_bounds": [
+            47.22222222222223,
+            47.22222222222223
+          ],
+          "eas_geo_bounds": [
+            47.05180144405143,
+            47.05180144405143
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.3333333333333333,
+          "F": 0.25,
+          "A": 0.5,
+          "EAS_arith": 36.11111111111111,
+          "EAS_geo": 34.66806371753174,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "eas_arith_bounds": [
+            36.11111111111111,
+            36.11111111111111
+          ],
+          "eas_geo_bounds": [
+            34.66806371753174,
+            34.66806371753174
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 41.66666666666667,
+          "eas_arith_bounds": [
+            41.66666666666667,
+            41.66666666666667
+          ],
+          "EAS_geo": 40.85993258079158,
+          "eas_geo_bounds": [
+            40.85993258079158,
+            40.85993258079158
+          ],
+          "K": 0.375,
+          "F": 0.375,
+          "A": 0.5,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.375,
+            0.375
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.375,
+            0.375
+          ],
+          "A_bounds": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-0849ab52ed58",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N60-03.K1",
+              "score": 0.25,
+              "reason": "未准确定位右端反应率k源项，混称扩散或源项。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "N60-03.K2",
+              "score": 0.25,
+              "reason": "知道1e-6，但乘法缩放误写除法且给pScale加MPa单位。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "N60-03.K3",
+              "score": 0.5,
+              "reason": "知道压力相关项受影响，未清楚落实右端k。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": 0.25,
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第59份；F/A：正确式为partial_t d+u.grad d=k，k=beta*(p*pScale)^alpha；关键公式及缩放方向错误。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-0849ab52ed58",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N60-03.K1",
+              "score": 0.25,
+              "reason": "未明确给出粒径输运方程及k为右端源项，且将影响项说成可能是扩散项或源项。"
+            },
+            {
+              "criterion_id": "N60-03.K2",
+              "score": 0.5,
+              "reason": "正确给出pScale=1e-6并提及压力幂，但压力形式写成了(p/pScale)^n，原文应为k=beta*(p*pScale)^alpha。"
+            },
+            {
+              "criterion_id": "N60-03.K3",
+              "score": 0.5,
+              "reason": "认识到缩放错误会影响压力相关速率，但未明确指出是方程右端k中的压力幂项，并混入扩散项表述。"
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.5,
+          "reason": "核心影响方向和pScale数值部分正确，但压力幂的代数形式反向，且受影响项表述不准确。"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-0849ab52ed58",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N60-03.K1",
+              "score": 0.25,
+              "reason": "仅暗示输运方程和源项，未给出reacting方程形式，也未明确k为源项。"
+            },
+            {
+              "criterion_id": "N60-03.K2",
+              "score": 0.25,
+              "reason": "给出pScale=1e-6，但速率公式写成k*(p/pScale)^n，与原文k=beta*(p*pScale)^alpha相反。"
+            },
+            {
+              "criterion_id": "N60-03.K3",
+              "score": 0.5,
+              "reason": "指出缩放会影响源项/压力项，但未准确定位到右端k中的压力幂项，且误称可能为扩散项。"
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": 0.5,
+          "reason": "缩放数值正确，但压力幂形式反向且影响项表述不准确，整体事实混杂。"
+        }
+      },
+      "discussion": {
+        "issue": "缩放方向与方程项混淆",
+        "observed": "Gold为k=beta*(p*pScale)^alpha，回答写成除以pScale，还将右端速率含混称为扩散项或源项；GPT的F/A均比人工高0.25。",
+        "interpretation": "数值方向、乘除与项的职责影响结论，不能只因出现1e-6和“压力项”就判主要正确。",
+        "proposal": "逐项核对运算符、量纲/缩放方向和方程作用位置；不新增Gold未要求的完整数值推导。"
+      },
+      "human_packet_sha256": "3273a03de53dcb850b85d4bc7240e0e4095543a61ba5f9d03483103576647491"
+    },
+    {
+      "order": 48,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-c972eef4bd61",
+        "question": "轴对称装药教程的pressureProbes是否允许把网格外探针移到网格内？结合手册解释显式选择、默认值和移动目标。",
+        "question_id": "P08-01",
+        "question_sha256": "1dedf4fade298f4260036023508056792aafa139febd8b5c8cc6abe3d2dcdf12",
+        "annotation_sha256": "fad76a3401897e9b11018c2bb4fc41045ed3824e59c9cd52fc04979d8356272c",
+        "conditional": true,
+        "criteria": [
+          {
+            "criterion_id": "P08-01.K1",
+            "claim": "实例type blastProbes并adjustLocations yes。",
+            "evidence_ids": [
+              "probe_case"
+            ]
+          },
+          {
+            "criterion_id": "P08-01.K2",
+            "claim": "手册默认adjustLocations no；可把网格中找不到的探针移到最近面。",
+            "evidence_ids": [
+              "probe_rule"
+            ]
+          },
+          {
+            "criterion_id": "P08-01.K3",
+            "claim": "实例显式启用不能当作所有blastProbes的默认。",
+            "evidence_ids": [
+              "probe_rule",
+              "probe_case"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "probe_case",
+            "path": "tutorials/blastFoam/axisymmetricCharge/system/controlDict",
+            "file_sha256": "f61a38eeaf9eae3273ca7b0ebcd7bab4132447a890a892f7983d6c9e82872359",
+            "line_start": 94,
+            "line_end": 116,
+            "label": "轴对称装药探针",
+            "excerpt": "    pressureProbes\n    {\n        type           blastProbes;\n        writeControl   timeStep;\n        writeInterval  1;\n        adjustLocations yes;\n\n        probeLocations\n        (\n            (1 0 0)\n            (2 0 0)\n            (5 0 0)\n            (10 0 0)\n            (15 0 0)\n            (20 0 0)\n        );\n        fields\n        (\n            p\n            impulse\n            dynamicP\n        );\n    }",
+            "excerpt_sha256": "b5555021944d89cfb3791ddc8862975333e0cca861f6f8ae43a88db5be7cea34"
+          },
+          {
+            "evidence_id": "probe_rule",
+            "path": "manual/markdown/15_function_objects.md",
+            "file_sha256": "f22133da89f48be2d66a63873d227b9fb6be40321075cb6634a5cf2f35168bbe",
+            "line_start": 29,
+            "line_end": 43,
+            "label": "探针移动/默认与AMR",
+            "excerpt": "## 15.1 blastProbes\n\nA modified version of the standard OpenFOAM probe utility is also available, where the basic functionality remains the same, with several key additions. First, the ability to append to exiting probe files is now possible, allowing for a single probe file to be used even if a simulation is restarted from a later time. Second, probes that are not found within the mesh can be moved to the nearest face so they can produce valid results. This can be very useful if a probe is needed on a curved face. Lastly, the warning of probes existing on multiple processors has been removed by selecting a single processor on which to probe.\n\n> **NOTE:** When refinement and unrefinement occurs, the probe locations will \"jump\" to the nearest cell resulting in fluctuations when plotted. This can be eliminated by allowing refinement of probes in dynamicMeshDict (\"refineProbes\") (this is the default option).\n\n| Entry | Description |\n|---|---|\n| probeLocations | List of locations to probe |\n| fields | Fields to probe at the given points |\n| append | Are probes appended to and existing file (default no) |\n| fixLocation | Probes follow cell motion (not stationary) |\n| adjustLocations | Can probes be moved into the mesh (default no) |\n| writeVTK | Probed points are written to a VTK file (default no) |\n| interpolationScheme | Method to interpolate probe. Options are cell, cellPoint, cellPointFace, cellPatchConstrained, cellPointWallModified, and pointMVC (default is cell) |",
+            "excerpt_sha256": "279b89a9bc898113f1d13cd04f298ee73c98a408688288af9ddbebe296816946"
+          }
+        ],
+        "applicability": "仅依据固定版本语料回答；不把配置或手册陈述视为已验证仿真效果。",
+        "acceptable_answer_range": "允许等义解释、条件式结论及必要澄清；不要求复述参考文字或固定引用数量。",
+        "critical_errors": [
+          "默认就是yes",
+          "移动目标说成任意用户位置"
+        ],
+        "answer": "根据控制字典文件中的设置，pressureProbes允许把网格外探针移到网格内。具体来说，adjustLocations选项被设置为yes，这意味着探针位置可以被调整。probeLocations选项中列出的探针位置包括(1 0 0)、(2 0 0)、(5 0 0)、(10 0 0)、(15 0 0)和(20 0 0)，这些位置可能位于网格外部。因此，可以通过设置适当的probeLocations选项来将网格外探针移到网格内。",
+        "answer_sha256": "db4cbbc5afe2a16dcacaef23971ae61c04f2d84186b95ede82273a7f11c0a0b3",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "tutorials/blastFoam/axisymmetricCharge/system/controlDict",
+            "start": 95,
+            "end": 117
+          }
+        ],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.25,
+          "F": 0.75,
+          "A": 0.5,
+          "EAS_arith": 50.0,
+          "EAS_geo": 45.42801482080349,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.25,
+            0.25
+          ],
+          "eas_arith_bounds": [
+            50.0,
+            50.0
+          ],
+          "eas_geo_bounds": [
+            45.42801482080349,
+            45.42801482080349
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.16666666666666666,
+          "F": 0.5,
+          "A": 0.5,
+          "EAS_arith": 38.888888888888886,
+          "EAS_geo": 34.66806371753174,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "eas_arith_bounds": [
+            38.888888888888886,
+            38.888888888888886
+          ],
+          "eas_geo_bounds": [
+            34.66806371753174,
+            34.66806371753174
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.16666666666666666,
+          "F": 0.5,
+          "A": 0.5,
+          "EAS_arith": 38.888888888888886,
+          "EAS_geo": 34.66806371753174,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "eas_arith_bounds": [
+            38.888888888888886,
+            38.888888888888886
+          ],
+          "eas_geo_bounds": [
+            34.66806371753174,
+            34.66806371753174
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 38.888888888888886,
+          "eas_arith_bounds": [
+            38.888888888888886,
+            38.888888888888886
+          ],
+          "EAS_geo": 34.66806371753174,
+          "eas_geo_bounds": [
+            34.66806371753174,
+            34.66806371753174
+          ],
+          "K": 0.16666666666666666,
+          "F": 0.5,
+          "A": 0.5,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.5,
+            0.5
+          ],
+          "A_bounds": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-c972eef4bd61",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P08-01.K1",
+              "score": 0.75,
+              "reason": "正确读取实例adjustLocations=yes，遗漏blastProbes类型。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "P08-01.K2",
+              "score": 0,
+              "reason": "未说明默认no及最近面。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "P08-01.K3",
+              "score": 0,
+              "reason": "未区分实例显式启用与通用默认。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": 0.5,
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第48份；F/A：启用判断正确，最后混淆probeLocations给定位置与自动调整到最近面的机制。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-c972eef4bd61",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P08-01.K1",
+              "score": 0.5,
+              "reason": "写明了实例中adjustLocations为yes，但未说明type为blastProbes。"
+            },
+            {
+              "criterion_id": "P08-01.K2",
+              "score": 0,
+              "reason": "未说明手册默认值为no，也未说明探针会移到最近面。"
+            },
+            {
+              "criterion_id": "P08-01.K3",
+              "score": 0,
+              "reason": "未区分该实例的显式启用与blastProbes的通用默认设置。"
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.5,
+          "reason": "实例中adjustLocations为yes这一核心事实正确，但遗漏默认值和最近面目标，并将移动效果归因于probeLocations设置，条件解释不完整。"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-c972eef4bd61",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P08-01.K1",
+              "score": 0.5,
+              "reason": "仅表达adjustLocations yes，未明确说明实例type为blastProbes。",
+              "answer_quote": "adjustLocations选项被设置为yes"
+            },
+            {
+              "criterion_id": "P08-01.K2",
+              "score": 0,
+              "reason": "未说明默认adjustLocations为no，也未说明移动目标是最近面。",
+              "answer_quote": "可以通过设置适当的probeLocations选项来将网格外探针移到网格内"
+            },
+            {
+              "criterion_id": "P08-01.K3",
+              "score": 0,
+              "reason": "未区分实例显式启用与blastProbes默认值，未表达不能当作所有默认。",
+              "answer_quote": "根据控制字典文件中的设置"
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": 0.5,
+          "reason": "核心允许移动的结论及实例显式yes正确，但移动机制/目标表述错误，且遗漏默认no和最近面，实例与默认的区分未表达。"
+        }
+      },
+      "discussion": {
+        "issue": "显式启用判断正确，但移动机制解释错误",
+        "observed": "识别adjustLocations=yes，却把probeLocations的给定坐标等同于自动将网格外探针移入网格；两AI比人工低11.11分。",
+        "interpretation": "这里既有遗漏默认值/最近面的K问题，也有对机制的断言，需要区分遗漏与已明确说错。",
+        "proposal": "分别核对显式配置、默认值和移动目标；不由可能处于网格外的坐标推断真实网格包含关系。"
+      },
+      "human_packet_sha256": "47032c02894a6f5e226ed13ebf7c7d4328f1a20b9efea886d7e744ac529d35d6"
+    },
+    {
+      "order": 29,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-da938412101c",
+        "question": "对比 blastFoam building3D 与 blastFSIFoam building3D 两个 Allrun 脚本：在网格准备阶段，前者是否拆分区域？后者是否拆分区域？两者在运行求解器前对内部 patch 的处理分别是什么？",
+        "question_id": "E48-03",
+        "question_sha256": "ec36631c118e4e98e9b443083dfaaee5ee6fb77116f1b789b261fd5f6b137b23",
+        "annotation_sha256": "fa229ee87ae7dbfa01234fc9aa22e76343944eee154ba2e1494f4c59a75ecdda",
+        "conditional": false,
+        "criteria": [
+          {
+            "criterion_id": "E48-03.K1",
+            "claim": "blastFoam building3D 脚本没有 splitMeshRegions 调用，而是直接 blockMesh 后 decomposePar -copyZero。",
+            "evidence_ids": [
+              "X_building_script"
+            ]
+          },
+          {
+            "criterion_id": "E48-03.K2",
+            "claim": "blastFSIFoam building3D 脚本在 blockMesh 后调用 splitMeshRegions -cellZones -overwrite 拆分区域。",
+            "evidence_ids": [
+              "X_fsi_building_script"
+            ]
+          },
+          {
+            "criterion_id": "E48-03.K3",
+            "claim": "blastFoam building3D 脚本用 addEmptyPatch internalPatch internal -overwrite 添加内部 patch；blastFSIFoam building3D 脚本用 addEmptyPatch internalPatch internal -region air -overwrite 仅在 air 区域添加。",
+            "evidence_ids": [
+              "X_building_script",
+              "X_fsi_building_script"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "X_building_script",
+            "path": "tutorials/blastFoam/building3D/Allrun",
+            "file_sha256": "4adcdd258aa089741dcd2cf47a1cd8974b1a679734b9df8b4e18f5a2eb92ad0e",
+            "line_start": 10,
+            "line_end": 29,
+            "label": "building_script",
+            "excerpt": "# -- Pre-process the stl\nrunApplication surfaceFeatures\n\n# -- Create the mesh for the fluid\nrunApplication blockMesh\n\n# -- Decompose the mesh\nrunApplication decomposePar -copyZero\n\n# -- Cut out the stl\nrunParallel snappyHexMesh -overwrite\n\n# -- Add internal patch\nrunParallel addEmptyPatch internalPatch internal -overwrite\n\n# -- Set the initial conditions for the fluid\nrunParallel setRefinedFields\n\n#- Run the calc\nrunParallel $(getApplication)",
+            "excerpt_sha256": "63b7f5558aa03b71e1c15275238e2b8b10365eb4e0e65552baacfdb5135f5680"
+          },
+          {
+            "evidence_id": "X_fsi_building_script",
+            "path": "tutorials/blastFSIFoam/building3D/Allrun",
+            "file_sha256": "04da519c126178e7eb5622631f4c82453290c7f75d404e003c5ed8d58b14f323",
+            "line_start": 10,
+            "line_end": 37,
+            "label": "fsi_building_script",
+            "excerpt": "# -- Create the mesh\nrunApplication blockMesh\n\n# -- Split the mesh into regions\nrunApplication splitMeshRegions -cellZones -overwrite\n\n# -- Remove the original mesh\nrm -rf constant/polyMesh\n\n# -- Change patch types\nfoamDictionary constant/air/polyMesh/boundary -entry entry0/air_to_building/type -set 'mappedMovingWall'\nfoamDictionary constant/building/polyMesh/boundary -entry entry0/building_to_air/type -set 'mappedMovingWall'\n\n# -- Decompose the mesh\nrunApplication decomposePar -allRegions\n\n# -- Add internal patch\nrunParallel addEmptyPatch internalPatch internal -region air -overwrite\n\n# -- Set initial conditions in the air region\nrunParallel setRefinedFields -region air\n\n# -- Refine the building region\nrunParallel -s 1 refineMesh -region building -overwrite\nrunParallel -s 2 refineMesh -region building -overwrite\n\n# -- Run the calc\nrunParallel $(getApplication)",
+            "excerpt_sha256": "d551678f2d2c291440b847ddb71816de2e36006f60282a7ec148c0a967cee0b0"
+          }
+        ],
+        "applicability": "仅适用于这两个 Allrun 脚本所描述的教程流程；脚本未说明这些差异是否适用于其他算例或是否代表物理必要性。",
+        "acceptable_answer_range": "等义解释、合理条件式结论及必要澄清可接受；不以关键词或引用数量替代内容判断。",
+        "critical_errors": [
+          "说 blastFoam building3D 也调用了 splitMeshRegions",
+          "说 blastFSIFoam building3D 的 addEmptyPatch 未指定 -region air",
+          "把两者网格准备阶段说成完全相同"
+        ],
+        "answer": "blastFoam building3D 在网格准备阶段是否拆分区域未明确提及，而 blastFSIFoam building3D 在网格准备阶段使用 splitMeshRegions 工具拆分区域。两者在运行求解器前对内部 patch 的处理分别为：blastFoam 未提及具体处理，而 blastFSIFoam 使用 coupledGlobalPolyPatch 进行处理，且需修改 patch 名称和类型。",
+        "answer_sha256": "ce9465f6ae56eabaa472b1c0ff192494b087d0975abfae9612f38d1b42476046",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "tutorials/blastFSIFoam/building3D/Allrun",
+            "start": 13,
+            "end": 14
+          },
+          {
+            "path": "manual/markdown/19_solvers.md",
+            "start": 17,
+            "end": 18
+          }
+        ],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.25,
+          "F": 0.25,
+          "A": "not_applicable",
+          "EAS_arith": 25.0,
+          "EAS_geo": 25.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.25,
+            0.25
+          ],
+          "eas_arith_bounds": [
+            25.0,
+            25.0
+          ],
+          "eas_geo_bounds": [
+            25.0,
+            25.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.4166666666666667,
+          "F": 0.5,
+          "A": "not_applicable",
+          "EAS_arith": 45.833333333333336,
+          "EAS_geo": 45.64354645876384,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.4166666666666667,
+            0.4166666666666667
+          ],
+          "eas_arith_bounds": [
+            45.833333333333336,
+            45.833333333333336
+          ],
+          "eas_geo_bounds": [
+            45.64354645876384,
+            45.64354645876384
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.25,
+          "F": 0.25,
+          "A": "not_applicable",
+          "EAS_arith": 25.0,
+          "EAS_geo": 25.0,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.25,
+            0.25
+          ],
+          "eas_arith_bounds": [
+            25.0,
+            25.0
+          ],
+          "eas_geo_bounds": [
+            25.0,
+            25.0
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 35.41666666666667,
+          "eas_arith_bounds": [
+            35.41666666666667,
+            35.41666666666667
+          ],
+          "EAS_geo": 35.32177322938192,
+          "eas_geo_bounds": [
+            35.32177322938192,
+            35.32177322938192
+          ],
+          "K": 0.33333333333333337,
+          "F": 0.375,
+          "A": "not_applicable",
+          "Strict": 0,
+          "coverage_bounds": [
+            0.33333333333333337,
+            0.33333333333333337
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.375,
+            0.375
+          ],
+          "A_bounds": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-da938412101c",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E48-03.K1",
+              "score": 0,
+              "reason": "未识别blastFoam脚本没有区域拆分调用的实际流程。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E48-03.K2",
+              "score": 0.75,
+              "reason": "正确识别FSI调用splitMeshRegions，遗漏顺序及参数。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "E48-03.K3",
+              "score": 0,
+              "reason": "未答两者addEmptyPatch，额外引入无依据的coupledGlobalPolyPatch。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": "not_applicable",
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第29份；F：少量FSI区域拆分内容正确，关键内部patch说明失实。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-da938412101c",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E48-03.K1",
+              "score": 0.25
+            },
+            {
+              "criterion_id": "E48-03.K2",
+              "score": 0.75
+            },
+            {
+              "criterion_id": "E48-03.K3",
+              "score": 0.25
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": "not_applicable"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-da938412101c",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "E48-03.K1",
+              "score": 0,
+              "reason": "未说明 blastFoam building3D 不拆分区域，也未提及直接 blockMesh 后 decomposePar -copyZero。"
+            },
+            {
+              "criterion_id": "E48-03.K2",
+              "score": 0.75,
+              "reason": "正确指出 blastFSIFoam 使用 splitMeshRegions 拆分，但未说明其在 blockMesh 后及 -cellZones -overwrite 参数。"
+            },
+            {
+              "criterion_id": "E48-03.K3",
+              "score": 0,
+              "reason": "未提及 addEmptyPatch internalPatch 及 -region air；反而误述为 coupledGlobalPolyPatch 和 patch 名称/类型修改。"
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": "not_applicable",
+          "reason": "仅 blastFSIFoam 拆分区域这一核心事实正确；内部 patch 处理的关键事实缺失且有关键误述。"
+        }
+      },
+      "discussion": {
+        "issue": "读脚本的缺失与错误工具名",
+        "observed": "识别FSI脚本拆分区域，却没有明确普通building3D不调用splitMeshRegions，并将addEmptyPatch处理误写成coupledGlobalPolyPatch。",
+        "interpretation": "GPT给予较多部分分；DeepSeek与人工一致。脚本中未调用和“原文没有提及”含义不同。",
+        "proposal": "对完整脚本范围内的有/无调用及具体参数逐项核验；不拿相关类型名替代实际执行命令。"
+      },
+      "human_packet_sha256": "27df507d7f1529bffc231abe725b26c46aa22972025428058c8ab45d13a9e1cc"
+    },
+    {
+      "order": 46,
+      "main_top12": true,
+      "packet": {
+        "sample_id": "R-6dee51e8518d",
+        "question": "固体exponential与polynomial模型怎样分别描述温度相关导热？请比较参考温度的使用和参数组织，不要把流体黏度系数加入固体模型。",
+        "question_id": "N67-02",
+        "question_sha256": "bc3df3575ba4147e65a646011e8ede3f4efc6ce431153da73265e24104c4a32d",
+        "annotation_sha256": "482729f0e3757cad0272eac16c8577f8569e9d419b5136071f0d7620ecc1a66b",
+        "conditional": false,
+        "criteria": [
+          {
+            "criterion_id": "N67-02.K1",
+            "claim": "exponential用kappa0、Tref、n0给出kappa0*(T/Tref)^n0。",
+            "evidence_ids": [
+              "v2_exp"
+            ]
+          },
+          {
+            "criterion_id": "N67-02.K2",
+            "claim": "polynomial用kappaCoeffs<8>给出sum(i=0..7) kappa_i*T^i，没有该段定义的参考温度归一化。",
+            "evidence_ids": [
+              "v2_solidpoly"
+            ]
+          },
+          {
+            "criterion_id": "N67-02.K3",
+            "claim": "两者此处只描述固体导热系数，原片段没有要求muCoeffs。",
+            "evidence_ids": [
+              "v2_exp",
+              "v2_solidpoly"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "v2_exp",
+            "path": "manual/markdown/05_fluid_solid_thermo.md",
+            "file_sha256": "e8369aa14525d4c3adb639ae6e134af41d6d97d84484f114ef221e63c141f8dc",
+            "line_start": 1029,
+            "line_end": 1042,
+            "label": "5.4.3 exponential",
+            "excerpt": "### 5.4.3 exponential\n\nThermal conductivity is calculated using an exponential function\n\n$$\n\\kappa(T) = \\kappa_0\\left( \\frac{T}{T_{ref}} \\right)^{n_0}\n$$\n(5.84)\n\n| Variable | Description |\n|---|---|\n| `kappa0` | Reference thermal conductivity [W/m/K] |\n| $n_0$ | Exponential coefficient [ ] |\n| $T_{ref}$ | Reference temperature [K] |",
+            "excerpt_sha256": "ad62fa89b21785739dce69c53f15b21f89cd191c5815ef34826780a4254f11c0"
+          },
+          {
+            "evidence_id": "v2_solidpoly",
+            "path": "manual/markdown/05_fluid_solid_thermo.md",
+            "file_sha256": "e8369aa14525d4c3adb639ae6e134af41d6d97d84484f114ef221e63c141f8dc",
+            "line_start": 1044,
+            "line_end": 1055,
+            "label": "5.4.4 polynomial",
+            "excerpt": "### 5.4.4 polynomial\n\nThermal conductivity is calculated using polynomial functions of temperature.\n\n$$\n\\kappa(T) = \\sum_{i=0}^{7} \\kappa_iT^i\n$$\n(5.85)\n\n| Variable | Description |\n|---|---|\n| `kappaCoeffs<8>` | Conductivity coefficients |",
+            "excerpt_sha256": "9f70460e739bfd26a12b13b1b260fce93907011e46e34914f298d059a0485f22"
+          }
+        ],
+        "applicability": "限定于固定版本blastFoam手册；手册陈述不等于仿真物理有效性证明。",
+        "acceptable_answer_range": "允许等义解释与正确代数形式；尊重原文的条件、范围和未说明事项。",
+        "critical_errors": [
+          "混淆不同模型的物理量、输入范围或适用条件；编造资料未提供的实现或性能保证。"
+        ],
+        "answer": "固体的exponential模型通常描述为:δ = δ₀ · exp(-E₀ / (R · T))，其中δ是导热系数，δ₀是参考导热系数，E₀是参考能量，R是气体常数，T是温度。\n\n而polynomial模型则描述为:δ = a + b · T + c · T² + d · T³，\n其中a、b、c和d是参数。\n\n两种模型的主要区别在于exponential模型使用了参考温度和能量，而polynomial模型使用了多项式函数来描述温度的变化。\n\n在参考温度的使用上，exponential模型使用了一个固定的参考温度（通常是某个特定温度的导热系数），而polynomial模型没有使用参考温度。\n\n在参数组织上，exponential模型使用了三个参数（δ₀、E₀和R），而polynomial模型使用了四个参数（a、b、c和d）。",
+        "answer_sha256": "ea79bf924a55a16457ac9a9d8ac56d4c9c1d6af6eb888bb710dbdc7e9857b957",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "blastFoam/thermal_conductivity.md",
+            "start": 1,
+            "end": 1
+          }
+        ],
+        "references_delivered": false
+      },
+      "metrics": {
+        "human": {
+          "K": 0.5,
+          "F": 0.25,
+          "A": "not_applicable",
+          "EAS_arith": 37.5,
+          "EAS_geo": 35.35533905932738,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5,
+            0.5
+          ],
+          "eas_arith_bounds": [
+            37.5,
+            37.5
+          ],
+          "eas_geo_bounds": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.5833333333333334,
+          "F": 0.5,
+          "A": "not_applicable",
+          "EAS_arith": 54.16666666666667,
+          "EAS_geo": 54.006172486732176,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5833333333333334,
+            0.5833333333333334
+          ],
+          "eas_arith_bounds": [
+            54.16666666666667,
+            54.16666666666667
+          ],
+          "eas_geo_bounds": [
+            54.006172486732176,
+            54.006172486732176
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.5833333333333334,
+          "F": 0.25,
+          "A": "not_applicable",
+          "EAS_arith": 41.66666666666667,
+          "EAS_geo": 38.18813079129867,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5833333333333334,
+            0.5833333333333334
+          ],
+          "eas_arith_bounds": [
+            41.66666666666667,
+            41.66666666666667
+          ],
+          "eas_geo_bounds": [
+            38.18813079129867,
+            38.18813079129867
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 47.91666666666667,
+          "eas_arith_bounds": [
+            47.91666666666667,
+            47.91666666666667
+          ],
+          "EAS_geo": 46.09715163901542,
+          "eas_geo_bounds": [
+            46.09715163901542,
+            46.09715163901542
+          ],
+          "K": 0.5833333333333334,
+          "F": 0.375,
+          "A": "not_applicable",
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5833333333333334,
+            0.5833333333333334
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.375,
+            0.375
+          ],
+          "A_bounds": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-6dee51e8518d",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N67-02.K1",
+              "score": 0.25,
+              "reason": "仅参考导热量等少量概念正确，误用Arrhenius式及参数。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "N67-02.K2",
+              "score": 0.25,
+              "reason": "仅温度多项式概念正确，应0到7次、8系数而非固定三次四参数。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "N67-02.K3",
+              "score": 1,
+              "reason": "始终讨论固体导热，没有加入muCoeffs。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": "not_applicable",
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第46份；F：两个模型主要公式与参数组织错误。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-6dee51e8518d",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N67-02.K1",
+              "score": 0.25
+            },
+            {
+              "criterion_id": "N67-02.K2",
+              "score": 0.5
+            },
+            {
+              "criterion_id": "N67-02.K3",
+              "score": 1
+            }
+          ],
+          "fact_gate": 0.5,
+          "applicability_gate": "not_applicable"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-6dee51e8518d",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N67-02.K1",
+              "score": 0.25,
+              "reason": "回答误用Arrhenius型指数式且参数不符，仅提及exponential与参考温度，核心公式未正确表达。"
+            },
+            {
+              "criterion_id": "N67-02.K2",
+              "score": 0.5,
+              "reason": "正确指出polynomial无参考温度归一化，但系数个数与阶数不完整，仅列到三次且未用8个系数。"
+            },
+            {
+              "criterion_id": "N67-02.K3",
+              "score": 1,
+              "reason": "回答只在固体导热系数语境下讨论，未混入muCoeffs或流体黏度系数。"
+            }
+          ],
+          "fact_gate": 0.25,
+          "applicability_gate": "not_applicable",
+          "reason": "exponential模型公式与参数严重错误；polynomial部分正确但阶数和参数组织错误；未加入黏度系数。"
+        }
+      },
+      "discussion": {
+        "issue": "专业常见公式替换了本版本模型定义",
+        "observed": "exponential被改写成Arrhenius式，polynomial被缩为三次四系数；Gold要求kappa0*(T/Tref)^n0与8个系数。",
+        "interpretation": "同名模型的一般专业知识不能覆盖所给手册的具体实现定义；两AI均给予一定正确方向分，但GPT的F更高。",
+        "proposal": "先以给定模型/版本的定义核验关键公式与参数，不因公式看起来熟悉、专业而增加覆盖；不要求背诵Gold未要求的符号。"
+      },
+      "human_packet_sha256": "fe84279207866cd2e61d74d595f5ce250cfafd3b875d5a4eafb4df43422d5d11"
+    },
+    {
+      "order": 34,
+      "main_top12": false,
+      "packet": {
+        "sample_id": "R-331fe77a13cb",
+        "question": "constant和constantMass两种粒径模型中，“constant”分别约束什么？对照它们的输入条目和直径场写出说明，不能把恒质量直接解释为恒直径。",
+        "question_id": "N60-02",
+        "question_sha256": "8bf337fdcdf60b378737cb04360550bfe94bd466624ec8c95acb73499e5dd02c",
+        "annotation_sha256": "bf3f5b251b62eba4b700a65522efbd9c85590ca8c4e0dc8a3fd740e5b40b71f7",
+        "conditional": false,
+        "criteria": [
+          {
+            "criterion_id": "N60-02.K1",
+            "claim": "constant直接指定固定直径d，手册明确该直径场不写出。",
+            "evidence_ids": [
+              "v2_dconst"
+            ]
+          },
+          {
+            "criterion_id": "N60-02.K2",
+            "claim": "constantMass由rho0、d0定义固定M，再按当前rho计算d。",
+            "evidence_ids": [
+              "v2_dmass"
+            ]
+          },
+          {
+            "criterion_id": "N60-02.K3",
+            "claim": "恒质量模型的d具有rho依赖，不等于固定直径；不能把constant的明确不写场说明推广给另一模型。",
+            "evidence_ids": [
+              "v2_dconst",
+              "v2_dmass"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "v2_dconst",
+            "path": "manual/markdown/09_diameter_models.md",
+            "file_sha256": "a62ec6a288149422b050fa333dc00d356e2d126d7b959bf3403499819be3c8a1",
+            "line_start": 5,
+            "line_end": 13,
+            "label": "constant",
+            "excerpt": "## constant\n\nA constant diameter is used.\n\n> **NOTE:** The diameter field is not written\n\n| Entry | Description |\n|---|---|\n| d | Diameter of the phase [m] |",
+            "excerpt_sha256": "808c7e04072e592ec277988c4b6f93205abd41d691bf9c3adc641690c30ef078"
+          },
+          {
+            "evidence_id": "v2_dmass",
+            "path": "manual/markdown/09_diameter_models.md",
+            "file_sha256": "a62ec6a288149422b050fa333dc00d356e2d126d7b959bf3403499819be3c8a1",
+            "line_start": 15,
+            "line_end": 36,
+            "label": "constantMass",
+            "excerpt": "## constantMass\n\nThe diameter is determined using a reference diameter at a reference density. The mass is defined as\n\n$$\nM = \\frac{\\pi d_0^3 \\rho_0}{6}\n$$\n\n(9.1)\n\nand the true diameter is calculated using\n\n$$\nd = \\left( \\frac{6M}{\\rho\\pi} \\right)^{1/3}\n$$\n\n(9.2)\n\n| Entry | Description |\n|---|---|\n| rho0 | Reference density [kg/m3] |\n| d0 | Reference diameter [m] |",
+            "excerpt_sha256": "5664895e2107a9c2e49c0b9b8ea117e8a5feb3f4e65a2d26a97618e99c38d0d4"
+          }
+        ],
+        "applicability": "限定于固定版本blastFoam手册；手册陈述不等于仿真物理有效性证明。",
+        "acceptable_answer_range": "允许等义解释与正确代数形式；尊重原文的条件、范围和未说明事项。",
+        "critical_errors": [
+          "混淆不同模型的物理量、输入范围或适用条件；编造资料未提供的实现或性能保证。"
+        ],
+        "answer": "在BlastFoam中，`constant`和`constantMass`是两种不同的粒径模型，它们分别约束以下内容：\n\n1. `constant`模型：\n   - 该模型使用一个常数直径。直径场不会被写入，因此直径在整个模拟过程中保持不变。输入条目为`d`，表示相的初始直径（单位：米）。\n\n2. `constantMass`模型：\n   - 该模型通过参考直径和参考密度计算质量，然后根据当前密度计算真实的直径。输入条目为`rho0`（参考密度，单位：kg/m³）和`d0`（参考直径，单位：米）。直径场根据公式 $d = \\left( \\frac{6M}{\\rho\\pi} \\right)^{1/3}$ 动态计算，其中 $M$ 是质量，$\\rho$ 是当前密度。\n\n因此，`constant`模型约束的是直径的固定值，而`constantMass`模型约束的是质量的恒定，直径则根据密度变化动态调整。",
+        "answer_sha256": "a5fa56183be8d5ecfca518d2c4071b5f59adcf99223e52cdb0d1a02ee18988a0",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "manual/markdown/09_diameter_models.md",
+            "start": 5,
+            "end": 14
+          },
+          {
+            "path": "manual/markdown/09_diameter_models.md",
+            "start": 15,
+            "end": 37
+          }
+        ],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 1.0,
+          "F": 1,
+          "A": "not_applicable",
+          "EAS_arith": 100.0,
+          "EAS_geo": 100.0,
+          "Strict": 1,
+          "coverage_bounds": [
+            1.0,
+            1.0
+          ],
+          "eas_arith_bounds": [
+            100.0,
+            100.0
+          ],
+          "eas_geo_bounds": [
+            100.0,
+            100.0
+          ],
+          "strict_bounds": [
+            1,
+            1
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.9166666666666666,
+          "F": 0.75,
+          "A": "not_applicable",
+          "EAS_arith": 83.33333333333333,
+          "EAS_geo": 82.915619758885,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.9166666666666666,
+            0.9166666666666666
+          ],
+          "eas_arith_bounds": [
+            83.33333333333333,
+            83.33333333333333
+          ],
+          "eas_geo_bounds": [
+            82.915619758885,
+            82.915619758885
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 1.0,
+          "F": 1,
+          "A": "not_applicable",
+          "EAS_arith": 100.0,
+          "EAS_geo": 100.0,
+          "Strict": 1,
+          "coverage_bounds": [
+            1.0,
+            1.0
+          ],
+          "eas_arith_bounds": [
+            100.0,
+            100.0
+          ],
+          "eas_geo_bounds": [
+            100.0,
+            100.0
+          ],
+          "strict_bounds": [
+            1,
+            1
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 91.66666666666666,
+          "eas_arith_bounds": [
+            91.66666666666666,
+            91.66666666666666
+          ],
+          "EAS_geo": 91.4578098794425,
+          "eas_geo_bounds": [
+            91.4578098794425,
+            91.4578098794425
+          ],
+          "K": 0.9583333333333333,
+          "F": 0.875,
+          "A": "not_applicable",
+          "Strict": 0.5,
+          "coverage_bounds": [
+            0.9583333333333333,
+            0.9583333333333333
+          ],
+          "strict_bounds": [
+            0.5,
+            0.5
+          ],
+          "F_bounds": [
+            0.875,
+            0.875
+          ],
+          "A_bounds": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-331fe77a13cb",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N60-02.K1",
+              "score": 1,
+              "reason": "constant固定直径及不写场说明正确。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "N60-02.K2",
+              "score": 1,
+              "reason": "constantMass由rho0、d0定义M并按当前rho计算d正确。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "N60-02.K3",
+              "score": 1,
+              "reason": "正确区分恒质量与恒直径，未推广不写场说明。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 1,
+          "applicability_gate": "not_applicable",
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第34份；F：模型职责、参数与公式完整正确。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-331fe77a13cb",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N60-02.K1",
+              "score": 0.75,
+              "reason": "核心说明正确；将 d 额外称为“初始直径”超出所给手册表述。"
+            },
+            {
+              "criterion_id": "N60-02.K2",
+              "score": 1
+            },
+            {
+              "criterion_id": "N60-02.K3",
+              "score": 1
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": "not_applicable"
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-331fe77a13cb",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "N60-02.K1",
+              "score": 1,
+              "reason": "正确说明constant使用固定直径d且直径场不写出。"
+            },
+            {
+              "criterion_id": "N60-02.K2",
+              "score": 1,
+              "reason": "正确说明constantMass由rho0、d0定义固定质量M，并按当前rho计算d，输入条目和公式均正确。"
+            },
+            {
+              "criterion_id": "N60-02.K3",
+              "score": 1,
+              "reason": "明确区分恒直径与恒质量，指出constantMass的直径随密度变化动态调整，未将constant的不写场说明错误推广。"
+            }
+          ],
+          "fact_gate": 1,
+          "applicability_gate": "not_applicable",
+          "reason": "非条件题，A不适用；回答与手册实质事实一致。"
+        }
+      },
+      "discussion": {
+        "issue": "均值掩盖单裁判对完整正确回答的扣分",
+        "observed": "人工与DeepSeek均为100；GPT为83.33。回答明确区分固定直径与固定质量，并给出密度依赖关系。",
+        "interpretation": "需查看GPT原备注是否将未声称的跨模型推广强加给回答；不能因为评分差异就认定专业事实存在争议。",
+        "proposal": "先定位回答实际声称了什么；禁止以Gold的防错提醒推定回答已经犯了该错误。"
+      },
+      "human_packet_sha256": "d027388b34a32a8f6962d30047db7aa7f713f3b9d591d904715009639dfb657c"
+    },
+    {
+      "order": 47,
+      "main_top12": false,
+      "packet": {
+        "sample_id": "R-c5e196c041d7",
+        "question": "轴对称装药教程的pressureProbes是否允许把网格外探针移到网格内？结合手册解释显式选择、默认值和移动目标。",
+        "question_id": "P08-01",
+        "question_sha256": "1dedf4fade298f4260036023508056792aafa139febd8b5c8cc6abe3d2dcdf12",
+        "annotation_sha256": "fad76a3401897e9b11018c2bb4fc41045ed3824e59c9cd52fc04979d8356272c",
+        "conditional": true,
+        "criteria": [
+          {
+            "criterion_id": "P08-01.K1",
+            "claim": "实例type blastProbes并adjustLocations yes。",
+            "evidence_ids": [
+              "probe_case"
+            ]
+          },
+          {
+            "criterion_id": "P08-01.K2",
+            "claim": "手册默认adjustLocations no；可把网格中找不到的探针移到最近面。",
+            "evidence_ids": [
+              "probe_rule"
+            ]
+          },
+          {
+            "criterion_id": "P08-01.K3",
+            "claim": "实例显式启用不能当作所有blastProbes的默认。",
+            "evidence_ids": [
+              "probe_rule",
+              "probe_case"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "evidence_id": "probe_case",
+            "path": "tutorials/blastFoam/axisymmetricCharge/system/controlDict",
+            "file_sha256": "f61a38eeaf9eae3273ca7b0ebcd7bab4132447a890a892f7983d6c9e82872359",
+            "line_start": 94,
+            "line_end": 116,
+            "label": "轴对称装药探针",
+            "excerpt": "    pressureProbes\n    {\n        type           blastProbes;\n        writeControl   timeStep;\n        writeInterval  1;\n        adjustLocations yes;\n\n        probeLocations\n        (\n            (1 0 0)\n            (2 0 0)\n            (5 0 0)\n            (10 0 0)\n            (15 0 0)\n            (20 0 0)\n        );\n        fields\n        (\n            p\n            impulse\n            dynamicP\n        );\n    }",
+            "excerpt_sha256": "b5555021944d89cfb3791ddc8862975333e0cca861f6f8ae43a88db5be7cea34"
+          },
+          {
+            "evidence_id": "probe_rule",
+            "path": "manual/markdown/15_function_objects.md",
+            "file_sha256": "f22133da89f48be2d66a63873d227b9fb6be40321075cb6634a5cf2f35168bbe",
+            "line_start": 29,
+            "line_end": 43,
+            "label": "探针移动/默认与AMR",
+            "excerpt": "## 15.1 blastProbes\n\nA modified version of the standard OpenFOAM probe utility is also available, where the basic functionality remains the same, with several key additions. First, the ability to append to exiting probe files is now possible, allowing for a single probe file to be used even if a simulation is restarted from a later time. Second, probes that are not found within the mesh can be moved to the nearest face so they can produce valid results. This can be very useful if a probe is needed on a curved face. Lastly, the warning of probes existing on multiple processors has been removed by selecting a single processor on which to probe.\n\n> **NOTE:** When refinement and unrefinement occurs, the probe locations will \"jump\" to the nearest cell resulting in fluctuations when plotted. This can be eliminated by allowing refinement of probes in dynamicMeshDict (\"refineProbes\") (this is the default option).\n\n| Entry | Description |\n|---|---|\n| probeLocations | List of locations to probe |\n| fields | Fields to probe at the given points |\n| append | Are probes appended to and existing file (default no) |\n| fixLocation | Probes follow cell motion (not stationary) |\n| adjustLocations | Can probes be moved into the mesh (default no) |\n| writeVTK | Probed points are written to a VTK file (default no) |\n| interpolationScheme | Method to interpolate probe. Options are cell, cellPoint, cellPointFace, cellPatchConstrained, cellPointWallModified, and pointMVC (default is cell) |",
+            "excerpt_sha256": "279b89a9bc898113f1d13cd04f298ee73c98a408688288af9ddbebe296816946"
+          }
+        ],
+        "applicability": "仅依据固定版本语料回答；不把配置或手册陈述视为已验证仿真效果。",
+        "acceptable_answer_range": "允许等义解释、条件式结论及必要澄清；不要求复述参考文字或固定引用数量。",
+        "critical_errors": [
+          "默认就是yes",
+          "移动目标说成任意用户位置"
+        ],
+        "answer": "根据手册，pressureProbes的adjustLocations参数设置为yes时，允许将网格外探针移到网格内。默认情况下，该参数可能未启用，需显式设置。移动目标是确保探针位于计算域内以获取有效数据。",
+        "answer_sha256": "dd248d84bb26284473e69e3af42839dab70ed6d2a58e53a72c96e0ca970a4adb",
+        "generation_failed": false,
+        "binding_status": "bound",
+        "generation_status": "answered",
+        "references": [
+          {
+            "path": "tutorials/blastFoam/axisymmetricCharge/system/controlDict",
+            "start": 99,
+            "end": 100
+          },
+          {
+            "path": "tutorials/blastFoam/building3DWorkshop/system/controlDict",
+            "start": 149,
+            "end": 150
+          }
+        ],
+        "references_delivered": true
+      },
+      "metrics": {
+        "human": {
+          "K": 0.5,
+          "F": 1,
+          "A": 0.75,
+          "EAS_arith": 75.0,
+          "EAS_geo": 72.11247851537041,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5,
+            0.5
+          ],
+          "eas_arith_bounds": [
+            75.0,
+            75.0
+          ],
+          "eas_geo_bounds": [
+            72.11247851537041,
+            72.11247851537041
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "gpt_sol": {
+          "K": 0.5833333333333334,
+          "F": 1,
+          "A": 1,
+          "EAS_arith": 86.11111111111113,
+          "EAS_geo": 83.55496558274308,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5833333333333334,
+            0.5833333333333334
+          ],
+          "eas_arith_bounds": [
+            86.11111111111113,
+            86.11111111111113
+          ],
+          "eas_geo_bounds": [
+            83.55496558274308,
+            83.55496558274308
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "deepseek_flash": {
+          "K": 0.5833333333333334,
+          "F": 0.75,
+          "A": 0.75,
+          "EAS_arith": 69.44444444444444,
+          "EAS_geo": 68.97310440952802,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5833333333333334,
+            0.5833333333333334
+          ],
+          "eas_arith_bounds": [
+            69.44444444444444,
+            69.44444444444444
+          ],
+          "eas_geo_bounds": [
+            68.97310440952802,
+            68.97310440952802
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "missing_items": 0,
+          "unknown_items": 0,
+          "generation_failed": false,
+          "schema_version": "ch2_five_level_dual_eas"
+        },
+        "dual_mean": {
+          "EAS_arith": 77.77777777777779,
+          "eas_arith_bounds": [
+            77.77777777777779,
+            77.77777777777779
+          ],
+          "EAS_geo": 76.26403499613555,
+          "eas_geo_bounds": [
+            76.26403499613555,
+            76.26403499613555
+          ],
+          "K": 0.5833333333333334,
+          "F": 0.875,
+          "A": 0.875,
+          "Strict": 0,
+          "coverage_bounds": [
+            0.5833333333333334,
+            0.5833333333333334
+          ],
+          "strict_bounds": [
+            0,
+            0
+          ],
+          "F_bounds": [
+            0.875,
+            0.875
+          ],
+          "A_bounds": [
+            0.875,
+            0.875
+          ]
+        }
+      },
+      "records": {
+        "human": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-c5e196c041d7",
+          "judge_id": "human",
+          "judge_version": "single-human-reference-v1",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P08-01.K1",
+              "score": 0.5,
+              "reason": "说明yes时允许调整，未明确实例已启用及blastProbes类型。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "P08-01.K2",
+              "score": 0.25,
+              "reason": "默认仅模糊写可能未启用，遗漏最近面。",
+              "answer_quote": ""
+            },
+            {
+              "criterion_id": "P08-01.K3",
+              "score": 0.75,
+              "reason": "知道需要显式设置，未把yes当普遍默认，但区分不完整。",
+              "answer_quote": ""
+            }
+          ],
+          "fact_gate": 1,
+          "applicability_gate": 0.75,
+          "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第47份；F：无明确反向事实，主要是遗漏与模糊表述。A：条件方向正确，实例判断不够完整。"
+        },
+        "gpt_sol": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-c5e196c041d7",
+          "judge_id": "gpt_sol",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P08-01.K1",
+              "score": 0.5
+            },
+            {
+              "criterion_id": "P08-01.K2",
+              "score": 0.5
+            },
+            {
+              "criterion_id": "P08-01.K3",
+              "score": 0.75
+            }
+          ],
+          "fact_gate": 1,
+          "applicability_gate": 1
+        },
+        "deepseek_flash": {
+          "schema_version": "ch2_five_level_dual_eas",
+          "sample_id": "R-c5e196c041d7",
+          "judge_id": "deepseek_flash",
+          "judge_version": "current-calibration-candidate",
+          "status": "complete",
+          "points": [
+            {
+              "criterion_id": "P08-01.K1",
+              "score": 0.5,
+              "reason": "仅表达 adjustLocations yes 可移动探针，未说明实例 type 为 blastProbes。",
+              "answer_quote": "pressureProbes的adjustLocations参数设置为yes时，允许将网格外探针移到网格内。"
+            },
+            {
+              "criterion_id": "P08-01.K2",
+              "score": 0.5,
+              "reason": "提到默认可能未启用，但未明确默认 no，也未说明移动到最近面。",
+              "answer_quote": "默认情况下，该参数可能未启用，需显式设置。"
+            },
+            {
+              "criterion_id": "P08-01.K3",
+              "score": 0.75,
+              "reason": "表达了默认未启用、需显式设置，间接满足不能把实例配置当默认，但措辞不确定。",
+              "answer_quote": "默认情况下，该参数可能未启用，需显式设置。"
+            }
+          ],
+          "fact_gate": 0.75,
+          "applicability_gate": 0.75,
+          "reason": "核心结论正确，但缺 blastProbes 类型、默认 no 的明确表述及“最近面”移动目标。"
+        }
+      },
+      "discussion": {
+        "issue": "均值接近人工，但两个AI差16.67分",
+        "observed": "人工75、GPT86.11、DeepSeek69.44，均值77.78。对“可能未启用”的不完整表述，K、F、A采用了不同扣分方式。",
+        "interpretation": "均值抵消不能说明维度尺度已统一；省略默认值与明确说反默认值应分开。",
+        "proposal": "在K中处理默认值与最近面的遗漏；F只对确定错误的断言扣分，A依据题设显式启用与实际作用判断。"
+      },
+      "human_packet_sha256": "09b7358217c2b6e089ab988e2f4868d09cf1ba3ec0ec4ae15d036a15c0708418"
+    }
+  ],
+  "failures": [
+    {
+      "judge": "gpt_sol",
+      "sample_id": "R-150962443949",
+      "question_id": "E16-02",
+      "question": "原文在 5.2.3 节说明，当某些状态方程无法转换为基于内能的形式时，会改用局部温度定义热力学压力。此时 Grüneisen 系数 Γ_i 与声速 c_i^2 分别按什么关系计算？",
+      "conditional": false,
+      "expected_criteria": [
+        "E16-02.K1",
+        "E16-02.K2",
+        "E16-02.K3"
+      ],
+      "result": {
+        "status": "judge_output_failure",
+        "error_type": "ValueError",
+        "error": "A conditional status mismatch",
+        "response_sha256": "c958f6f3b663d069a7f7db1e247215a8ce032ffbc5d54d77e14555be0cd4e170",
+        "content_retried": false,
+        "protocol_sha256": "85b246b6f2580a3b19302c4625d9e9b4da3040c8c09a540be022250b4238669c",
+        "judge_id": "gpt_sol",
+        "sample_id": "R-150962443949",
+        "completed_utc": "2026-11-04T09:34:16.824171+00:00"
+      },
+      "result_file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/gpt_sol/R-150962443949/result.json",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/gpt_sol/R-150962443949/requests/000.json",
+      "request_file_sha256": "1351e8b1f58d5b60598c69e02192f261a6fdf48bbb46b9067977326b11ff9c86",
+      "request_body_sha256": "56328ab09f820cee7cd13f4aba710d26651d101b91715df631d247b1597d116b",
+      "raw_response_sha256": "c958f6f3b663d069a7f7db1e247215a8ce032ffbc5d54d77e14555be0cd4e170",
+      "raw_content": " {\"schema_version\":\"ch2_five_level_dual_eas\",\"sample_id\":\"R-150962443949\",\"judge_id\":\"gpt_sol\",\"judge_version\":\"current-calibration-candidate\",\"status\":\"complete\",\"points\":[{\"criterion_id\":\"E16-02.K1\",\"score\":0,\"reason\":\"未给出 Γ_i=(v_i/C_v)(∂p/∂T)。\"},{\"criterion_id\":\"E16-02.K2\",\"score\":0,\"reason\":\"所述声速公式与原文公式不符。\"},{\"criterion_id\":\"E16-02.K3\",\"score\":0,\"reason\":\"未表达“除非另有指定”的限定。\"}],\"fact_gate\":0.25,\"applicability_gate\":0.75}",
+      "usage": {
+        "prompt_tokens": 2344,
+        "completion_tokens": 1066,
+        "total_tokens": 3410,
+        "prompt_tokens_details": {
+          "cached_tokens": 2184
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 903
+        }
+      },
+      "finish_reason": "stop",
+      "attempts": [
+        {
+          "file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/gpt_sol/R-150962443949/requests/attempts/000/000.json",
+          "file_sha256": "823e6a3a8b09b73835c1f79b32c6682ca21c9b00a05d379715a6e528dc8e8d1e",
+          "status": "response",
+          "http_status": 200,
+          "error_type": null,
+          "seconds": 23.07799999997951,
+          "started_utc": "2026-11-04T09:33:53.737207+00:00",
+          "ended_utc": "2026-11-04T09:34:16.820594+00:00",
+          "transport_attempts": 1,
+          "request_sha256": "56328ab09f820cee7cd13f4aba710d26651d101b91715df631d247b1597d116b"
+        }
+      ]
+    },
+    {
+      "judge": "deepseek_flash",
+      "sample_id": "R-5204052d62d1",
+      "question_id": "E51-01",
+      "question": "在blastFoam多区域温度耦合中，globalTemperatureCoupled计算补丁温度时依据哪些邻居量？若边界只有部分与邻居补丁重叠，说明unmappedT的用途与默认值，并判断这些说明是否足以保证整个补丁最终都处于该默认温度。",
+      "conditional": true,
+      "expected_criteria": [
+        "E51-01.K1",
+        "E51-01.K2",
+        "E51-01.K3"
+      ],
+      "result": {
+        "status": "judge_output_failure",
+        "error_type": "ValueError",
+        "error": "Duplicate/mismatched criteria",
+        "response_sha256": "4014eee863de0e8a31d99cb0d25d674a6498c3cc20d67a99b20e4a79bdc130c8",
+        "content_retried": false,
+        "protocol_sha256": "85b246b6f2580a3b19302c4625d9e9b4da3040c8c09a540be022250b4238669c",
+        "judge_id": "deepseek_flash",
+        "sample_id": "R-5204052d62d1",
+        "completed_utc": "2026-11-04T09:45:36.651990+00:00"
+      },
+      "result_file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/deepseek_flash/R-5204052d62d1/result.json",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/deepseek_flash/R-5204052d62d1/requests/000.json",
+      "request_file_sha256": "af42a1edd6745bc0c52515250493656761c2b3f9ebcdb032f5d0cfd79eff45cb",
+      "request_body_sha256": "bcba7e78b6fa23a55cc5c7ce4e116224a4223382d1603a2bb8c4c8fe4c1f6ea5",
+      "raw_response_sha256": "4014eee863de0e8a31d99cb0d25d674a6498c3cc20d67a99b20e4a79bdc130c8",
+      "raw_content": "{\"schema_version\":\"ch2_five_level_dual_eas\",\"sample_id\":\"R-5204052d62d1\",\"judge_id\":\"deepseek_flash\",\"judge_version\":\"current-calibration-candidate\",\"status\":\"complete\",\"points\":[{\"criterion_id\":\"E51-01.K1\",\"score\":0.25,\"reason\":\"仅提到依据邻居区域温度场，遗漏传热系数和辐射热流两项必要作用量。\",\"answer_quote\":\"依据邻居区域的温度场\"},{\"criterion_id\":\"E51-01.K2\",\"score\":0.25,\"reason\":\"unmappedT用途方向基本正确，但默认值错误（说0，原文293.15），且未澄清不应视为统一温度设置。\",\"answer_quote\":\"默认值为0\"},{\"criterion_id\":\"E51-01.K3\",\"score\":0.5,\"reason\":\"核心“不足以保证整个补丁处于默认温度”方向正确，但默认温度指错，也未说明逐面规则及实际结果不保证。\",\"answer_quote\":\"不足以保证整个补丁最终处于该默认温度\"},{\"criterion_id\":\"E51-01.K4\",\"score\":0.5,\"reason\":\"部分事实正确但关键默认值错误，整体事实正确与错误混杂。\",\"answer_quote\":\"unmappedT用于处理未映射的温度值，默认值为0\"}],\"fact_gate\":0.5,\"applicability_gate\":0.5,\"reason\":\"默认值0与原文293.15冲突；核心不保证结论正确但条件参数和部分重叠表述有误。\"}",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cached_tokens": 0,
+        "completion_thinking_tokens": 2061,
+        "completion_tokens": 2395,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "reasoning_tokens": 2061,
+          "rejected_prediction_tokens": 0
+        },
+        "credit": 0.33,
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 2101,
+        "prompt_cache_write_tokens": 0,
+        "prompt_tokens": 2101,
+        "prompt_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "total_tokens": 4496
+      },
+      "finish_reason": "stop",
+      "attempts": [
+        {
+          "file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/deepseek_flash/R-5204052d62d1/requests/attempts/000/000.json",
+          "file_sha256": "80796400326ebd6972fec2e00968922d7f49fa1fa30b6ceac67822c0eff945a7",
+          "status": "response",
+          "http_status": 200,
+          "error_type": null,
+          "seconds": 16.07799999997951,
+          "started_utc": "2026-11-04T09:45:20.565394+00:00",
+          "ended_utc": "2026-11-04T09:45:36.646035+00:00",
+          "transport_attempts": 1,
+          "request_sha256": "bcba7e78b6fa23a55cc5c7ce4e116224a4223382d1603a2bb8c4c8fe4c1f6ea5"
+        }
+      ]
+    },
+    {
+      "judge": "gpt_sol",
+      "sample_id": "R-9467c32eb158",
+      "question_id": "P04-02",
+      "question": "若为爆炸环境场明确选用查表初始化，并沿用教程tableCoeffs中的correct false，表值设置之后是否还要求静水校正？此步骤与hydrostatic模式有什么不同？",
+      "conditional": true,
+      "expected_criteria": [
+        "P04-02.K1",
+        "P04-02.K2",
+        "P04-02.K3"
+      ],
+      "result": {
+        "status": "technical_unresolved",
+        "transport_status": "outcome_unknown",
+        "request_sha256": "baaa8700f832cad49e8af4d4b1e179ed161a22f0ddce4671bc4e3abdfa1c1dd8",
+        "retry_exhausted": true,
+        "protocol_sha256": "85b246b6f2580a3b19302c4625d9e9b4da3040c8c09a540be022250b4238669c",
+        "judge_id": "gpt_sol",
+        "sample_id": "R-9467c32eb158",
+        "completed_utc": "2026-11-04T09:54:37.204415+00:00"
+      },
+      "result_file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/gpt_sol/R-9467c32eb158/result.json",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/gpt_sol/R-9467c32eb158/requests/000.json",
+      "request_file_sha256": "fc5190fb8e53a7758cd2287bcc451c889dae0ac5d612d81e20d0d9e42768eb99",
+      "request_body_sha256": "baaa8700f832cad49e8af4d4b1e179ed161a22f0ddce4671bc4e3abdfa1c1dd8",
+      "raw_response_sha256": null,
+      "raw_content": null,
+      "usage": null,
+      "finish_reason": null,
+      "attempts": [
+        {
+          "file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/gpt_sol/R-9467c32eb158/requests/attempts/000/000.json",
+          "file_sha256": "218ae55c396ed2337e3da4fb904dcb9cc3110beabed55491dc13365c269677ab",
+          "status": "outcome_unknown",
+          "http_status": null,
+          "error_type": "RemoteDisconnected",
+          "seconds": 27.43699999997625,
+          "started_utc": "2026-11-04T09:52:53.601905+00:00",
+          "ended_utc": "2026-11-04T09:53:21.049116+00:00",
+          "transport_attempts": 1,
+          "request_sha256": "baaa8700f832cad49e8af4d4b1e179ed161a22f0ddce4671bc4e3abdfa1c1dd8"
+        },
+        {
+          "file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/gpt_sol/R-9467c32eb158/requests/attempts/000/001.json",
+          "file_sha256": "765078e9c2cb6ca5494e387a9d4fc2628bbc5849449083992b6c355b380c817c",
+          "status": "outcome_unknown",
+          "http_status": null,
+          "error_type": "RemoteDisconnected",
+          "seconds": 29.264999999955762,
+          "started_utc": "2026-11-04T09:53:26.102249+00:00",
+          "ended_utc": "2026-11-04T09:53:55.371544+00:00",
+          "transport_attempts": 1,
+          "request_sha256": "baaa8700f832cad49e8af4d4b1e179ed161a22f0ddce4671bc4e3abdfa1c1dd8"
+        },
+        {
+          "file": "graduation-experiment-results/chapter2_retrieval/evaluation/judge_calibration/85b246b6f258/gpt_sol/R-9467c32eb158/requests/attempts/000/002.json",
+          "file_sha256": "9a94094bd2282c037901fc383bf3158aed78f7c59f0e382dcb4211806670452f",
+          "status": "outcome_unknown",
+          "http_status": null,
+          "error_type": "RemoteDisconnected",
+          "seconds": 26.76600000000326,
+          "started_utc": "2026-11-04T09:54:10.432905+00:00",
+          "ended_utc": "2026-11-04T09:54:37.195820+00:00",
+          "transport_attempts": 1,
+          "request_sha256": "baaa8700f832cad49e8af4d4b1e179ed161a22f0ddce4671bc4e3abdfa1c1dd8"
+        }
+      ]
+    }
+  ],
+  "acceptance": {
+    "calibration_questions": 50,
+    "acceptance_questions": 50,
+    "intersection": 0,
+    "union": 100,
+    "spare_unseen_question_ids": 0,
+    "enabled_for_review": false,
+    "answers_bound": 0
+  },
+  "model_calls": 0,
+  "formal_items_changed": false,
+  "interpretive_note_correction": "Only the sample 37 maximum-error description was clarified; all packets, labels, metrics, source excerpts and raw failure records remain unchanged."
+}

@@ -1,0 +1,18 @@
+{
+  "acceptanceLocked": true,
+  "pendingBlocked": true,
+  "anonymous": true,
+  "digestMatches": true,
+  "currentCounts": {
+    "samples": 60,
+    "valid_answers": 59,
+    "failed": 1,
+    "human_completed": 0
+  },
+  "exportInitiallyBlocked": true,
+  "exported_count": 60,
+  "exported_complete": true,
+  "actual_packets_unchanged": true,
+  "synthetic_labels_written": false,
+  "passed": true
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "compact_interface_repair_offline_review_v1",
+  "verified_utc": "2026-11-04T01:47:12.586091+00:00",
+  "run_id": "compact_actions_multiline_20261104",
+  "segments": {
+    "compact_actions_multiline_20261104": 20,
+    "compact_actions_multiline_completion_20261104": 22
+  },
+  "integrity_passed": true,
+  "complete": true,
+  "interface_acceptance_passed": false,
+  "status": "synthetic_checks_complete_not_passed",
+  "model_requests": 42,
+  "planned_requests": 42,
+  "remaining_unsubmitted_requests": 0,
+  "models": {
+    "qwen3-8b": {
+      "requests": 14,
+      "case_statuses": {
+        "passed": 12
+      },
+      "all_submitted_wire_identity_token_schema_checks_passed": true,
+      "literal_fidelity_failures": [],
+      "full_model_suite_passed": true
+    },
+    "qwen3-14b": {
+      "requests": 14,
+      "case_statuses": {
+        "passed": 11,
+        "failed": 1
+      },
+      "all_submitted_wire_identity_token_schema_checks_passed": true,
+      "literal_fidelity_failures": [
+        {
+          "case": "external_whitespace",
+          "expected_repr": "'空白约束验证'",
+          "delivered_repr": "' '",
+          "classification": "literal_text_fidelity_failure_not_local_JSON_rewrite"
+        }
+      ],
+      "full_model_suite_passed": false
+    },
+    "llama3.1-8b": {
+      "requests": 14,
+      "case_statuses": {
+        "passed": 9,
+        "failed": 3
+      },
+      "all_submitted_wire_identity_token_schema_checks_passed": true,
+      "literal_fidelity_failures": [
+        {
+          "case": "newlines",
+          "expected_repr": "'第一行\\n  第二行\\t末尾'",
+          "delivered_repr": "'\\n第一行\\n  第二行\\t末尾\\n'",
+          "classification": "literal_text_fidelity_failure_not_local_JSON_rewrite"
+        },
+        {
+          "case": "objective",
+          "expected_repr": "'合成客观题'",
+          "delivered_repr": "'42'",
+          "classification": "literal_text_fidelity_failure_not_local_JSON_rewrite"
+        },
+        {
+          "case": "external_whitespace",
+          "expected_repr": "'空白约束验证'",
+          "delivered_repr": "' '",
+          "classification": "literal_text_fidelity_failure_not_local_JSON_rewrite"
+        }
+      ],
+      "full_model_suite_passed": false
+    }
+  },
+  "query_limit": 512,
+  "output_limit": 2048,
+  "old_calibration_files_unchanged": 238,
+  "formal_dispatch_closed": true,
+  "calibration_rerun_started": false,
+  "acceptance_started": false,
+  "full_matrix_started": false,
+  "human_packets_unchanged": true,
+  "new_human_labels": 0,
+  "ai_judge_calls": 0,
+  "previous_technical_files_unchanged": true,
+  "interpretation": "Synthetic interface checks only, not formal QA scores or human judge acceptance. All cases must pass in this complete run; previous failed probes remain unchanged and are not combined into its denominator."
+}

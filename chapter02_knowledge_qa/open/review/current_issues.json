@@ -1,0 +1,48 @@
+{
+  "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+  "independent_human_review": "pending",
+  "issues": [
+    {
+      "code": "OPEN-07",
+      "ids": [
+        "E15-02"
+      ],
+      "priority": "P2",
+      "title": "JWLC原文公式的物理一致性待专业核对",
+      "status": "source_validation_pending",
+      "conclusion": "当前题干与Gold已处理依赖可疑公式的评分风险；原始手册公式的物理含义仍需同版本实现或领域专家核对，不能把转录一致记为专业验证通过。",
+      "evidence": [
+        "manual/markdown/05_fluid_solid_thermo.md:520-555,688-715",
+        "source_pages/jwlc.png"
+      ]
+    },
+    {
+      "code": "OPEN-08",
+      "ids": [
+        "E42-01"
+      ],
+      "priority": "P2",
+      "title": "原文符号解释的歧义待专业核对",
+      "status": "source_validation_pending",
+      "conclusion": "当前表达及评分保留原文边界；原始来源的符号与物理解释仍需实现或原引用支持，不强制否定有依据的澄清。",
+      "evidence": [
+        "manual/markdown/11_amr.md:109-131",
+        "source_pages/density_gradient.png"
+      ]
+    },
+    {
+      "code": "OPEN-16",
+      "ids": [
+        "dataset"
+      ],
+      "priority": "P2",
+      "title": "题目覆盖与独立质量审核分开",
+      "status": "independent_review_pending",
+      "conclusion": "当前100题覆盖与分类配额保持不变；主题、知识组与文件覆盖只能描述范围，不能代替逐题独立质量复核。",
+      "evidence": [
+        "selection.json",
+        "records.json"
+      ]
+    }
+  ]
+}

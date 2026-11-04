@@ -1,0 +1,404 @@
+# 开放问答100题
+
+全量评价，不设开发集或测试留出集。此文件仅含公开题目，答案与证据仅在评分侧。
+
+## P01-01
+
+在爆炸冲击波计算中，AMR选用fieldValue并指定压力p。这里的“误差”具体是什么，能否直接当作压力解相对真值的误差？
+
+## P01-02
+
+若两个相邻单元的压力都很高但相同，为了区分高压区域与冲击波陡变，fieldValue和delta对这个场会给出什么不同指标？
+
+## P01-03
+
+相邻单元压力突变时，fieldValue和delta会有什么不同？我该怎么理解这两个细化指标？
+
+## P02-02
+
+爆炸压力先出现一个小峰，稍后出现更大的反射峰。按timeOfArrival手册定义，它应对应前一个首次响应时刻，还是后一个更大峰的时刻？
+
+## P02-03
+
+如果爆炸压力只有一个峰，并且它同时是第一次明显响应，能否由这个例子推断timeOfArrival在所有爆炸场景都测首次响应？
+
+## P03-01
+
+双装药爆轰教程中RDX、tnt和gas承担什么不同角色？解释两种炸药未反应/产物的状态方程，不能把相名与反应状态混为一谈。
+
+## P04-02
+
+若为爆炸环境场明确选用查表初始化，并沿用教程tableCoeffs中的correct false，表值设置之后是否还要求静水校正？此步骤与hydrostatic模式有什么不同？
+
+## P04-03
+
+若明确使用高度查表初始化，并把教程tableCoeffs中的correct改成true，后续校正流程怎样变化？不要推测最终压力必定仍等于原表值。
+
+## P04-05
+
+initializeAtmosphere为爆炸计算准备环境场时，目的只是给压力加一个常数吗？解释它要平衡的量，以及高度表中压力与温度的作用。
+
+## P05-02
+
+RDX爆炸材料通常被称作固体。能否据手册solid热力学类的常密度限制，判定双装药教程RDX reactants的Murnaghan配置错误？
+
+## P05-03
+
+若已经明确使用手册所述solid热力学类，能否照搬双装药RDX反应物的Murnaghan EOS？请区分类选择改变与材料名相同。
+
+## P06-02
+
+在DDT案例中，我要求物性给定与Su初始内部场都设成0.6 m/s，并保持墙面和空方向边界原样。应怎样同时满足这三个约束？
+
+## P06-03
+
+我在DDT算例里改了燃速参数，初始场文件里怎么还是原来的值？这两个设置会自动同步吗？
+
+## P07-01
+
+为爆炸高温高压状态评估eTabulated/tabulatedMG组合时，查表自变量、压力/温度输出与初始化内能怎样联系？请对照一般eTabulated段的输入输出定义，解释为什么不能混用这两处的变量说明。
+
+## P07-04
+
+在shockTube_tabulated里，rhoCoeffs/eCoeffs和pCoeffs/TCoeffs的mod不同。解释各自作用域，并说明为何不能只读一个mod就概括整张爆炸EOS表的变换。
+
+## P08-01
+
+轴对称装药教程的pressureProbes是否允许把网格外探针移到网格内？结合手册解释显式选择、默认值和移动目标。
+
+## P08-02
+
+若复制轴对称装药pressureProbes后删掉adjustLocations一行，其他设置保持，网格外探针还应被默认自动调整吗？
+
+## P09-01
+
+delayedDetonation说明说用了linear，但当前phaseProperties选了什么？两处对六个点和延迟数量的说法怎样核对，哪些结论需要保留差异？
+
+## P10-01
+
+preCICE挡板教程是否与爆炸有关？说明提到movingAdaptiveFvMesh，但当前Fluid动态网格字典选了什么，能否只凭细化条目判定正在AMR？
+
+## P10-05
+
+我照挡板耦合例子用preCICE，没有开自适应细化，还需要因为checkpointing的限制改网格设置吗？
+
+## P11-05
+
+我想给爆炸反应气体准备输运和热化学参数，reacting例子里的配置能直接照搬吗？需要重点检查什么？
+
+## P12-01
+
+自由场C4爆炸教程中，通量、重构和时间积分各选了什么？结合方法说明解释这三类选择分别负责哪一步，不能只列配置名称。
+
+## P12-03
+
+若只把自由场爆炸fluxScheme从Kurganov改成HLLC，其对接触波的处理有什么方法依据？未改重构和timeIntegrator时，能否说后两者也自动改变？
+
+## P12-04
+
+自由场例子如果不改通量设置，实际用的是什么方法？能把手册里HLLC的接触波处理算到它上面吗？
+
+## E13-04
+
+eConst和ePower里的参考温度、参考能量和比热参数分别怎么理解？哪些有默认值？
+
+## E14-03
+
+在 blastFoam 固相热输运模型中，constIso 与 constAnIso 对导热系数 kappa 的取值形式有何本质区别？这一区别对“各向同性/各向异性”判断意味着什么？
+
+## E15-02
+
+用JWLC时，算压力还需要温度或内能吗？它是怎样计算压力的？
+
+## E15-03
+
+在 blastFoam 的 JWL 模型说明中，solidJWL 类型用于未反应状态时，e_{0,i} 与 pRef 的作用是什么？热能在该固体情形下是否被考虑？
+
+## E16-02
+
+原文在 5.2.3 节说明，当某些状态方程无法转换为基于内能的形式时，会改用局部温度定义热力学压力。此时 Grüneisen 系数 Γ_i 与声速 c_i^2 分别按什么关系计算？
+
+## E17-02
+
+原文把 stiffenedGas 写成 Mie-Grüneisen 形式时，Γ_i、Π_i、δ_i 分别取什么？请据此说明 stiffenedGas 与 idealGas 在 Mie-Grüneisen 参数上的差别。
+
+## E18-05
+
+在 twoChargeDetonation 教程的 phaseProperties 中，RDX 反应物使用 Murnaghan 状态方程，TNT 反应物使用 BirchMurnaghan3 状态方程。如果仅将 RDX 反应物的状态方程从 Murnaghan 改为 BirchMurnaghan3，但保留原有参数名称和数值，根据原文定义，这种改动是否可以直接进行？请说明理由。
+
+## E19-04
+
+结合 Miller 模型方程和 internalDetonation 教程配置，说明 pMin 与 pScale 在计算后燃速率时如何共同作用。若将 pScale 从 1e-6 改为 1，后燃速率表达式中的压力项会如何变化？
+
+## E19-06
+
+我想用Miller模型模拟受限空间里的后燃。它怎样描述后燃放热，教程有没有说明这类计算的精度和验证情况？
+
+## E20-01
+
+在 blastFoam 的相字典中，如果完全没有出现 afterburnModel 关键字，按原文会采用哪一种后燃处理？这种处理对能量加入和压力温度有什么直接后果？
+
+## E21-01
+
+我想核对ArrheniusRate的反应源项：温度低于起燃阈值、越过起燃阈值以及达到切换温度后，分别应使用什么完整速率表达式？局部温度从哪些量得到？把这个模型用于定量预测前，还需要注意什么？
+
+## E21-03
+
+ArrheniusRate用到的温度和粒径是从哪里来的，需要另外设置吗？这个模型目前验证过了吗？
+
+## E22-03
+
+反应进度lambda是怎么随流场输运的？反应速率从哪里来，数值格式又在哪儿设置？
+
+## E23-05
+
+我在复现twoChargeDetonation教程，TNT的initiation里有pMin 5e5，pressureBased模型说明里又有压力幂项和minLambda1、maxLambda1。这几类量各在表达什么？结合教程配置和模型说明，能把pMin的具体作用范围解释到哪一步？
+
+## E24-05
+
+在 blastFoam 中，activationModel 设为 none 与设为 linear 时，对爆轰点、延迟和反应进度变量输运的支持有何本质区别？请分别说明两种模型下的适用条件。
+
+## E25-07
+
+若把 burstingWindow_workshop 实例中的 useDelta 从 no 改为 yes，而其他 burst 配置保持不变，依据 blastFoam 通用 burst 配置说明，burst 判定所依据的量会发生什么变化？请说明该改动的影响范围。
+
+## E26-02
+
+在 blastFoam 的 burst patch 配置中，如果只使用冲量模型判断破裂，需要提供哪些输入项？运行仿真时为什么建议使用 impulse functionObject？
+
+## E27-02
+
+我在用field破裂模型，想设置压力和冲量两个阈值，字典里该怎么写？
+
+## E28-01
+
+在 blastFoam 的 burst 补丁体系中，手册说明所有字段都需要在其字典中额外增加一个条目来指定“破裂前”的边界条件。这个条目的名称是什么，它被用来做什么？同时，手册指出该条目应放在哪个字典层级？
+
+## E28-05
+
+手册里写intactField，例子里却是intactPatch，这两个该用哪个？能直接改成一样的吗？
+
+## E29-06
+
+我只改了后处理的参考压力，峰值超压会跟着变吗？峰值场又是怎么统计的？
+
+## E30-01
+
+在 blastFoam 的 function object 配置中，impulse 函数对象计算冲量时依据哪个压力场和参考压力？其默认压力场名是什么，pRef 条目表示什么？
+
+## E31-01
+
+在 blastFoam 中，dynamicPressure 函数对象输出的“动态压力”在数学上如何定义？该输出是标量还是向量？其向量幅值的物理含义是什么？
+
+## E32-02
+
+我想减少保存内容，把overpressure的store关掉后，fieldMinMax还能统计超压吗？
+
+## E33-01
+
+在 blastFoam 的 function objects 配置中，conservedQuantities 功能对象用于做什么？它输出哪些量，以及通过什么字典条目指定要跟踪的场？
+
+## E33-02
+
+我的爆炸算例存在向计算域注入或从域内移除物理量的过程，准备用conservedQuantities检查守恒。如果它打印的总量发生变化，能否直接判断求解器不守恒？这些输出能说明什么，还需要核对哪些收支信息？
+
+## E34-01
+
+在 blastFoam 的 function objects 文档中，若要对某个标量场做 Schlieren 可视化，应使用哪个算子对象？该对象对输入场类型有何限制，结果字段默认如何命名？
+
+## E35-01
+
+在 blastFoam 中，blastMachNo 函数对象与 OpenFOAM 标准 machNo 在声速来源上的关键区别是什么？该区别对相字段命名有何影响？
+
+## E36-01
+
+我想让已有结果导出的VTK动画更流畅，能补一些中间时刻吗？这样算提高了仿真的时间分辨率吗？
+
+## E37-03
+
+在 blastFoam 中，如果只想合并部分探针字段而不是全部字段，mergeProbes 提供了哪个选项？该选项与 -force 的作用有何不同？默认情况下该选项的行为是什么？
+
+## E38-02
+
+使用 createTimeSeries 时，-outputDir 选项的作用对象是什么？它与 -absolute 所影响的内容是否属于同一层面？请依据原文说明二者分别控制什么。
+
+## E39-03
+
+rotateFields 工具当前在映射时是否守恒？这种非守恒特性对爆炸流场特征可能产生什么影响？
+
+## E40-02
+
+在 mappedBuilding3D 顶层 Allrun 中，用户显式传入 -w 或 -wedge 时，startCase 与符号链接目标如何变化？该分支与默认分支在后续调用链上是否相同？请依据脚本原文判断。
+
+## E41-05
+
+在 blastFoam 的 AMR cellSize 配置中，type 可选的几何模式有哪些？若某用户希望细化判据基于单元体积，应选择哪种 type 并配合哪些参数？若希望基于相关方向的幅值，又应选择哪种 type 并配合哪些参数？
+
+## E41-06
+
+在 blastFoam 的 AMR cellSize 配置中，若将 type 从 volume 改为 cmpt，所需参数会从体积类参数变为哪些参数？cmpts 条目在此模式下起什么作用？maxRefinement 的默认值是否因 type 改变而改变？
+
+## E42-01
+
+densityGradient看的是总密度还是某一相的密度？它怎样衡量哪里变化大，有做归一化吗？
+
+## E42-03
+
+在 blastFoam 的 AMR 中，densityGradient 误差估计器与 beginUnrefine 参数如何共同影响自由场爆炸仿真的网格演化？请结合自由场教程配置说明。
+
+## E43-02
+
+Löhner 误差估计方法在 blastFoam 中如何计算误差？它为何需要修改才能用于非笛卡尔网格，以及该方法有哪些配置项？
+
+## E44-02
+
+我在做TNT爆炸算例，希望网格同时跟踪密度变化、压力变化和TNT体积分数界面。blastFoam里怎样把这几种细化指标组合起来？请给出一种配置组织方式，并说明多个指标的误差最后怎样合并。
+
+## E44-03
+
+在 multicomponent 误差估计器的 volumeFraction 子字典中，lowerRefineLevel 为 0.1、unrefineLevel 为 0.05、upperRefineLevel 为 0.6、upperUnrefineLevel 为 0.7。请解释这些阈值如何共同限定 alpha.tnt 的加密与解加密行为，并说明该子字典的 maxRefinement 为 1 意味着什么。
+
+## E45-02
+
+我准备给大规模并行算例开启adaptiveFvMesh的动态负载平衡，希望减少计算时间。使用标准blastFoam时，能否认为稳定性已有保证？如果把同样的网格类用到其他求解器，还要留意哪些风险？
+
+## E45-04
+
+我的算例既需要AMR，也需要网格运动，正在考虑从adaptiveFvMesh换成movingAdaptiveFvMesh。这样会失去原有AMR能力吗？后者扩展了什么网格能力，手册推荐配哪种运动求解器？
+
+## E46-01
+
+在 blastFoam 的爆炸初始场设置中，setRefinedFields 与标准 OpenFOAM 的 setFields 在网格细化方面有何本质区别？该工具迭代细化的终止条件是什么？
+
+## E47-03
+
+教程指出 burst patches 允许内部面在条件满足前与满足后表现不同。请结合该教程说明：在条件满足前，这些内部面被当作什么处理？条件满足后又发生什么？并指出该行为在教程中与哪类 patch 类型关联。
+
+## E48-03
+
+对比 blastFoam building3D 与 blastFSIFoam building3D 两个 Allrun 脚本：在网格准备阶段，前者是否拆分区域？后者是否拆分区域？两者在运行求解器前对内部 patch 的处理分别是什么？
+
+## E49-01
+
+在 blastFSIFoam 的挡板算例中，该算例被用来演示什么能力？该算例的几何与载荷设置是什么？
+
+## E49-05
+
+我准备以blastFSIFoam/flap挡板算例为起点修改设置。改动后需要预期什么稳定性风险？如果完全保留原设置，是否就能认为运行一定不会崩溃？
+
+## E50-02
+
+我准备研究带强压缩效应的燃烧和DDT，正在了解blastXiFoam。它在标准OpenFOAM Xi-Foam基础上改变了什么，为什么会被介绍用于这类流动？Experimental标注对我选用它意味着什么？
+
+## E50-03
+
+若一个算例的 constant/phaseProperties 中提供了多于一个相位的列表，依据原文 blastFoam 求解器会如何选择单相、两相或多相求解器？如果未指定 phases 关键字，又会选择哪种求解器？请结合原文对 blastFoam 求解器选择逻辑的描述回答。
+
+## E51-01
+
+在blastFoam多区域温度耦合中，globalTemperatureCoupled计算补丁温度时依据哪些邻居量？若边界只有部分与邻居补丁重叠，说明unmappedT的用途与默认值，并判断这些说明是否足以保证整个补丁最终都处于该默认温度。
+
+## E52-01
+
+在 blastFoam 中，当 phaseProperties 里指定了一个尚未编译过的热力学组合（例如 transport const、thermo eConst、equationOfState idealGas），根据原文，运行时会如何处理？这种处理方式对后续修改源代码有什么影响？
+
+## E53-03
+
+我的Mie-Grüneisen相除了初始p、rho、T，还提供了内能e，calculateDensity没有定义。这时p和T继续直接沿用输入值，还是由rho、e重新计算？与没有提供e时相比，初始化的输入输出方向发生了什么变化？
+
+## E53-06
+
+我给采用Mie-Grüneisen形式状态方程的相准备了初始p、rho、T，没有提供内能场，也没写calculateDensity。初始化内能时实际以哪两个量为输入？程序会先用p和T把rho重算一遍吗？
+
+## E53-07
+
+我给Mie-Grüneisen相准备了初始p、rho、T，没有提供内能场，但在状态方程字典中设了calculateDensity yes。初始化时会先处理rho还是内能？内能计算会直接沿用原rho，还是要等密度重算后再进行？
+
+## E54-01
+
+在 blastFoam 的 fvSchemes 中，若为湍流场或组分质量分数等附加输运量启用 Riemann 通量，应如何配置 divSchemes 与 interpolationSchemes？该配置在什么条件下可能失效？
+
+## E55-01
+
+在 blastFoam 的 building3DWorkshop 案例中，若想为计算域内若干离散位置获取压力/时间历史，原文推荐用哪条命令生成探针文件，生成后该文件位于何处，又应如何把它接入 controlDict 才会在运行中生效？
+
+## N56-03
+
+blastEulerFoam的“多流体”与blastFoam手册单流体中的“多相”分别怎样组织速度和能量？为什么具有多个状态方程不等于每相拥有独立速度？
+
+## N57-03
+
+GidaspowErgunWenYu中，连续相体积分数由0.80变为0.81时，阻力关联式怎样切换？分别说明选中关联式中的体积分数依赖，不需给出数值阻力。
+
+## N58-03
+
+对照流体const输运模型和相间换热章节，二者写出的Pr相关关系分别使用C_p还是C_v？请保留原文公式的差别，说明仅凭同名Pr能否把两式逐项视为完全相同。
+
+## N59-02
+
+界面压力的volumeAveraged、totalPressure与界面速度的massAveraged，分别对什么量采用什么加权？为什么不能统称为同一种“相平均”？
+
+## N60-02
+
+constant和constantMass两种粒径模型中，“constant”分别约束什么？对照它们的输入条目和直径场写出说明，不能把恒质量直接解释为恒直径。
+
+## N60-03
+
+reacting粒径模型选用pressureBased反应率，关系中的压力按MPa表示。若误把pScale设为1而不是1e-6，粒径输运方程的哪一项受到影响？请说明正确缩放和k的压力幂形式。
+
+## N61-02
+
+对照duct与Gunn努塞尔数模型，连续相体积分数是否以显式变量出现？请说明各自关联式的结构，不能只凭都含Re和Pr认为它们相同。
+
+## N61-03
+
+sphere和RanzMarschall都能算Nu。同样的流动条件下，它们对换热项的影响有什么区别？
+
+## N62-02
+
+Gao径向分布模型如何从各相自身的径向分布构造g0,ij？对照Lebowitz，二者怎样引入粒径信息和其他颗粒相的信息？
+
+## N62-03
+
+手册中granular energy、granular temperature与热内能是什么关系？为什么颗粒模型列表还需要碰撞相关闭合，不能只配置流体热力学模型？
+
+## N63-02
+
+JohnsonJackson和JohnsonJacksonSchaeffer在摩擦压力、摩擦黏度的计算上有哪些相同和不同？
+
+## N64-02
+
+constant与YuStandish堆积模型如何分别给出堆积限？请说明constant的输入，以及YuStandish对相排序和局部组成的使用方式。
+
+## N64-03
+
+把单分散颗粒案例扩为粒径相差很大的多分散体系时，能否原样沿用CarnahanStarling径向分布，并断言局部最大堆积限一定不变？依据手册分别判断这两项。
+
+## N65-01
+
+两个算例的最大黏度分别为0和非零。按blastFoam湍流章节，momentumTransport或turbulenceProperties字典在两种情况下是否都可以省略？
+
+## N66-01
+
+logPolynomial输运模型对哪些量的自然对数作多项式拟合？自变量是什么，黏度和导热分别需要多少个系数？
+
+## N66-03
+
+我在整理物性表，icoTabulated和tabulated各需要哪些数据？二维查表还能提供哪些导数？
+
+## N67-02
+
+固体exponential与polynomial模型怎样分别描述温度相关导热？请比较参考温度的使用和参数组织，不要把流体黏度系数加入固体模型。
+
+## N67-03
+
+tabulatedIso和tabulatedAnIso固体输运的各向性不同，是否意味着后者必须改用三维自变量表？请分别说明两者的查表自变量、输出名称及资料注明的表维数。
+
+## N68-01
+
+若要求在两个流体相之间直接启用手册第3.5节的质量传递模型，是否落在当前支持范围？它与particle-to-fluid质量传递的范围有何区别？
+
+## N69-02
+
+颗粒声速公式为何依赖所选压力闭合？以Lun模型为例，说明碰撞压力项P_s,ij与体积分数、颗粒温度、恢复系数和径向分布的关系，并指出摩擦压力在声速总压中的位置。
+

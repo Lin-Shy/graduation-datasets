@@ -1,0 +1,60 @@
+{
+  "schema": "human_review_completion_v1",
+  "phase": "calibration",
+  "reviewer": "blastfoam专家",
+  "recorded_utc": "2026-11-04T09:11:52.778535+00:00",
+  "completed_records": 60,
+  "necessary_point_scores": 162,
+  "missing_items": 0,
+  "unknown_items": 1,
+  "unknown_sample": {
+    "display_number": 35,
+    "sample_id": "R-98886a357967",
+    "item": "F",
+    "value": "unknown"
+  },
+  "generation_failures": 1,
+  "failed_sample": {
+    "display_number": 49,
+    "sample_id": "R-b4b3db33fb3d",
+    "EAS": 0,
+    "Strict": 0
+  },
+  "formal_validator_passed": true,
+  "disclosure": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。",
+  "provenance": {
+    "review_method": "ai_assisted_human_confirmed",
+    "reviewer_signature": "blastfoam专家",
+    "reviewer_signature_source": "User-supplied signature: blastfoam专家",
+    "human_confirmation": "上述你的推荐评分和具体内容我都已经一一查看没有问题和错误。接下来你帮我把评分填进去，完成这个人工工作。",
+    "recorded_utc": "2026-11-04T09:11:52.778535+00:00",
+    "timestamp_meaning": "Time of recording the human-confirmed batch; not invented per-item review times.",
+    "disclosure": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。",
+    "packet_file_sha256": "3957c57213234453d7b37751cb6fc00ed005b137e5f4583a9e610f2f6ecee440",
+    "independent_unassisted_human_review": false,
+    "acceptance_review_completed": false,
+    "ai_judge_calibration_completed": false
+  },
+  "protected_files_sha256": {
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/packets.json": "3957c57213234453d7b37751cb6fc00ed005b137e5f4583a9e610f2f6ecee440",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/acceptance/packets.json": "ab1c1e1cf2223755ff076a9a2464ffbbe6ea7098a8ed7f502fe939f14eb4bb4e",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/blank_labels.json": "b7746cd69042e8458ae36068cecfa331ae6d21d1d447e3d2f6d0fff9edb143ec",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/acceptance/blank_labels.json": "8927e16e37838a6bd5dd303ca51a82753682f7b1577bee7657f9a3b971bb3eb4",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/index.html": "ca19de31f648dc8a2ab2e14ffdfbee54f797cb4da63a844eb1784f200be11364",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/scoring_rules.json": "1081853b3f47b622eb9fe474804612c4e0324282ae4dc7a0ec6fdd5942d5439f",
+    "PrincipiaBlastFoam-DSH/experiments/chapter2/judge_prompt.txt": "4d3c55c8f4ed79b13ef3f0372e5ef0a63b4437769b1e9fdd6bf7a49ffdd80964",
+    "graduation-datasets/chapter02_knowledge_qa/binding.json": "a202ef0302561a8ba0e3f2c658cf9ac5c61a6868987cf631bd9eff70353fc424",
+    "graduation-datasets/chapter02_knowledge_qa/open/scoring/annotations.json": "c847653c4b326ff2b80197fa24779abbdadbc9f1e041f5d8618f084ec34993b8"
+  },
+  "labels_path": "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/calibration_completed_human_labels.json",
+  "completed_page_path": "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/completed_review.html",
+  "labels_sha256": "0823df7703f7af219005dbe7ed488bf317cda85a44d999f49d3598d11c4670f4",
+  "completed_page_sha256": "e78e5917da4697e3b2f7483eb7467f83f018e8af914eced0a371f4f867ce26e7",
+  "validation_path": "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/human_labels_validation.json",
+  "validation_sha256": "54fe504144e89e8bc9f409cc09ad0f990910467e2789fd163e320190feb8d000",
+  "page_offline_validation_path": "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/page_offline_validation.json",
+  "page_offline_validation_sha256": "df89b29729ea8323e02e8725488a4a640f66130a67fbf2ae7e2fa8bf75ccc931",
+  "transcription_script_sha256": "8bf29d3620af020fe01c10391b0d478369699c9f9e26b6fb905f25a3b4d6545f",
+  "browser_render_verified": false,
+  "browser_render_limitation": "Browser tool URL policy disallows file: navigation. Offline syntax, embedded-data equality and 60 JavaScript packet digest checks passed."
+}

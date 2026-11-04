@@ -1,0 +1,16 @@
+[
+  {
+    "subject": "jwlc",
+    "pdf_page": 59,
+    "source": "graduation-datasets/raw-corpus/blastfoam/blastFoam_user_guide/BlastFoam_User_Guide.pdf",
+    "sha256": "54785d1f8f152b0c0b78444203f438ea3887dc79da2067b462da3f59810b959b",
+    "render": "graduation-datasets/chapter02_knowledge_qa/open/review/source_pages/jwlc.png"
+  },
+  {
+    "subject": "density_gradient",
+    "pdf_page": 110,
+    "source": "graduation-datasets/raw-corpus/blastfoam/blastFoam_user_guide/BlastFoam_User_Guide.pdf",
+    "sha256": "54785d1f8f152b0c0b78444203f438ea3887dc79da2067b462da3f59810b959b",
+    "render": "graduation-datasets/chapter02_knowledge_qa/open/review/source_pages/density_gradient.png"
+  }
+]

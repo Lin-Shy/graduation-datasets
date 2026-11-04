@@ -1,0 +1,2071 @@
+{
+  "schema": "human_review_labels_v1",
+  "phase": "calibration",
+  "labels": [
+    {
+      "sample_id": "R-22fc0a271924",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "126dec168db91de3712ce804078f2392602b8279cfd67ecf7f9e1fadcc43f143",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-22fc0a271924",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E14-03.K1",
+            "score": 0.75,
+            "reason": "标量及各向同性正确，遗漏常数属性且同质性用词不准。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E14-03.K2",
+            "score": 0.75,
+            "reason": "矢量及各向异性正确，遗漏常数属性且异质性用词不准。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E14-03.K3",
+            "score": 0.5,
+            "reason": "正确说明标量与矢量区别，遗漏共同单位W/m/K。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.75,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第1份；F：核心区别正确，但同质性/异质性与各向同性/各向异性混用。"
+      }
+    },
+    {
+      "sample_id": "R-150962443949",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "074f7c361ddeea686573b9f37224488be7367cee102be1261d8661ab4411c5be",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-150962443949",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E16-02.K1",
+            "score": 0,
+            "reason": "未给温度型分支的Gamma定义。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E16-02.K2",
+            "score": 0,
+            "reason": "用内能型声速公式代替温度型关系。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E16-02.K3",
+            "score": 0,
+            "reason": "未说明除非另有指定的默认适用条件。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第2份；F：所抄公式有来源，但将内能型关系用于题设温度型分支，核心适用关系错误。"
+      }
+    },
+    {
+      "sample_id": "R-235d4357f6f9",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "c50e13ede18d8c29cabf8c9086764c2dcb2530f01b8392c2a14c7cffe3d3f8ea",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-235d4357f6f9",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E53-07.K1",
+            "score": 0.75,
+            "reason": "知道先处理密度，未明确由p、T重算rho。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E53-07.K2",
+            "score": 0,
+            "reason": "明确主张沿用初始rho而不等待密度重算，错误。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": 0.5,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第3份；F/A：前述顺序部分正确，随后对新旧rho的选择错误，整答存在直接矛盾。"
+      }
+    },
+    {
+      "sample_id": "R-a4d15ed2fed1",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "1ca9658c4d172d9455ee1e77add73603ee87541768e9d249b80a60bfe7faf5b9",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-a4d15ed2fed1",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E47-03.K1",
+            "score": 1,
+            "reason": "条件前作为wall正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E47-03.K2",
+            "score": 1,
+            "reason": "条件满足后burst正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E47-03.K3",
+            "score": 1,
+            "reason": "burstCyclicAMI类型正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第4份；F/A：条件前后行为及类型完整正确，未要求具体阈值。"
+      }
+    },
+    {
+      "sample_id": "R-0f32329417ab",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "f215784d64f8542b361b7458e61b91c1b59490b51e701dd2c593ed191731b0a2",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-0f32329417ab",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E25-07.K1",
+            "score": 0.75,
+            "reason": "最大值改为差值方向正确，但将耦合patch写成相邻patch、单个patch最大值。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E25-07.K2",
+            "score": 1,
+            "reason": "正确对应no到yes的改动。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E25-07.K3",
+            "score": 0.5,
+            "reason": "压力差体现压力判据，但未明确burstModel仍为pressure，范围说明笼统。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.75,
+        "applicability_gate": 0.75,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第5份；F/A：主要改动判断正确，耦合关系表述不准，未充分限定其余配置保持不变。"
+      }
+    },
+    {
+      "sample_id": "R-961e29e7b822",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "12a4ea30ea2e2d837dbf79e0d5c0705cc74c7e7e3b21e96752e30100dfb19de1",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-961e29e7b822",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P02-03.K1",
+            "score": 0,
+            "reason": "未说明题设中首次明显响应与最大压力时刻可以重合。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P02-03.K2",
+            "score": 1,
+            "reason": "最大压力时刻定义及单例不能泛化的结论正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第6份；F/A：已有事实与不可泛化结论正确；遗漏重合说明属于完整性问题。"
+      }
+    },
+    {
+      "sample_id": "R-68d99d07ca65",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "cc2895a212f1f1a3b629cacfbae9bb4ac6046f6c1cfb55fae6715208465cdd3c",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-68d99d07ca65",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N66-03.K1",
+            "score": 0.75,
+            "reason": "以T查mu和kappa正确，未明确两个一维表。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N66-03.K2",
+            "score": 0.25,
+            "reason": "涉及二维及rho、T组合，但混同EOS查表，未正确给出mu/kappa输出。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N66-03.K3",
+            "score": 0,
+            "reason": "未给一阶、二阶、纯导数及混合导数。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第7份；F：第一部分基本正确，后续存在输运与EOS混淆及缺乏依据的导数描述。"
+      }
+    },
+    {
+      "sample_id": "R-ea296aac041f",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "156d4f9aceb096b8ef2d07aee48c28cb1fc89e5681b8f934bab5160f82469031",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-ea296aac041f",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E37-03.K1",
+            "score": 0.25,
+            "reason": "知道字段选择目的，但正确选项应为-probeNames而非-select。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E37-03.K2",
+            "score": 0,
+            "reason": "未答出-force覆盖已有合并结果，解释错误。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E37-03.K3",
+            "score": 0.75,
+            "reason": "默认全部字段正确，遗漏起始时间文件夹范围。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": 0.25,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第8份；F/A：默认行为部分正确，两个关键选项均解释错误，无法据此正确完成筛选。"
+      }
+    },
+    {
+      "sample_id": "R-dcab767cce7f",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "5aeb57505ae144404afd2f6989266a38a6c749c1946e2f17d203244b4a9d0c62",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-dcab767cce7f",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P07-04.K1",
+            "score": 1,
+            "reason": "各mod取值正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P07-04.K2",
+            "score": 0.5,
+            "reason": "给出按变量独立配置的概念，未清楚区分输入轴与输出及子字典前缀规则。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P07-04.K3",
+            "score": 1,
+            "reason": "不能将一个mod套到全部量的结论正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第9份；F：已有陈述基本正确，主要问题是作用域解释不完整。"
+      }
+    },
+    {
+      "sample_id": "R-1f44efb07946",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "51de71c7aa10e3aec5b751abd2d88e60216cabe5b46b40cca467d49fbfe18187",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-1f44efb07946",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E49-01.K1",
+            "score": 1,
+            "reason": "FSI能力演示正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E49-01.K2",
+            "score": 1,
+            "reason": "二维小型C4装药靠近墙壁起爆正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E49-01.K3",
+            "score": 1,
+            "reason": "挡板变形及影响波传播正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第10份；F：覆盖全部必要点，无实质性错误；不因未提开发状态扣分。"
+      }
+    },
+    {
+      "sample_id": "R-175dcf3ef079",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "db715d0e02af1103a605ba3ca83f1887da713e9a3c5453e6529f8f4a06e1a682",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-175dcf3ef079",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E15-03.K1",
+            "score": 1,
+            "reason": "参考密度处零压力的偏移能量及pRef用途正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E15-03.K2",
+            "score": 1,
+            "reason": "固体分支不考虑热能正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第11份；F：完整符合solidJWL未反应分支说明。"
+      }
+    },
+    {
+      "sample_id": "R-cfc0ed22da7f",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "f5eda28aeb58d8ba9f41ab822baa77b68cc716e02e1d37d3dc0bbf5d72d385d5",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-cfc0ed22da7f",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E17-02.K1",
+            "score": 0.5,
+            "reason": "Gamma和delta正确，Pi误写为gamma*(b-a)，应为gamma*a。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E17-02.K2",
+            "score": 1,
+            "reason": "idealGas三参数正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E17-02.K3",
+            "score": 0.5,
+            "reason": "识别差别集中在Pi，但具体差别写错。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第12份；F：正确参数与直接影响比较的关键Pi错误混杂。"
+      }
+    },
+    {
+      "sample_id": "R-fbb64ddc54d5",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "a0bca99107e23f594b5ad4701ce8ecf23dbb0215f546863064ff5fe032a0aa7b",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-fbb64ddc54d5",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E28-01.K1",
+            "score": 1,
+            "reason": "intactField名称及用途正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E28-01.K2",
+            "score": 0.25,
+            "reason": "开头提字段字典，但最后混淆为burstModel配置层级。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第13份；F：名称与功能正确，最后关于配置层级的说明存在重要错误。"
+      }
+    },
+    {
+      "sample_id": "R-05d7618f80f0",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "b8654bad07b5d92016c0594d8c8d4f7d800eb2b318d2cd0d860189ba43d1cf6d",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-05d7618f80f0",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E38-02.K1",
+            "score": 1,
+            "reason": "正确说明-outputDir指定series文件写入位置。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E38-02.K2",
+            "score": 1,
+            "reason": "正确说明-absolute控制文件路径表示方式。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第14份；F：两个选项的对象与作用层面均正确。"
+      }
+    },
+    {
+      "sample_id": "R-7cc108391aa2",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "7f40bceb0524b2c975bf942b96e27eb014f9db2c7459cb4e263d12e2bdc1eebf",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-7cc108391aa2",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N64-03.K1",
+            "score": 1,
+            "reason": "正确限制CarnahanStarling为单分散。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N64-03.K2",
+            "score": 0,
+            "reason": "遗漏大小颗粒填隙使局部堆积限变化的机制。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N64-03.K3",
+            "score": 0.75,
+            "reason": "拒绝断言多分散堆积限不变，但未联系单分散常数建议的适用范围。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.75,
+        "applicability_gate": 0.75,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第15份；F/A：主要结论方向正确，但手册已有堆积限变化说明，不能归为资料未明确。"
+      }
+    },
+    {
+      "sample_id": "R-f7293acb12b5",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "291ca9ec660fa285d7b5b57aa6ced379bcd749b11dcbf170f7c49dddfdbde02c",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-f7293acb12b5",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N59-02.K1",
+            "score": 1,
+            "reason": "volumeAveraged压力的体积分数平均正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N59-02.K2",
+            "score": 1,
+            "reason": "totalPressure中两种压力及不同权重正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N59-02.K3",
+            "score": 1,
+            "reason": "massAveraged速度的相质量平均及比较正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第16份；F：对象、权重与不能混称一种平均的解释完整正确。"
+      }
+    },
+    {
+      "sample_id": "R-0e43fccfa926",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "0f0ea944b23c1eafedc9d9cc9b4c153a31a07751a41f33df9f7b02167b2d01b8",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-0e43fccfa926",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P07-01.K1",
+            "score": 0.25,
+            "reason": "仅rho输入正确，专用组合应以rho、e查p/T。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P07-01.K2",
+            "score": 0,
+            "reason": "未说明给定p、rho反查初始化内能。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P07-01.K3",
+            "score": 0.25,
+            "reason": "一般段的变量出现，但直接套入专用组合，未做正确区分。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第17份；F：将一般eTabulated映射套用于专用组合，核心关系大多错误。"
+      }
+    },
+    {
+      "sample_id": "R-48d679ae4f9c",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "c402df03934699fd275b242f8b96e888de215eb32e9fb9de58f6396be3da8d86",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-48d679ae4f9c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P04-03.K1",
+            "score": 0.5,
+            "reason": "说明查表后修正，但未指出静水校正。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P04-03.K2",
+            "score": 0.75,
+            "reason": "识别true启用后续修正，未清楚对照原false。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P04-03.K3",
+            "score": 1,
+            "reason": "正确说明修正可能调整场且最终压力不保证等于表值。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 0.75,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第18份；F：未发现明确实质性错误，可能性举例不作为已验证结论。A：主要条件正确，具体流程不完整。"
+      }
+    },
+    {
+      "sample_id": "R-082de350f0cf",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "84808d9b121aba7d3b73a16ae34142899e2da3210666705167fba9f3e0c6b3de",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-082de350f0cf",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P06-03.K1",
+            "score": 0,
+            "reason": "未定位combustionProperties中的Su与0/Su，转而讨论fvSchemes。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P06-03.K2",
+            "score": 0.5,
+            "reason": "不能自动同步、另行修改初始场的方向正确，但未针对实际Su输入且遗漏边界。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": 0.25,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第19份；F/A：把燃速物性问题转为数值格式问题，只有不能自动同步的部分判断有用。"
+      }
+    },
+    {
+      "sample_id": "R-9b6416d2dbc2",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "9f30b9fe3461f9581f25f65017d6877af8e2df1fd97967303d6954295556be58",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-9b6416d2dbc2",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P06-02.K1",
+            "score": 0.5,
+            "reason": "明确物性改0.6m/s，缺少文件、Su条目和量纲写法。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P06-02.K2",
+            "score": 0.5,
+            "reason": "明确内部场改0.6m/s，缺少0/Su和uniform配置写法。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P06-02.K3",
+            "score": 1,
+            "reason": "明确墙面和空方向边界保持原样。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第20份；F/A：三个约束的处理方向正确，没有实质性错误，操作细节不足通过K反映。"
+      }
+    },
+    {
+      "sample_id": "R-17351f869755",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "1e0cf3f0dd47f447093f601ba068bc339f43d5ea8416a163b6b5b038a247e194",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-17351f869755",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E49-01.K1",
+            "score": 1,
+            "reason": "FSI演示目的正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E49-01.K2",
+            "score": 0.75,
+            "reason": "二维、小型C4及壁面正确，未明确装药靠近墙壁的位置关系。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E49-01.K3",
+            "score": 1,
+            "reason": "挡板变形影响波传播正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第21份；F：主要事实正确；扇叶译法不规范但未声称旋转，不据此判实质性错误。"
+      }
+    },
+    {
+      "sample_id": "R-f298e6a7dd65",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "53421fbadecc05ff458d71c90da8fe57d0e902ebac3b971f8e5b5ff6ac334f33",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-f298e6a7dd65",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E27-02.K1",
+            "score": 1,
+            "reason": "fields与values列表写法有效。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E27-02.K2",
+            "score": 1,
+            "reason": "p、impulse及阈值顺序对应正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.75,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第22份；F：额外将field小节未确认的OR触发逻辑写成确定事实；不等于已核实OR本身错误。"
+      }
+    },
+    {
+      "sample_id": "R-22468dd2c615",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "60acae784e478b68991218c703a15c52a2fca681ff5f993314c27888be4c278c",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-22468dd2c615",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P05-03.K1",
+            "score": 0,
+            "reason": "未识别明确solid类的常密度EOS限制。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P05-03.K2",
+            "score": 0,
+            "reason": "错误地因RDX案例采用Murnaghan就判断可直接照搬。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": 0,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第23份；F：案例中Murnaghan的观察正确，主要兼容性判断错误。A：题设明确solid类时给出反向结论。"
+      }
+    },
+    {
+      "sample_id": "R-e7f9c4154a66",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "7b07b738591701aaea7b8eee9cd8041ea080268168d97be3752a962b37f82633",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-e7f9c4154a66",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N68-01.K1",
+            "score": 1,
+            "reason": "目前仅实现particle-to-fluid正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N68-01.K2",
+            "score": 1,
+            "reason": "fluid-fluid当前不支持及范围区分正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第24份；F/A：固定版本的支持范围与交换对象完整正确。"
+      }
+    },
+    {
+      "sample_id": "R-cf56a2b952e5",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "1c140da3d4e002a5ccdd3be6a89b895369b8d5c494de834506e99877ef0a0c70",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-cf56a2b952e5",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E42-01.K1",
+            "score": 1,
+            "reason": "使用总密度正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E42-01.K2",
+            "score": 0.5,
+            "reason": "公式主体有梯度差、分母尺度、最大值及f指数，但文字否认归一化，与比值结构矛盾。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第25份；F：总密度与公式主体正确，解释存在矛盾；不把有疑点的符号解释当作已核验实现。"
+      }
+    },
+    {
+      "sample_id": "R-28a6dd388a39",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "700b485918fc11dbec51f8174fe6f944d5014d28979be45982baf1d262522665",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-28a6dd388a39",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E39-03.K1",
+            "score": 0.75,
+            "reason": "非守恒方向正确，但通常不保证、依算法而定弱化当前明确特性。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E39-03.K2",
+            "score": 0.5,
+            "reason": "提到流场偏差，但遗漏最近单元值及特征过度或不足强调的机制。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.75,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第26份；F：核心风险基本正确，实现差异及稳定性等说明超出原文直接证据。"
+      }
+    },
+    {
+      "sample_id": "R-fdb7ecb35617",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "4ff42c134f38cefdb48ee4db26abf3c38ac30c795271a7f190e2a0d3f650aecb",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-fdb7ecb35617",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E20-01.K1",
+            "score": 1,
+            "reason": "缺少关键字采用none且不加额外能量正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E20-01.K2",
+            "score": 1,
+            "reason": "按题设语境正确表达不因后燃额外升高p、T。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E20-01.K3",
+            "score": 1,
+            "reason": "直接回答关键字缺失场景下的默认选择。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第27份；F/A：不将没有后燃直接后果扩大解释为整个流场压力温度恒定。"
+      }
+    },
+    {
+      "sample_id": "R-29dfa00d1883",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "2fb90392ab6e68c81b421576d74024de5e88052bdf8be83e69ed824dcbc4fb76",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-29dfa00d1883",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E42-03.K1",
+            "score": 0.5,
+            "reason": "知道梯度识别细化区域，遗漏总密度及教程明确配置。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E42-03.K2",
+            "score": 0,
+            "reason": "误把beginUnrefine解释为细化起始时间步，应为粗化准入物理时刻。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E42-03.K3",
+            "score": 0.25,
+            "reason": "泛泛说先加密后粗化，未解释误差判据与粗化时间准入分工。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第28份；F：梯度方向正确，关键时间参数错误，且由静态配置保证特定演化。"
+      }
+    },
+    {
+      "sample_id": "R-da938412101c",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "27df507d7f1529bffc231abe725b26c46aa22972025428058c8ab45d13a9e1cc",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-da938412101c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E48-03.K1",
+            "score": 0,
+            "reason": "未识别blastFoam脚本没有区域拆分调用的实际流程。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E48-03.K2",
+            "score": 0.75,
+            "reason": "正确识别FSI调用splitMeshRegions，遗漏顺序及参数。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E48-03.K3",
+            "score": 0,
+            "reason": "未答两者addEmptyPatch，额外引入无依据的coupledGlobalPolyPatch。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第29份；F：少量FSI区域拆分内容正确，关键内部patch说明失实。"
+      }
+    },
+    {
+      "sample_id": "R-2be92336740e",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "4001d58de72b80df3edad045e35911249d2d9554372353d176a5a8cb548c4979",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-2be92336740e",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E48-03.K1",
+            "score": 0.75,
+            "reason": "blastFoam不拆分区域的主结论正确，未给对应流程细节。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E48-03.K2",
+            "score": 0.75,
+            "reason": "FSI拆分区域的主结论正确，未给对应流程细节。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E48-03.K3",
+            "score": 0.25,
+            "reason": "仅FSI添加patch正确；误称blastFoam不添加，遗漏air限定。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第30份；F：拆分结论正确，内部patch比较部分错误；两份脚本都添加，FSI指定air。"
+      }
+    },
+    {
+      "sample_id": "R-34d9eabf96e5",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "3deb54a9dacd4192a4fe198228d0a7d23bbd832ef7a386558e01c5a3d913b688",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-34d9eabf96e5",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P09-01.K1",
+            "score": 0.5,
+            "reason": "涉及linear差异和六点，未说明README所称四点延迟。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P09-01.K2",
+            "score": 0.5,
+            "reason": "当前programmedIgnition及六点正确，未核对四个非零、两个零及延迟序列。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P09-01.K3",
+            "score": 0.25,
+            "reason": "开头承认名称差异，最后又称无需保留差异，矛盾。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": 0.5,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第31份；F/A：模型名称有差异应保留，六点与四点非零延迟可相符；比较部分正确但结论矛盾。"
+      }
+    },
+    {
+      "sample_id": "R-b6cec0b1c437",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "c720e6aa6179742da96ae00287ee1e8e37d55974652643ed9fdd8da8d271b550",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-b6cec0b1c437",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E29-06.K1",
+            "score": 0,
+            "reason": "未答超压p-pRef定义。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E29-06.K2",
+            "score": 0,
+            "reason": "未答固定数据下参考压力增加Delta p使峰值减Delta p，反而说可能不变。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E29-06.K3",
+            "score": 0,
+            "reason": "未说明fieldMinMax输出每单元极值场。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": 0,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第32份；F：保留一般后处理描述的少量正确性。A：固定数据条件下的核心判断错误。"
+      }
+    },
+    {
+      "sample_id": "R-e688146d2842",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "e3005e8580c6eaecf29023f46f64521945cf885f160c387446ae8a60266bb3eb",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-e688146d2842",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P06-02.K1",
+            "score": 0,
+            "reason": "完全漏改combustionProperties中的Su。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P06-02.K2",
+            "score": 1,
+            "reason": "0/Su的internalField uniform 0.6正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P06-02.K3",
+            "score": 1,
+            "reason": "walls zeroGradient与defaultFaces empty正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 0.5,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第33份；F：已有陈述无实质性错误。A：仅落实三个约束中的两个，未同时满足全部约束。"
+      }
+    },
+    {
+      "sample_id": "R-331fe77a13cb",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "d027388b34a32a8f6962d30047db7aa7f713f3b9d591d904715009639dfb657c",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-331fe77a13cb",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N60-02.K1",
+            "score": 1,
+            "reason": "constant固定直径及不写场说明正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N60-02.K2",
+            "score": 1,
+            "reason": "constantMass由rho0、d0定义M并按当前rho计算d正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N60-02.K3",
+            "score": 1,
+            "reason": "正确区分恒质量与恒直径，未推广不写场说明。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第34份；F：模型职责、参数与公式完整正确。"
+      }
+    },
+    {
+      "sample_id": "R-98886a357967",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "dbf8c335394f801508dd8dd158c7d3ee455039da62fc65fc89cb0a06dbc34624",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-98886a357967",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N56-03.K1",
+            "score": 0,
+            "reason": "未回答单流体多相共享速度、内能与温度。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N56-03.K2",
+            "score": 0,
+            "reason": "未回答blastEulerFoam的Euler-Euler变体及相模型。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N56-03.K3",
+            "score": 0,
+            "reason": "未回答各流体相独立质量、动量、能量及相间传递。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N56-03.K4",
+            "score": 0,
+            "reason": "未回答EOS数量与独立速度数量并非同一维度。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": "unknown",
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第35份；F保留Unknown：只有检索未果自述，无可评价领域事实，匿名材料无法核实其检索经历；纯拒答F尺度列为校准争议。此项有最终回答，不套生成失败归零规则。"
+      }
+    },
+    {
+      "sample_id": "R-f4bede873d54",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "62536956085831a00c38329ebab4080987ad3d3323261fd0c6f3909e407892a2",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-f4bede873d54",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E33-01.K1",
+            "score": 0.25,
+            "reason": "仅笼统跟踪守恒量，遗漏体积积分、初始/当前值、总差值与相对差值。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E33-01.K2",
+            "score": 1,
+            "reason": "fields配置正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第36份；F：已有陈述没有明确实质性错误，覆盖不足由K反映。"
+      }
+    },
+    {
+      "sample_id": "R-3f18ac0bff71",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "ce25e8cade7cd613e00c7aaf8ee0325d41608387825f181f2554039cf99c707f",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-3f18ac0bff71",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E28-01.K1",
+            "score": 0.25,
+            "reason": "用途正确，但名称应intactField而非preBurst。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E28-01.K2",
+            "score": 0.25,
+            "reason": "只有边界配置方向的少量正确内容，boundaryConditions层级无原文支持。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第37份；F：关键名称和配置层级失实，仅用途部分正确。"
+      }
+    },
+    {
+      "sample_id": "R-2c7b5589f53f",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "5781be1dadedf842ca286e22366118cf294dfbf63c230ce8499d9a585e6bf832",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-2c7b5589f53f",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N66-01.K1",
+            "score": 0.25,
+            "reason": "仅拟合mu、kappa自然对数正确；自变量应ln(T)，不是Re/Pr。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N66-01.K2",
+            "score": 0,
+            "reason": "两组均为8个系数，不是3个与2个。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第38份；F：主要自变量与参数数量错误。"
+      }
+    },
+    {
+      "sample_id": "R-40ad04c05441",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "6870d4a81543d655814ea899f09d8ff1757ee9e680de9c20a8f842165495302b",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-40ad04c05441",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N65-01.K1",
+            "score": 1,
+            "reason": "最大黏度为0可省略字典正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N65-01.K2",
+            "score": 0.75,
+            "reason": "黏性时需字典和合适模型正确，未补充laminar不等于省略黏性配置。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第39份；F/A：两主要分支正确，遗漏laminar澄清通过K反映。"
+      }
+    },
+    {
+      "sample_id": "R-26e923f25df8",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "6940da8b2851b2338a14d35810671779174016f5d57dfe9fa58613f86850a9c4",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-26e923f25df8",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N61-02.K1",
+            "score": 1,
+            "reason": "duct公式正确且无显式alpha_c。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N61-02.K2",
+            "score": 1,
+            "reason": "Gunn完整关联式正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N61-02.K3",
+            "score": 1,
+            "reason": "显式体积分数依赖及公式中不同Re/Pr幂结构均体现。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第40份；F：公式与比较完整正确，不强制再用文字复述公式差别。"
+      }
+    },
+    {
+      "sample_id": "R-7b677bd47600",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "bbcef3bc61a722859cb96d7436760c92750d74feb03314b01bbd09c364f24b9f",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-7b677bd47600",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E53-07.K1",
+            "score": 1,
+            "reason": "先以p、T重算rho正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E53-07.K2",
+            "score": 1,
+            "reason": "使用重算rho而非原rho且先后关系正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.75,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第41份；F：局部将原始T也列为随后初始化内能的直接依据；题设Mie-Gruneisen分支明确用p、rho初始化e。A：先后与新旧rho判断正确。"
+      }
+    },
+    {
+      "sample_id": "R-e45115863a24",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "6a4016f694d73a10d458e2a7ec008ac397d8e05265355885a3fc5fc7abfb7ac3",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-e45115863a24",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N59-02.K1",
+            "score": 0.5,
+            "reason": "体积加权方向部分正确，但误释为每个单元体积而非两相体积分数。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N59-02.K2",
+            "score": 0.25,
+            "reason": "未分开热力学压力体积分数平均与动态压力质量平均。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N59-02.K3",
+            "score": 0.75,
+            "reason": "速度质量平均主结论正确，但每单元质量解释不准确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第42份；F：正确权重名称与错误平均对象、totalPressure解释混杂。"
+      }
+    },
+    {
+      "sample_id": "R-e016f1e548e9",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "76d6eec7761b63f80f0a0f723ddbc31631d62ab96dadf8e3bc3e7249389b970a",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-e016f1e548e9",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E26-02.K1",
+            "score": 1,
+            "reason": "冲量模型所需场名与阈值正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E26-02.K2",
+            "score": 1,
+            "reason": "impulseName默认值及impulseBurst作用正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E26-02.K3",
+            "score": 0.75,
+            "reason": "说明自动计算，但未强调运行时必须有可用冲量场。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第43份；F：已有输入与计算方法陈述正确，必要条件强调不足由K反映。"
+      }
+    },
+    {
+      "sample_id": "R-f34c62b0d4e1",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "73e16a188ca15e2f50ee14889e5bba35713d8fc47ccf0e7a3f929d338fe982d5",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-f34c62b0d4e1",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E44-03.K1",
+            "score": 0.75,
+            "reason": "区间方向正确，但将原文严格不等式误写为包含端点。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E44-03.K2",
+            "score": 1,
+            "reason": "加密与解加密阈值区分正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E44-03.K3",
+            "score": 0,
+            "reason": "maxRefinement=1是最多1级，不是整个仿真只允许一次操作。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": 0.5,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第44份；F/A：阈值部分正确，对加密层级与操作次数存在重要混淆。"
+      }
+    },
+    {
+      "sample_id": "R-5809ba6709ff",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "adf19af4feb8bd462273547e1703f99000d6866ca6fa4d18cddf77a9a42c3072",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-5809ba6709ff",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E53-03.K1",
+            "score": 0,
+            "reason": "已提供e应由rho、e算p、T，回答反向。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E53-03.K2",
+            "score": 0,
+            "reason": "未正确说明无e时p、rho初始化e的默认分支。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": 0,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第45份；F：仅附带calculateDensity=yes时由p、T算rho正确。A：题设分支及变量角色错误。"
+      }
+    },
+    {
+      "sample_id": "R-6dee51e8518d",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "fe84279207866cd2e61d74d595f5ce250cfafd3b875d5a4eafb4df43422d5d11",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-6dee51e8518d",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N67-02.K1",
+            "score": 0.25,
+            "reason": "仅参考导热量等少量概念正确，误用Arrhenius式及参数。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N67-02.K2",
+            "score": 0.25,
+            "reason": "仅温度多项式概念正确，应0到7次、8系数而非固定三次四参数。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N67-02.K3",
+            "score": 1,
+            "reason": "始终讨论固体导热，没有加入muCoeffs。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第46份；F：两个模型主要公式与参数组织错误。"
+      }
+    },
+    {
+      "sample_id": "R-c5e196c041d7",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "09b7358217c2b6e089ab988e2f4868d09cf1ba3ec0ec4ae15d036a15c0708418",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-c5e196c041d7",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P08-01.K1",
+            "score": 0.5,
+            "reason": "说明yes时允许调整，未明确实例已启用及blastProbes类型。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P08-01.K2",
+            "score": 0.25,
+            "reason": "默认仅模糊写可能未启用，遗漏最近面。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P08-01.K3",
+            "score": 0.75,
+            "reason": "知道需要显式设置，未把yes当普遍默认，但区分不完整。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 0.75,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第47份；F：无明确反向事实，主要是遗漏与模糊表述。A：条件方向正确，实例判断不够完整。"
+      }
+    },
+    {
+      "sample_id": "R-c972eef4bd61",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "47032c02894a6f5e226ed13ebf7c7d4328f1a20b9efea886d7e744ac529d35d6",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-c972eef4bd61",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P08-01.K1",
+            "score": 0.75,
+            "reason": "正确读取实例adjustLocations=yes，遗漏blastProbes类型。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P08-01.K2",
+            "score": 0,
+            "reason": "未说明默认no及最近面。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P08-01.K3",
+            "score": 0,
+            "reason": "未区分实例显式启用与通用默认。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.75,
+        "applicability_gate": 0.5,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第48份；F/A：启用判断正确，最后混淆probeLocations给定位置与自动调整到最近面的机制。"
+      }
+    },
+    {
+      "sample_id": "R-b4b3db33fb3d",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "958e7c67b78ef23c744d72e567daab53606fa5a47f567580950475b5e603f541",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-b4b3db33fb3d",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N66-03.K1",
+            "score": 0,
+            "reason": "completion_truncated，未交付有效最终回答。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N66-03.K2",
+            "score": 0,
+            "reason": "completion_truncated，未交付有效最终回答。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N66-03.K3",
+            "score": 0,
+            "reason": "completion_truncated，未交付有效最终回答。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第49份；生成失败：completion_truncated。按冻结规则EAS与Strict固定为0；失败占位文本不作为答案，不进行内容重试。"
+      }
+    },
+    {
+      "sample_id": "R-9467c32eb158",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "0a8bcd337f3706c8aa50d5964a413a6c982f7d317a1d9a35c49acfbbccd7bf46",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-9467c32eb158",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P04-02.K1",
+            "score": 0.75,
+            "reason": "按高度p、T确定rho正确，未说明表模式可选后续静水校正。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P04-02.K2",
+            "score": 1,
+            "reason": "在题设correct=false下不要求后续校正正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P04-02.K3",
+            "score": 0.75,
+            "reason": "动态求静水压力梯度正确，未明确随后调整密度。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第50份；F/A：按题设false配置理解，事实及分支正确；不扩大为任何查表模式都不能校正。"
+      }
+    },
+    {
+      "sample_id": "R-c80c58dd1b5c",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "a7477b1fb7af38ba7daa95c2cde24468ebf8a3479beffc3a10afb10aecd6860a",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-c80c58dd1b5c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E19-04.K1",
+            "score": 0.5,
+            "reason": "知道pScale缩放p，遗漏压力指数n和默认值1。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E19-04.K2",
+            "score": 0.75,
+            "reason": "最低压力门槛意义正确，遗漏教程1e5Pa。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E19-04.K3",
+            "score": 0.25,
+            "reason": "仅原始缩放p扩大1e6正确；压力幂因子倍率应10^(6n)，本例约10。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E19-04.K4",
+            "score": 1,
+            "reason": "门槛与缩放职责区分正确，未编造执行顺序。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": 0.5,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第51份；F/A：核心倍率分析遗漏n；同一p、n及其他输入下只比较压力因子，不保证整场结果同比变化。"
+      }
+    },
+    {
+      "sample_id": "R-343bd92380f4",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "cd9d5eb187435085593b2dd2aa1a7ab1b7f85b3e11dcdfe48422d60e83e79eb3",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-343bd92380f4",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "P05-02.K1",
+            "score": 0,
+            "reason": "未区分物理固体材料名称与特定solid模型类。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P05-02.K2",
+            "score": 0.25,
+            "reason": "识别案例用Murnaghan，但据此怀疑配置错误，推断不成立。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": 0,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第52份；F：关于Murnaghan通常用于气体缺乏资料依据。A：不能仅凭RDX为固体判定该案例违反solid类约束。"
+      }
+    },
+    {
+      "sample_id": "R-900601bb50b8",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "067b2279afbb93a58a8e98882bcd3a23e1005f63d563fbe5d14f609384400336",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-900601bb50b8",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E34-01.K1",
+            "score": 0.5,
+            "reason": "使用Schlieren标题名，但未明确实际grad对象及梯度计算作用。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E34-01.K2",
+            "score": 1,
+            "reason": "标量/向量限制正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E34-01.K3",
+            "score": 1,
+            "reason": "默认结果名Schlieren/grad(field)正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 1,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第53份；F/A：文档标题即Schlieren(grad)，回答未给明确错误type配置，不将标题名使用直接判实质性错误。"
+      }
+    },
+    {
+      "sample_id": "R-05fe8aa0dce8",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "3bb3ca90d6ad119a8a9efe094e3f43a12f93059e056f8eb74ef4c7d3da64aa21",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-05fe8aa0dce8",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E53-03.K1",
+            "score": 0,
+            "reason": "已提供e的分支方向颠倒。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E53-03.K2",
+            "score": 0,
+            "reason": "无e默认分支方向也错误，泛称方向变化不能得分。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0,
+        "applicability_gate": 0,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第54份；F/A：应有e时rho、e算p/T，无e时p、rho算e；回答两个分支均反向。"
+      }
+    },
+    {
+      "sample_id": "R-520ce5f2523e",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "4220274c17457c54fb484973f190877e563f4f6b5369d0d0f632a596bea3ceb5",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-520ce5f2523e",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N61-03.K1",
+            "score": 0,
+            "reason": "未给sphere与RanzMarschall两个Nu公式。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N61-03.K2",
+            "score": 0,
+            "reason": "未给Nu差0.2*Re^(1/2)*Pr^(1/3)。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N61-03.K3",
+            "score": 0,
+            "reason": "未给共同前因子6*alpha_d*kappa_c/d_d^2乘以上述差。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第55份；F：已有一般背景及可能性表述无明确实质性错误；没有回答定量差别，覆盖不足由三个K=0体现。"
+      }
+    },
+    {
+      "sample_id": "R-db0305de9868",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "7a6e296f221f3bbbc67dfb34eb8298c4ca3f2e97cb1a38d841228db2b1f41ab2",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-db0305de9868",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E15-03.K1",
+            "score": 1,
+            "reason": "参考密度零压力偏移及pRef偏压用途正确。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E15-03.K2",
+            "score": 1,
+            "reason": "solidJWL固体分支不考虑热能正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": "not_applicable",
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第56份；F：与第11份同尺度，完整符合题设分支。"
+      }
+    },
+    {
+      "sample_id": "R-6529c9e34ec5",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "809a8135104ede7a2803395c957195e066a6965571bbfaf11c8a72353b23f87b",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-6529c9e34ec5",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E54-01.K1",
+            "score": 0.5,
+            "reason": "divSchemes使用Riemann方向正确，但未明确为实际附加场配置限制器。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E54-01.K2",
+            "score": 0,
+            "reason": "漏掉reconstruct(rho)默认回退，并将缺少单独限制器直接列为失效。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E54-01.K3",
+            "score": 0,
+            "reason": "遗漏刚性隐式源项压倒显式对流的关键限制及隐式散度建议。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": 0.25,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第57份；F/A：配置部分正确，核心失效机制未答出，且无依据暗示须使用Kurganov。"
+      }
+    },
+    {
+      "sample_id": "R-5204052d62d1",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "d7aab27442f3819376bdacc65e3e4fa339088bd41a63153f37af2c267c3e003e",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-5204052d62d1",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E51-01.K1",
+            "score": 0.25,
+            "reason": "仅邻居温度正确，遗漏传热系数与辐射热流。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E51-01.K2",
+            "score": 0.5,
+            "reason": "unmappedT用途基本正确，默认值应293.15而非0。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E51-01.K3",
+            "score": 0.75,
+            "reason": "正确拒绝保证整个补丁同温，但未说明资料缺少逐面映射细则。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.5,
+        "applicability_gate": 0.75,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第58份；F：正确内容与错误默认值混杂。A：主要范围判断正确，参数理解有问题。"
+      }
+    },
+    {
+      "sample_id": "R-0849ab52ed58",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "3273a03de53dcb850b85d4bc7240e0e4095543a61ba5f9d03483103576647491",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-0849ab52ed58",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "N60-03.K1",
+            "score": 0.25,
+            "reason": "未准确定位右端反应率k源项，混称扩散或源项。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N60-03.K2",
+            "score": 0.25,
+            "reason": "知道1e-6，但乘法缩放误写除法且给pScale加MPa单位。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N60-03.K3",
+            "score": 0.5,
+            "reason": "知道压力相关项受影响，未清楚落实右端k。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 0.25,
+        "applicability_gate": 0.25,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第59份；F/A：正确式为partial_t d+u.grad d=k，k=beta*(p*pScale)^alpha；关键公式及缩放方向错误。"
+      }
+    },
+    {
+      "sample_id": "R-a021a4d085b9",
+      "reviewer": "blastfoam专家",
+      "reviewed_utc": "2026-11-04T09:11:52.778535+00:00",
+      "packet_sha256": "d21126800f24d1e27e7531286f524eda03926edd88e01e7909ae918a4e192ef2",
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-a021a4d085b9",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "complete",
+        "points": [
+          {
+            "criterion_id": "E55-01.K1",
+            "score": 0.75,
+            "reason": "foamGet probes正确，遗漏探针文件与输出时间配置的交互选择。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E55-01.K2",
+            "score": 0.5,
+            "reason": "system目录正确，未明确编辑生成文件以设置实际目标位置。",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E55-01.K3",
+            "score": 1,
+            "reason": "在functions中用#includeFunc加载probes正确。",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": 1,
+        "applicability_gate": 0.75,
+        "reason": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。\n第60份；F：给出的接入及直接配置方式符合教程。A：缺少将示例位置调整为实际目标位置的条件。"
+      }
+    }
+  ],
+  "review_provenance": {
+    "review_method": "ai_assisted_human_confirmed",
+    "reviewer_signature": "blastfoam专家",
+    "reviewer_signature_source": "User-supplied signature: blastfoam专家",
+    "human_confirmation": "上述你的推荐评分和具体内容我都已经一一查看没有问题和错误。接下来你帮我把评分填进去，完成这个人工工作。",
+    "recorded_utc": "2026-11-04T09:11:52.778535+00:00",
+    "timestamp_meaning": "Time of recording the human-confirmed batch; not invented per-item review times.",
+    "disclosure": "AI辅助人工评分：AI提出推荐及依据，评审人逐项查看后明确确认；由助手代为转录。此记录不是无AI建议的独立人评。",
+    "packet_file_sha256": "3957c57213234453d7b37751cb6fc00ed005b137e5f4583a9e610f2f6ecee440",
+    "independent_unassisted_human_review": false,
+    "acceptance_review_completed": false,
+    "ai_judge_calibration_completed": false
+  }
+}

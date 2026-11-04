@@ -1,0 +1,107 @@
+{
+  "schema": "cohort_transport_recovery_v1",
+  "completed_utc": "2026-11-04T03:30:16.383358+00:00",
+  "base_protocol_sha256": "d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2",
+  "execution_overlay_sha256": "a1d2e3a24d9c5c2d7f36263c2805eb2459b22b1ef75f41d0890e84765d47a871",
+  "previous_packet_sha256": "4197a73631bcc2c26d5202c17f08e3a37821cc969f55db26659f1d1162f49274",
+  "packet_sha256": "3957c57213234453d7b37751cb6fc00ed005b137e5f4583a9e610f2f6ecee440",
+  "existing_44_unchanged": true,
+  "transitions": [
+    {
+      "sample_id": "R-68d99d07ca65",
+      "task_id": "9895bb37e50340a7d7e9cea7efe2f867b0db7ec230df803d928503bb651b7c75",
+      "answer_sha256": "3a9ade72e58ad758ff4eedfc71abef97281a21bb1fe825726205db9060a41d27",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-1f44efb07946",
+      "task_id": "bc5a122f37d921ba7bbc2b4ec13f25276106eaef0a788a87312746255de227bd",
+      "answer_sha256": "0877fce857c15781cdad28d2579d94c480ed94db91d3033db71ec939d2863d6f",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-175dcf3ef079",
+      "task_id": "8330a96a1a87e165d06381d4f348870bea7a646cc28373ac8c555e41e6211305",
+      "answer_sha256": "5d54aea357413e2228e35205f369d7a4ab7008891b895b9220d15b72d37916a5",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-cfc0ed22da7f",
+      "task_id": "4bef1bd647704c63c75b8fe1e9954cd8d1ca42458298d8800bbd0e3bf5e69f09",
+      "answer_sha256": "65e184339e5b97d3c42950cdeb8bdcdd67ff8936335f1b49b367fb2a0fb09bcd",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-fbb64ddc54d5",
+      "task_id": "885e388a8bc79df44cb6c502a53b84807a96935b8330ddfb8d0c176f4cf235f9",
+      "answer_sha256": "191e3b9df8c757e5f908f4f0d7f85e50d5099e46494c3b2646b30077e744ef89",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-f7293acb12b5",
+      "task_id": "3ef81b4a0767d6f3f4a03a0f0e6096391af1324d8672677713430131873f1758",
+      "answer_sha256": "9e6e3372a44033c640c61c91b5b21e7bf77b11f0e57c472864f904b265a8795c",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-da938412101c",
+      "task_id": "85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea",
+      "answer_sha256": "ce9465f6ae56eabaa472b1c0ff192494b087d0975abfae9612f38d1b42476046",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-34d9eabf96e5",
+      "task_id": "412223a7818e3e1e415da40105588dc9fea18973ae6d51963f308b139ac433e2",
+      "answer_sha256": "d6a77150250362c69a993eba986aab34647124bd70b1083a1098cd548a4ea34b",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-e688146d2842",
+      "task_id": "055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38",
+      "answer_sha256": "87d4049d80621cd7e439696c34847d2dc562b8c9cdbfd508773e7d7863d87bfb",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-7b677bd47600",
+      "task_id": "d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326",
+      "answer_sha256": "0f36c0d6268f7e753ea5044063c49cd862beba64a0272581cf4ea86510011df4",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-5809ba6709ff",
+      "task_id": "3fc11fea244eb7e134df5a09ec845380d3d448b5403affea3df545188989f67d",
+      "answer_sha256": "1f09181f50576a928ff0702e3f30acffce375be241b3263e274bee43ac324ea2",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-6dee51e8518d",
+      "task_id": "1a0ebfad0feeda97effe1a7fd7cc2ab603eb8a83833fd3ca9dcb8df849992c56",
+      "answer_sha256": "ea79bf924a55a16457ac9a9d8ac56d4c9c1d6af6eb888bb710dbdc7e9857b957",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-c5e196c041d7",
+      "task_id": "e639e1984edba01858d8b6c98ab5c86185b4acd12cb1c9a989553b9b8871e517",
+      "answer_sha256": "dd248d84bb26284473e69e3af42839dab70ed6d2a58e53a72c96e0ca970a4adb",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-b4b3db33fb3d",
+      "task_id": "d5f527466506eead51bbe07ff78b32b02121379390eec137a9b0676778db0ee1",
+      "answer_sha256": "73b73dc51c6b8b57b3e7523d604eb6b99b9579ad87f7c1ed1e7287bdefcd32b1",
+      "status": "completion_truncated"
+    },
+    {
+      "sample_id": "R-c80c58dd1b5c",
+      "task_id": "30c272b32b4820410db9d8b6e4c3f6edc13583721109585186a41da62729a8c3",
+      "answer_sha256": "a38d12826af436ee52109c42a2d749281e8df37a5f628f1ba10a2561c72b1a51",
+      "status": "answered"
+    },
+    {
+      "sample_id": "R-900601bb50b8",
+      "task_id": "668dfaaeae519fa3a5e1bc1a72fe9cd3645d27b3e0d1919b4e249d97ef927f6b",
+      "answer_sha256": "ca7e5efa4c11c783c413430f3f902e117546cfe5a6b4047375e6b6e21e5a38a0",
+      "status": "answered"
+    }
+  ]
+}

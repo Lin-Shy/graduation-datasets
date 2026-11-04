@@ -1,0 +1,24 @@
+{
+  "partition": "full_evaluation",
+  "development_split": null,
+  "test_split": null,
+  "selection_by_method_scores": false,
+  "independent_human_review": "pending",
+  "new_experiments": "not_run",
+  "answering_modes": [
+    "single_pass",
+    "agentic"
+  ],
+  "part": "objective",
+  "count": 200,
+  "types": {
+    "fill": 60,
+    "short": 60,
+    "single": 50,
+    "judge": 30
+  },
+  "fact_clusters": 19,
+  "source_files": 27,
+  "metric": "accuracy; four-type macro accuracy auxiliary",
+  "evidence_hash_policy": "file_sha256 is file bytes; sha256/excerpt_sha256 is excerpt; context_sha256 is context"
+}

@@ -1,0 +1,21 @@
+{
+  "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+  "issues": [
+    {
+      "code": "CURRENT-RELATED-FACTS",
+      "status": "independent_review_pending",
+      "ids": [
+        "OBJ-061",
+        "OBJ-067",
+        "OBJ-074",
+        "OBJ-080",
+        "OBJ-084"
+      ],
+      "title": "保留五个不同模型或作用域的案例代表，仍需在统计中考虑知识相关性。"
+    }
+  ],
+  "independent_human_review": "pending",
+  "reference_answer_review": "owner_approved",
+  "confirmation": "reference_answer_confirmation.json",
+  "pending_scope": "Question/source independent review and statistical handling of shared knowledge; excludes the already approved reference answers."
+}

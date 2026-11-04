@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "85b246b6f2580a3b19302c4625d9e9b4da3040c8c09a540be022250b4238669c",
+  "report": "85b246b6f258/REPORT.md",
+  "comparison": "85b246b6f258/comparison.json",
+  "disagreements": "85b246b6f258/DISAGREEMENTS.md",
+  "validation": "graduation-experiment-results/chapter2_retrieval/release/validation/judge_calibration.json"
+}

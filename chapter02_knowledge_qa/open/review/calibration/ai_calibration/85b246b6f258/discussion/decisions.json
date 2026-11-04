@@ -1,0 +1,62 @@
+{
+  "status": "not_pursued_per_user_instruction",
+  "applied": false,
+  "live_prompt_or_rules_changed": false,
+  "items": [
+    {
+      "id": "contradictory_core_conclusion",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    },
+    {
+      "id": "critical_fact_partial_credit",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    },
+    {
+      "id": "omission_vs_fact_error",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    },
+    {
+      "id": "pure_refusal_F",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    },
+    {
+      "id": "fixed_wire_schema",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    },
+    {
+      "id": "transport_reconciliation_and_unsent_queue",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    },
+    {
+      "id": "full_denominator_acceptance_decision",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    },
+    {
+      "id": "calibration_answer_adoption",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    },
+    {
+      "id": "acceptance_failure_contingency",
+      "status": "not_pursued",
+      "owner": "负责人",
+      "current_scores_changed": false
+    }
+  ],
+  "current_scope": "Describe and discuss the existing calibration for thesis writing; no improvement or recalibration requested."
+}

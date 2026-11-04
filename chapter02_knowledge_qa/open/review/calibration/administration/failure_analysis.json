@@ -1,0 +1,437 @@
+{
+  "schema": "calibration_failure_analysis_and_proposal_v1",
+  "analyzed_utc": "2026-11-04T01:17:26.507117+00:00",
+  "status": "discussion_only_not_implemented",
+  "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+  "original_protocol_sha256": "cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc",
+  "summary": {
+    "tasks": 60,
+    "unique_question_ids": 50,
+    "complete_final_answers": 55,
+    "failed": 5,
+    "unknown": 0,
+    "stored_model_requests": 112,
+    "http_status_counts": {
+      "200": 112
+    },
+    "successful_query_actions": 36,
+    "successful_query_characters_max": 185,
+    "complete_answer_characters_min": 33,
+    "complete_answer_characters_max": 420,
+    "references_max": 7,
+    "complete_answers_with_control_characters": 0,
+    "stop_response_completion_tokens_max": 376,
+    "all_requests_prompt_tokens_max": 9034,
+    "original_run_file_hashes_verified": 238
+  },
+  "failures": [
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E55-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7"
+      },
+      "sample_id": "R-a021a4d085b9",
+      "capability": "S1",
+      "question": "在 blastFoam 的 building3DWorkshop 案例中，若想为计算域内若干离散位置获取压力/时间历史，原文推荐用哪条命令生成探针文件，生成后该文件位于何处，又应如何把它接入 controlDict 才会在运行中生效？",
+      "status": "completion_truncated",
+      "observed_failure_mode": "json_intertoken_whitespace_stall",
+      "requests": 2,
+      "executed_tools": 1,
+      "delivered_evidence_characters": 5982,
+      "failed_turn_zero_based": 1,
+      "http_status": 200,
+      "finish_reason": "length",
+      "failed_turn_prompt_tokens": 2440,
+      "failed_turn_completion_tokens": 2048,
+      "request_output_limit": 2048,
+      "content_characters": 2154,
+      "trailing_ascii_spaces": 1983,
+      "prefix_repr": "'{\"action\":\"final\",\"answer\":\"使用 foamGet 命令生成探针文件，命令如下：cd <root-case-directory> foamGet probes。生成的探针文件位于系统目录中，需要在 controlDict 文件中添加相应的配置才能生效。具体配置如下：functions { includeFunc \"                                                 '",
+      "suffix_repr": "'                                                                                                                        '",
+      "nonspace_suffix_repr": "'下：cd <root-case-directory> foamGet probes。生成的探针文件位于系统目录中，需要在 controlDict 文件中添加相应的配置才能生效。具体配置如下：functions { includeFunc \"'",
+      "control_characters": [],
+      "strict_json_error": {
+        "message": "Expecting ',' delimiter",
+        "character_offset_zero_based": 2154,
+        "line": 1,
+        "column_one_based": 2155
+      },
+      "permissive_parse_diagnostic_only": null,
+      "source_files": {
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/llama3.1-8b/8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7/result.json": "8af108fad4468899fefdc6465aa1f1efd93f3a0ba941d1fb2c3da63e5d2a80ad",
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/llama3.1-8b/8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7/requests/00.json": "a2588d380406b4b19f3fec8fad0071bb4fd01539280bdfd407708eebfda6f1e6",
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/llama3.1-8b/8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7/requests/01.json": "3b6c14e2a9331172ba46962ff8f820d7921827c3a01bd2b0b64cf00d478fca45"
+      }
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E16-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe"
+      },
+      "sample_id": "R-150962443949",
+      "capability": "S0",
+      "question": "原文在 5.2.3 节说明，当某些状态方程无法转换为基于内能的形式时，会改用局部温度定义热力学压力。此时 Grüneisen 系数 Γ_i 与声速 c_i^2 分别按什么关系计算？",
+      "status": "invalid_action",
+      "observed_failure_mode": "formula_escape_corruption",
+      "requests": 2,
+      "executed_tools": 1,
+      "delivered_evidence_characters": 5911,
+      "failed_turn_zero_based": 1,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "failed_turn_prompt_tokens": 2858,
+      "failed_turn_completion_tokens": 196,
+      "request_output_limit": 2048,
+      "content_characters": 345,
+      "trailing_ascii_spaces": 0,
+      "prefix_repr": "'{\"action\":\"final\",\"answer\":\"当某些状态方程无法转换为基于内能的形式时，会改用局部温度定义热力学压力。此时 Grüneisen 系数 $Γ_i$ 与声速 $c_i^2$ 的关系由公式 (5.16) 给出：$$c^2_i = \\x0crac{Γ_i p + Π_i}{ρ_i} - δ_i(Γ_i - 1)$$，其中 $δ_i$ 由公式 (5.17) 定义：$$δ_i = \\x0crac{-[p + Π_i]Γ\\'_i}{[Γ_'",
+      "suffix_repr": "']^2} + \\x0crac{Π\\'_i}{Γ_i - 1}$$。\",\"references\":[{\"path\":\"manual/markdown/05_fluid_solid_thermo.md\",\"start\":261,\"end\":302}]}'",
+      "nonspace_suffix_repr": "']^2} + \\x0crac{Π\\'_i}{Γ_i - 1}$$。\",\"references\":[{\"path\":\"manual/markdown/05_fluid_solid_thermo.md\",\"start\":261,\"end\":302}]}'",
+      "control_characters": [
+        {
+          "character_offset_zero_based": 125,
+          "codepoint": "U+000C",
+          "following_characters": "rac"
+        },
+        {
+          "character_offset_zero_based": 196,
+          "codepoint": "U+000C",
+          "following_characters": "rac"
+        },
+        {
+          "character_offset_zero_based": 232,
+          "codepoint": "U+000C",
+          "following_characters": "rac"
+        }
+      ],
+      "strict_json_error": {
+        "message": "Invalid control character at",
+        "character_offset_zero_based": 125,
+        "line": 1,
+        "column_one_based": 126
+      },
+      "permissive_parse_diagnostic_only": {
+        "structurally_parses": true,
+        "answer_control_characters_retained": 3,
+        "literal_backslash_frac_preserved": false,
+        "adopted_as_answer": false
+      },
+      "source_files": {
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-14b/b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe/result.json": "71df4d9398d9c0d4e34c4e150cd7ea1ffde6c3b254ab5f05098eee08f49ca96c",
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-14b/b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe/requests/00.json": "fd5327c02cc20d6f0932078ae18013e8dd670954bc951a09b55916d88f241473",
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-14b/b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe/requests/01.json": "4733190fa4619f62dcee2be8b52284dff00a3a321a14d3ac8bb14fbaa40281ea"
+      }
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P06-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38"
+      },
+      "sample_id": "R-e688146d2842",
+      "capability": "M1",
+      "question": "在DDT案例中，我要求物性给定与Su初始内部场都设成0.6 m/s，并保持墙面和空方向边界原样。应怎样同时满足这三个约束？",
+      "status": "completion_truncated",
+      "observed_failure_mode": "repeated_search_query",
+      "requests": 1,
+      "executed_tools": 0,
+      "delivered_evidence_characters": 0,
+      "failed_turn_zero_based": 0,
+      "http_status": 200,
+      "finish_reason": "length",
+      "failed_turn_prompt_tokens": 604,
+      "failed_turn_completion_tokens": 2048,
+      "request_output_limit": 2048,
+      "content_characters": 3635,
+      "trailing_ascii_spaces": 0,
+      "prefix_repr": "'{\"action\":\"tool\",\"name\":\"search\",\"arguments\":{\"query\":\"DDT案例 物性给定 Su初始内部场 墙面 空方向边界 0.6 m/s 约束 同时满足 三个约束 三个条件 三个设置 三个要求 三个设定 三个配置 三个参数 三个值 三个数值 三个条件设置 三个约束条件 三个约束设置 三个约束要求 三个约束设定 三个约束配置 三个约束参数 三个约束数值 三个约束值 三个约束条件设置 三个约束条件'",
+      "suffix_repr": "'设定 三个约束条件配置 三个约束条件参数 三个约束条件数值 三个约束条件值 三个约束条件设置 三个约束条件要求 三个约束条件设定 三个约束条件配置 三个约束条件参数 三个约束条件数值 三个约束条件值 三个约束条件设置 三个约束条件要求 三个'",
+      "nonspace_suffix_repr": "'设定 三个约束条件配置 三个约束条件参数 三个约束条件数值 三个约束条件值 三个约束条件设置 三个约束条件要求 三个约束条件设定 三个约束条件配置 三个约束条件参数 三个约束条件数值 三个约束条件值 三个约束条件设置 三个约束条件要求 三个'",
+      "control_characters": [],
+      "strict_json_error": {
+        "message": "Unterminated string starting at",
+        "character_offset_zero_based": 54,
+        "line": 1,
+        "column_one_based": 55
+      },
+      "permissive_parse_diagnostic_only": null,
+      "source_files": {
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38/result.json": "05a98e3e946a0d871fe435234d77bd22fffca0bf33886f49396c9dae80c89a28",
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38/requests/00.json": "4193951415ff243496d1bb7aea7bd193b54cac213f01e3fc0fc278c272474f09"
+      }
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E48-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea"
+      },
+      "sample_id": "R-da938412101c",
+      "capability": "M0",
+      "question": "对比 blastFoam building3D 与 blastFSIFoam building3D 两个 Allrun 脚本：在网格准备阶段，前者是否拆分区域？后者是否拆分区域？两者在运行求解器前对内部 patch 的处理分别是什么？",
+      "status": "completion_truncated",
+      "observed_failure_mode": "repeated_search_query",
+      "requests": 1,
+      "executed_tools": 0,
+      "delivered_evidence_characters": 0,
+      "failed_turn_zero_based": 0,
+      "http_status": 200,
+      "finish_reason": "length",
+      "failed_turn_prompt_tokens": 620,
+      "failed_turn_completion_tokens": 2048,
+      "request_output_limit": 2048,
+      "content_characters": 2616,
+      "trailing_ascii_spaces": 0,
+      "prefix_repr": "'{\"action\":\"tool\",\"name\":\"search\",\"arguments\":{\"query\":\"building3D blastFoam blastFSIFoam 网格准备 拆分区域 内部 patch 处理 前处理步骤 前处理阶段 处理方法 网格生成 网格划分 网格准备阶段 拆分区域 处理内部 patch 前处理步骤 前处理阶段 处理方法 网格生成 网格划分 网格准备阶段 拆分区域 处理内部 patch 前处理步骤 前处理'",
+      "suffix_repr": "'分区域 处理内部 patch 前处理步骤 前处理阶段 处理方法 网格生成 网格划分 网格准备阶段 拆分区域 处理内部 patch 前处理步骤 前处理阶段 处理方法 网格生成 网格划分 网格准备阶段 拆分区域 处理内部 patch 前处理步骤'",
+      "nonspace_suffix_repr": "'分区域 处理内部 patch 前处理步骤 前处理阶段 处理方法 网格生成 网格划分 网格准备阶段 拆分区域 处理内部 patch 前处理步骤 前处理阶段 处理方法 网格生成 网格划分 网格准备阶段 拆分区域 处理内部 patch 前处理步骤'",
+      "control_characters": [],
+      "strict_json_error": {
+        "message": "Unterminated string starting at",
+        "character_offset_zero_based": 54,
+        "line": 1,
+        "column_one_based": 55
+      },
+      "permissive_parse_diagnostic_only": null,
+      "source_files": {
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea/result.json": "080452f9c9c790977ac304006a0d3680af0a1b344b78e0f1a568a800541aa49f",
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea/requests/00.json": "b9771f5b0741d9c4954fdcf23b56f3ad9a2a3bdf104feae8694655605f34f210"
+      }
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E53-07",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326"
+      },
+      "sample_id": "R-7b677bd47600",
+      "capability": "S1",
+      "question": "我给Mie-Grüneisen相准备了初始p、rho、T，没有提供内能场，但在状态方程字典中设了calculateDensity yes。初始化时会先处理rho还是内能？内能计算会直接沿用原rho，还是要等密度重算后再进行？",
+      "status": "completion_truncated",
+      "observed_failure_mode": "repeated_search_query",
+      "requests": 1,
+      "executed_tools": 0,
+      "delivered_evidence_characters": 0,
+      "failed_turn_zero_based": 0,
+      "http_status": 200,
+      "finish_reason": "length",
+      "failed_turn_prompt_tokens": 628,
+      "failed_turn_completion_tokens": 2048,
+      "request_output_limit": 2048,
+      "content_characters": 2484,
+      "trailing_ascii_spaces": 0,
+      "prefix_repr": "'{\"action\":\"tool\",\"name\":\"search\",\"arguments\":{\"query\":\"calculateDensity yes 初始化顺序 内能 状态方程字典 rho 顺序 处理顺序 原rho 重算 密度 重计算 内能 依赖关系 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖'",
+      "suffix_repr": "'赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密'",
+      "nonspace_suffix_repr": "'赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密度 重计算 内能 依赖 密'",
+      "control_characters": [],
+      "strict_json_error": {
+        "message": "Unterminated string starting at",
+        "character_offset_zero_based": 54,
+        "line": 1,
+        "column_one_based": 55
+      },
+      "permissive_parse_diagnostic_only": null,
+      "source_files": {
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326/result.json": "84a041fac3092d04038c3020ff8659a11f1900425a896491b60a6a1dfef22582",
+        "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326/requests/00.json": "7c4ad72052affb51d9e35236fca973efd3a944611438da359ce87b1134ea7add"
+      }
+    }
+  ],
+  "recovery_proposal": {
+    "status": "awaiting_user_discussion",
+    "recommended": "keep_55_complete_answers_and_regenerate_original_5_failed_tasks_once_under_new_protocol",
+    "technical_fixture_calls_proposed": 42,
+    "reissued_task_count_proposed": 5,
+    "reissued_tasks_model_calls_theoretical_max": 65,
+    "query_max_characters_proposed": 512,
+    "max_output_tokens_proposed": 2048,
+    "temperature_proposed": 0,
+    "attempt_again_after_further_failure": false,
+    "replace_questions": false,
+    "mix_protocols_for_method_scores": false,
+    "alternative": "regenerate_original_60_tasks_under_new_protocol_for_uniform_generation_identity",
+    "tasks": [
+      {
+        "sample_id": "R-a021a4d085b9",
+        "capability": "S1",
+        "task": {
+          "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+          "part": "open",
+          "id": "E55-01",
+          "repeat": 1,
+          "model": "llama3.1-8b",
+          "method": "graph",
+          "mode": "agentic",
+          "budget": "S",
+          "task_id": "8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7"
+        },
+        "original_protocol_sha256": "cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc",
+        "proposed_protocol_sha256": null,
+        "authorized": false,
+        "new_protocol_generations_max": 1
+      },
+      {
+        "sample_id": "R-150962443949",
+        "capability": "S0",
+        "task": {
+          "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+          "part": "open",
+          "id": "E16-02",
+          "repeat": 1,
+          "model": "qwen3-14b",
+          "method": "bm25",
+          "mode": "agentic",
+          "budget": "M",
+          "task_id": "b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe"
+        },
+        "original_protocol_sha256": "cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc",
+        "proposed_protocol_sha256": null,
+        "authorized": false,
+        "new_protocol_generations_max": 1
+      },
+      {
+        "sample_id": "R-e688146d2842",
+        "capability": "M1",
+        "task": {
+          "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+          "part": "open",
+          "id": "P06-02",
+          "repeat": 1,
+          "model": "qwen3-8b",
+          "method": "graph",
+          "mode": "agentic",
+          "budget": "M",
+          "task_id": "055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38"
+        },
+        "original_protocol_sha256": "cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc",
+        "proposed_protocol_sha256": null,
+        "authorized": false,
+        "new_protocol_generations_max": 1
+      },
+      {
+        "sample_id": "R-da938412101c",
+        "capability": "M0",
+        "task": {
+          "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+          "part": "open",
+          "id": "E48-03",
+          "repeat": 1,
+          "model": "qwen3-8b",
+          "method": "graph",
+          "mode": "agentic",
+          "budget": "M",
+          "task_id": "85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea"
+        },
+        "original_protocol_sha256": "cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc",
+        "proposed_protocol_sha256": null,
+        "authorized": false,
+        "new_protocol_generations_max": 1
+      },
+      {
+        "sample_id": "R-7b677bd47600",
+        "capability": "S1",
+        "task": {
+          "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+          "part": "open",
+          "id": "E53-07",
+          "repeat": 1,
+          "model": "qwen3-8b",
+          "method": "graph",
+          "mode": "agentic",
+          "budget": "M",
+          "task_id": "d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326"
+        },
+        "original_protocol_sha256": "cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc",
+        "proposed_protocol_sha256": null,
+        "authorized": false,
+        "new_protocol_generations_max": 1
+      }
+    ]
+  },
+  "preserved_files": {
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/packets.json": "1b11f00fae5828860ee89695071ef4689183a39abf361af16a3dd5c01cd5ac3d",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/acceptance/packets.json": "ab1c1e1cf2223755ff076a9a2464ffbbe6ea7098a8ed7f502fe939f14eb4bb4e",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/administration/sample_mapping.json": "22bb9238a0f86507953269562aa1600dbe4d7cd573ebaf067da67af7661cdd83",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/administration/generation_check.json": "7019f6f94761413441518205c13b812706147b3f466e145e319bd288038d44cc",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/administration/binding_check.json": "3e73ac252fb397716bbb38caf3414de1612e0cf95d22ef6dd30d73ca1f8955e1",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/index.html": "ed362fb9cf49aec01f124943db5cd6aff87dde9cae90d5f2b402856d5cf2c20e",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/calibration/blank_labels.json": "b7746cd69042e8458ae36068cecfa331ae6d21d1d447e3d2f6d0fff9edb143ec",
+    "graduation-datasets/chapter02_knowledge_qa/open/review/calibration/acceptance/blank_labels.json": "8927e16e37838a6bd5dd303ca51a82753682f7b1577bee7657f9a3b971bb3eb4",
+    "graduation-experiment-results/chapter2_retrieval/release/planning/execution.json": "a5aa31ae2333d8b9e02991d1544d471259db724a06ba4dfb8b8b0c6f7c06c608",
+    "graduation-experiment-results/chapter2_retrieval/release/planning/run_protocol.json": "cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc"
+  },
+  "source_files": {
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/llama3.1-8b/8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7/result.json": "8af108fad4468899fefdc6465aa1f1efd93f3a0ba941d1fb2c3da63e5d2a80ad",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/llama3.1-8b/8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7/requests/00.json": "a2588d380406b4b19f3fec8fad0071bb4fd01539280bdfd407708eebfda6f1e6",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/llama3.1-8b/8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7/requests/01.json": "3b6c14e2a9331172ba46962ff8f820d7921827c3a01bd2b0b64cf00d478fca45",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-14b/b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe/result.json": "71df4d9398d9c0d4e34c4e150cd7ea1ffde6c3b254ab5f05098eee08f49ca96c",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-14b/b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe/requests/00.json": "fd5327c02cc20d6f0932078ae18013e8dd670954bc951a09b55916d88f241473",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-14b/b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe/requests/01.json": "4733190fa4619f62dcee2be8b52284dff00a3a321a14d3ac8bb14fbaa40281ea",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38/result.json": "05a98e3e946a0d871fe435234d77bd22fffca0bf33886f49396c9dae80c89a28",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38/requests/00.json": "4193951415ff243496d1bb7aea7bd193b54cac213f01e3fc0fc278c272474f09",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea/result.json": "080452f9c9c790977ac304006a0d3680af0a1b344b78e0f1a568a800541aa49f",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea/requests/00.json": "b9771f5b0741d9c4954fdcf23b56f3ad9a2a3bdf104feae8694655605f34f210",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326/result.json": "84a041fac3092d04038c3020ff8659a11f1900425a896491b60a6a1dfef22582",
+    "graduation-experiment-results/chapter2_retrieval/runs/cadc6b76ac42cb356d9fb5072f5862598a5bc4e04019d45257b630bf21fadcfc/qwen3-8b/d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326/requests/00.json": "7c4ad72052affb51d9e35236fca973efd3a944611438da359ce87b1134ea7add"
+  },
+  "execution": {
+    "new_model_requests_this_analysis": 0,
+    "runtime_or_schema_changes_applied": false,
+    "formal_question_or_gold_changes": false,
+    "packet_or_binding_changes": false,
+    "repair_generations_started": false,
+    "acceptance_started": false,
+    "full_matrix_started": false,
+    "human_labels_added": 0,
+    "ai_judge_calls": 0
+  },
+  "references": [
+    {
+      "title": "vLLM 0.11.0 structured output configuration",
+      "url": "https://docs.vllm.ai/en/v0.11.0/api/vllm/config/structured_outputs.html",
+      "scope": "Candidate compact-JSON mechanism only; deployed version/backend not established by stored calibration logs."
+    },
+    {
+      "title": "vLLM 0.11.0 XGrammar implementation",
+      "url": "https://github.com/vllm-project/vllm/blob/v0.11.0/vllm/v1/structured_output/backend_xgrammar.py",
+      "scope": "How disable_any_whitespace is forwarded to JSON grammar compilation."
+    },
+    {
+      "title": "Python 3.11 JSONDecoder",
+      "url": "https://docs.python.org/3.11/library/json.html#json.JSONDecoder",
+      "scope": "strict=False permits control characters rather than recovering original formula text."
+    }
+  ]
+}

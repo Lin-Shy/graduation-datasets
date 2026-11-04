@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "scope": "existing_calibration_description_and_thesis_materials_only",
+  "common_pairs": 56,
+  "common_question_ids": 46,
+  "protected_files_unchanged": 30,
+  "original_calibration_verification": {
+    "passed": true,
+    "protocol_sha256": "85b246b6f2580a3b19302c4625d9e9b4da3040c8c09a540be022250b4238669c",
+    "human_labels": 60,
+    "human_unknown_items": 1,
+    "statuses": {
+      "gpt_sol": {
+        "complete": 58,
+        "judge_output_failure": 1,
+        "technical_unresolved": 1
+      },
+      "deepseek_flash": {
+        "complete": 59,
+        "judge_output_failure": 1
+      }
+    },
+    "raw_files": 923,
+    "previous_trial_files": 274,
+    "never_transmitted_queue_records_resumed": 10,
+    "objective_reference_answers_approved": 200,
+    "answers_questions_and_Gold_unchanged": true,
+    "acceptance_locked": true,
+    "full_generation_started": false,
+    "all_dispatch_closed": true
+  },
+  "scoring_prompt_rules_and_Gold_unchanged": true,
+  "new_model_calls": 0,
+  "improvement_or_recalibration_requested": false,
+  "maximum_error_correction": {
+    "overall_single_judge": "DeepSeek sample 3, -33.3333333333",
+    "GPT_only": "sample 37, +31.25"
+  },
+  "acceptance_locked": true,
+  "full_generation_started": false,
+  "local_links_verified_before_publication": 67,
+  "checked_utc": "2026-11-04T12:55:27.420274+00:00",
+  "derived_source_sha256": "96a5dad01311881f88e228eba84ecbfce0023c32286cd9ca7cf2f4eea00a3b60"
+}

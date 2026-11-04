@@ -1,0 +1,605 @@
+{
+  "basis": "Current approved questions and source coverage; no model scores.",
+  "items": [
+    {
+      "id": "P01-01",
+      "capability": "S0",
+      "theme_id": "amr-fieldvalue-error-definition",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "P01-02",
+      "capability": "M1",
+      "theme_id": "amr-fieldvalue-error-definition",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "P01-03",
+      "capability": "M1",
+      "theme_id": "amr-fieldvalue-error-definition",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "P02-02",
+      "capability": "S1",
+      "theme_id": "timeofarrival-max-pressure-time",
+      "knowledge_group": "pressure-loads"
+    },
+    {
+      "id": "P02-03",
+      "capability": "S1",
+      "theme_id": "timeofarrival-max-pressure-time",
+      "knowledge_group": "pressure-loads"
+    },
+    {
+      "id": "P03-01",
+      "capability": "M0",
+      "theme_id": "twocharge-phase-selectors",
+      "knowledge_group": "charge-thermodynamics"
+    },
+    {
+      "id": "P04-02",
+      "capability": "M1",
+      "theme_id": "atmosphere-existing-table-not-active",
+      "knowledge_group": "atmosphere-initialization"
+    },
+    {
+      "id": "P04-03",
+      "capability": "M1",
+      "theme_id": "atmosphere-existing-table-not-active",
+      "knowledge_group": "atmosphere-initialization"
+    },
+    {
+      "id": "P04-05",
+      "capability": "S0",
+      "theme_id": "atmosphere-existing-table-not-active",
+      "knowledge_group": "atmosphere-initialization"
+    },
+    {
+      "id": "P05-02",
+      "capability": "M1",
+      "theme_id": "solid-thermodynamic-eos-scope",
+      "knowledge_group": "charge-thermodynamics"
+    },
+    {
+      "id": "P05-03",
+      "capability": "M1",
+      "theme_id": "solid-thermodynamic-eos-scope",
+      "knowledge_group": "charge-thermodynamics"
+    },
+    {
+      "id": "P06-02",
+      "capability": "M1",
+      "theme_id": "ddt-su-two-files",
+      "knowledge_group": "ddt-combustion"
+    },
+    {
+      "id": "P06-03",
+      "capability": "M1",
+      "theme_id": "ddt-su-two-files",
+      "knowledge_group": "ddt-combustion"
+    },
+    {
+      "id": "P07-01",
+      "capability": "M0",
+      "theme_id": "rho-energy-table-navigation",
+      "knowledge_group": "tabulated-thermodynamics"
+    },
+    {
+      "id": "P07-04",
+      "capability": "M0",
+      "theme_id": "rho-energy-table-navigation",
+      "knowledge_group": "tabulated-thermodynamics"
+    },
+    {
+      "id": "P08-01",
+      "capability": "M1",
+      "theme_id": "blastprobes-adjustlocation-example",
+      "knowledge_group": "probe-management"
+    },
+    {
+      "id": "P08-02",
+      "capability": "M1",
+      "theme_id": "blastprobes-adjustlocation-example",
+      "knowledge_group": "probe-management"
+    },
+    {
+      "id": "P09-01",
+      "capability": "M1",
+      "theme_id": "delayed-readme-selector-conflict",
+      "knowledge_group": "activation"
+    },
+    {
+      "id": "P10-01",
+      "capability": "M1",
+      "theme_id": "precice-amr-conditional-scope",
+      "knowledge_group": "fsi-regions"
+    },
+    {
+      "id": "P10-05",
+      "capability": "M1",
+      "theme_id": "precice-amr-conditional-scope",
+      "knowledge_group": "fsi-regions"
+    },
+    {
+      "id": "P11-05",
+      "capability": "M0",
+      "theme_id": "sutherland-included-species-inputs",
+      "knowledge_group": "reacting-transport"
+    },
+    {
+      "id": "P12-01",
+      "capability": "M0",
+      "theme_id": "blast-numerics-flux-reconstruction-time",
+      "knowledge_group": "blast-numerics"
+    },
+    {
+      "id": "P12-03",
+      "capability": "M1",
+      "theme_id": "blast-numerics-flux-reconstruction-time",
+      "knowledge_group": "blast-numerics"
+    },
+    {
+      "id": "P12-04",
+      "capability": "M1",
+      "theme_id": "blast-numerics-flux-reconstruction-time",
+      "knowledge_group": "blast-numerics"
+    },
+    {
+      "id": "E13-04",
+      "capability": "M0",
+      "theme_id": "heat-capacity-model-temperature",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "E14-03",
+      "capability": "S0",
+      "theme_id": "solid-conductivity-direction",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "E15-02",
+      "capability": "S0",
+      "theme_id": "jwl-jwlc-state-signature",
+      "knowledge_group": "charge-thermodynamics"
+    },
+    {
+      "id": "E15-03",
+      "capability": "S0",
+      "theme_id": "jwl-jwlc-state-signature",
+      "knowledge_group": "charge-thermodynamics"
+    },
+    {
+      "id": "E16-02",
+      "capability": "S0",
+      "theme_id": "ideal-gas-energy-temperature",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "E17-02",
+      "capability": "M0",
+      "theme_id": "stiffened-gas-pressure-offset",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "E18-05",
+      "capability": "M1",
+      "theme_id": "murnaghan-birch-reactants",
+      "knowledge_group": "charge-thermodynamics"
+    },
+    {
+      "id": "E19-04",
+      "capability": "M1",
+      "theme_id": "miller-afterburn-confined",
+      "knowledge_group": "afterburn"
+    },
+    {
+      "id": "E19-06",
+      "capability": "M0",
+      "theme_id": "miller-afterburn-confined",
+      "knowledge_group": "afterburn"
+    },
+    {
+      "id": "E20-01",
+      "capability": "S1",
+      "theme_id": "afterburn-default-rate-window",
+      "knowledge_group": "afterburn"
+    },
+    {
+      "id": "E21-01",
+      "capability": "S1",
+      "theme_id": "arrhenius-activation-validity",
+      "knowledge_group": "activation"
+    },
+    {
+      "id": "E21-03",
+      "capability": "S0",
+      "theme_id": "arrhenius-activation-validity",
+      "knowledge_group": "activation"
+    },
+    {
+      "id": "E22-03",
+      "capability": "S0",
+      "theme_id": "activation-energy-lambda-transport",
+      "knowledge_group": "activation"
+    },
+    {
+      "id": "E23-05",
+      "capability": "M0",
+      "theme_id": "pressure-activation-stage-scope",
+      "knowledge_group": "activation"
+    },
+    {
+      "id": "E24-05",
+      "capability": "M1",
+      "theme_id": "linear-activation-delays-none",
+      "knowledge_group": "activation"
+    },
+    {
+      "id": "E25-07",
+      "capability": "M1",
+      "theme_id": "pressure-burst-threshold-default",
+      "knowledge_group": "burst-boundaries"
+    },
+    {
+      "id": "E26-02",
+      "capability": "S0",
+      "theme_id": "pressure-impulse-burst-logic",
+      "knowledge_group": "burst-boundaries"
+    },
+    {
+      "id": "E27-02",
+      "capability": "S0",
+      "theme_id": "field-burst-input-representation",
+      "knowledge_group": "burst-boundaries"
+    },
+    {
+      "id": "E28-01",
+      "capability": "S0",
+      "theme_id": "burst-intact-boundary-difference",
+      "knowledge_group": "burst-boundaries"
+    },
+    {
+      "id": "E28-05",
+      "capability": "M1",
+      "theme_id": "burst-intact-boundary-difference",
+      "knowledge_group": "burst-boundaries"
+    },
+    {
+      "id": "E29-06",
+      "capability": "M1",
+      "theme_id": "overpressure-reference-storage",
+      "knowledge_group": "pressure-loads"
+    },
+    {
+      "id": "E30-01",
+      "capability": "S0",
+      "theme_id": "impulse-runtime-offline-reference",
+      "knowledge_group": "pressure-loads"
+    },
+    {
+      "id": "E31-01",
+      "capability": "S0",
+      "theme_id": "dynamic-pressure-vector-scope",
+      "knowledge_group": "pressure-loads"
+    },
+    {
+      "id": "E32-02",
+      "capability": "M1",
+      "theme_id": "extrema-stored-field-chain",
+      "knowledge_group": "pressure-loads"
+    },
+    {
+      "id": "E33-01",
+      "capability": "S0",
+      "theme_id": "conserved-quantities-open-domain",
+      "knowledge_group": "blast-diagnostics"
+    },
+    {
+      "id": "E33-02",
+      "capability": "S1",
+      "theme_id": "conserved-quantities-open-domain",
+      "knowledge_group": "blast-diagnostics"
+    },
+    {
+      "id": "E34-01",
+      "capability": "S1",
+      "theme_id": "schlieren-shadowgraph-operator",
+      "knowledge_group": "blast-diagnostics"
+    },
+    {
+      "id": "E35-01",
+      "capability": "S0",
+      "theme_id": "blast-mach-thermo-field-scope",
+      "knowledge_group": "blast-diagnostics"
+    },
+    {
+      "id": "E36-01",
+      "capability": "S1",
+      "theme_id": "vtk-interpolation-resolution",
+      "knowledge_group": "vtk-postprocessing"
+    },
+    {
+      "id": "E37-03",
+      "capability": "S1",
+      "theme_id": "probe-restart-merge-policy",
+      "knowledge_group": "probe-management"
+    },
+    {
+      "id": "E38-02",
+      "capability": "S0",
+      "theme_id": "time-series-relative-path-scope",
+      "knowledge_group": "vtk-postprocessing"
+    },
+    {
+      "id": "E39-03",
+      "capability": "S0",
+      "theme_id": "rotate-blast-fields-conservation",
+      "knowledge_group": "mapped-initialization"
+    },
+    {
+      "id": "E40-02",
+      "capability": "S1",
+      "theme_id": "mapped-stage-command-conflict",
+      "knowledge_group": "mapped-initialization"
+    },
+    {
+      "id": "E41-05",
+      "capability": "S1",
+      "theme_id": "amr-cellsize-geometric-modes",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E41-06",
+      "capability": "S1",
+      "theme_id": "amr-cellsize-geometric-modes",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E42-01",
+      "capability": "S0",
+      "theme_id": "amr-density-delayed-coarsening",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E42-03",
+      "capability": "M0",
+      "theme_id": "amr-density-delayed-coarsening",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E43-02",
+      "capability": "S0",
+      "theme_id": "amr-scaled-lohner-errors",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E44-02",
+      "capability": "S0",
+      "theme_id": "amr-multicomponent-combination",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E44-03",
+      "capability": "S1",
+      "theme_id": "amr-multicomponent-combination",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E45-02",
+      "capability": "S1",
+      "theme_id": "amr-snappy-balancing-limits",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E45-04",
+      "capability": "S0",
+      "theme_id": "amr-snappy-balancing-limits",
+      "knowledge_group": "amr-indicators"
+    },
+    {
+      "id": "E46-01",
+      "capability": "S0",
+      "theme_id": "refined-fields-explosive-initialization",
+      "knowledge_group": "explosive-initialization"
+    },
+    {
+      "id": "E47-03",
+      "capability": "S1",
+      "theme_id": "internal-glass-mesh-sequence",
+      "knowledge_group": "explosive-initialization"
+    },
+    {
+      "id": "E48-03",
+      "capability": "M0",
+      "theme_id": "building-fluid-fsi-region-scope",
+      "knowledge_group": "fsi-regions"
+    },
+    {
+      "id": "E49-01",
+      "capability": "S0",
+      "theme_id": "fsi-blast-solver-maturity",
+      "knowledge_group": "fsi-regions"
+    },
+    {
+      "id": "E49-05",
+      "capability": "S1",
+      "theme_id": "fsi-blast-solver-maturity",
+      "knowledge_group": "fsi-regions"
+    },
+    {
+      "id": "E50-02",
+      "capability": "S0",
+      "theme_id": "ddt-reacting-solver-distinction",
+      "knowledge_group": "ddt-combustion"
+    },
+    {
+      "id": "E50-03",
+      "capability": "S1",
+      "theme_id": "ddt-reacting-solver-distinction",
+      "knowledge_group": "ddt-combustion"
+    },
+    {
+      "id": "E51-01",
+      "capability": "S1",
+      "theme_id": "temperature-coupled-unmapped-default",
+      "knowledge_group": "fsi-regions"
+    },
+    {
+      "id": "E52-01",
+      "capability": "S1",
+      "theme_id": "thermo-runtime-compilation-validity",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "E53-03",
+      "capability": "S1",
+      "theme_id": "thermo-initialization-state-conditions",
+      "knowledge_group": "thermal-initialization"
+    },
+    {
+      "id": "E53-06",
+      "capability": "S1",
+      "theme_id": "thermo-initialization-state-conditions",
+      "knowledge_group": "thermal-initialization"
+    },
+    {
+      "id": "E53-07",
+      "capability": "S1",
+      "theme_id": "thermo-initialization-state-conditions",
+      "knowledge_group": "thermal-initialization"
+    },
+    {
+      "id": "E54-01",
+      "capability": "S1",
+      "theme_id": "riemann-transport-stiff-source-limits",
+      "knowledge_group": "blast-numerics"
+    },
+    {
+      "id": "E55-01",
+      "capability": "S1",
+      "theme_id": "workshop-probe-include-activation",
+      "knowledge_group": "workshop-sampling"
+    },
+    {
+      "id": "N56-03",
+      "capability": "M0",
+      "theme_id": "interfacial-relaxation-equation-link",
+      "knowledge_group": "interfacial-transfer"
+    },
+    {
+      "id": "N57-03",
+      "capability": "M1",
+      "theme_id": "drag-correlation-composition",
+      "knowledge_group": "interfacial-transfer"
+    },
+    {
+      "id": "N58-03",
+      "capability": "M0",
+      "theme_id": "particle-heat-transfer-coefficient",
+      "knowledge_group": "interfacial-transfer"
+    },
+    {
+      "id": "N59-02",
+      "capability": "M0",
+      "theme_id": "interfacial-pressure-velocity-role",
+      "knowledge_group": "interfacial-transfer"
+    },
+    {
+      "id": "N60-02",
+      "capability": "M0",
+      "theme_id": "diameter-density-reaction-law",
+      "knowledge_group": "particle-diameter"
+    },
+    {
+      "id": "N60-03",
+      "capability": "M1",
+      "theme_id": "diameter-density-reaction-law",
+      "knowledge_group": "particle-diameter"
+    },
+    {
+      "id": "N61-02",
+      "capability": "M0",
+      "theme_id": "nusselt-correlation-structure",
+      "knowledge_group": "interfacial-transfer"
+    },
+    {
+      "id": "N61-03",
+      "capability": "M0",
+      "theme_id": "nusselt-correlation-structure",
+      "knowledge_group": "interfacial-transfer"
+    },
+    {
+      "id": "N62-02",
+      "capability": "M0",
+      "theme_id": "granular-radial-collision-closure",
+      "knowledge_group": "granular-closures"
+    },
+    {
+      "id": "N62-03",
+      "capability": "M0",
+      "theme_id": "granular-radial-collision-closure",
+      "knowledge_group": "granular-closures"
+    },
+    {
+      "id": "N63-02",
+      "capability": "M0",
+      "theme_id": "granular-friction-model-composition",
+      "knowledge_group": "granular-closures"
+    },
+    {
+      "id": "N64-02",
+      "capability": "M0",
+      "theme_id": "granular-packing-size-distribution",
+      "knowledge_group": "granular-closures"
+    },
+    {
+      "id": "N64-03",
+      "capability": "M1",
+      "theme_id": "granular-packing-size-distribution",
+      "knowledge_group": "granular-closures"
+    },
+    {
+      "id": "N65-01",
+      "capability": "S1",
+      "theme_id": "viscosity-turbulence-input-scope",
+      "knowledge_group": "viscous-turbulence"
+    },
+    {
+      "id": "N66-01",
+      "capability": "S0",
+      "theme_id": "fluid-transport-variable-representation",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "N66-03",
+      "capability": "M0",
+      "theme_id": "fluid-transport-variable-representation",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "N67-02",
+      "capability": "M0",
+      "theme_id": "solid-transport-temperature-law",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "N67-03",
+      "capability": "M0",
+      "theme_id": "solid-transport-temperature-law",
+      "knowledge_group": "thermal-models"
+    },
+    {
+      "id": "N68-01",
+      "capability": "S1",
+      "theme_id": "mass-transfer-model-contract",
+      "knowledge_group": "interfacial-transfer"
+    },
+    {
+      "id": "N69-02",
+      "capability": "M0",
+      "theme_id": "granular-energy-pressure-closure",
+      "knowledge_group": "granular-closures"
+    }
+  ]
+}

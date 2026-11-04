@@ -1,0 +1,36 @@
+{
+  "schema": "multiline_synthetic_native_action_contract_v1",
+  "requests": 42,
+  "passed_actions": 40,
+  "failed_actions": 2,
+  "passed": false,
+  "failures": [
+    {
+      "model": "llama3.1-8b",
+      "case": "external_whitespace",
+      "request": "graduation-experiment-results/chapter2_retrieval/technical/compact_actions_multiline_completion_20261104/llama3.1-8b/external_whitespace/requests/00.json",
+      "error": "invalid final schema",
+      "answer_repr": "' '",
+      "request_sha256": "c2eb0e7f2bcffb1ae88ab9196a20e7a55b3c2a67e1de93e2dbeef2766cb417fc",
+      "response_sha256": "4a6e13e200bf96cb7d5a4382659eeb324d91a26d754aec873847142915a330fe"
+    },
+    {
+      "model": "qwen3-14b",
+      "case": "external_whitespace",
+      "request": "graduation-experiment-results/chapter2_retrieval/technical/compact_actions_multiline_completion_20261104/qwen3-14b/external_whitespace/requests/00.json",
+      "error": "invalid final schema",
+      "answer_repr": "' '",
+      "request_sha256": "bb26f3b93c32c889120c0840443b39956c1921abd32cfe6eeff7a530d0d76191",
+      "response_sha256": "8da272b7cf9e38ba509c4deed10073290f04eb882f2cd8dd5d47ca2b2ced6e0a"
+    }
+  ],
+  "tokens": {
+    "input": 14889,
+    "output": 861,
+    "max_output": 32
+  },
+  "runtime_sha256": "9ac118528bd161742f6bfac947c11153e2bad9dcf48f7c601738a9d16d0f6768",
+  "parser_module_sha256": "9bd1ccc270d6a1f9027f51b2ab2b74138ec7cf5b17f7dcc967681c7ea23fe249",
+  "model_requests_added_by_this_check": 0,
+  "answer_normalization_applied": false
+}

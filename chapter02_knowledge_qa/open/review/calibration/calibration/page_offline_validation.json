@@ -1,0 +1,11 @@
+{
+  "schema": "completed_review_offline_page_check_v1",
+  "passed": true,
+  "parsed_executable_scripts": 2,
+  "embedded_samples": 60,
+  "embedded_labels": 60,
+  "embedded_materials_match_files": true,
+  "javascript_packet_digests_match": 60,
+  "browser_render_verified": false,
+  "browser_render_limitation": "Browser tool URL policy disallows file: navigation. No browser-policy workaround attempted."
+}

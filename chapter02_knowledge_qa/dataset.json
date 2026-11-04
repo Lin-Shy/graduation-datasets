@@ -1,0 +1,30 @@
+{
+  "partition": "full_evaluation",
+  "development_split": null,
+  "test_split": null,
+  "selection_by_method_scores": false,
+  "independent_human_review": "pending",
+  "new_experiments": "not_run",
+  "answering_modes": [
+    "single_pass",
+    "agentic"
+  ],
+  "schema": "chapter2_current_dataset",
+  "total_questions": 300,
+  "presentation_order": [
+    "objective",
+    "open"
+  ],
+  "parts": {
+    "open": {
+      "count": 100,
+      "questions": "open/model/questions.json",
+      "gold": "open/scoring/annotations.json"
+    },
+    "objective": {
+      "count": 200,
+      "questions": "objective/model/questions.json",
+      "gold": "objective/scoring/annotations.json"
+    }
+  }
+}

@@ -1,0 +1,2058 @@
+{
+  "schema": "human_review_labels_v1",
+  "phase": "acceptance",
+  "labels": [
+    {
+      "sample_id": "R-7c15be613be5",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-7c15be613be5",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N62-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N62-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N62-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-4cfdf445f3bd",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-4cfdf445f3bd",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N67-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N67-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N67-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-119ba7a26d26",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-119ba7a26d26",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P12-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P12-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P12-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-de82761e135b",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-de82761e135b",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E22-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E22-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E22-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-eb4a6c33187c",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-eb4a6c33187c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E45-04.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E45-04.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-3a7db6434a33",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-3a7db6434a33",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P01-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P01-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P01-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-b3de44d81166",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-b3de44d81166",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E41-06.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E41-06.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E41-06.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-65553347c328",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-65553347c328",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E50-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E50-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E50-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-3d85d9756294",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-3d85d9756294",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P10-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P10-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P10-05.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-7a991a7384d8",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-7a991a7384d8",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E53-06.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E53-06.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-fcba09561882",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-fcba09561882",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P03-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P03-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P03-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-8368ecee6508",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-8368ecee6508",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E41-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E41-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E41-05.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-078036dfe48a",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-078036dfe48a",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E50-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E50-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E50-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-d9c39b7f89fc",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-d9c39b7f89fc",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E15-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E15-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-3fe51c66163c",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-3fe51c66163c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E21-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E21-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E21-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-c18b20117b35",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-c18b20117b35",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E18-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E18-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-af3bab51aa4d",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-af3bab51aa4d",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E15-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E15-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-10e10774852c",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-10e10774852c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E49-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E49-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-fad5eaedd655",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-fad5eaedd655",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E40-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E40-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-1cf52936b32f",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-1cf52936b32f",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E18-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E18-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-ee91d312336f",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-ee91d312336f",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N63-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N63-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N63-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-948565b7532c",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-948565b7532c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E35-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E35-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E35-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-027110d69c5c",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-027110d69c5c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E43-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E43-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E43-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-72663989a350",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-72663989a350",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E50-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E50-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E50-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-50057e3c192f",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-50057e3c192f",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P02-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P02-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-70e97b21d2fa",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-70e97b21d2fa",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P11-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P11-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P11-05.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-a14f7b9da0e7",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-a14f7b9da0e7",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N57-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N57-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N57-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-33d6b789e4b5",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-33d6b789e4b5",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P12-04.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P12-04.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-5e5a075e1598",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-5e5a075e1598",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E46-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E46-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E46-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-419e37801dc7",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-419e37801dc7",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P08-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P08-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-d2660f61b018",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-d2660f61b018",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E21-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E21-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E21-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-252215b8c2d2",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-252215b8c2d2",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E31-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E31-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-8a608dc22c8c",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-8a608dc22c8c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N63-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N63-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N63-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-3238904bb7cd",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-3238904bb7cd",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E33-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E33-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-13f1e4e0a61c",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-13f1e4e0a61c",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E21-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E21-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E21-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-6e67afdb0e48",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-6e67afdb0e48",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E23-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E23-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E23-05.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-4070a3e7ddb9",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-4070a3e7ddb9",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P01-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P01-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P01-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-5ed7e522bf70",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-5ed7e522bf70",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P10-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P10-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P10-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-b1a68f2f1782",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-b1a68f2f1782",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E36-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E36-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-e3cbc02df528",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-e3cbc02df528",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E45-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E45-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E45-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-879f67da6df4",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-879f67da6df4",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P08-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P08-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-5d8a6b0bac75",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-5d8a6b0bac75",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N69-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N69-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N69-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-20eacb7e086d",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-20eacb7e086d",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N64-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N64-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N64-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-f91ec9872ce6",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-f91ec9872ce6",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P01-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P01-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-20fbada6e36b",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-20fbada6e36b",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P04-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P04-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-dcb813f53bfc",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-dcb813f53bfc",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N57-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N57-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N57-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-9d91be5071d6",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-9d91be5071d6",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N58-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N58-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N58-03.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-a5439cf5ccde",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-a5439cf5ccde",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P12-03.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P12-03.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-955dd9418660",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-955dd9418660",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E32-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E32-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E32-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-1f3487f66330",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-1f3487f66330",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E52-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E52-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-fd82fc032aaa",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-fd82fc032aaa",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E13-04.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E13-04.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E13-04.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-7da3a23215b7",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-7da3a23215b7",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E44-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E44-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E44-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E44-02.K4",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-50f6ad2666cc",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-50f6ad2666cc",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E30-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E30-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E30-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-e88a1723ccbf",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-e88a1723ccbf",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P01-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P01-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-ae81959425a8",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-ae81959425a8",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E28-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E28-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E28-05.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-4efe9ad387ea",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-4efe9ad387ea",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E19-06.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E19-06.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E19-06.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-e354e840501a",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-e354e840501a",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "N62-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N62-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "N62-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-5c001208a68b",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-5c001208a68b",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E24-05.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E24-05.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E24-05.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E24-05.K4",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-5f25aa98d70d",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-5f25aa98d70d",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "E45-02.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E45-02.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "E45-02.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": null,
+        "reason": ""
+      }
+    },
+    {
+      "sample_id": "R-290911ab8b87",
+      "reviewer": null,
+      "reviewed_utc": null,
+      "packet_sha256": null,
+      "record": {
+        "schema_version": "ch2_five_level_dual_eas",
+        "sample_id": "R-290911ab8b87",
+        "judge_id": "human",
+        "judge_version": "single-human-reference-v1",
+        "status": "pending",
+        "points": [
+          {
+            "criterion_id": "P12-01.K1",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P12-01.K2",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          },
+          {
+            "criterion_id": "P12-01.K3",
+            "score": null,
+            "reason": "",
+            "answer_quote": ""
+          }
+        ],
+        "fact_gate": null,
+        "applicability_gate": "not_applicable",
+        "reason": ""
+      }
+    }
+  ]
+}

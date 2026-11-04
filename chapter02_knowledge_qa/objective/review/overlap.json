@@ -1,0 +1,1176 @@
+{
+  "basis": "Required original source range intersection; not semantic equivalence.",
+  "items": [
+    {
+      "id": "OBJ-001",
+      "active_open_ids": [
+        "E25-07",
+        "E28-01",
+        "E28-05"
+      ]
+    },
+    {
+      "id": "OBJ-002",
+      "active_open_ids": [
+        "E25-07",
+        "E28-01",
+        "E28-05"
+      ]
+    },
+    {
+      "id": "OBJ-003",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-004",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-005",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-006",
+      "active_open_ids": [
+        "E26-02"
+      ]
+    },
+    {
+      "id": "OBJ-007",
+      "active_open_ids": [
+        "E26-02"
+      ]
+    },
+    {
+      "id": "OBJ-008",
+      "active_open_ids": [
+        "E27-02"
+      ]
+    },
+    {
+      "id": "OBJ-009",
+      "active_open_ids": [
+        "E27-02"
+      ]
+    },
+    {
+      "id": "OBJ-010",
+      "active_open_ids": [
+        "E27-02"
+      ]
+    },
+    {
+      "id": "OBJ-011",
+      "active_open_ids": [
+        "E51-01"
+      ]
+    },
+    {
+      "id": "OBJ-012",
+      "active_open_ids": [
+        "E51-01"
+      ]
+    },
+    {
+      "id": "OBJ-013",
+      "active_open_ids": [
+        "E51-01"
+      ]
+    },
+    {
+      "id": "OBJ-014",
+      "active_open_ids": [
+        "E51-01"
+      ]
+    },
+    {
+      "id": "OBJ-015",
+      "active_open_ids": [
+        "E51-01"
+      ]
+    },
+    {
+      "id": "OBJ-016",
+      "active_open_ids": [
+        "E51-01"
+      ]
+    },
+    {
+      "id": "OBJ-017",
+      "active_open_ids": [
+        "N60-02"
+      ]
+    },
+    {
+      "id": "OBJ-018",
+      "active_open_ids": [
+        "N60-02"
+      ]
+    },
+    {
+      "id": "OBJ-019",
+      "active_open_ids": [
+        "N60-03"
+      ]
+    },
+    {
+      "id": "OBJ-020",
+      "active_open_ids": [
+        "N60-03"
+      ]
+    },
+    {
+      "id": "OBJ-021",
+      "active_open_ids": [
+        "N60-03"
+      ]
+    },
+    {
+      "id": "OBJ-022",
+      "active_open_ids": [
+        "N60-03"
+      ]
+    },
+    {
+      "id": "OBJ-023",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-024",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-025",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-026",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-027",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-028",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-029",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-030",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-031",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-032",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-033",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-034",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-035",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-036",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-037",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-038",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-039",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-040",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-041",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-042",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-043",
+      "active_open_ids": [
+        "P08-01",
+        "P08-02"
+      ]
+    },
+    {
+      "id": "OBJ-044",
+      "active_open_ids": [
+        "P08-01",
+        "P08-02"
+      ]
+    },
+    {
+      "id": "OBJ-045",
+      "active_open_ids": [
+        "P08-01",
+        "P08-02"
+      ]
+    },
+    {
+      "id": "OBJ-046",
+      "active_open_ids": [
+        "P08-01",
+        "P08-02"
+      ]
+    },
+    {
+      "id": "OBJ-047",
+      "active_open_ids": [
+        "P08-01",
+        "P08-02"
+      ]
+    },
+    {
+      "id": "OBJ-048",
+      "active_open_ids": [
+        "E29-06",
+        "E32-02"
+      ]
+    },
+    {
+      "id": "OBJ-049",
+      "active_open_ids": [
+        "E29-06",
+        "E32-02"
+      ]
+    },
+    {
+      "id": "OBJ-050",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-051",
+      "active_open_ids": [
+        "E35-01"
+      ]
+    },
+    {
+      "id": "OBJ-052",
+      "active_open_ids": [
+        "E31-01"
+      ]
+    },
+    {
+      "id": "OBJ-053",
+      "active_open_ids": [
+        "E29-06",
+        "E32-02"
+      ]
+    },
+    {
+      "id": "OBJ-054",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-055",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-056",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-057",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-058",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-059",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-060",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-061",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-062",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-063",
+      "active_open_ids": [
+        "P11-05"
+      ]
+    },
+    {
+      "id": "OBJ-064",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-065",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-066",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-067",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-068",
+      "active_open_ids": [
+        "E52-01"
+      ]
+    },
+    {
+      "id": "OBJ-069",
+      "active_open_ids": [
+        "P11-05"
+      ]
+    },
+    {
+      "id": "OBJ-070",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-071",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-072",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-073",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-074",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-075",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-076",
+      "active_open_ids": [
+        "P11-05"
+      ]
+    },
+    {
+      "id": "OBJ-077",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-078",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-079",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-080",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-081",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-082",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-083",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-084",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-085",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-086",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-087",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-088",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-089",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-090",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-091",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-092",
+      "active_open_ids": [
+        "N59-02"
+      ]
+    },
+    {
+      "id": "OBJ-093",
+      "active_open_ids": [
+        "E26-02"
+      ]
+    },
+    {
+      "id": "OBJ-094",
+      "active_open_ids": [
+        "E25-07",
+        "E28-01",
+        "E28-05"
+      ]
+    },
+    {
+      "id": "OBJ-095",
+      "active_open_ids": [
+        "E25-07",
+        "E28-01",
+        "E28-05"
+      ]
+    },
+    {
+      "id": "OBJ-096",
+      "active_open_ids": [
+        "E26-02"
+      ]
+    },
+    {
+      "id": "OBJ-097",
+      "active_open_ids": [
+        "E25-07",
+        "E28-01",
+        "E28-05"
+      ]
+    },
+    {
+      "id": "OBJ-098",
+      "active_open_ids": [
+        "N60-02"
+      ]
+    },
+    {
+      "id": "OBJ-099",
+      "active_open_ids": [
+        "N60-02"
+      ]
+    },
+    {
+      "id": "OBJ-100",
+      "active_open_ids": [
+        "N60-03"
+      ]
+    },
+    {
+      "id": "OBJ-101",
+      "active_open_ids": [
+        "N60-03"
+      ]
+    },
+    {
+      "id": "OBJ-102",
+      "active_open_ids": [
+        "N60-03"
+      ]
+    },
+    {
+      "id": "OBJ-103",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-104",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-105",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-106",
+      "active_open_ids": [
+        "E42-03",
+        "E45-04"
+      ]
+    },
+    {
+      "id": "OBJ-107",
+      "active_open_ids": [
+        "P01-01",
+        "P01-02",
+        "P01-03"
+      ]
+    },
+    {
+      "id": "OBJ-108",
+      "active_open_ids": [
+        "P01-02",
+        "P01-03"
+      ]
+    },
+    {
+      "id": "OBJ-109",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-110",
+      "active_open_ids": [
+        "E42-01",
+        "E42-03"
+      ]
+    },
+    {
+      "id": "OBJ-111",
+      "active_open_ids": [
+        "E43-02"
+      ]
+    },
+    {
+      "id": "OBJ-112",
+      "active_open_ids": [
+        "E44-02",
+        "E44-03"
+      ]
+    },
+    {
+      "id": "OBJ-113",
+      "active_open_ids": [
+        "E45-02"
+      ]
+    },
+    {
+      "id": "OBJ-114",
+      "active_open_ids": [
+        "P08-01",
+        "P08-02"
+      ]
+    },
+    {
+      "id": "OBJ-115",
+      "active_open_ids": [
+        "P08-01",
+        "P08-02"
+      ]
+    },
+    {
+      "id": "OBJ-116",
+      "active_open_ids": [
+        "P08-01",
+        "P08-02"
+      ]
+    },
+    {
+      "id": "OBJ-117",
+      "active_open_ids": [
+        "E29-06",
+        "E32-02"
+      ]
+    },
+    {
+      "id": "OBJ-118",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-119",
+      "active_open_ids": [
+        "E33-01",
+        "E33-02"
+      ]
+    },
+    {
+      "id": "OBJ-120",
+      "active_open_ids": [
+        "E33-01",
+        "E33-02"
+      ]
+    },
+    {
+      "id": "OBJ-121",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-122",
+      "active_open_ids": [
+        "E34-01"
+      ]
+    },
+    {
+      "id": "OBJ-123",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-124",
+      "active_open_ids": [
+        "E35-01"
+      ]
+    },
+    {
+      "id": "OBJ-125",
+      "active_open_ids": [
+        "E31-01"
+      ]
+    },
+    {
+      "id": "OBJ-126",
+      "active_open_ids": [
+        "E29-06",
+        "E32-02"
+      ]
+    },
+    {
+      "id": "OBJ-127",
+      "active_open_ids": [
+        "E30-01"
+      ]
+    },
+    {
+      "id": "OBJ-128",
+      "active_open_ids": [
+        "P02-02",
+        "P02-03"
+      ]
+    },
+    {
+      "id": "OBJ-129",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-130",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-131",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-132",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-133",
+      "active_open_ids": [
+        "E36-01"
+      ]
+    },
+    {
+      "id": "OBJ-134",
+      "active_open_ids": [
+        "E36-01"
+      ]
+    },
+    {
+      "id": "OBJ-135",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03"
+      ]
+    },
+    {
+      "id": "OBJ-136",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03",
+        "N56-03"
+      ]
+    },
+    {
+      "id": "OBJ-137",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03",
+        "N56-03"
+      ]
+    },
+    {
+      "id": "OBJ-138",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03",
+        "N56-03"
+      ]
+    },
+    {
+      "id": "OBJ-139",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03"
+      ]
+    },
+    {
+      "id": "OBJ-140",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03"
+      ]
+    },
+    {
+      "id": "OBJ-141",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03"
+      ]
+    },
+    {
+      "id": "OBJ-142",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03"
+      ]
+    },
+    {
+      "id": "OBJ-148",
+      "active_open_ids": [
+        "N57-03"
+      ]
+    },
+    {
+      "id": "OBJ-149",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-163",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-166",
+      "active_open_ids": [
+        "P04-02",
+        "P04-03",
+        "P04-05"
+      ]
+    },
+    {
+      "id": "OBJ-144",
+      "active_open_ids": [
+        "N68-01"
+      ]
+    },
+    {
+      "id": "OBJ-164",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-145",
+      "active_open_ids": [
+        "N64-02"
+      ]
+    },
+    {
+      "id": "OBJ-165",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-151",
+      "active_open_ids": [
+        "N59-02"
+      ]
+    },
+    {
+      "id": "OBJ-169",
+      "active_open_ids": [
+        "E38-02"
+      ]
+    },
+    {
+      "id": "OBJ-152",
+      "active_open_ids": [
+        "E53-03",
+        "E53-06",
+        "E53-07"
+      ]
+    },
+    {
+      "id": "OBJ-155",
+      "active_open_ids": [
+        "E53-03",
+        "E53-06",
+        "E53-07"
+      ]
+    },
+    {
+      "id": "OBJ-150",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-157",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-158",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-171",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03"
+      ]
+    },
+    {
+      "id": "OBJ-156",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-153",
+      "active_open_ids": [
+        "E22-03",
+        "E24-05"
+      ]
+    },
+    {
+      "id": "OBJ-159",
+      "active_open_ids": [
+        "E20-01"
+      ]
+    },
+    {
+      "id": "OBJ-146",
+      "active_open_ids": [
+        "E20-01"
+      ]
+    },
+    {
+      "id": "OBJ-143",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-160",
+      "active_open_ids": [
+        "N62-03"
+      ]
+    },
+    {
+      "id": "OBJ-162",
+      "active_open_ids": [
+        "P07-01"
+      ]
+    },
+    {
+      "id": "OBJ-167",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-170",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03"
+      ]
+    },
+    {
+      "id": "OBJ-147",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-154",
+      "active_open_ids": [
+        "N59-02"
+      ]
+    },
+    {
+      "id": "OBJ-168",
+      "active_open_ids": [
+        "E37-03"
+      ]
+    },
+    {
+      "id": "OBJ-161",
+      "active_open_ids": [
+        "N61-03"
+      ]
+    },
+    {
+      "id": "OBJ-172",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-173",
+      "active_open_ids": [
+        "E13-04"
+      ]
+    },
+    {
+      "id": "OBJ-174",
+      "active_open_ids": [
+        "E14-03"
+      ]
+    },
+    {
+      "id": "OBJ-175",
+      "active_open_ids": [
+        "E15-03"
+      ]
+    },
+    {
+      "id": "OBJ-176",
+      "active_open_ids": [
+        "E17-02"
+      ]
+    },
+    {
+      "id": "OBJ-177",
+      "active_open_ids": [
+        "E18-05"
+      ]
+    },
+    {
+      "id": "OBJ-178",
+      "active_open_ids": [
+        "E19-04"
+      ]
+    },
+    {
+      "id": "OBJ-179",
+      "active_open_ids": [
+        "E20-01"
+      ]
+    },
+    {
+      "id": "OBJ-180",
+      "active_open_ids": [
+        "E21-01",
+        "E21-03"
+      ]
+    },
+    {
+      "id": "OBJ-181",
+      "active_open_ids": [
+        "E22-03",
+        "E24-05"
+      ]
+    },
+    {
+      "id": "OBJ-182",
+      "active_open_ids": [
+        "E23-05"
+      ]
+    },
+    {
+      "id": "OBJ-183",
+      "active_open_ids": [
+        "E24-05"
+      ]
+    },
+    {
+      "id": "OBJ-184",
+      "active_open_ids": [
+        "E39-03"
+      ]
+    },
+    {
+      "id": "OBJ-185",
+      "active_open_ids": [
+        "E41-05",
+        "E41-06"
+      ]
+    },
+    {
+      "id": "OBJ-186",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-187",
+      "active_open_ids": [
+        "E46-01"
+      ]
+    },
+    {
+      "id": "OBJ-188",
+      "active_open_ids": [
+        "E47-03"
+      ]
+    },
+    {
+      "id": "OBJ-189",
+      "active_open_ids": [
+        "E48-03"
+      ]
+    },
+    {
+      "id": "OBJ-190",
+      "active_open_ids": [
+        "E50-02",
+        "E50-03"
+      ]
+    },
+    {
+      "id": "OBJ-191",
+      "active_open_ids": [
+        "E51-01"
+      ]
+    },
+    {
+      "id": "OBJ-192",
+      "active_open_ids": [
+        "P05-02",
+        "P05-03",
+        "E52-01"
+      ]
+    },
+    {
+      "id": "OBJ-193",
+      "active_open_ids": [
+        "E55-01"
+      ]
+    },
+    {
+      "id": "OBJ-194",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-195",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-196",
+      "active_open_ids": [
+        "N61-03"
+      ]
+    },
+    {
+      "id": "OBJ-197",
+      "active_open_ids": [
+        "N61-02"
+      ]
+    },
+    {
+      "id": "OBJ-198",
+      "active_open_ids": [
+        "N64-03"
+      ]
+    },
+    {
+      "id": "OBJ-199",
+      "active_open_ids": []
+    },
+    {
+      "id": "OBJ-200",
+      "active_open_ids": [
+        "N67-02"
+      ]
+    }
+  ]
+}

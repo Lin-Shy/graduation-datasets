@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Discussion-only fixed-three-point conditional example",
+  "type": "object",
+  "properties": {
+    "points": {
+      "type": "object",
+      "properties": {
+        "p1": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "enum": [
+                0,
+                0.25,
+                0.5,
+                0.75,
+                1,
+                "unknown"
+              ]
+            },
+            "answer_quote": {
+              "type": "string",
+              "maxLength": 160
+            },
+            "reason": {
+              "type": "string",
+              "maxLength": 160
+            }
+          },
+          "required": [
+            "score",
+            "answer_quote",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "p2": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "enum": [
+                0,
+                0.25,
+                0.5,
+                0.75,
+                1,
+                "unknown"
+              ]
+            },
+            "answer_quote": {
+              "type": "string",
+              "maxLength": 160
+            },
+            "reason": {
+              "type": "string",
+              "maxLength": 160
+            }
+          },
+          "required": [
+            "score",
+            "answer_quote",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "p3": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "enum": [
+                0,
+                0.25,
+                0.5,
+                0.75,
+                1,
+                "unknown"
+              ]
+            },
+            "answer_quote": {
+              "type": "string",
+              "maxLength": 160
+            },
+            "reason": {
+              "type": "string",
+              "maxLength": 160
+            }
+          },
+          "required": [
+            "score",
+            "answer_quote",
+            "reason"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "additionalProperties": false
+    },
+    "F": {
+      "enum": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1,
+        "unknown"
+      ]
+    },
+    "reason": {
+      "type": "string",
+      "maxLength": 240
+    },
+    "A": {
+      "enum": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1,
+        "unknown"
+      ]
+    }
+  },
+  "required": [
+    "points",
+    "F",
+    "reason",
+    "A"
+  ],
+  "additionalProperties": false
+}

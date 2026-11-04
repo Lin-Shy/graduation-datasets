@@ -1,0 +1,492 @@
+{
+  "schema": "calibration_rerun_diagnostics_v1",
+  "verified_utc": "2026-11-04T02:21:56.376594+00:00",
+  "protocol_sha256": "d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2",
+  "task_count": 60,
+  "answered": 44,
+  "model_output_failures": 0,
+  "transport_unknown": 15,
+  "interrupted": 1,
+  "timeout_seconds_range": [
+    180.04699999996228,
+    180.5
+  ],
+  "request_records": 93,
+  "transmitted_requests": 92,
+  "returned_responses": 77,
+  "transmission_attempts_per_request_max": 1,
+  "issues": [
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N67-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "1a0ebfad0feeda97effe1a7fd7cc2ab603eb8a83833fd3ca9dcb8df849992c56"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/llama3.1-8b/1a0ebfad0feeda97effe1a7fd7cc2ab603eb8a83833fd3ca9dcb8df849992c56/requests/00.json",
+      "request_sha256": "964418b3d1f5f9d7a39c585d901fe82f8f5a03c45a80c8c2362a885d8563725e",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.25,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N66-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "d5f527466506eead51bbe07ff78b32b02121379390eec137a9b0676778db0ee1"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/llama3.1-8b/d5f527466506eead51bbe07ff78b32b02121379390eec137a9b0676778db0ee1/requests/00.json",
+      "request_sha256": "b1bdd4858132360da493cc85625e6dedfa1819fbd582988f643d9f00c5fd283b",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.34299999999348,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P06-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38/requests/00.json",
+      "request_sha256": "6c1a3060710f4c086de8ca5f40032c190fc45483322cde9a256730e7f2430fca",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.48399999999674,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E19-04",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "30c272b32b4820410db9d8b6e4c3f6edc13583721109585186a41da62729a8c3"
+      },
+      "status": "deployment_halted",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/30c272b32b4820410db9d8b6e4c3f6edc13583721109585186a41da62729a8c3/requests/04.json",
+      "request_sha256": "adf0d29e7fdd8a222036302c5ba41a3177ac099e126373c78fb9f7d96204c7e8",
+      "request_status": "deployment_halted",
+      "transport_attempts": 0,
+      "error_type": null,
+      "seconds": 0.0,
+      "last_turn": 4,
+      "successful_response_turns": 4,
+      "classification": "queue_halt_interruption",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N59-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "3ef81b4a0767d6f3f4a03a0f0e6096391af1324d8672677713430131873f1758"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/3ef81b4a0767d6f3f4a03a0f0e6096391af1324d8672677713430131873f1758/requests/00.json",
+      "request_sha256": "c8e30738d45ac1e61de20299c4f9a849c37d60fb96a59d0aa24ef7a0bcdb35ea",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.06299999996554,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E53-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "3fc11fea244eb7e134df5a09ec845380d3d448b5403affea3df545188989f67d"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/3fc11fea244eb7e134df5a09ec845380d3d448b5403affea3df545188989f67d/requests/00.json",
+      "request_sha256": "25268173114ebd037ffd8aaec7c841456e5d56b6c8dfdecc03fca1dd0e7784b2",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.09400000004098,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P09-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "412223a7818e3e1e415da40105588dc9fea18973ae6d51963f308b139ac433e2"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/412223a7818e3e1e415da40105588dc9fea18973ae6d51963f308b139ac433e2/requests/00.json",
+      "request_sha256": "3f4dce104e288c5fb6d5af9bad1f812df412389e93ec82272a17b4c74dd3c083",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.0779999999795,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E17-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "4bef1bd647704c63c75b8fe1e9954cd8d1ca42458298d8800bbd0e3bf5e69f09"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/4bef1bd647704c63c75b8fe1e9954cd8d1ca42458298d8800bbd0e3bf5e69f09/requests/00.json",
+      "request_sha256": "5c80ff3fe063a3b9768ce59d11b25c36cf1525c2c14ce4cd5edbf38ad0f29768",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.40700000000652,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E34-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "668dfaaeae519fa3a5e1bc1a72fe9cd3645d27b3e0d1919b4e249d97ef927f6b"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/668dfaaeae519fa3a5e1bc1a72fe9cd3645d27b3e0d1919b4e249d97ef927f6b/requests/00.json",
+      "request_sha256": "34d5b3994c612142dde0113009c628c0bc109983c7d89ba5a219946d02ab8147",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.18699999997625,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E15-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "8330a96a1a87e165d06381d4f348870bea7a646cc28373ac8c555e41e6211305"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/8330a96a1a87e165d06381d4f348870bea7a646cc28373ac8c555e41e6211305/requests/00.json",
+      "request_sha256": "86fbf78df7ae330bce32a00a90516d906138774b96946e25a40399c663950084",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.20300000003772,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E48-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea/requests/00.json",
+      "request_sha256": "e57d6fc47b2750eb7a5f4d230c7228e10e72b4820affb55f0c257b3c8c300bca",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.5,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E28-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "885e388a8bc79df44cb6c502a53b84807a96935b8330ddfb8d0c176f4cf235f9"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/885e388a8bc79df44cb6c502a53b84807a96935b8330ddfb8d0c176f4cf235f9/requests/00.json",
+      "request_sha256": "9dcbe74c93c514fea54db6deae07f985817741a898215afbf65bb26cd218247b",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.09399999998277,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N66-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "9895bb37e50340a7d7e9cea7efe2f867b0db7ec230df803d928503bb651b7c75"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/9895bb37e50340a7d7e9cea7efe2f867b0db7ec230df803d928503bb651b7c75/requests/00.json",
+      "request_sha256": "51892fa6463b4ea739067a9963f26b574f954180cefa53b3b53470bb30de648c",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.06199999997625,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E49-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "bc5a122f37d921ba7bbc2b4ec13f25276106eaef0a788a87312746255de227bd"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/bc5a122f37d921ba7bbc2b4ec13f25276106eaef0a788a87312746255de227bd/requests/00.json",
+      "request_sha256": "9f1b27f6fe777043d070e1bce9580f55ed48addb54874b8c6400a06e474baa14",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.25,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E53-07",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326/requests/00.json",
+      "request_sha256": "30021650c8658699914711812f02fbdbece5b194ec1c36b2adeba9f6294525e0",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.28100000001723,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P08-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "e639e1984edba01858d8b6c98ab5c86185b4acd12cb1c9a989553b9b8871e517"
+      },
+      "status": "outcome_unknown",
+      "request_file": "graduation-experiment-results/chapter2_retrieval/runs/d658134e6df5053454ed78893523eb25320d8354dec558f689d4dacc4524ccf2/qwen3-8b/e639e1984edba01858d8b6c98ab5c86185b4acd12cb1c9a989553b9b8871e517/requests/00.json",
+      "request_sha256": "0884129e8270bcaaa490b848debc8c1d7383e5aa5c535a9dd3c7d0b529ea16af",
+      "request_status": "outcome_unknown",
+      "transport_attempts": 1,
+      "error_type": "TimeoutError",
+      "seconds": 180.04699999996228,
+      "last_turn": 0,
+      "successful_response_turns": 0,
+      "classification": "transport_outcome_unknown",
+      "model_capability_failure": false,
+      "resubmitted": false
+    }
+  ],
+  "reference_delivery_flags": [
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P06-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "0ff80a5474ff138a5b1fcb475e1ca8f32bc8ba989ec3c773ba63dcfdf31e0cdb"
+      },
+      "references": [
+        {
+          "path": "DDT案例手册",
+          "start": 1,
+          "end": 10
+        }
+      ],
+      "note": "Reference range not fully delivered; human verification required, no automatic quality verdict"
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N59-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "44d9171e7a74b9235218e5f3dd971e6bcbac82f3af1fe6f60daa52120287bc14"
+      },
+      "references": [
+        {
+          "path": "manual/example.md",
+          "start": 1,
+          "end": 1
+        }
+      ],
+      "note": "Reference range not fully delivered; human verification required, no automatic quality verdict"
+    },
+    {
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E28-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "a7268d5884cb8d9342c3544819aa667cf4347bb90d8197a3d88a860c991b4749"
+      },
+      "references": [
+        {
+          "path": "blastFoam 手册",
+          "start": 1,
+          "end": 1
+        }
+      ],
+      "note": "Reference range not fully delivered; human verification required, no automatic quality verdict"
+    }
+  ],
+  "service_health_receipt": "graduation-experiment-results/chapter2_retrieval/technical/calibration_rerun_transport_20261104/service_health.json",
+  "service_health_receipt_sha256": "61ffcd27cd388267ce6dbe838ffb1976116b0a0516bbccc9e29540ecc897742a",
+  "root_cause": "Unresolved: TimeoutError at the client 180-second socket deadline; server queue/compute/network attribution is not established.",
+  "recovery": "No stored response retrieval or request-specific completion receipt is available in the current client records. Aggregate service health cannot resolve prior requests. No resubmission.",
+  "full_matrix_started": false,
+  "acceptance_started": false,
+  "ai_judging_started": false
+}

@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "protected_files_unchanged": 30,
+  "main_cases": 12,
+  "additional_cases": 2,
+  "source_ranges_verified": 24,
+  "failure_records_verified": 3,
+  "synthetic_schema_fixtures": [
+    {
+      "conditional": false,
+      "name": "valid",
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "conditional": false,
+      "name": "extra_point",
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "conditional": false,
+      "name": "missing_point",
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "conditional": false,
+      "name": "boolean_score",
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "conditional": false,
+      "name": "unknown_F",
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "conditional": false,
+      "name": "extra_numeric_A",
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "conditional": true,
+      "name": "valid",
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "conditional": true,
+      "name": "extra_point",
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "conditional": true,
+      "name": "missing_point",
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "conditional": true,
+      "name": "boolean_score",
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "conditional": true,
+      "name": "unknown_F",
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "conditional": true,
+      "name": "A_NA",
+      "expected_valid": false,
+      "passed": true
+    },
+    {
+      "conditional": true,
+      "name": "A_unknown",
+      "expected_valid": true,
+      "passed": true
+    },
+    {
+      "conditional": true,
+      "name": "missing_A",
+      "expected_valid": false,
+      "passed": true
+    }
+  ],
+  "schema_check_scope": "local_only_server_enforcement_not_verified",
+  "duplicate_JSON_key_policy": "proposed_not_runtime_implemented",
+  "original_calibration_verification": {
+    "passed": true,
+    "protocol_sha256": "85b246b6f2580a3b19302c4625d9e9b4da3040c8c09a540be022250b4238669c",
+    "human_labels": 60,
+    "human_unknown_items": 1,
+    "statuses": {
+      "gpt_sol": {
+        "complete": 58,
+        "judge_output_failure": 1,
+        "technical_unresolved": 1
+      },
+      "deepseek_flash": {
+        "complete": 59,
+        "judge_output_failure": 1
+      }
+    },
+    "raw_files": 923,
+    "previous_trial_files": 274,
+    "never_transmitted_queue_records_resumed": 10,
+    "objective_reference_answers_approved": 200,
+    "answers_questions_and_Gold_unchanged": true,
+    "acceptance_locked": true,
+    "full_generation_started": false,
+    "all_dispatch_closed": true
+  },
+  "dataset_counts": {
+    "open": 100,
+    "objective": 200
+  },
+  "acceptance_locked": true,
+  "acceptance_answers_bound": 0,
+  "spare_unseen_question_ids": 0,
+  "new_model_calls": 0,
+  "live_code_prompt_rules_or_labels_changed": false,
+  "decisions_applied": false,
+  "literature": {
+    "metadata": 37,
+    "PDFs": 36,
+    "relevant_pages_only": true,
+    "mtbench_source_HTML_not_obtained": true
+  },
+  "local_links_verified": 68,
+  "checked_utc": "2026-11-04T12:47:58.554376+00:00"
+}

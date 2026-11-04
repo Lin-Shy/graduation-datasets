@@ -1,0 +1,2302 @@
+{
+  "schema": "single_human_sampling_v1",
+  "created_utc": "2026-11-03T15:03:59.696921+00:00",
+  "seed": "chapter2-single-reviewer-60-60-20261103",
+  "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+  "basis": "Preselected without responses or AI scores; phases share no question IDs; no formal dataset split",
+  "human_reviewers": 1,
+  "calibration": 60,
+  "acceptance": 60,
+  "answer_tasks_unique": true,
+  "pools": {
+    "calibration": {
+      "S0": [
+        "E15-03",
+        "E49-01",
+        "E28-01",
+        "E38-02",
+        "N66-01",
+        "E27-02",
+        "E42-01",
+        "E33-01",
+        "E16-02",
+        "E39-03",
+        "E26-02",
+        "E14-03"
+      ],
+      "S1": [
+        "E53-03",
+        "E53-07",
+        "N65-01",
+        "E34-01",
+        "E51-01",
+        "N68-01",
+        "E47-03",
+        "P02-03",
+        "E54-01",
+        "E37-03",
+        "E44-03",
+        "E55-01",
+        "E20-01"
+      ],
+      "M0": [
+        "N66-03",
+        "E48-03",
+        "N59-02",
+        "E17-02",
+        "E42-03",
+        "N60-02",
+        "P07-04",
+        "N61-02",
+        "N56-03",
+        "N61-03",
+        "P07-01",
+        "N67-02"
+      ],
+      "M1": [
+        "P08-01",
+        "P06-02",
+        "P09-01",
+        "E19-04",
+        "N60-03",
+        "P06-03",
+        "E29-06",
+        "N64-03",
+        "P05-03",
+        "P04-03",
+        "E25-07",
+        "P04-02",
+        "P05-02"
+      ]
+    },
+    "acceptance": {
+      "S0": [
+        "E15-02",
+        "P01-01",
+        "E46-01",
+        "E50-02",
+        "E44-02",
+        "E21-03",
+        "E31-01",
+        "E45-04",
+        "E35-01",
+        "E30-01",
+        "E22-03",
+        "E43-02",
+        "P04-05"
+      ],
+      "S1": [
+        "E45-02",
+        "E21-01",
+        "E50-03",
+        "E49-05",
+        "E41-05",
+        "E33-02",
+        "E52-01",
+        "P02-02",
+        "E41-06",
+        "E40-02",
+        "E53-06",
+        "E36-01"
+      ],
+      "M0": [
+        "N63-02",
+        "P12-01",
+        "N62-03",
+        "N58-03",
+        "E13-04",
+        "P11-05",
+        "N62-02",
+        "N69-02",
+        "E23-05",
+        "E19-06",
+        "N64-02",
+        "N67-03",
+        "P03-01"
+      ],
+      "M1": [
+        "N57-03",
+        "E18-05",
+        "P08-02",
+        "P10-05",
+        "E24-05",
+        "P01-02",
+        "P12-03",
+        "P01-03",
+        "P12-04",
+        "E32-02",
+        "P10-01",
+        "E28-05"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "R-175dcf3ef079",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E15-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "8330a96a1a87e165d06381d4f348870bea7a646cc28373ac8c555e41e6211305"
+      },
+      "question_sha256": "610d6032a1a127bada559b6a201287e26f3fcf7594020ee5c707e7a8c8e04eb6",
+      "annotation_sha256": "8a316b54139c1bc6ca00d02cce4fc528457f0f2134f6d4959c4ec7e77c424c26"
+    },
+    {
+      "sample_id": "R-1f44efb07946",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E49-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "bc5a122f37d921ba7bbc2b4ec13f25276106eaef0a788a87312746255de227bd"
+      },
+      "question_sha256": "26093f952fedddb88b6e2e95ee9979bfdd85661a1f7feb35fb2816c26dbfb94c",
+      "annotation_sha256": "b929cf9408363deb3f57c0ec5093952c7f4f518895420d532c2110396ae89371"
+    },
+    {
+      "sample_id": "R-fbb64ddc54d5",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E28-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "885e388a8bc79df44cb6c502a53b84807a96935b8330ddfb8d0c176f4cf235f9"
+      },
+      "question_sha256": "0b000e149df4443efaa85ca0f3a9ef255e3874125294be2cc45f238fd58954b6",
+      "annotation_sha256": "332467fd889d58dad71cc340badd56c9afe8515ad2f32abcc47b6f4effd1e3c7"
+    },
+    {
+      "sample_id": "R-05d7618f80f0",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E38-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "c2e4f26ca476b5e824e8ae75459f84e03112ad4c2e8f765c26cb1af2fe9af8d3"
+      },
+      "question_sha256": "4585fcd50e383376ca96208380dff9898743e3486bf24997b5955a30e0fd896a",
+      "annotation_sha256": "bbcc72fae310e2fe376dc66c6bfd07b451326923ed2670f9d8d7b9aa7c9a2533"
+    },
+    {
+      "sample_id": "R-2c7b5589f53f",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N66-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "4015785ce502559174a4da39a03c37bd9822e2da119ccdce50cec03de67bb031"
+      },
+      "question_sha256": "b2679839c7d45c1b7b230c4f8dc72766ab41bfd0c510ceb75766abbd9c404a95",
+      "annotation_sha256": "edb2a52ff1bf86670a252b6ebd981d23cffa38e439b5eeeb2923c9b91ac9a77d"
+    },
+    {
+      "sample_id": "R-f298e6a7dd65",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E27-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "12dc8d66b733a9829df23ddd0b08a778b2bda19eed30d28816cad555b18616a7"
+      },
+      "question_sha256": "12ab60369b3deab2235c564cd099e8fe1a9c8ca2e86de8a2ae37847f8f55a043",
+      "annotation_sha256": "87a5362cb55f4c249f0cebc549154436b0afe244ebf98403fa802f96629565d6"
+    },
+    {
+      "sample_id": "R-cf56a2b952e5",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E42-01",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "9ba521ec255782be77273ec9c6d3ab1075b8bbf31d77c2fe05e588581334c2a2"
+      },
+      "question_sha256": "cf066e93a16e46a7877ba7d9486d32ef2f2e9a176f23dcb961b5bd7ce37d1ffd",
+      "annotation_sha256": "d7136a8766bf14bfbc56770df79040fd5013947f4105bfda3ac0be7f6068f145"
+    },
+    {
+      "sample_id": "R-f4bede873d54",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E33-01",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "2acc2ecf35993de4006c769a089db114668e02946f154095304e1c4491047c2d"
+      },
+      "question_sha256": "96d33bc41d33ad7a43a6bf473c5ec752f2e0a67620caa2d144eff6292d04e979",
+      "annotation_sha256": "1a7168c20f114b0e032160cd9e43fc5d86b3b6fecea089b1e4b3398db4b0099a"
+    },
+    {
+      "sample_id": "R-150962443949",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E16-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "b36fb1458b12160c93471ad7297eaa3f8c3025a3e723350658da4bf1049630fe"
+      },
+      "question_sha256": "18e96641954b4566cd144c30082e61160c2dffbd5050cf50ec8791262a934a08",
+      "annotation_sha256": "3c99a78c4fba405c833a0bcc4fdabbd00e33b39b877faea90b6f042ed6ed4f1c"
+    },
+    {
+      "sample_id": "R-28a6dd388a39",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E39-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "c31fa7725deaa50d24300c1b0478a796f8052d04aa94a76782786d2326134db0"
+      },
+      "question_sha256": "036c918c15d2b1cb197d797ff0ce779be239f76ab6dcb3f002c14f999032e3f9",
+      "annotation_sha256": "69f63b0f8f0162e2eed03903e21f7a1adf2a06df88e99b0635f71eb5c81dafc4"
+    },
+    {
+      "sample_id": "R-e016f1e548e9",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E26-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "22d677cf1844bd34cceba4925b1f8f144c153ef225428e77d12db629d20a1e7a"
+      },
+      "question_sha256": "5c2bd02a35a80312e160e2b10c310f42e3caa6638ebb326edc1dda07d0e3657a",
+      "annotation_sha256": "191194ea291293fe6308cf828bb16710f7b38d409b4ea5ff9cc151b8cbcaeec6"
+    },
+    {
+      "sample_id": "R-22fc0a271924",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E14-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "5672933715d8ad00875a9f99c2e8ab06cdd10402e606039a946632ea7d8c9c45"
+      },
+      "question_sha256": "5a2b53ccef715ee9707865c7434ab0765d3e4bb7438aab912a1baf7e4509abed",
+      "annotation_sha256": "56de7cc192f4cedd01b9406a57012a328bf053c0da9d877485cbebe9f57eaa5c"
+    },
+    {
+      "sample_id": "R-db0305de9868",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E15-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "facabe2cf07f637872df93c8f1fa74fdaa7e114f76a59d5a8e405ceda1f84288"
+      },
+      "question_sha256": "610d6032a1a127bada559b6a201287e26f3fcf7594020ee5c707e7a8c8e04eb6",
+      "annotation_sha256": "8a316b54139c1bc6ca00d02cce4fc528457f0f2134f6d4959c4ec7e77c424c26"
+    },
+    {
+      "sample_id": "R-17351f869755",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E49-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "cfafbdd527b29203bddb4416fd5683e77ce3f492ed9e5d8b47b043e63f91b1e0"
+      },
+      "question_sha256": "26093f952fedddb88b6e2e95ee9979bfdd85661a1f7feb35fb2816c26dbfb94c",
+      "annotation_sha256": "b929cf9408363deb3f57c0ec5093952c7f4f518895420d532c2110396ae89371"
+    },
+    {
+      "sample_id": "R-3f18ac0bff71",
+      "phase": "calibration",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E28-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "a7268d5884cb8d9342c3544819aa667cf4347bb90d8197a3d88a860c991b4749"
+      },
+      "question_sha256": "0b000e149df4443efaa85ca0f3a9ef255e3874125294be2cc45f238fd58954b6",
+      "annotation_sha256": "332467fd889d58dad71cc340badd56c9afe8515ad2f32abcc47b6f4effd1e3c7"
+    },
+    {
+      "sample_id": "R-5809ba6709ff",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E53-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "3fc11fea244eb7e134df5a09ec845380d3d448b5403affea3df545188989f67d"
+      },
+      "question_sha256": "2dbe8dfc4326cf78449faf04d2e64a5fca7faa17209519672c84e0e2d25021c8",
+      "annotation_sha256": "6036aea18acc6763b4d525fe6caeb078569412112b7baebd5953002e8a35f0e2"
+    },
+    {
+      "sample_id": "R-7b677bd47600",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E53-07",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "d195ab69ea3a7d42de693498c82289d2056bfe180a11fbea77fa861674653326"
+      },
+      "question_sha256": "18428964e706a434dd2124d786b6b8802e98054fd8675e341850f361ce7448fa",
+      "annotation_sha256": "95a16093b4023e5fe733a5f1d4019b27d1d55dfcb27569c07410f49257650290"
+    },
+    {
+      "sample_id": "R-40ad04c05441",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N65-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "574c405ec45860d45cd39bf23015bc9ed922b16a7cdccfb22212e10bdb367014"
+      },
+      "question_sha256": "9de19dd32daeaa2fc199327c12c963702a5a2efd52c95c34f852106433da5685",
+      "annotation_sha256": "1581ac714a19966bbac4eab24c4d88b32304aa2b35d70195d6095d7ad218f477"
+    },
+    {
+      "sample_id": "R-900601bb50b8",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E34-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "668dfaaeae519fa3a5e1bc1a72fe9cd3645d27b3e0d1919b4e249d97ef927f6b"
+      },
+      "question_sha256": "377450e600df8f448406cbc9615dc3c3f12120872eca22ea469bff4f8ab7572e",
+      "annotation_sha256": "b667493532161ec0d0996ca05027e64b60cff771f2c03fb7522da8a98fac949d"
+    },
+    {
+      "sample_id": "R-5204052d62d1",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E51-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "1271f0b3e3585087da425ed9335d3d85a92379773b7b8f2b7cff5e869837ebcd"
+      },
+      "question_sha256": "7fe630aa85870b549f0dff6b153ad7ad3bad9ad988fed2012f545a84a2ea4290",
+      "annotation_sha256": "cd6ac2f81828a8ba1bcf4ea52d17ee4e9edd35cd6b214b7b9842a9800ad31cb5"
+    },
+    {
+      "sample_id": "R-e7f9c4154a66",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N68-01",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "e2289da780a4d5f1b0b81d53c0acc38dfd584a2706e8436a462533c5c949b173"
+      },
+      "question_sha256": "a427b46e576ec5b0ec4e973d59fa6af277933c5ca895fef816665f618fe3fc75",
+      "annotation_sha256": "1431f05f7313ef2fbc0f280c8bcfc3b2c8476416cb9ababd0a957fa8bb58f534"
+    },
+    {
+      "sample_id": "R-a4d15ed2fed1",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E47-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "842bd2b2d496cea036f5e57617f871283c1600b846c71dd984089dd657335b33"
+      },
+      "question_sha256": "eeca09056cf6f0c3f790507a5bee346aa20104ba1fb5cf4d37cfdf8474fb286f",
+      "annotation_sha256": "6119d42a383776f3c9553052e157122a31b86596cb4e8d7704ef8395c73ffd18"
+    },
+    {
+      "sample_id": "R-961e29e7b822",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P02-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "eb24471ba88f72cd911251c9884ba3c16d3df760b1dda7cb0c6c62e0d6dce28b"
+      },
+      "question_sha256": "fbc0c6cf27e93424d81da44f1b06dfa70f820cfa5f576e194c2efeebf65b3f4b",
+      "annotation_sha256": "001997f1d8f474a3d9a2a1e579c4aa0d8bf10ce440fa413e492a25b35cb92f93"
+    },
+    {
+      "sample_id": "R-6529c9e34ec5",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E54-01",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "05259031c6b39fbb4cca191f2607752856cf7988798f2fe761b8793215324497"
+      },
+      "question_sha256": "2b0f239827abb348af6886c60c478d1090e7fba1a3842c2d3071268f4899a7bc",
+      "annotation_sha256": "6ac081d1e257bb784205ede855131e92967ca7e0fc6bcccfed6b23d5a7ae0d4a"
+    },
+    {
+      "sample_id": "R-ea296aac041f",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E37-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "53abf711c750622ce9dde34b492c54ac0c3167b6f9d33896a50395f337af9a1c"
+      },
+      "question_sha256": "0f238cfd2ef44c64284bf157e12fdceaac43a22a5418b071f4177dfada9e0b4e",
+      "annotation_sha256": "1a72977e0ca2aacc4b6c2578631807c2e3cca491d32de9485ff2658aa10cb7cf"
+    },
+    {
+      "sample_id": "R-f34c62b0d4e1",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E44-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "86c7680be032859188c0f47cd0945df3f6e24223c6f1d3bf9cfba9681210fe61"
+      },
+      "question_sha256": "7486bd899c93a110ded537f9739be01e3e523fb18731172299443b51feb0ee7e",
+      "annotation_sha256": "cae2e6c0e7106484baa8a07b6be99e8ffac79b0f2a8f585664c908b2f2301ce3"
+    },
+    {
+      "sample_id": "R-a021a4d085b9",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E55-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "8bd13e4d2552f60a25093380874a7234950747a97e5ac8bd7fc24700f78883a7"
+      },
+      "question_sha256": "f635da5583af21d82064d3778b52407031efa283f52a7fb1ac33d09f29001be0",
+      "annotation_sha256": "451b2deb2fafe120b956e71d1123263b6146e66dbe4529b458d03bbb54940150"
+    },
+    {
+      "sample_id": "R-fdb7ecb35617",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E20-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "ca9f6ca9c8bf65149771c2be3184a927c4541dfc5d4fdd853b32fa200bbb79d8"
+      },
+      "question_sha256": "86d34155735e63eb7952b08896e1ac8d88125a772ced2d34c8a3b3cdfec9807f",
+      "annotation_sha256": "7dade97bd98d841c0f41b87e3351cc0cff0e637a10ee1016b771b2fa2e86e029"
+    },
+    {
+      "sample_id": "R-05fe8aa0dce8",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E53-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "72d27603527f8549fa1a0b52dc90ae1a09bf8f5e65bf9904cf3f664068c8b22e"
+      },
+      "question_sha256": "2dbe8dfc4326cf78449faf04d2e64a5fca7faa17209519672c84e0e2d25021c8",
+      "annotation_sha256": "6036aea18acc6763b4d525fe6caeb078569412112b7baebd5953002e8a35f0e2"
+    },
+    {
+      "sample_id": "R-235d4357f6f9",
+      "phase": "calibration",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E53-07",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "e1ccfb29a224e0e2aef06ac713b808581ce56d621b1e226a51875d90e7c38dc4"
+      },
+      "question_sha256": "18428964e706a434dd2124d786b6b8802e98054fd8675e341850f361ce7448fa",
+      "annotation_sha256": "95a16093b4023e5fe733a5f1d4019b27d1d55dfcb27569c07410f49257650290"
+    },
+    {
+      "sample_id": "R-68d99d07ca65",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N66-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "9895bb37e50340a7d7e9cea7efe2f867b0db7ec230df803d928503bb651b7c75"
+      },
+      "question_sha256": "35d238612e3208c465f6b370d643816c39e49152e946eabcb2ff6b4e2dc6a325",
+      "annotation_sha256": "66691f84063a6374eb36c4cf9322a699edd53dfafa6901f9413213bf8f94e7c1"
+    },
+    {
+      "sample_id": "R-da938412101c",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E48-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "85382166e84b2b004fa25cebe3cdaa66fe7c3f6ca05ab9ea0fe37c9294db8aea"
+      },
+      "question_sha256": "ec36631c118e4e98e9b443083dfaaee5ee6fb77116f1b789b261fd5f6b137b23",
+      "annotation_sha256": "fa229ee87ae7dbfa01234fc9aa22e76343944eee154ba2e1494f4c59a75ecdda"
+    },
+    {
+      "sample_id": "R-f7293acb12b5",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N59-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "3ef81b4a0767d6f3f4a03a0f0e6096391af1324d8672677713430131873f1758"
+      },
+      "question_sha256": "21ed81a377db31bdaa0742d9e3d3682c0ff6e150f31bb7db57cf0dd89ab01e07",
+      "annotation_sha256": "369648752c40fa1bc43ee55756fd596832434232b11e7e614e38a52f0d9508ed"
+    },
+    {
+      "sample_id": "R-cfc0ed22da7f",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E17-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "4bef1bd647704c63c75b8fe1e9954cd8d1ca42458298d8800bbd0e3bf5e69f09"
+      },
+      "question_sha256": "960a7813b3629e0f9bd69e0ef372df01756e3d8be1a8e2b00c46956940658457",
+      "annotation_sha256": "d3a6e0d9d6b0f5f45b0dbd84c7626b9b53f46da062413fac28ddd8228e4c2fd4"
+    },
+    {
+      "sample_id": "R-29dfa00d1883",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E42-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "89512995e2b552e6046e2c128c9d8f6ebe29865cfbb68f7f2b8d50ebdc58a483"
+      },
+      "question_sha256": "eb7bced08c05931671dac0871a4ea679c11b7d621da630c9f2e19af652962775",
+      "annotation_sha256": "b77e023fae0de971a57303bec2d606c7497dd366ee530274b3479a061ea3cf86"
+    },
+    {
+      "sample_id": "R-331fe77a13cb",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N60-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "8b0b1415cf7fd65506a3dfe87171d0a8a77fad3e7f46296cf33ff7dba2660cb6"
+      },
+      "question_sha256": "8bf337fdcdf60b378737cb04360550bfe94bd466624ec8c95acb73499e5dd02c",
+      "annotation_sha256": "bf3f5b251b62eba4b700a65522efbd9c85590ca8c4e0dc8a3fd740e5b40b71f7"
+    },
+    {
+      "sample_id": "R-dcab767cce7f",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P07-04",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "317a31b2eb93441710045e43cada907a69eda1e294f79f36d210d290b5ce0087"
+      },
+      "question_sha256": "1b33b4f13db3c21b19d1b75c49f2f8cf499baf898064d4c794729689c5d1313f",
+      "annotation_sha256": "d6ae2fd85eb88a129e9e7af10f6006efbfe6475e03056cadd5fe29feb7c41757"
+    },
+    {
+      "sample_id": "R-26e923f25df8",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N61-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "bb87c10db40d100a1483d02fcf2317e42e798f844d6b8fc3a303c3a4a92da801"
+      },
+      "question_sha256": "fa84a7b791d7a7c3223d273b9890190a1c67006ad473d873ed30675cd2782aa4",
+      "annotation_sha256": "f784157c55808b21202e9d166a0d6c26e6aaf9d1bf9dabca5d0948881c5d0365"
+    },
+    {
+      "sample_id": "R-98886a357967",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N56-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "565853bcd05b4e78a832a9f360ea3721470f3c4ed321242f20aa8d38750f7b11"
+      },
+      "question_sha256": "7a49a0e6f9b8b59847683d3887149acece8a90c6dae131142d406cfc82b56129",
+      "annotation_sha256": "01b864568756ac2a18b8bc9d025169f94c7928d9f5632752f25c9628cac1299d"
+    },
+    {
+      "sample_id": "R-520ce5f2523e",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N61-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "5d79f718b71e02baa7fc01d909f8e29d55baf71044ce42985e1f0a612a47e00f"
+      },
+      "question_sha256": "b1c372e718ced4f1c9e2c13824fee1a3b83abb83ad316589a2e14dd9d7c3d37f",
+      "annotation_sha256": "ab52efdfbc64a45418d49b8a9081a6b8797f32d09e6c1d2e4603605c08080788"
+    },
+    {
+      "sample_id": "R-0e43fccfa926",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P07-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "e4f8cd321a164b3ca5e774b0151049674d8ba6287530ae56bf866e8827f07ea2"
+      },
+      "question_sha256": "e8bffba87629cb899052631d41becfbdde2f93966f6f65e43179fc1a263f6578",
+      "annotation_sha256": "05648621c1bcfc19cb25f7fce85ffd045e91465b8b12937329db4a8151175064"
+    },
+    {
+      "sample_id": "R-6dee51e8518d",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N67-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "1a0ebfad0feeda97effe1a7fd7cc2ab603eb8a83833fd3ca9dcb8df849992c56"
+      },
+      "question_sha256": "bc3df3575ba4147e65a646011e8ede3f4efc6ce431153da73265e24104c4a32d",
+      "annotation_sha256": "482729f0e3757cad0272eac16c8577f8569e9d419b5136071f0d7620ecc1a66b"
+    },
+    {
+      "sample_id": "R-b4b3db33fb3d",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N66-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "d5f527466506eead51bbe07ff78b32b02121379390eec137a9b0676778db0ee1"
+      },
+      "question_sha256": "35d238612e3208c465f6b370d643816c39e49152e946eabcb2ff6b4e2dc6a325",
+      "annotation_sha256": "66691f84063a6374eb36c4cf9322a699edd53dfafa6901f9413213bf8f94e7c1"
+    },
+    {
+      "sample_id": "R-2be92336740e",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E48-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "17a0f778a273976390696f981b11fc9bf039a873dc72e8c1550b463b311082e9"
+      },
+      "question_sha256": "ec36631c118e4e98e9b443083dfaaee5ee6fb77116f1b789b261fd5f6b137b23",
+      "annotation_sha256": "fa229ee87ae7dbfa01234fc9aa22e76343944eee154ba2e1494f4c59a75ecdda"
+    },
+    {
+      "sample_id": "R-e45115863a24",
+      "phase": "calibration",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N59-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "44d9171e7a74b9235218e5f3dd971e6bcbac82f3af1fe6f60daa52120287bc14"
+      },
+      "question_sha256": "21ed81a377db31bdaa0742d9e3d3682c0ff6e150f31bb7db57cf0dd89ab01e07",
+      "annotation_sha256": "369648752c40fa1bc43ee55756fd596832434232b11e7e614e38a52f0d9508ed"
+    },
+    {
+      "sample_id": "R-c5e196c041d7",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P08-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "e639e1984edba01858d8b6c98ab5c86185b4acd12cb1c9a989553b9b8871e517"
+      },
+      "question_sha256": "1dedf4fade298f4260036023508056792aafa139febd8b5c8cc6abe3d2dcdf12",
+      "annotation_sha256": "fad76a3401897e9b11018c2bb4fc41045ed3824e59c9cd52fc04979d8356272c"
+    },
+    {
+      "sample_id": "R-e688146d2842",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P06-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "055572954957d8a301218cd94128b3109baa3a3d5e91d0ef68bb85ccd2a8dc38"
+      },
+      "question_sha256": "4f144e62906ecda75751b2f3f7988855f378628d7fd4343af76a4fdf5ffd3370",
+      "annotation_sha256": "e3c7c03745b840fc1f42d88865cad62eb80d0dc18d990a62966be222d3b15a06"
+    },
+    {
+      "sample_id": "R-34d9eabf96e5",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P09-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "412223a7818e3e1e415da40105588dc9fea18973ae6d51963f308b139ac433e2"
+      },
+      "question_sha256": "30965517c008d78aa3f802c03fe72f6ba967e80110aa1311835bc2593afc3d69",
+      "annotation_sha256": "52e99c77136c08213a298a9b5cc87e6af686a194279d487610408abf3a38ac5a"
+    },
+    {
+      "sample_id": "R-c80c58dd1b5c",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E19-04",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "30c272b32b4820410db9d8b6e4c3f6edc13583721109585186a41da62729a8c3"
+      },
+      "question_sha256": "528a834e783d0f7dd9d4000e86e00a5af8467441add17ad526384bccf9f1de49",
+      "annotation_sha256": "dcec6b9e8e9e4a41cb3da39093029a3a31106c8c98779fabcd085fadd203e5a4"
+    },
+    {
+      "sample_id": "R-0849ab52ed58",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N60-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "bd833e8e7b7cfc61f8d71e876e9d9a18604823a399c569c58b7f1845b0d8dbd7"
+      },
+      "question_sha256": "ef5518eae1031b57f57742bfe6fb28f91001896c644617eaeffde2ce738e1602",
+      "annotation_sha256": "dd651d9baee037143a3b477656521cad261d1006a4ffe43970a9c485e49270cc"
+    },
+    {
+      "sample_id": "R-082de350f0cf",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P06-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "c7430cdfa2bebaf85ff1d90cc77ce5fa7386ac549efc511de4d179d3e2ce0fd4"
+      },
+      "question_sha256": "f063daa073c8a98cdb1b6c1f4f890265f582c2a4c06c83eb3840d17037babe19",
+      "annotation_sha256": "fc5896f6d0e9dedfe17e17c3300d7eab2468c0e170c85c1401ee73f545041aad"
+    },
+    {
+      "sample_id": "R-b6cec0b1c437",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E29-06",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "287ba756eaa2427bdf9c6d30f9a51da1b9ce84561b9adba9a38311f319a7e2a9"
+      },
+      "question_sha256": "923b79fb297f311bcd613b76ba0ed5bd2d297d8db6003d66a173446f71130308",
+      "annotation_sha256": "add79e7475e70a17eabf9450cb7538358bb7f6a21d7c9a61a900042bbc357209"
+    },
+    {
+      "sample_id": "R-7cc108391aa2",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N64-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "250cb38e12c35386c52dc4aadd1b6b7ae2e4bab02244e7d885ab362fd4b9cdb8"
+      },
+      "question_sha256": "738693e2655f32da10808bb9d5dba5f4165cb0426d6b10910122e4c24b43ac13",
+      "annotation_sha256": "ce5b47b10fe0b332ece88facb339c05649db35d9e3d2450c99495dc0ee7347ad"
+    },
+    {
+      "sample_id": "R-22468dd2c615",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P05-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "d5ca3650223beb3df400e62e91119ad3a0068db6b826c288b3915390ec41e15a"
+      },
+      "question_sha256": "3eda027ee7ca3550f8fcab44917983cdd46029c885bf56b721920707cacbea0e",
+      "annotation_sha256": "53b09556d13fa52c1203c7b6846428769dc37655b1e1826961d4066321266a04"
+    },
+    {
+      "sample_id": "R-48d679ae4f9c",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P04-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "95da43045737741c678274fe4de827bdf7c26f46e0323d745ba420c59f3fdca5"
+      },
+      "question_sha256": "4cfb6d281be155cd3393d93e77aa2c5a2df7be79d82579ba6c2887509d42b380",
+      "annotation_sha256": "c3c14cd19b899749c3cc1203cbddbb7e3b0054d55a9b976401620dcf385fcfe9"
+    },
+    {
+      "sample_id": "R-0f32329417ab",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E25-07",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "df0d1638817f3ea03c4010cfe43b5676e8384168ea434d76bad8dc209cd0c5b5"
+      },
+      "question_sha256": "018ca5aed943a59e147b53363246c41d06a6a152c17ee16261abfa54b2264931",
+      "annotation_sha256": "c7930fefb0fdddc188f25efe75c26e9f515feb5d529fdb46dd10a89b60bb9252"
+    },
+    {
+      "sample_id": "R-9467c32eb158",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P04-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "08c92a08cefe66fc81da1f6ddbc025dc1cc88ccee46b030c8739f51730dc2d2b"
+      },
+      "question_sha256": "e754c06914531fb9c4d4c472bd72027d72886a789eade22947949e88554b0d96",
+      "annotation_sha256": "e2abae1e4d969ab01591e6a7d8c7635c3ae9b5352918afb3207768a63e1073e6"
+    },
+    {
+      "sample_id": "R-343bd92380f4",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P05-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "24932129167ea63f1f734bda8b14c209db03c9abd742c627b1e5cef60c4775ea"
+      },
+      "question_sha256": "7fe61f5701176767a3cb0d61ab724bd099d4a1a7a80648271f848912021b4599",
+      "annotation_sha256": "6301f4163de208d1baf6103c04241e98e325f6635fa84ee39fd0409f600458a3"
+    },
+    {
+      "sample_id": "R-c972eef4bd61",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P08-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "c4ef95ba25862c80116dc17a6ae70995ccfdba0bec534196908518abbbcc23b4"
+      },
+      "question_sha256": "1dedf4fade298f4260036023508056792aafa139febd8b5c8cc6abe3d2dcdf12",
+      "annotation_sha256": "fad76a3401897e9b11018c2bb4fc41045ed3824e59c9cd52fc04979d8356272c"
+    },
+    {
+      "sample_id": "R-9b6416d2dbc2",
+      "phase": "calibration",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P06-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "0ff80a5474ff138a5b1fcb475e1ca8f32bc8ba989ec3c773ba63dcfdf31e0cdb"
+      },
+      "question_sha256": "4f144e62906ecda75751b2f3f7988855f378628d7fd4343af76a4fdf5ffd3370",
+      "annotation_sha256": "e3c7c03745b840fc1f42d88865cad62eb80d0dc18d990a62966be222d3b15a06"
+    },
+    {
+      "sample_id": "R-d9c39b7f89fc",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E15-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "43cdf67bf39cce406096fa951b753df811f4fea008bedaef5a01261ffee14f79"
+      },
+      "question_sha256": "197dea429d420b4859c844e9974c02cc2b02dbe22b33d631ddd2d2db1b2482b8",
+      "annotation_sha256": "8df86db055ee991aae8cd1b8ebcbe5dd7b25c5c20c98a0d330bbe79fd28da89a"
+    },
+    {
+      "sample_id": "R-e88a1723ccbf",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P01-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "d0ae620bf007053e4b878f0fb560f1de5aaa3183590dc61ccbc87ae8cd00171d"
+      },
+      "question_sha256": "c4ab45019946da4f631252add9c7b50b2ee9db0c930a61d859853e7ed753e09d",
+      "annotation_sha256": "f923463987c95e7c0e6ea1bde9e58a0512e2a0b7fa400af9313b8b8a3ba79256"
+    },
+    {
+      "sample_id": "R-5e5a075e1598",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E46-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "771d20417b28c7c0d0befd8494fe0fd5964db34414075a80268259c8b87fc3f1"
+      },
+      "question_sha256": "09c54f09fe8e4f7498e32d54d28c10b84399e266c0b7f696606dc44e2a78b31b",
+      "annotation_sha256": "9f5c2bcabf9255d387a85869f1c7734f7b51f7d8b20afeaee9fff0b0a1469810"
+    },
+    {
+      "sample_id": "R-078036dfe48a",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E50-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "73cc8019ee22b2839ba1e0080e46135a435139065633be03f24d090ff6835c63"
+      },
+      "question_sha256": "d1082d7a5a4d280ad50663ec396184a6a8e727bf23c93fb01f4569d71219b642",
+      "annotation_sha256": "7cff8cb9fae9ed45421e990d7a0a45443e78ff54633a30b71ed79242eced8cf2"
+    },
+    {
+      "sample_id": "R-7da3a23215b7",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E44-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "6cd94307f7ec3b10ca390ebc7ae6e9df60a17fd5e79c22150a913014a044ed1b"
+      },
+      "question_sha256": "37ac0b0db2a18c7cd6dcb0685695f0cabde9db7afabf92a66fbed2e117a39492",
+      "annotation_sha256": "9cc811143df0afd7c7e85d92e15f6fe7466d495ca533d2779817934a4d550c3c"
+    },
+    {
+      "sample_id": "R-d2660f61b018",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E21-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "d35757778eb8da08c4fc13bf11e3ce77be26728c346bbc30e3b323da295e9c65"
+      },
+      "question_sha256": "394549dcd8aed8cf8690b1873c0fac5124a51c67b7419098c090bcf1230a5206",
+      "annotation_sha256": "04c70a8d6cb4570a14c14e3a7d73328cba22a14d214d70ae297308f30e859fe6"
+    },
+    {
+      "sample_id": "R-252215b8c2d2",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E31-01",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "8d9e1e56e365ebb10e9bd00c65eb659478700a4aaf0f5c1fb3ed360f8f06b37a"
+      },
+      "question_sha256": "eb6ce2c672eb570b8580415ac7bd71b5e3c2a4c00209704a335ca24288463986",
+      "annotation_sha256": "7d838191c06835eb62d5f4ce7e64195b20322e653c1486459d8d3e526855af43"
+    },
+    {
+      "sample_id": "R-eb4a6c33187c",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E45-04",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "4adbdf2dca5fcabc6072bd62f53ccaac5290257f408cde12b5a9cffd01ab9b5e"
+      },
+      "question_sha256": "87d1861607ccb6b79dc7e12a6343a73164d7fe39c668195b0cce450ff39ac4b5",
+      "annotation_sha256": "a551ba194d03395f174cffe8502e3b7a0ef8648e476325c7a7b7e0dc32232b45"
+    },
+    {
+      "sample_id": "R-948565b7532c",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E35-01",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "9e42db869be9b20ed715fb468a4265482aaf5ccc20b4a71fa9ad6fb1833c0464"
+      },
+      "question_sha256": "2957734185ebdf0518e6c931b4981e072f9c11c49fb1fb5a5886d84761c290a3",
+      "annotation_sha256": "b5c3c02d98fa90738c293e4136debb075618ac4483afae1f3bba8771b4a2dccf"
+    },
+    {
+      "sample_id": "R-50f6ad2666cc",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E30-01",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "ff963fb18fdce94a1376866fdc1013723899ccb8c9dbf05d73c210266be42e70"
+      },
+      "question_sha256": "3d0456ccb72125c9a5ff5ce64a73e649ff1ca0eac9207bf40a86fc7b65e7906b",
+      "annotation_sha256": "e2dbd54a61d7991ab50f02aeb895052f681540698013cc44dd32a614e2c68565"
+    },
+    {
+      "sample_id": "R-de82761e135b",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E22-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "aa7f9f3da1b3dc86872916ecfc27c6c42249d2f06c77c9c5d4e8c1aab14d2bad"
+      },
+      "question_sha256": "efbb403b996557041c2d195031b6c8f2a8d4223c67b1eb6f1ab544279497a56c",
+      "annotation_sha256": "e4d4a2ca3ca9760cf18967423cc210a4f5f25942709ceb02df8a659149d914cf"
+    },
+    {
+      "sample_id": "R-027110d69c5c",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E43-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "96295c864dcbf6b860c142adfab0e314f0d7eb0d19545f728cafaec6456ddbe8"
+      },
+      "question_sha256": "30936450639a4aab37c5d1950359c7c39a819141c9f3fb48270d322c5a7aec7f",
+      "annotation_sha256": "08b0306f08b7c87f0ccfcbe72e250cc7f3c1811de11f4b229a90c4923dd19273"
+    },
+    {
+      "sample_id": "R-20fbada6e36b",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P04-05",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "d2c2a72d0f74ed68a8f763f9369a0494a07709c63a400fe2339b5c5dcbd63b43"
+      },
+      "question_sha256": "23c4760b75d89eb23151ac714bf27bb541a8aef34af1678d6215840089c27ba8",
+      "annotation_sha256": "2bed0853f8710e93436da5da848f44edbb3f6b2208656bb4f2d77e5c1d319f07"
+    },
+    {
+      "sample_id": "R-af3bab51aa4d",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E15-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "9aaa96d27d7fea60e42318d57f8c82382ae0901710cb415bffdab9a03cfc66f6"
+      },
+      "question_sha256": "197dea429d420b4859c844e9974c02cc2b02dbe22b33d631ddd2d2db1b2482b8",
+      "annotation_sha256": "8df86db055ee991aae8cd1b8ebcbe5dd7b25c5c20c98a0d330bbe79fd28da89a"
+    },
+    {
+      "sample_id": "R-f91ec9872ce6",
+      "phase": "acceptance",
+      "capability": "S0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P01-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "f4db062eaa29749c2356992cdc51c8f40093bfccf8f9f307ee0c2e0fe6280b8b"
+      },
+      "question_sha256": "c4ab45019946da4f631252add9c7b50b2ee9db0c930a61d859853e7ed753e09d",
+      "annotation_sha256": "f923463987c95e7c0e6ea1bde9e58a0512e2a0b7fa400af9313b8b8a3ba79256"
+    },
+    {
+      "sample_id": "R-e3cbc02df528",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E45-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "752d60f2669e10ca9478feefacf8eaffcf03730fc4b98c185eb3ee06a1a58258"
+      },
+      "question_sha256": "00c0503824d55488be6815460d6b3b8972638c8f1c46aed16d7d11a29b5908fb",
+      "annotation_sha256": "edd0210bf20e5aa2162a29fa0d7fa0ebfd53f6bd34f882ed0137252917a00e0c"
+    },
+    {
+      "sample_id": "R-13f1e4e0a61c",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E21-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "c28b4818fb2a1515d5e0fa443aac5a55bb05c9e4563e4aace05128849376a6de"
+      },
+      "question_sha256": "d0a8ffd1c40d6839898da8887e60ff7c2775dd882dc7dfd5f364993a7e9f55dd",
+      "annotation_sha256": "1b9ffba7cba7457e450cfecb34f317a26d91426dfa87b0e5cb9e83022a532f66"
+    },
+    {
+      "sample_id": "R-65553347c328",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E50-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "0a3e80359b83d042e7639c27fc8f6d1cd348bd41c2d2906a0dcae7ef5d7591b0"
+      },
+      "question_sha256": "488bd20ecad77e558b171ee516cfbe4a87ede54225ac8738a073480d4fc6079c",
+      "annotation_sha256": "f9c24a1fa805f3db9117f04ae9e0a8c9574010f48c3181627d08ff1a2b681b1b"
+    },
+    {
+      "sample_id": "R-10e10774852c",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E49-05",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "39d8ba89aa251be050c6e81e5bef39baa69449f391dce755c69fe98b8a6e7abd"
+      },
+      "question_sha256": "7fffcf700b070992931678d53a0cecd9c34a72b87e81d40df70748990d043a5e",
+      "annotation_sha256": "40a9eb1f6f91f7c6bf0ce18a697bdfe13d9ae16a65ec1a2bebc8c72ca52aabf1"
+    },
+    {
+      "sample_id": "R-8368ecee6508",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E41-05",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "68e4da24a83d1ffd07388a086cf823f263e4cb220a459a34cac2cce1898648de"
+      },
+      "question_sha256": "a121f84dea5c66215e0074613d1d1222617d97dd220ec93eb4bdd1649625698b",
+      "annotation_sha256": "774dc190f9bcfd7fc547882b0ae17a7e743eece4b8414dac9395544aa0cb670f"
+    },
+    {
+      "sample_id": "R-3238904bb7cd",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E33-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "39b6084485b72a50be3c95ab716cec3f4bbcbac42bb596076b9379e5b9c3b20a"
+      },
+      "question_sha256": "9e857fe98531b1e1be6f9604f7eea8cf6cd2cb276a63cdc19c15212574ec625e",
+      "annotation_sha256": "638ab1c9582940c1be97d15abb6a05a7f1cf92cbc5ed199b2e3f5b182800ef0a"
+    },
+    {
+      "sample_id": "R-1f3487f66330",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E52-01",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "0802661a3c1fc9ca274221d344ee79372dd73071b9e63b75f2ae86d46e6a31b8"
+      },
+      "question_sha256": "afaf90d7330591cd5108c8a344a3f9b07b65f3c2fa6fc44f72387453663fa713",
+      "annotation_sha256": "0af9473178a6d8ba48413c8da64cb6da8c85440b04b586c2adc38dafd521d0ae"
+    },
+    {
+      "sample_id": "R-50057e3c192f",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P02-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "8aa7a6233c80b53625272c06cadac8c1ab84c64f640bf88d37ee65b2cbfb5533"
+      },
+      "question_sha256": "9b059e165012b40d0c4990d50a21f0528a034878b69a2fa351903066053c6d31",
+      "annotation_sha256": "2d97a216204dc281507145b90ca58694b40fce4872b2b3753a5c1f5c9c6e6dea"
+    },
+    {
+      "sample_id": "R-b3de44d81166",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E41-06",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "1f90bb7333a346edb32de6a4d5a91c8ecba857426275c42b3c83841cf55ee3e2"
+      },
+      "question_sha256": "69f396b90f3512baac65f8d0662ddd0ef2768a24841ff5beb97d1522181840cd",
+      "annotation_sha256": "510519f199ed59135caca6b74d405f8507453a654fb558a6915d2519a12b5351"
+    },
+    {
+      "sample_id": "R-fad5eaedd655",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E40-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "e80aaf9270881fd71cbb8a233257f5894303296e6cbf3d45c8aa23cdc43d9cc5"
+      },
+      "question_sha256": "199e2b133eb5686c82b6562da964ae52ad35dd1d2c84f8a7258c4d49d27d16db",
+      "annotation_sha256": "78dd60a3d0e19e7b3d653e418f809ce3e1c79f336a6b4a60c505d9afa5759c9a"
+    },
+    {
+      "sample_id": "R-7a991a7384d8",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E53-06",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "f8e0e68cc84de4fe0573c63530897206604eba2c807767dd37007f37418288fa"
+      },
+      "question_sha256": "04b5ed18ab3c063445fe51f4cf6cd752442a4c6988607dfd458f92b9f6711a71",
+      "annotation_sha256": "b4f429c9afab5b03832be5ccd8821adeac62d4ac7621cc0e8feae94da81e7ddc"
+    },
+    {
+      "sample_id": "R-b1a68f2f1782",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E36-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "652526860b0a13735563ab49ef7b8eb568d79b1fdba9bcd948a9e1deb63c95f2"
+      },
+      "question_sha256": "664c2dc37a23300530eb04b64a9d283f3f78a6f157e524067f3e4962903080a4",
+      "annotation_sha256": "4f3107b519b6476ed81fcfebff708868bd96dede3789c3faad5bee145b0d36f0"
+    },
+    {
+      "sample_id": "R-5f25aa98d70d",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E45-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "8cb290b914f2c8af3df4b62176be9f5aa4cb0c6133cb2039cb7ccbe1fb1e6c85"
+      },
+      "question_sha256": "00c0503824d55488be6815460d6b3b8972638c8f1c46aed16d7d11a29b5908fb",
+      "annotation_sha256": "edd0210bf20e5aa2162a29fa0d7fa0ebfd53f6bd34f882ed0137252917a00e0c"
+    },
+    {
+      "sample_id": "R-3fe51c66163c",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E21-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "73f8e281c557867b04c77d2ddcf1979ca125da7207231adcd826fc8f24c3249f"
+      },
+      "question_sha256": "d0a8ffd1c40d6839898da8887e60ff7c2775dd882dc7dfd5f364993a7e9f55dd",
+      "annotation_sha256": "1b9ffba7cba7457e450cfecb34f317a26d91426dfa87b0e5cb9e83022a532f66"
+    },
+    {
+      "sample_id": "R-72663989a350",
+      "phase": "acceptance",
+      "capability": "S1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E50-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "e48059e4ad9e72df314663359a914449e24ee0c6ff4d4250b2b68e26b45c978f"
+      },
+      "question_sha256": "488bd20ecad77e558b171ee516cfbe4a87ede54225ac8738a073480d4fc6079c",
+      "annotation_sha256": "f9c24a1fa805f3db9117f04ae9e0a8c9574010f48c3181627d08ff1a2b681b1b"
+    },
+    {
+      "sample_id": "R-8a608dc22c8c",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N63-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "991d1ce7150915995341efd93132603b56609b484e3c03b0a98309d53fddf108"
+      },
+      "question_sha256": "d06c3d5f7178319169ce29b5a4aaa5fd995f7260e008ba7684eb666b92d0eb48",
+      "annotation_sha256": "8906aad752a932a578a1cbdc3a1210faf2406830cfc0290e5a4a1269a9a9ef5b"
+    },
+    {
+      "sample_id": "R-290911ab8b87",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P12-01",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "ec429843d8bc9e38546031512779d363554fbd694fa4d3210d09b82c04845cc7"
+      },
+      "question_sha256": "d8beba48ab5dceaf61a2ae91cf7663c1afe579fc000a69237ef3777bc23f929d",
+      "annotation_sha256": "31d7f4b7f7f019137b2242ebbd5c0ae56ad3487852db8214d112dfefd506bbf8"
+    },
+    {
+      "sample_id": "R-7c15be613be5",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N62-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "2949a52391232d5767eb3e3008c102eec22214a6a8feb0dc0ab77d37f99f5e56"
+      },
+      "question_sha256": "c050cdc364355ef7fefc54ac5962ffa49a20a5a92ae40e8a2d2f296033c8fe60",
+      "annotation_sha256": "51adba3399bf535274642aabcc6d0686b3cdac16602c137e7130ef46526de00f"
+    },
+    {
+      "sample_id": "R-9d91be5071d6",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N58-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "41844eebc12cee82793360d1c736a2213e7709ae97fe5c496f4d50c590b376cc"
+      },
+      "question_sha256": "1aed6bb0ed75318bd0b4274e41d1fd4e7906b8b5878614aff7dada89499be9ec",
+      "annotation_sha256": "167b391fa449e9b653dd43b9b773dc80504bbabd358b0fa1af175373d88a45c1"
+    },
+    {
+      "sample_id": "R-fd82fc032aaa",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E13-04",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "89e6394301da908047ba360e6464388fbfefcd8733599a176c069a1e27760ddf"
+      },
+      "question_sha256": "120be95889d224c484431c0e1600ae4775fc39cbd262c7da7e6753b5cc6a4bd3",
+      "annotation_sha256": "c866874d9a88275e699846643c5e48c3932c868381fc1cbfd534232691a1d4f1"
+    },
+    {
+      "sample_id": "R-70e97b21d2fa",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P11-05",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "c75ee9368ddf6af4baff3495428957865b45c406d55269304a2916290b85c4cc"
+      },
+      "question_sha256": "80e5e54d8a8dfe7852e8b2d9d453beb3e4849f6ec5f309fc1c3b7a482148e2a9",
+      "annotation_sha256": "874b284192361f05423711f0e984fe45de10d31dbb733468e6d060ef8ecfd08d"
+    },
+    {
+      "sample_id": "R-e354e840501a",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N62-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "5b0e8fd13d5b4af063d4a91876a37c2584c7b0b5369a02cf04f1d9b08e3017e5"
+      },
+      "question_sha256": "b372bc19930e52b324df2b3f1aee2686cc9e809badbaceb889e2bf015f22d816",
+      "annotation_sha256": "2d1696194b8a8a7a9a8269ac44dfe8c4bc3471a3be26a0d3fb88567e89a9d5ec"
+    },
+    {
+      "sample_id": "R-5d8a6b0bac75",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N69-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "9312f7bd2a2a97693f7e6afe1ffff7554ff6d711fd73bbddd272388f157f206f"
+      },
+      "question_sha256": "a08504b5e71d6986df842cadcc7a7e2820bc036a556907efbd145be08934fd98",
+      "annotation_sha256": "aacffc1aa17ab7c508afe0015853a5b7d8ae49fc954c6efd99973f5defb9baed"
+    },
+    {
+      "sample_id": "R-6e67afdb0e48",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E23-05",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "d0ddf8c27991c8e7ab20d720c4ad905a76ab6eb94db8c50e931751462d3698e0"
+      },
+      "question_sha256": "b9aca65972c9b2487206880551941183c563172aa1672d53f2bc477ac3f50c72",
+      "annotation_sha256": "6a4227f8bc7db056efa9b28fa2f57b6326b4390bf21e072777b432eb5a6ce643"
+    },
+    {
+      "sample_id": "R-4efe9ad387ea",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E19-06",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "63f6e7b846d6bac016322492183f2dd6f4fcad1dbe8a06bf2b3a8e68328740f2"
+      },
+      "question_sha256": "2c6d8393bf92d5ca672380a7a1826e9442640e93ea96fe7ba55e51abb2912ac1",
+      "annotation_sha256": "ea798a9de6ad49caaafe119276b92b3dcca4095cc2f1f87fbe237974dee2e381"
+    },
+    {
+      "sample_id": "R-20eacb7e086d",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N64-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "79b793a57a3f457c48ff201bc5769ad189469a40476ac018a645f4fc271dc044"
+      },
+      "question_sha256": "0b6308c9dc9cad882f4a7d8fdb3bd3cccefb757a65175ccd66bb8ae8dd510159",
+      "annotation_sha256": "d7c3a28c2e33bec0a58afb79fdd20fbf545dd2e402353f6b7c1f2425a0d32fdc"
+    },
+    {
+      "sample_id": "R-4cfdf445f3bd",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N67-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "3181d4c20052e970012694cc6f63e42d3fef380c84c812f47591597a523f2d8c"
+      },
+      "question_sha256": "214f71bc40cef8c3a8e4c393a61776baae812e381896ffe76c8473f6992284c5",
+      "annotation_sha256": "049043fa1be8c765d6f1636c081f29f98c584f464671f47a75a84709459211d1"
+    },
+    {
+      "sample_id": "R-fcba09561882",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P03-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "fc4d3f46f60a56e37721f92a7253dff8e0dbdee6782296779a3fb2e22f0b8d68"
+      },
+      "question_sha256": "8e6b3bc1bbadf8d63acfe018994fe7d7627f41b0658acfd3e1d0f1d2d001f3d7",
+      "annotation_sha256": "d102959f91c67a346ffc3b2c2dba0d8897f14e07c91b4a099aeb18a132eb815e"
+    },
+    {
+      "sample_id": "R-ee91d312336f",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N63-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "efc4b712d62cc479ddea00de705d4b71ef51c828af11ae2204fb1019221fa097"
+      },
+      "question_sha256": "d06c3d5f7178319169ce29b5a4aaa5fd995f7260e008ba7684eb666b92d0eb48",
+      "annotation_sha256": "8906aad752a932a578a1cbdc3a1210faf2406830cfc0290e5a4a1269a9a9ef5b"
+    },
+    {
+      "sample_id": "R-119ba7a26d26",
+      "phase": "acceptance",
+      "capability": "M0",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P12-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "02018712163d57e84e7e0c8a3899b6cfda3fd879daf37f6a69c3006661e633a4"
+      },
+      "question_sha256": "d8beba48ab5dceaf61a2ae91cf7663c1afe579fc000a69237ef3777bc23f929d",
+      "annotation_sha256": "31d7f4b7f7f019137b2242ebbd5c0ae56ad3487852db8214d112dfefd506bbf8"
+    },
+    {
+      "sample_id": "R-dcb813f53bfc",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N57-03",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "8ab168ef146477f1c91be572e360bedf9a6450d3dc7f99775c76ac8a211f2668"
+      },
+      "question_sha256": "0ceacb1111acd533ca02ade3c45dada9ef2400ff493e94c3753b84f312a61976",
+      "annotation_sha256": "e97920610e3a2f3d9bf28e56943aa092223259a046d55e70ee9d180064c014d6"
+    },
+    {
+      "sample_id": "R-c18b20117b35",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E18-05",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "8a828ded5f7abb215059990362343831f1fcc482fecd4709fbf8e47378311886"
+      },
+      "question_sha256": "5bcde64e7238c05dc29e3ccbc794920b72feb73b1253467630d5291aaec84552",
+      "annotation_sha256": "f1adc8513d597b156d83b1ad0003e4bdd1cf067354feac32816ace841b43c1e5"
+    },
+    {
+      "sample_id": "R-419e37801dc7",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P08-02",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "cb26a2a593d7e704f1c782328a89332760716b237a23722294803fee74875d04"
+      },
+      "question_sha256": "b3ecfc95f4d16449cb5689b8eeb6e9f2d19929daf147fc02a323b5d22816cf72",
+      "annotation_sha256": "fe8f688ffc3fac8bed3e022b2ef25861094b8c6362ad45db22f4877b963b1f4f"
+    },
+    {
+      "sample_id": "R-3d85d9756294",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P10-05",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "2a4b7f6b51c140e2eb59d0c16ec48e7f83b3b43cf1a1dfe80dce92778172e4bc"
+      },
+      "question_sha256": "3115adfa63d8e564b11d513107721769c5d3c6503c763901265f6dcb04fd1648",
+      "annotation_sha256": "a6b0fc0bdf2ed3bc101a30e5ae03eb951a8cb2e4368a632ac1000e9fa0b4ca5c"
+    },
+    {
+      "sample_id": "R-5c001208a68b",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E24-05",
+        "repeat": 1,
+        "model": "qwen3-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "0140111c5e78267f53434828f126b20bcfc0b4f809686a2c28c332aa6b3afc51"
+      },
+      "question_sha256": "e6ba03ea9ff08d1e55feb74d3da52800daeedede41010bad1f3b0c0b6ff81d5e",
+      "annotation_sha256": "a9b727f5e18839d940002563a8e567179f36c139dbd17bb9a44916b685d6e0a1"
+    },
+    {
+      "sample_id": "R-3a7db6434a33",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P01-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "c262f4aa3c75b3fa6bf5a654ce051a737d4540c7348070571d4d5c515434b9a3"
+      },
+      "question_sha256": "249727fb7390b1ad2e2eef7bcfbe7637bd341288b1a36bceed82f1612ca91bfe",
+      "annotation_sha256": "989ca4bda6149ee44e0642e608ad44678db782b3a93352e2e129e77e00aeb969"
+    },
+    {
+      "sample_id": "R-a5439cf5ccde",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P12-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "e907aa8bce98eba921a324e61c915d163f4fca2163ee5cd26212307fd06c1fdf"
+      },
+      "question_sha256": "426b8dbf0729428302c86eca17d59f2a35d42c0fbc647038fcf8b59fa3b2007a",
+      "annotation_sha256": "a0f35ef095465a85190897deb2cf6def265c1ce683574dc7f93bf6c7d7a0e90a"
+    },
+    {
+      "sample_id": "R-4070a3e7ddb9",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P01-03",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "S",
+        "task_id": "511566055949cc45bad7aaa59f63866c7e1708deed5a61590774e218f1b9c530"
+      },
+      "question_sha256": "902aaff6b05bd686a32d399a0c69200a7c06e3b21a14b0dc7baa6a66b02c4e83",
+      "annotation_sha256": "270ff1699ce2300044adeca2dbf207724de6ff0568ac00b9916d1f0c5de20b03"
+    },
+    {
+      "sample_id": "R-33d6b789e4b5",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P12-04",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "M",
+        "task_id": "6374eea60ebc86e84b2adf7cdfa050eefeec000bdf48a2e23ce686e7b0791580"
+      },
+      "question_sha256": "afb5cda37744dd550b0e308b82e5d816a37c96db2945dca371de904472ced83e",
+      "annotation_sha256": "76b696195b8c697dbd9aeadfc7bda9bde3664c86e2de028ed9887b8056a192e3"
+    },
+    {
+      "sample_id": "R-955dd9418660",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E32-02",
+        "repeat": 1,
+        "model": "qwen3-14b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "a24baae0bf9237cd682058c72adab1ff4e9f79c0b5f9b5549a9626ff2c32a33e"
+      },
+      "question_sha256": "acbf6550e7f113adca9f3b3c9205a5f9932f878979db9067513957fad15954d7",
+      "annotation_sha256": "48cbbce32bd7434140a46ed53d2b207ca08fde63ac445f60044cd8679a0ebd0e"
+    },
+    {
+      "sample_id": "R-5ed7e522bf70",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P10-01",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "single_pass",
+        "budget": "L",
+        "task_id": "f2ef6f4af2264194e250f5c9f8161f357e9ae3762fd985dcf877019d2669f318"
+      },
+      "question_sha256": "b1ca1904d07a822d999d8091dd6a8a72e339ab877ac308f6d923c6d96207f446",
+      "annotation_sha256": "400b42cc9b14a7f1615e01adfb7e3c90a10697b6763a32178f2ec217e2404eed"
+    },
+    {
+      "sample_id": "R-ae81959425a8",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E28-05",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "graph",
+        "mode": "agentic",
+        "budget": "S",
+        "task_id": "3d25ef8698861711b1abff08160e7c40ec083d22a08ae6f0fbe65f2652be1861"
+      },
+      "question_sha256": "aefb036b3f06cbac938ce5f305f0b88d416db60661b8bdf6e472eb39da88f9ea",
+      "annotation_sha256": "a328fd04bb233f945b4626b6a8a7b247c272f52a9f377978de257286325e6565"
+    },
+    {
+      "sample_id": "R-a14f7b9da0e7",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "N57-03",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "single_pass",
+        "budget": "M",
+        "task_id": "c73a905e107e098c488274d1f917872a52137285568d1b7cbe7d865e7d7051ea"
+      },
+      "question_sha256": "0ceacb1111acd533ca02ade3c45dada9ef2400ff493e94c3753b84f312a61976",
+      "annotation_sha256": "e97920610e3a2f3d9bf28e56943aa092223259a046d55e70ee9d180064c014d6"
+    },
+    {
+      "sample_id": "R-1cf52936b32f",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "E18-05",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "bm25",
+        "mode": "agentic",
+        "budget": "L",
+        "task_id": "94f00f5c1547d755d462349b2f2254d2ffe8b657f499d6c72695055f727ee3a0"
+      },
+      "question_sha256": "5bcde64e7238c05dc29e3ccbc794920b72feb73b1253467630d5291aaec84552",
+      "annotation_sha256": "f1adc8513d597b156d83b1ad0003e4bdd1cf067354feac32816ace841b43c1e5"
+    },
+    {
+      "sample_id": "R-879f67da6df4",
+      "phase": "acceptance",
+      "capability": "M1",
+      "task": {
+        "dataset_sha256": "d683a5b65a536797fc468a85d6aa7420625ba9e01c2b99e35aaf8450d87c48f6",
+        "part": "open",
+        "id": "P08-02",
+        "repeat": 1,
+        "model": "llama3.1-8b",
+        "method": "direct",
+        "mode": "direct",
+        "budget": null,
+        "task_id": "90ba3d3ff14b3797dd86e65e527393d5d45cd8187c98d3d005a4c15a8210abb4"
+      },
+      "question_sha256": "b3ecfc95f4d16449cb5689b8eeb6e9f2d19929daf147fc02a323b5d22816cf72",
+      "annotation_sha256": "fe8f688ffc3fac8bed3e022b2ef25861094b8c6362ad45db22f4877b963b1f4f"
+    }
+  ],
+  "thresholds": {
+    "EAS_arith_MAE_max": 5,
+    "EAS_arith_absolute_bias_max": 3,
+    "K_F_A_within_025_min": 0.9
+  },
+  "acceptance_locked": true,
+  "human_labels_completed": 0
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "compact_interface_repair_offline_review_v1",
+  "verified_utc": "2026-11-04T01:36:12.611711+00:00",
+  "integrity_passed": true,
+  "interface_acceptance_passed": false,
+  "status": "paused_after_literal_fidelity_failure",
+  "model_requests": 22,
+  "planned_requests": 42,
+  "remaining_unsubmitted_requests": 20,
+  "models": {
+    "qwen3-8b": {
+      "requests": 10,
+      "case_statuses": {
+        "passed": 9,
+        "paused_incomplete": 1,
+        "not_started": 2
+      },
+      "all_submitted_wire_identity_token_schema_checks_passed": true,
+      "literal_fidelity_failures": [],
+      "full_model_suite_passed": false
+    },
+    "qwen3-14b": {
+      "requests": 4,
+      "case_statuses": {
+        "passed": 4,
+        "not_started": 8
+      },
+      "all_submitted_wire_identity_token_schema_checks_passed": true,
+      "literal_fidelity_failures": [],
+      "full_model_suite_passed": false
+    },
+    "llama3.1-8b": {
+      "requests": 8,
+      "case_statuses": {
+        "passed": 7,
+        "failed": 1,
+        "not_started": 4
+      },
+      "all_submitted_wire_identity_token_schema_checks_passed": true,
+      "literal_fidelity_failures": [
+        {
+          "case": "newlines",
+          "expected_repr": "'第一行\\n  第二行\\t末尾'",
+          "delivered_repr": "'\\\\u4e00\\\\u4e8b\\\\n  \\\\u4e8c\\\\u4e8b\\\\t\\\\u79bb\\\\u5b50'",
+          "classification": "literal_text_fidelity_failure_not_local_JSON_rewrite"
+        }
+      ],
+      "full_model_suite_passed": false
+    }
+  },
+  "query_limit": 512,
+  "output_limit": 2048,
+  "old_calibration_files_unchanged": 238,
+  "formal_dispatch_closed": true,
+  "calibration_rerun_started": false,
+  "acceptance_started": false,
+  "full_matrix_started": false,
+  "human_packets_unchanged": true,
+  "new_human_labels": 0,
+  "ai_judge_calls": 0,
+  "interpretation": "All 22 submitted requests pass strict syntax, model/token/budget and raw-body roundtrip checks. One Llama literal-copy probe failed; one Qwen 8B case was paused between turns. The remaining cases have not passed and no full three-model acceptance is claimed."
+}

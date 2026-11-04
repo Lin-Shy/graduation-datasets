@@ -1,0 +1,1005 @@
+{
+  "basis": "Current approved questions and source coverage; no model scores.",
+  "items": [
+    {
+      "id": "OBJ-001",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-002",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-003",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-004",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-005",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-006",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-007",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-008",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-009",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-010",
+      "type": "fill",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-011",
+      "type": "fill",
+      "fact_cluster": "manual:08"
+    },
+    {
+      "id": "OBJ-012",
+      "type": "fill",
+      "fact_cluster": "manual:08"
+    },
+    {
+      "id": "OBJ-013",
+      "type": "fill",
+      "fact_cluster": "manual:08"
+    },
+    {
+      "id": "OBJ-014",
+      "type": "fill",
+      "fact_cluster": "manual:08"
+    },
+    {
+      "id": "OBJ-015",
+      "type": "fill",
+      "fact_cluster": "manual:08"
+    },
+    {
+      "id": "OBJ-016",
+      "type": "fill",
+      "fact_cluster": "manual:08"
+    },
+    {
+      "id": "OBJ-017",
+      "type": "fill",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-018",
+      "type": "fill",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-019",
+      "type": "fill",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-020",
+      "type": "fill",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-021",
+      "type": "fill",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-022",
+      "type": "fill",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-023",
+      "type": "fill",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-024",
+      "type": "fill",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-025",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-026",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-027",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-028",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-029",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-030",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-031",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-032",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-033",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-034",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-035",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-036",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-037",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-038",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-039",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-040",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-041",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-042",
+      "type": "fill",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-043",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-044",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-045",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-046",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-047",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-048",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-049",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-050",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-051",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-052",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-053",
+      "type": "fill",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-054",
+      "type": "fill",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-055",
+      "type": "fill",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-056",
+      "type": "fill",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-057",
+      "type": "fill",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-058",
+      "type": "fill",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-059",
+      "type": "fill",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-060",
+      "type": "fill",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-061",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-062",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-063",
+      "type": "short",
+      "fact_cluster": "case:reacting"
+    },
+    {
+      "id": "OBJ-064",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-065",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-066",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-067",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-068",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-069",
+      "type": "short",
+      "fact_cluster": "case:reacting"
+    },
+    {
+      "id": "OBJ-070",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-071",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-072",
+      "type": "short",
+      "fact_cluster": "case:building3D"
+    },
+    {
+      "id": "OBJ-073",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-074",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-075",
+      "type": "short",
+      "fact_cluster": "manual:12"
+    },
+    {
+      "id": "OBJ-076",
+      "type": "short",
+      "fact_cluster": "case:reacting"
+    },
+    {
+      "id": "OBJ-077",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-078",
+      "type": "short",
+      "fact_cluster": "case:delayedDetonation"
+    },
+    {
+      "id": "OBJ-079",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-080",
+      "type": "short",
+      "fact_cluster": "case:building3DWorkshop"
+    },
+    {
+      "id": "OBJ-081",
+      "type": "short",
+      "fact_cluster": "case:delayedDetonation"
+    },
+    {
+      "id": "OBJ-082",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-083",
+      "type": "short",
+      "fact_cluster": "manual:17"
+    },
+    {
+      "id": "OBJ-084",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-085",
+      "type": "short",
+      "fact_cluster": "case:axisymmetricCharge"
+    },
+    {
+      "id": "OBJ-086",
+      "type": "short",
+      "fact_cluster": "case:delayedDetonation"
+    },
+    {
+      "id": "OBJ-087",
+      "type": "short",
+      "fact_cluster": "manual:18"
+    },
+    {
+      "id": "OBJ-088",
+      "type": "short",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-089",
+      "type": "short",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-090",
+      "type": "short",
+      "fact_cluster": "case:building3DWorkshop"
+    },
+    {
+      "id": "OBJ-091",
+      "type": "short",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-092",
+      "type": "short",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-093",
+      "type": "single",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-094",
+      "type": "single",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-095",
+      "type": "single",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-096",
+      "type": "single",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-097",
+      "type": "single",
+      "fact_cluster": "manual:07"
+    },
+    {
+      "id": "OBJ-098",
+      "type": "single",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-099",
+      "type": "single",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-100",
+      "type": "single",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-101",
+      "type": "single",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-102",
+      "type": "single",
+      "fact_cluster": "manual:09"
+    },
+    {
+      "id": "OBJ-103",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-104",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-105",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-106",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-107",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-108",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-109",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-110",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-111",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-112",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-113",
+      "type": "single",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-114",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-115",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-116",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-117",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-118",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-119",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-120",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-121",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-122",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-123",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-124",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-125",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-126",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-127",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-128",
+      "type": "single",
+      "fact_cluster": "manual:15"
+    },
+    {
+      "id": "OBJ-129",
+      "type": "single",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-130",
+      "type": "single",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-131",
+      "type": "single",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-132",
+      "type": "single",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-133",
+      "type": "single",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-134",
+      "type": "single",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-135",
+      "type": "single",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-136",
+      "type": "single",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-137",
+      "type": "single",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-138",
+      "type": "single",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-139",
+      "type": "single",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-140",
+      "type": "single",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-141",
+      "type": "single",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-142",
+      "type": "single",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-148",
+      "type": "judge",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-149",
+      "type": "judge",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-163",
+      "type": "judge",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-166",
+      "type": "judge",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-144",
+      "type": "judge",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-164",
+      "type": "judge",
+      "fact_cluster": "manual:04"
+    },
+    {
+      "id": "OBJ-145",
+      "type": "judge",
+      "fact_cluster": "manual:04"
+    },
+    {
+      "id": "OBJ-165",
+      "type": "judge",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-151",
+      "type": "judge",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-169",
+      "type": "judge",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-152",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-155",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-150",
+      "type": "judge",
+      "fact_cluster": "manual:04"
+    },
+    {
+      "id": "OBJ-157",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-158",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-171",
+      "type": "judge",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-156",
+      "type": "judge",
+      "fact_cluster": "manual:04"
+    },
+    {
+      "id": "OBJ-153",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-159",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-146",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-143",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-160",
+      "type": "judge",
+      "fact_cluster": "manual:04"
+    },
+    {
+      "id": "OBJ-162",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-167",
+      "type": "judge",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-170",
+      "type": "judge",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-147",
+      "type": "judge",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-154",
+      "type": "judge",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-168",
+      "type": "judge",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-161",
+      "type": "judge",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-172",
+      "type": "judge",
+      "fact_cluster": "manual:04"
+    },
+    {
+      "id": "OBJ-173",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-174",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-175",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-176",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-177",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-178",
+      "type": "short",
+      "fact_cluster": "case:internalDetonation"
+    },
+    {
+      "id": "OBJ-179",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-180",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-181",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-182",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-183",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-184",
+      "type": "short",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-185",
+      "type": "short",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-186",
+      "type": "short",
+      "fact_cluster": "manual:11"
+    },
+    {
+      "id": "OBJ-187",
+      "type": "short",
+      "fact_cluster": "manual:16"
+    },
+    {
+      "id": "OBJ-188",
+      "type": "short",
+      "fact_cluster": "case:internalDetonation"
+    },
+    {
+      "id": "OBJ-189",
+      "type": "short",
+      "fact_cluster": "case:building3D"
+    },
+    {
+      "id": "OBJ-190",
+      "type": "short",
+      "fact_cluster": "manual:19"
+    },
+    {
+      "id": "OBJ-191",
+      "type": "short",
+      "fact_cluster": "manual:08"
+    },
+    {
+      "id": "OBJ-192",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    },
+    {
+      "id": "OBJ-193",
+      "type": "short",
+      "fact_cluster": "case:building3DWorkshop"
+    },
+    {
+      "id": "OBJ-194",
+      "type": "short",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-195",
+      "type": "short",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-196",
+      "type": "short",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-197",
+      "type": "short",
+      "fact_cluster": "manual:03"
+    },
+    {
+      "id": "OBJ-198",
+      "type": "short",
+      "fact_cluster": "manual:04"
+    },
+    {
+      "id": "OBJ-199",
+      "type": "short",
+      "fact_cluster": "manual:04"
+    },
+    {
+      "id": "OBJ-200",
+      "type": "short",
+      "fact_cluster": "manual:05"
+    }
+  ]
+}
