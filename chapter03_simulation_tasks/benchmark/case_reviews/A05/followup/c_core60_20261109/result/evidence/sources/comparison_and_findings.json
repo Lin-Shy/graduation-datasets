@@ -1,0 +1,637 @@
+{
+  "task_id": "A05",
+  "date": "2026-11-05",
+  "review_status": "awaiting_whole_case_feedback",
+  "technical_recommendation": "defer_first_release_currently_no_complete_material_bound_physical_run",
+  "reference_identity": "MSB450/TableB.2/shot10/location4/experimental_columns",
+  "reference_rows_total": 25,
+  "reference_rows_reliable": 24,
+  "source_table_all_96_nonmissing_scalars_rechecked": true,
+  "source_invalid_sensors": [
+    "BA3C"
+  ],
+  "delivered_sensor_set_proposed": [
+    "BA1L",
+    "BA1C",
+    "BA2L",
+    "BA3L",
+    "BA3C",
+    "BA4L",
+    "BA4C",
+    "BA5R",
+    "BB1L",
+    "BB1C",
+    "BB2L",
+    "BB3L",
+    "BB3C",
+    "BB4L",
+    "BB4C",
+    "BB5R",
+    "BA6L",
+    "BA7L",
+    "BC2C",
+    "BD2C",
+    "FF01",
+    "FF02",
+    "FF03",
+    "FF12",
+    "FF13"
+  ],
+  "peak_metric_sensor_set_proposed": [
+    "FF01",
+    "FF02",
+    "FF03",
+    "FF12",
+    "FF13",
+    "BA1L",
+    "BA2L",
+    "BA3L",
+    "BA4L",
+    "BA6L",
+    "BA7L",
+    "BB1L",
+    "BB2L",
+    "BB3L",
+    "BB4L",
+    "BA1C",
+    "BA4C",
+    "BA5R",
+    "BB1C",
+    "BB3C",
+    "BB4C",
+    "BB5R",
+    "BC2C",
+    "BD2C"
+  ],
+  "minimum_valid_reference_peak_kpa": 11.0,
+  "source_pressure": "published positive peak overpressure; wall/roof/ground-normal sampling",
+  "independent_time_zero": "unverified",
+  "physical_solver_window_required_s": 0.05,
+  "authenticated_complete_physical_run": false,
+  "interface_test_is_not_physical_run": true,
+  "peak_mape_percent": null,
+  "arrival_mape_percent": null,
+  "accuracy_band": null,
+  "task_completion_pass": false,
+  "agent_e2e_success": null,
+  "error_reason": "missing_all_task_matched_physical_predictions; never zero or a reduced-denominator pass",
+  "material_mapping": {
+    "pdf_page_1based": 33,
+    "printed_page": 23,
+    "physical_source": "0.4kg Sprangdeg m/46, about86% PETN and14% mineral oil, spherical in a glass container.",
+    "published_numerical_approximation": "AUTODYN pure PETN mass0.86*0.4=0.344kg; this is an author modelling choice, not measured pure-PETN experimental mass.",
+    "pure_PETN_density_kg_m3": 1770,
+    "air_density_kg_m3": 1.226,
+    "ambient_pressure_Pa": 101300,
+    "detonation_velocity_m_s": 8300,
+    "CJ_pressure_Pa": 33500000000.0,
+    "CJ_energy_density_J_m3": 10100000000.0,
+    "complete_blastFoam_material_model_available": false,
+    "remaining": "Full JWL coefficients, initial-state mapping and ideal-gas transition/remap are not uniquely defined by Table3.2. CJ energy is not automatically initial e0."
+  },
+  "definition_conflict": {
+    "table_B2": {
+      "peak_kPa": 119,
+      "arrival_ms": 2.43,
+      "total_positive_impulse_Pa_s": 141,
+      "negative_magnitude_Pa_s": 167
+    },
+    "table_2_2": {
+      "peak_kPa": 119,
+      "arrival_ms": 2.55,
+      "leading_positive_impulse_Pa_s": 67,
+      "leading_duration_ms": 1.49
+    },
+    "policy": "Do not merge distinct impulse/arrival definitions or select whichever gives smaller prediction error."
+  },
+  "rows": [
+    {
+      "sensor_id": "FF01",
+      "position_m": [
+        -1.15,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 431.0,
+      "source_arrival_clock_ms": 0.56,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "FF02",
+      "position_m": [
+        -2.3,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 119.0,
+      "source_arrival_clock_ms": 2.43,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "FF03",
+      "position_m": [
+        -4.6,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 47.0,
+      "source_arrival_clock_ms": 8.02,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "FF12",
+      "position_m": [
+        -6.9,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 38.0,
+      "source_arrival_clock_ms": 13.73,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "FF13",
+      "position_m": [
+        -4.6,
+        2.3,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 14.0,
+      "source_arrival_clock_ms": 9.63,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA1L",
+      "position_m": [
+        -2.3,
+        3.45,
+        0.2
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "patch": "A_yplus",
+      "source_valid": true,
+      "reference_peak_kpa": 12.0,
+      "source_arrival_clock_ms": 8.39,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA2L",
+      "position_m": [
+        -1.15,
+        2.3,
+        0.2
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "patch": "A_xplus",
+      "source_valid": true,
+      "reference_peak_kpa": 110.0,
+      "source_arrival_clock_ms": 2.9,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA3L",
+      "position_m": [
+        -2.3,
+        1.15,
+        0.2
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "A_yminus",
+      "source_valid": true,
+      "reference_peak_kpa": 238.0,
+      "source_arrival_clock_ms": 3.0,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA4L",
+      "position_m": [
+        -3.4499999999999997,
+        2.3,
+        0.2
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "A_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 11.0,
+      "source_arrival_clock_ms": 8.45,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA6L",
+      "position_m": [
+        -3.25,
+        1.15,
+        0.2
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "A_yminus",
+      "source_valid": true,
+      "reference_peak_kpa": 113.0,
+      "source_arrival_clock_ms": 4.81,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA7L",
+      "position_m": [
+        -3.45,
+        1.35,
+        0.2
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "A_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 34.0,
+      "source_arrival_clock_ms": 5.84,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB1L",
+      "position_m": [
+        2.3,
+        3.45,
+        0.2
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "patch": "B_yplus",
+      "source_valid": true,
+      "reference_peak_kpa": 12.0,
+      "source_arrival_clock_ms": 8.12,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB2L",
+      "position_m": [
+        3.4499999999999997,
+        2.3,
+        0.2
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "patch": "B_xplus",
+      "source_valid": true,
+      "reference_peak_kpa": 12.0,
+      "source_arrival_clock_ms": 7.62,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB3L",
+      "position_m": [
+        2.3,
+        1.15,
+        0.2
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "B_yminus",
+      "source_valid": true,
+      "reference_peak_kpa": 143.0,
+      "source_arrival_clock_ms": 2.87,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB4L",
+      "position_m": [
+        1.15,
+        2.3,
+        0.2
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "B_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 124.0,
+      "source_arrival_clock_ms": 2.86,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA1C",
+      "position_m": [
+        -2.3,
+        3.45,
+        1.15
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "patch": "A_yplus",
+      "source_valid": true,
+      "reference_peak_kpa": 14.0,
+      "source_arrival_clock_ms": 8.67,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA3C",
+      "position_m": [
+        -2.3,
+        1.15,
+        1.15
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "A_yminus",
+      "source_valid": false,
+      "reference_peak_kpa": null,
+      "source_arrival_clock_ms": null,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA4C",
+      "position_m": [
+        -3.4499999999999997,
+        2.3,
+        1.15
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "A_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 14.0,
+      "source_arrival_clock_ms": 8.73,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA5R",
+      "position_m": [
+        -2.3,
+        2.3,
+        2.3
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "A_zplus",
+      "source_valid": true,
+      "reference_peak_kpa": 43.0,
+      "source_arrival_clock_ms": 7.45,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB1C",
+      "position_m": [
+        2.3,
+        3.45,
+        1.15
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "patch": "B_yplus",
+      "source_valid": true,
+      "reference_peak_kpa": 13.0,
+      "source_arrival_clock_ms": 8.61,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB3C",
+      "position_m": [
+        2.3,
+        1.15,
+        1.15
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "B_yminus",
+      "source_valid": true,
+      "reference_peak_kpa": 188.0,
+      "source_arrival_clock_ms": 3.35,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB4C",
+      "position_m": [
+        1.15,
+        2.3,
+        1.15
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "B_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 153.0,
+      "source_arrival_clock_ms": 3.36,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB5R",
+      "position_m": [
+        2.3,
+        2.3,
+        2.3
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "B_zplus",
+      "source_valid": true,
+      "reference_peak_kpa": 47.0,
+      "source_arrival_clock_ms": 7.44,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BC2C",
+      "position_m": [
+        -1.15,
+        -2.3,
+        1.15
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "patch": "C_xplus",
+      "source_valid": true,
+      "reference_peak_kpa": 187.0,
+      "source_arrival_clock_ms": 3.44,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BD2C",
+      "position_m": [
+        3.45,
+        -2.3,
+        1.15
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "patch": "D_xplus",
+      "source_valid": true,
+      "reference_peak_kpa": 13.0,
+      "source_arrival_clock_ms": 8.57,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    }
+  ],
+  "new_solver_runs": 0,
+  "new_model_calls": 0,
+  "solver_modifications": 0
+}

@@ -1,0 +1,5 @@
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/case/postProcessing/groundPressure/0/p p
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/logs/blastFoam.log blastFoam.log
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/run.json run.json
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/native_preflight.json native_preflight.json
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/logs/checkMesh.log checkMesh.log

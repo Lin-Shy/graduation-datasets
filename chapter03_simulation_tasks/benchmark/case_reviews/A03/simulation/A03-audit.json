@@ -1,0 +1,135 @@
+{
+  "case": "A03",
+  "task_condition_id": "A03-c29ea7342fb33220",
+  "solver_completed": true,
+  "target_time_s": 0.004,
+  "observed_time_s": 0.004,
+  "mesh_ok": true,
+  "maximum_logged_courant": 0.521832446392,
+  "fields": {
+    "p": {
+      "count": 19020,
+      "minimum": 60448.50314547847,
+      "maximum": 214266.4040075045,
+      "dimensions": [
+        1,
+        -1,
+        -2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "84503b5c63a79b213c5a4ed9814171962b530f699cc5c47dd5ffb8d1c73e0621"
+    },
+    "rho": {
+      "count": 19020,
+      "minimum": 0.2794188066292283,
+      "maximum": 1.241736341213123,
+      "dimensions": [
+        1,
+        -3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "0a4e5fe4829ca1729d8d1f0be13c139955c32172953b35ba0923b66556812599"
+    },
+    "U": {
+      "count": 19020,
+      "minimum": -684.0386474277166,
+      "maximum": 604.1875490070844,
+      "dimensions": [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "f729c6352656521e89813bae9bc4f6ac0ace64f01beb9d5ae7a7c5dccbed663f"
+    },
+    "T": {
+      "count": 19020,
+      "minimum": 280.7982685817821,
+      "maximum": 1436.8461418762874,
+      "dimensions": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "sha256": "f6789e6899701db31c3c3d5a24bfb2b29c9c04965c8bb0ac784dcb3f6895efda"
+    }
+  },
+  "sensors": [
+    {
+      "sensor_id": "P1",
+      "position_m": [
+        0.6,
+        0.09990482215818579,
+        0.0
+      ],
+      "samples": 6015,
+      "window_s": [
+        0.0,
+        0.004
+      ],
+      "peak_overpressure_pa": 1740688.23259,
+      "positive_impulse_pa_s": 734.1491135901807
+    },
+    {
+      "sensor_id": "P2",
+      "position_m": [
+        1.3,
+        0.09990482215818579,
+        0.0
+      ],
+      "samples": 6015,
+      "window_s": [
+        0.0,
+        0.004
+      ],
+      "peak_overpressure_pa": 1081746.4424,
+      "positive_impulse_pa_s": 523.5653241302355
+    },
+    {
+      "sensor_id": "P3",
+      "position_m": [
+        1.4,
+        0.09990482215818579,
+        0.0
+      ],
+      "samples": 6015,
+      "window_s": [
+        0.0,
+        0.004
+      ],
+      "peak_overpressure_pa": 991678.5124299999,
+      "positive_impulse_pa_s": 466.44723087903606
+    }
+  ],
+  "errors": [],
+  "scientific_acceptance": "pending",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null
+  },
+  "sensitivity_review": {
+    "status": "pending"
+  },
+  "repeatability": {
+    "status": "pending"
+  },
+  "pressure_csv": {
+    "path": "references/runs/20261022-a03/A03-pressure.csv",
+    "sha256": "130dcaf2cef79becc5a07afa7e2a5b056486597d575c65798a961ec600864e79"
+  },
+  "engineering_checks_passed": true
+}

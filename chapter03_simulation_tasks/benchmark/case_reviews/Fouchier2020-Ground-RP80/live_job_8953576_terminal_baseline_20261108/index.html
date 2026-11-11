@@ -1,0 +1,14 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>S10 固定半径在途对照</title>
+<style>body{max-width:1000px;margin:32px auto;padding:0 18px;font:16px/1.6 system-ui;color:#17324b}
+table{border-collapse:collapse;width:100%}th,td{text-align:left;border-bottom:1px solid #dfe7ed;padding:7px}img{width:100%}</style>
+<h1>S10 · 固定半径在途峰值对照</h1>
+<p>共同观测窗为 0–2.363 ms。逐点暂算 APE 仅用于已出现内部峰值并回落的记录。完整 0–3 ms 的交付和正式 MAPE 待终态。</p>
+<p>限幅作业三点暂算峰值 MAPE 对实测为 <strong>3.40%</strong>，对论文数值为 13.46%。三点均纳入。迎风基线使用串行，限幅对照使用 8 个 MPI 进程。</p><p>同窗迎风基线三点暂算 MAPE 对实测为 38.77%，对论文数值为 32.58%。</p><p>迎风基线触及调度时限，压力记录止于 2.914 ms，交付未完成。<a href="../job-8952323/peak_score.json">基线固定窗口评分回执</a> · <a href="../job-8952323/collection-2kzubwzy/scheduler_terminal.json">调度终态</a></p>
+<table><thead><tr><th rowspan="2">固定半径</th><th rowspan="2">实测 kPa</th><th rowspan="2">论文 kPa</th>
+<th colspan="3">迎风基线 8952323</th><th colspan="3">限幅重构 8953576</th></tr><tr>
+<th>峰值 kPa</th><th>实测 APE</th><th>论文 APE</th><th>峰值 kPa</th><th>实测 APE</th><th>论文 APE</th></tr></thead>
+<tbody><tr><th>0.350 m</th><td>23.08</td><td>20.57</td><td>14.95</td><td>35.20%</td><td>27.29%</td><td>23.57</td><td>2.12%</td><td>14.58%</td></tr><tr><th>0.475 m</th><td>14.74</td><td>13.05</td><td>8.88</td><td>39.74%</td><td>31.98%</td><td>14.70</td><td>0.25%</td><td>12.60%</td></tr><tr><th>0.725 m</th><td>7.48</td><td>7.12</td><td>4.38</td><td>41.38%</td><td>38.47%</td><td>8.06</td><td>7.83%</td><td>13.19%</td></tr></tbody></table>
+<img src="radial_peak_comparison.png" alt="三个固定半径的压力记录及实测参考线">
+<p><a href="../figure6-7_peaks.png">论文图 6.7</a> · <a href="../reconstruction_20261108/index.html">固定工况与改动</a> ·
+<a href="summary.json">逐点复算和文件哈希</a> · <a href="p">限幅作业原生压力记录</a></p></html>

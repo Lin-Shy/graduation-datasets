@@ -1,0 +1,9 @@
+{
+  "job_id": "8953576",
+  "original_archive_sha256": "4b76b4470e7826f990961c87b1c628d14dacc53c481fda058ac5d21a0c0a8d35",
+  "transfer_scope": "scoring_evidence",
+  "native_field_storage": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s10-20261108-limited-v2/case",
+  "scoring_inputs_source": "evidence/payload.tar.gz",
+  "scoring_inputs_scene": "S10",
+  "payload_sha256": "bbb9ae6edec070bf1ae11574910a9befdbc26ba9c7efe6bf40ad4af2775569ea"
+}

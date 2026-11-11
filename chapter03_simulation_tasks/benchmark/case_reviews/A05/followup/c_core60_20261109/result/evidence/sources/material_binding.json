@@ -1,0 +1,42 @@
+{
+  "case_id": "A05-M46-0400-products-finemesh",
+  "baseline_job_id": "8940920",
+  "experiment": "Johansson et al., MSB450 (2012), §2.2 and Table B.2, shot 10, location 4",
+  "experiment_charge": "Spherical 0.4 kg m/46, 86% PETN and 14% mineral oil, centre at 0.2 m above ground",
+  "material": "NSP-711 m/46",
+  "mass_kg": 0.4,
+  "density_kg_m3": 1500,
+  "centre_m": [0, 0, 0.2],
+  "E0_J_m3": 7050000000,
+  "JWL": {"A_Pa": 759900000000, "B_Pa": 12560000000, "R1": 5.1, "R2": 1.5, "omega": 0.29},
+  "vDet_reference_m_s": 7680,
+  "PCJ_reference_Pa": 21150000000,
+  "fine_mesh_sha256": "f20c3016d5145cfff84191c3660edf60a98199387b63849c36be6569951add9d",
+  "fixed_window_s": [0, 0.05],
+  "reference_counts": {"native_pressure_histories": 25, "experiment_peaks": 24, "AUTODYN_peaks": 25},
+  "provenance": [
+    {
+      "source": "Zakrisson, Wikman and Häggblad (2011), International Journal of Impact Engineering 38, Table 3, printed p. 602",
+      "url": "https://doi.org/10.1016/j.ijimpeng.2011.02.005",
+      "repository_copy": "https://www.diva-portal.org/smash/get/diva2%3A999223/FULLTEXT01.pdf",
+      "evidence": "Density, detonation velocity, PCJ and JWL table. E0 = 7.05 kJ/cm³ = 7.05 GJ/m³ of initial charge volume."
+    },
+    {
+      "source": "IMPETUS Afea official documentation, verification of explosives, Tables 1 and 2",
+      "url": "https://www.impetus.no/support/documentation/?doc=explosives&p=contents",
+      "evidence": "The NSP-711 m/46 rows reproduce the density, detonation velocity, volumetric energy and the five JWL coefficients, citing Helte et al."
+    },
+    {
+      "source": "Helte, Lundgren, Örnhed and Norrefeldt (2006), FOI-R--2051--SE",
+      "url": "https://www.foi.se/en/foi/reports/report-summary.html?reportNo=FOI-R--2051--SE",
+      "evidence": "Official abstract confirms calibration from cylinder expansion and detonation velocity. The full report was unavailable during review. Direct detonation-pressure measurements were unsuccessful according to the abstract."
+    }
+  ],
+  "model_limits": [
+    "Instantaneous JWL products at t=0. The literature detonation velocity and PCJ document provenance; neither drives this initialization.",
+    "Keep the existing assumed product Cv of 1000 J/(kg K) and molar mass closure. The OpenFOAM phase label petn is retained as an internal identifier for m/46 products.",
+    "Source energy is total product energy per initial charge volume, with no added activation heat. The glass shell and initiation hardware are omitted.",
+    "Keep existing ideal-gas air, rigid walls, ground and geometry. Keep HLLC, first-order reconstruction, Euler and maxCo 0.15.",
+    "The AUTODYN data provide a separate numerical diagnostic for the paper's pure-PETN surrogate. Use the fixed 24 experimental values for the primary comparison."
+  ]
+}

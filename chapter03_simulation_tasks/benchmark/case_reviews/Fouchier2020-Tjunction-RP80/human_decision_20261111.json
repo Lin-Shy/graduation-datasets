@@ -1,0 +1,23 @@
+{
+  "scene_id": "S06",
+  "case_id": "Fouchier2020-Tjunction-RP80",
+  "date": "2026-11-11",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S06 · 三臂 T 形街口通过人工审核；",
+  "reviewed_card": "admission_card_20261111.html",
+  "formal_gold": false,
+  "decision": "human_qualified_selected",
+  "previous_decision": "human_decision_20261110.json",
+  "reviewed_job_id": "8991717",
+  "terminal_evidence": "junction_transfer_review_20261110/job-8991717-20261111_114747-wdb72cup/summary.json",
+  "MAPE_percent": {
+    "experiment": 26.61542426866712,
+    "published_OpenFOAM": 9.566363443004757
+  },
+  "experimental_APE_percent": {
+    "S4": 26.85415652570443,
+    "S6": 16.44328372957426,
+    "S8": 29.863646176470628,
+    "S9": 33.30061064291917
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "task_id": "A03",
+  "source_check_completed": true,
+  "scientific_approval": "pending",
+  "source_diagnostics": {
+    "path": "references/review/round6/source-mass-energy/A03-native-source.json",
+    "sha256": "59b9f58b67ba04663454274d22f297c23fa62c907207c3215d892b883852ee10"
+  },
+  "actual_source": {
+    "analytic_sphere_volume_m3": 1.3741411617738925e-05,
+    "actual_equivalent_full_source_volume_m3": 1.3923129903938396e-05,
+    "nominal_mass_kg": 0.02200000000000002,
+    "actual_initial_C4_mass_kg": 0.022290930976205367,
+    "actual_wedge_phase_mass_kg": 0.0003095962635584079,
+    "axisymmetric_revolution_mass_kg": 0.022319248657887838,
+    "mass_definition": "actual_initial_C4_mass is the finite-volume wedge mass scaled by360/angle. Exact axial revolution instead scales by2pi/sin(angle) for this single angular cell; both reported to separate faceting and source discretisation.",
+    "relative_volume_difference": 0.0132241352820615
+  },
+  "material_parameters": {
+    "c4/reactants/thermoType/equationOfState": "Murnaghan",
+    "c4/products/thermoType/equationOfState": "JWL",
+    "c4/reactants/equationOfState/K0": 0.0,
+    "c4/reactants/equationOfState/Gamma": 0.25,
+    "c4/reactants/thermodynamics/Cv": 815.0,
+    "c4/products/thermodynamics/Cv": 1400.0,
+    "c4/products/equationOfState/A": 609770000000.0,
+    "c4/products/equationOfState/B": 12950000000.0,
+    "c4/products/equationOfState/R1": 4.5,
+    "c4/products/equationOfState/R2": 1.4,
+    "c4/products/equationOfState/omega": 0.25,
+    "c4/reactants/equationOfState/rho0": 1601.0,
+    "c4/initiation/E0": 9000000000.0,
+    "c4/initiation/vDet": 8193.0,
+    "c4/residualAlpha": 1e-10
+  },
+  "applicable_existing_initial_mass_constraints": 0,
+  "initial_mass_constraint_errors": [],
+  "initial_mass_constraint_status": "not_defined_for_this_geometry",
+  "declared_chemical_potential_energy_J": 125308.16913544554,
+  "chemical_energy_scope": "E0/rho0 times actual initialized C4 mass, not measured deposited heat. For wedge cases this is360/angle-scaled finite-volume energy; actual wedge and axial-revolution energies remain separately identifiable in source diagnostics.",
+  "common_Riemann_Kurganov_activation_path": true,
+  "original_material_input": {
+    "path": "references/runs/20261022-a03/A03/constant/phaseProperties",
+    "sha256": "a1ef29dd4e4cb503a5bbd87feb4e2bc49f505e3df41cb056bd6d0b81451483af"
+  },
+  "original_numerics": {
+    "path": "references/runs/20261022-a03/A03/system/fvSchemes",
+    "sha256": "fb53a5c55c174098b418e8707a68d066fee05e73d34af9bcf0b409a459b7be8a"
+  },
+  "full_RK_energy_budget_validated": false,
+  "acceptance": "Source geometry/mass diagnostics only; no fitted pressure or conservation tolerance and no physical-material calibration approval."
+}

@@ -1,0 +1,25 @@
+{
+  "case": "Gabriel2023-Corner100pct",
+  "metric": "first side-on blast-wave arrival time since detonation, ms",
+  "scope": "Supplementary diagnostic on both complete C-cluster mesh attempts, bound before extracting the simulated arrival times. The original first-peak report and cross-scale arrival gate remain separate.",
+  "complete_jobs_to_report": ["8942180", "8943232"],
+  "transport_mesh_mm": {"8942180": 10, "8943232": 8},
+  "required_gauges": ["A", "B1", "B2", "B3"],
+  "required_native_window_s": [0, 0.005],
+  "zero_time": "Experimental break-wire detonation (article section 2.3), Viper detonation clock (Table 6), and t=0 instantaneous products for the native simulation. No time shift.",
+  "fixed_gate_end_ms": {"A": 0.49, "B1": 1.0, "B2": 1.55, "B3": 2.05},
+  "rule": "Use the existing first_arrival_ms function unchanged. Resample at 0.5 us; find the strongest positive 5 us chord in the prebound early gate after the 0.1 ms baseline; extrapolate it back to the baseline. Reject a chord ending at the final gate sample.",
+  "source_check": "All 14 available 100% experimental traces passed the prior 10 us criterion. The 75% scale remains separately held because the full source check there was 15/16.",
+  "fixed_reference_groups": {"experiment": 14, "published_Viper": 4},
+  "experimental_reference": "Table A1. Missing trial 2 A and trial 4 B3 remain explicit. Both simulated gauges remain mandatory.",
+  "source_missing_experimental_rows": [[2, "A"], [4, "B3"]],
+  "published_numerical_reference": "Table 6 CFD Model arrival row for each gauge, read to reported precision; not the experimental mean",
+  "group_completion_rule": "A complete C-cluster attempt and all four resolved native arrivals are required for either group MAPE. Report every reference row even if an arrival is unresolved. No pooling or selection across meshes.",
+  "source_bindings": {
+    "reference_comparison.csv": "f3914ec8cbd0426c065632779652c8d9c54697e9f5833771a8827e03ce632066",
+    "native_c_20261107/conditions.json": "55feac60e5b59bdcb95950f4db4c50fad622507914703923f6d9abe4c167856f",
+    "native_c_20261107/arrival_reference_audit.json": "7f64baa3f006782a17188c4a433b894d8c44a8edfdb0df6dd45d149e60660f34",
+    "native_c_20261107/audit_arrival_reference.py": "103974fcb077a6ab2fec95ed3bc83d34fadb99956718aa02ad3d04177153bc22",
+    "arrival_reference_audit.csv": "5ecbf1c502afe450f56cdfe79c93baacc245debf03a8001e4037d93584e6a7fb"
+  }
+}

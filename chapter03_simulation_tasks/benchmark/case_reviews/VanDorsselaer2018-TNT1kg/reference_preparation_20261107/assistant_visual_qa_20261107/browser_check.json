@@ -1,0 +1,28 @@
+{
+  "at_UTC": "2026-11-06T17:29:56.147Z",
+  "images": [
+    {
+      "src": "sources/figure5-pressure-original.png",
+      "width": 515,
+      "height": 480
+    },
+    {
+      "src": "sources/pdf-page-04.png",
+      "width": 1224,
+      "height": 1584
+    },
+    {
+      "src": "sources/pdf-page-05.png",
+      "width": 1224,
+      "height": 1584
+    }
+  ],
+  "table_data_rows": 26,
+  "layout": {
+    "width": 1140,
+    "scrollWidth": 1140
+  },
+  "errors": [],
+  "all_rows_labelled_draft": true,
+  "no_APE_MAPE_or_human_approval": true
+}

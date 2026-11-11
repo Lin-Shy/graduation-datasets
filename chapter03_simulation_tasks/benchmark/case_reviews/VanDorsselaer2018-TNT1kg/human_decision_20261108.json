@@ -1,0 +1,13 @@
+{
+  "scene_id": "S12",
+  "case_id": "VanDorsselaer2018-TNT1kg",
+  "date": "2026-11-08",
+  "source": "owner review decision in the current conversation",
+  "decision": "human_qualified_selected",
+  "reviewed_job_id": "8941511",
+  "reviewed_comparison": "native_c_20261107/job-8941511/comparison.csv",
+  "reference_type": "published_numerical",
+  "scope": "S12 is the only admission from the five cases reviewed in the preceding batch",
+  "caveats": ["paper figure reading ranges span the 30 percent threshold", "near-field physical health concerns remain open"],
+  "formal_gold": false
+}

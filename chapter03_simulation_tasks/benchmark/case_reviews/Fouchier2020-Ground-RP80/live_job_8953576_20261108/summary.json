@@ -1,0 +1,90 @@
+{
+  "job_id": "8953576",
+  "baseline_job_id": "8952323",
+  "radius_m": 0.35,
+  "experiment_kPa": 23.076,
+  "common_prefix_s": [
+    0,
+    0.000779098182621
+  ],
+  "required_scoring_window_s": [
+    0,
+    0.003
+  ],
+  "delivery_complete": false,
+  "fixed_MAPE_percent": null,
+  "observed_peaks": [
+    {
+      "label": "Upwind",
+      "max_kPa": 14.953736443999995,
+      "peak_time_s": 0.000739627431131,
+      "provisional_prefix_APE_percent": 35.19788332466634
+    },
+    {
+      "label": "vanLeer",
+      "max_kPa": 23.565150515999996,
+      "peak_time_s": 0.00069974732602,
+      "provisional_prefix_APE_percent": 2.119737025480998
+    }
+  ],
+  "mpi_faces": {
+    "0": [
+      [
+        0.0,
+        0.35,
+        0.0
+      ],
+      2,
+      38699,
+      [
+        0.0,
+        0.34900095511,
+        -2.89521311421e-19
+      ]
+    ],
+    "1": [
+      [
+        0.0,
+        0.475,
+        0.0
+      ],
+      3,
+      38697,
+      [
+        0.0,
+        0.475000701754,
+        -4.25443948152e-19
+      ]
+    ],
+    "2": [
+      [
+        0.0,
+        0.725,
+        0.0
+      ],
+      5,
+      38692,
+      [
+        0.0,
+        0.72500045977,
+        -1.11495655378e-18
+      ]
+    ]
+  },
+  "native_logged_field_extrema": {
+    "p": [
+      822.647578384,
+      14900000.0
+    ],
+    "T": [
+      256.819134364,
+      8123.25976715
+    ]
+  },
+  "file_hashes": {
+    "p": "c370e01eaba46344326d98b8a2657a9a5157ed4caf4dd476dcee821a2857e286",
+    "6-mpirun.log": "eaaefb78046d8536b53dd5a5d680f9a1f629f4291a6939ced21d9fc21e790e31",
+    "run.json": "24bf8f84cfff04947c8ea304dba8afebbf3c11fd39c6402fe3b879b20958eddc",
+    "native_initialization_receipt.json": "93de97fe646604b1f1843f2d57db01f8112e28965e355ec7278bc9fbd3f15c4a"
+  }
+}

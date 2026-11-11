@@ -1,0 +1,15 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>S06 T 形街口墙顶加密终态首峰</title>
+<style>body{max-width:960px;margin:36px auto;padding:0 20px;color:#17324b;font:16px/1.65 system-ui}
+table{width:100%;border-collapse:collapse}td,th{padding:8px;border-bottom:1px solid #dfe7ed;text-align:left}img{width:100%}</style>
+<h1>S06 · T 形街口墙顶加密终态首峰</h1>
+<p>C 集群作业 <b>8991717</b>，cnode1838。已核对实际探针坐标、MPI 采样面和原生时钟。
+原生求解正常结束，固定测点完整交付 0–5 ms，逐步压力和温度检查通过。 下表只计算事前固定规则已识别的首峰。</p>
+<table><thead><tr><th>固定测点</th><th>实测 kPa</th><th>论文 kPa</th><th>全窗最大 kPa</th><th>固定首峰 kPa</th><th>实测 APE</th><th>论文 APE</th><th>波形判定</th></tr></thead>
+<tbody><tr><th>S4</th><td>20.83</td><td>18.33</td><td>21.02</td><td>15.24</td><td>26.85%</td><td>16.88%</td><td>固定首峰已识别</td></tr><tr><th>S6</th><td>14.26</td><td>13.70</td><td>11.91</td><td>11.91</td><td>16.44%</td><td>13.06%</td><td>固定首峰已识别</td></tr><tr><th>S8</th><td>4.42</td><td>3.13</td><td>3.22</td><td>3.10</td><td>29.86%</td><td>0.99%</td><td>固定首峰已识别</td></tr><tr><th>S9</th><td>2.30</td><td>1.66</td><td>1.66</td><td>1.54</td><td>33.30%</td><td>7.34%</td><td>固定首峰已识别</td></tr></tbody></table>
+<p>全固定分母首峰 MAPE。实测 <b>26.62%</b>，论文 <b>9.57%</b>。
+分母中有未识别点时，整组 MAPE 留空。全窗最大值用于幅值诊断。APE 只按事前固定首峰计算，人工入选待审核。 原生日志最低绝对压力 684.04 Pa，最低温度 234.61 K。 实测峰值的 ±3 像素图读灵敏度对应 APE S4 23.81%–29.67%，S6 13.05%–19.58%，S8 25.19%–33.99%，S9 24.21%–40.44%。</p>
+<img src="first_pulse.png" alt="原生超压时程、实测峰值参考线和固定首峰阈值">
+<p><a href="../../evidence/figure6-22.png">论文原图</a> · <a href="../../README.md">工况和测点来源</a> ·
+<a href="summary.json">逐点原生数据和误差</a> · <a href="scheduler.txt">调度终态</a> · <a href="../README.md">加密范围和基线</a></p><h2>同一测点加密前后</h2><table><thead><tr><th>测点</th><th>实测 APE</th><th>论文 APE</th></tr></thead><tbody><tr><th>S4</th><td>27.45% → 26.85%</td><td>17.56% → 16.88%</td></tr><tr><th>S6</th><td>17.07% → 16.44%</td><td>13.71% → 13.06%</td></tr><tr><th>S8</th><td>30.13% → 29.86%</td><td>1.36% → 0.99%</td></tr><tr><th>S9</th><td>34.48% → 33.30%</td><td>8.97% → 7.34%</td></tr></tbody></table></html>

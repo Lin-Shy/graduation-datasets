@@ -1,0 +1,78 @@
+{
+  "scheduler": [
+    "8991098",
+    "ch3-s07-r3-261110",
+    "COMPLETED",
+    "0:0",
+    "cnode2426"
+  ],
+  "delivery_complete": true,
+  "samples_per_gauge": 88666,
+  "coverage_s": [
+    0.0,
+    0.0120100158317
+  ],
+  "peak_rule": "window maximum with subsequent 2% fall",
+  "conditional_on_source_equivalence": true,
+  "formal_gold": false,
+  "metrics": {
+    "experimental": {
+      "denominator": 4,
+      "resolved": 4,
+      "APE_at_most_30": 3,
+      "conditional_MAPE_pct": 26.896468612469597
+    },
+    "octvce": {
+      "denominator": 4,
+      "resolved": 4,
+      "APE_at_most_30": 4,
+      "conditional_MAPE_pct": 8.670831079178496
+    }
+  },
+  "pointwise": [
+    {
+      "gauge": "G1",
+      "window_end_ms": 8.0,
+      "peak_resolved": true,
+      "native_peak_kPa": 147.628533203,
+      "native_peak_time_ms": 0.847246260492,
+      "experimental_peak_kPa": 206.71449781763542,
+      "published_octvce_peak_kPa": 149,
+      "conditional_experimental_APE_pct": 28.583367513371687,
+      "conditional_octvce_APE_pct": 0.9204475147651079
+    },
+    {
+      "gauge": "G3",
+      "window_end_ms": 8.0,
+      "peak_resolved": true,
+      "native_peak_kPa": 48.13070131900002,
+      "native_peak_time_ms": 1.38899966725,
+      "experimental_peak_kPa": 65.78298789165295,
+      "published_octvce_peak_kPa": 43.6,
+      "conditional_experimental_APE_pct": 26.83412100667563,
+      "conditional_octvce_APE_pct": 10.391516786697284
+    },
+    {
+      "gauge": "G11",
+      "window_end_ms": 8.0,
+      "peak_resolved": true,
+      "native_peak_kPa": 48.972778635,
+      "native_peak_time_ms": 1.75786807392,
+      "experimental_peak_kPa": 75.00000124223818,
+      "published_octvce_peak_kPa": 43.84,
+      "conditional_experimental_APE_pct": 34.702962901526305,
+      "conditional_octvce_APE_pct": 11.70798046304743
+    },
+    {
+      "gauge": "G21",
+      "window_end_ms": 12.0,
+      "peak_resolved": true,
+      "native_peak_kPa": 96.253833174,
+      "native_peak_time_ms": 1.87027252872,
+      "experimental_peak_kPa": 81.94226921636883,
+      "published_octvce_peak_kPa": 86.2,
+      "conditional_experimental_APE_pct": 17.465423028304762,
+      "conditional_octvce_APE_pct": 11.663379552204164
+    }
+  ]
+}

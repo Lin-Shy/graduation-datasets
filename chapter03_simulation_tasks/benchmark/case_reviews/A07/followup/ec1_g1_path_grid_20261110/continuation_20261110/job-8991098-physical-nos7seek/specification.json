@@ -1,0 +1,154 @@
+{
+  "case_id": "Brittle-EC1-Tang-ideal-balloon-equivalent-conditional-short-g1-y5mm",
+  "source": {
+    "centre_m": [
+      0.78,
+      0.35,
+      0.04
+    ],
+    "mass_kg": 0.016,
+    "specific_energy_J_kg": 4520000,
+    "balloon_total_internal_energy_J": 72320,
+    "radius_basis_density_kg_m3": 1630,
+    "source_kind": "Conditional ideal-gas balloon. Not a verified reconstruction of the physical PE4 charge.",
+    "reference_radius_m": 0.013282543788371197
+  },
+  "initial_air": {
+    "p_Pa": 101325,
+    "rho_kg_m3": 1.2,
+    "gamma": 1.4,
+    "Cv_J_kgK": 718,
+    "T_K": 294.00243732590536
+  },
+  "mesh": {
+    "cells": 3753175,
+    "parent_preflight": "8985803",
+    "domain_m": [
+      [
+        -0.3,
+        -0.25,
+        0
+      ],
+      [
+        1.86,
+        1.55,
+        0.75
+      ]
+    ],
+    "boundary_assumption": "Frozen preflight outer box; rigid slip ground and walls, transmissive outer faces.",
+    "grid_change": {
+      "axis": "y",
+      "range_m": [
+        0.7,
+        1.09
+      ],
+      "spacing_mm": [
+        10,
+        5
+      ],
+      "existing_5_mm_intervals_preserved": true
+    }
+  },
+  "comparison": {
+    "window_s": [
+      0,
+      0.002
+    ],
+    "pressure_baseline_Pa": 101325,
+    "channels": [
+      {
+        "id": "G1",
+        "patch": "B2",
+        "xyz_m": [
+          0.6,
+          1.1025,
+          0.1025
+        ],
+        "nominal_xyz_m": [
+          0.6,
+          1.1,
+          0.105
+        ],
+        "experimental_peak_kPa": 206.71449781763542,
+        "experimental_peak_time_ms": 0.8095687150029448,
+        "full_reference_window_s": [
+          0,
+          0.008
+        ],
+        "octvce_10mm_peak_kPa": 149
+      },
+      {
+        "id": "G3",
+        "patch": "west_end_wall",
+        "xyz_m": [
+          0.0,
+          0.2025,
+          0.0725
+        ],
+        "nominal_xyz_m": [
+          0,
+          0.2,
+          0.075
+        ],
+        "experimental_peak_kPa": 65.78298789165295,
+        "experimental_peak_time_ms": 1.363762087337497,
+        "full_reference_window_s": [
+          0,
+          0.008
+        ],
+        "octvce_10mm_peak_kPa": 43.6
+      },
+      {
+        "id": "G11",
+        "patch": "west_end_wall",
+        "xyz_m": [
+          0.0,
+          0.9975,
+          0.0725
+        ],
+        "nominal_xyz_m": [
+          0,
+          1.0,
+          0.075
+        ],
+        "experimental_peak_kPa": 75.00000124223818,
+        "experimental_peak_time_ms": 1.6886164909084869,
+        "full_reference_window_s": [
+          0,
+          0.008
+        ],
+        "octvce_10mm_peak_kPa": 43.84
+      },
+      {
+        "id": "G21",
+        "patch": "east_end_wall",
+        "xyz_m": [
+          1.56,
+          0.9975,
+          0.0725
+        ],
+        "nominal_xyz_m": [
+          1.56,
+          1.0,
+          0.075
+        ],
+        "experimental_peak_kPa": 81.94226921636883,
+        "experimental_peak_time_ms": 1.9972483667090966,
+        "full_reference_window_s": [
+          0,
+          0.012
+        ],
+        "octvce_10mm_peak_kPa": 86.2
+      }
+    ],
+    "short_primary": "G1",
+    "short_primary_window_s": [
+      0,
+      0.002
+    ],
+    "short_primary_peak_rule": "Maximum native overpressure. Require a later 2% fall in the same fixed window.",
+    "full_experimental_denominator": 4,
+    "full_delivery_and_MAPE_in_short_window": false,
+    "group_scope": "Conditional on nominal TNT equivalence and independent ideal-gas source. Report against the fixed G1 measured peak and separate author OctVCE peak."
+  }
+}

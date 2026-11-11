@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gabriel 2023 · 100% 转角衍射</title>
+<style>
+body{font:16px/1.65 system-ui,sans-serif;background:#f4f7fb;color:#14243c;margin:0}
+main{max-width:980px;margin:auto;padding:32px 22px} h1{margin-bottom:4px}
+section{background:#fff;padding:20px;margin:18px 0;border:1px solid #d5dfed;border-radius:12px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:7px;text-align:right;border-bottom:1px solid #e4eaf3}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+th{background:#eaf1fb} img{max-width:100%} a{color:#17569b}
+.status{color:#8b3b14} .scroll{overflow-x:auto} .small{color:#4b5f77}
+</style>
+<main><h1>Gabriel 2023 · 100% 转角衍射</h1>
+<p class="status">实验参考核对完成。BlastFoam 未提交，仍需闭合爆源输入与精确几何。</p>
+<section><h2>工况与测点</h2>
+<p>长方体 PE‑4 21.3 g，长轴与前墙平行。10 mm 钢板转角外廓 400 × 700 × 1080 mm。装药中心及 A、B1、B2、B3 测点离底板均为 540 mm。A 直视爆源，B1–B3 在转角背侧。测点记录侧向超压，断线触发以爆轰为 0 ms。</p>
+<p>图 4 是作者 100% 数值模型。它可核对方向与相对位置，图读坐标仍需保留来源精度。75% 的平面坐标需另核，不把跨尺度数值直接用于对比。</p>
+<p><a href="sources/figure-4-table-2.png">原文图 4 与材料表</a> · <a href="../../../../../graduation-thesis-materials/graduation-literature/papers/gabriel-pe4-corner-scaling-2023.pdf">完整原文</a> · <a href="../../../../../graduation-thesis-materials/graduation-literature/sources/gabriel-pe4-corner-scaling-2023-supplement.zip">作者时程工作簿</a></p></section>
+<section><h2>实测超压时程</h2>
+<p class="small">同一测点叠加四次试验，纵轴各自标度。压力和时间直接读取补充工作簿 Pressure 工作表。</p>
+<img src="pressure_traces.svg" alt="四个测点的实测超压时程"></section>
+<section><h2>论文仿真与逐试次实测对比</h2>
+<p><strong>首次峰值 MAPE 13.35% · 首次到达 MAPE 8.12%</strong>，各用 14 条论文公开的非零实测参考。仿真列来自论文 Viper::Blast，显示为文献基线。</p>
+<div class="scroll"><table><thead><tr><th rowspan="2">试次</th><th rowspan="2">点位</th><th colspan="3">首次峰值超压（kPa）</th><th colspan="3">首次到达（ms）</th></tr><tr><th>实验</th><th>Viper</th><th>APE</th><th>实验</th><th>Viper</th><th>APE</th></tr></thead><tbody><tr><td>1</td><td>A</td><td>303.054</td><td>151</td><td>50.17%</td><td>0.351</td><td>0.44</td><td>25.36%</td></tr><tr><td>1</td><td>B1</td><td>63.373</td><td>69</td><td>8.88%</td><td>0.739</td><td>0.77</td><td>4.19%</td></tr><tr><td>1</td><td>B2</td><td>36.282</td><td>38</td><td>4.74%</td><td>1.205</td><td>1.23</td><td>2.07%</td></tr><tr><td>1</td><td>B3</td><td>30.215</td><td>28</td><td>7.33%</td><td>1.715</td><td>1.73</td><td>0.87%</td></tr><tr><td>2</td><td>A</td><td>缺测</td><td>151</td><td>—</td><td>缺测</td><td>0.44</td><td>—</td></tr><tr><td>2</td><td>B1</td><td>74.219</td><td>69</td><td>7.03%</td><td>0.758</td><td>0.77</td><td>1.58%</td></tr><tr><td>2</td><td>B2</td><td>39.320</td><td>38</td><td>3.36%</td><td>1.233</td><td>1.23</td><td>0.24%</td></tr><tr><td>2</td><td>B3</td><td>32.620</td><td>28</td><td>14.16%</td><td>1.742</td><td>1.73</td><td>0.69%</td></tr><tr><td>3</td><td>A</td><td>239.755</td><td>151</td><td>37.02%</td><td>0.318</td><td>0.44</td><td>38.36%</td></tr><tr><td>3</td><td>B1</td><td>70.960</td><td>69</td><td>2.76%</td><td>0.775</td><td>0.77</td><td>0.65%</td></tr><tr><td>3</td><td>B2</td><td>38.000</td><td>38</td><td>0.00%</td><td>1.235</td><td>1.23</td><td>0.40%</td></tr><tr><td>3</td><td>B3</td><td>29.347</td><td>28</td><td>4.59%</td><td>1.748</td><td>1.73</td><td>1.03%</td></tr><tr><td>4</td><td>A</td><td>219.157</td><td>151</td><td>31.10%</td><td>0.323</td><td>0.44</td><td>36.22%</td></tr><tr><td>4</td><td>B1</td><td>66.417</td><td>69</td><td>3.89%</td><td>0.776</td><td>0.77</td><td>0.77%</td></tr><tr><td>4</td><td>B2</td><td>33.955</td><td>38</td><td>11.91%</td><td>1.245</td><td>1.23</td><td>1.20%</td></tr><tr><td>4</td><td>B3</td><td>缺测</td><td>28</td><td>—</td><td>缺测</td><td>1.73</td><td>—</td></tr></tbody></table></div>
+<p><a href="sources/table-a1.png">实验原表</a> · <a href="sources/tables-5-6.png">Viper 原表</a> · <a href="reference_comparison.csv">逐项数值</a> · <a href="reference_packet.json">数据与工作簿校验记录</a></p></section>
+<section><h2>后续对比口径</h2>
+<p>仿真须输出 A、B1、B2、B3 四条覆盖 0–5 ms 的时程。峰值与到达时间分别算 APE 和 MAPE，并另报缺测点、窗口、运行终态。A 的二次反射峰单列。75% 冲量原表与工作簿存在差异，先只作辅助资料。</p>
+<p>Viper 原文采用 JWL、程序燃烧和后燃。仍待核实其爆源完整输入及工作簿中的到达时刻定义。空气内能采用原文的数值与单位会与同页给出的压力和密度不相容，须在提交前记录取值依据。</p>
+</section></main></html>

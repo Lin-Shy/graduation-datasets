@@ -1,0 +1,152 @@
+{
+  "case_id": "Fouchier2020-Ground-RP80",
+  "allocation": {
+    "job_id": "8953576",
+    "hostname": "cnode5339",
+    "allocated_nodes": [
+      "cnode5339"
+    ],
+    "controller_job": {
+      "JobId": "8953576",
+      "JobName": "ch3-c-s10-20261108-limited-v2",
+      "UserId": "15505(15505)",
+      "GroupId": "11452(11452)",
+      "MCS_label": "N/A",
+      "Priority": "1",
+      "Nice": "0",
+      "Account": "sysu_pww",
+      "QOS": "normal",
+      "JobState": "RUNNING",
+      "Reason": "None",
+      "Dependency": "(null)",
+      "Requeue": "0",
+      "Restarts": "0",
+      "BatchFlag": "1",
+      "Reboot": "0",
+      "ExitCode": "0:0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "04:00:00",
+      "TimeMin": "N/A",
+      "SubmitTime": "2026-11-08T13:22:31",
+      "EligibleTime": "2026-11-08T13:22:31",
+      "AccrueTime": "2026-11-08T13:22:31",
+      "StartTime": "2026-11-08T13:22:32",
+      "EndTime": "2026-11-08T17:22:32",
+      "Deadline": "N/A",
+      "SuspendTime": "None",
+      "SecsPreSuspend": "0",
+      "LastSchedEval": "2026-11-08T13:22:32",
+      "Scheduler": "Main",
+      "Partition": "deimos",
+      "Sid": "ln212:1116004",
+      "ReqNodeList": "(null)",
+      "ExcNodeList": "(null)",
+      "NodeList": "cnode5339",
+      "BatchHost": "cnode5339",
+      "NumNodes": "1",
+      "NumCPUs": "64",
+      "NumTasks": "64",
+      "Task": "1",
+      "T": "0:0:*:*",
+      "ReqTRES": "cpu=64,mem=500G,node=1,billing=64",
+      "AllocTRES": "cpu=64,mem=500G,node=1,billing=64",
+      "Node": "*",
+      "C": "0:0:*:*",
+      "CoreSpec": "*",
+      "MinCPUsNode": "1",
+      "MinMemoryNode": "0",
+      "MinTmpDiskNode": "0",
+      "Features": "(null)",
+      "DelayBoot": "00:00:00",
+      "OverSubscribe": "NO",
+      "Contiguous": "0",
+      "Licenses": "(null)",
+      "Network": "(null)",
+      "Command": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s10-20261108-limited-v2/run_limited_allocated.py",
+      "WorkDir": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s10-20261108-limited-v2",
+      "StdErr": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s10-20261108-limited-v2/logs/8953576.err",
+      "StdIn": "/dev/null",
+      "StdOut": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s10-20261108-limited-v2/logs/8953576.out"
+    }
+  },
+  "payload_sha256": "bbb9ae6edec070bf1ae11574910a9befdbc26ba9c7efe6bf40ad4af2775569ea",
+  "commands": [
+    {
+      "argv": [
+        "blockMesh"
+      ],
+      "log": "logs/0-blockMesh.log",
+      "exit_code": 0,
+      "sha256": "9280baa61e8c36de367349a1ed2f55a04b491a7a28a59851d36eac42a373e9f7"
+    },
+    {
+      "argv": [
+        "checkMesh"
+      ],
+      "log": "logs/1-checkMesh.log",
+      "exit_code": 0,
+      "sha256": "615c83e33bf77a7984efca0869109c0018c413e129e197fc11329525aeb8dcd3"
+    },
+    {
+      "argv": [
+        "setFields"
+      ],
+      "log": "logs/2-setFields.log",
+      "exit_code": 0,
+      "sha256": "48c5b2f13e0f412341515e8a9441fb89ae8307c4b64e0272138de94e00e6e8e8"
+    },
+    {
+      "argv": [
+        "postProcess",
+        "-func",
+        "writeCellVolumes",
+        "-time",
+        "0"
+      ],
+      "log": "logs/3-postProcess.log",
+      "exit_code": 0,
+      "sha256": "290e9d8324a3f9d9b4f30a38a2317c0a14a470cbf02345ef5d443f6f9f2b3217"
+    },
+    {
+      "argv": [
+        "python3",
+        "../check_s10_initialization.py",
+        "."
+      ],
+      "log": "logs/4-python3.log",
+      "exit_code": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "decomposePar"
+      ],
+      "log": "logs/5-decomposePar.log",
+      "exit_code": 0,
+      "sha256": "1fbb971030bde510629cca34a69caa553508fba1949b585b34ac064176aaba44"
+    },
+    {
+      "argv": [
+        "mpirun",
+        "--host",
+        "cnode5339:8",
+        "-np",
+        "8",
+        "--bind-to",
+        "none",
+        "blastFoam",
+        "-parallel"
+      ],
+      "log": "logs/6-mpirun.log",
+      "exit_code": 0,
+      "sha256": "b099b29b46974b298d8152e9eff5ea1dae64315d162f81feb86f6e797c18cc9f"
+    }
+  ],
+  "completed": true,
+  "health_failure": null,
+  "mpi_ranks": 8,
+  "staging_receipt_sha256": "91e1e5204fca1aa9c7e96b37604146f4c6e269725f12f01804ececf0a09f1f60",
+  "group_soft_quota_headroom_KiB": 12008883136,
+  "native_initialization_receipt_sha256": "93de97fe646604b1f1843f2d57db01f8112e28965e355ec7278bc9fbd3f15c4a",
+  "native_probe_sha256": "c6ebc6685c9a6b1414e2a1084ccaa37e550e5b5a98d46af848facf993a5271d6"
+}

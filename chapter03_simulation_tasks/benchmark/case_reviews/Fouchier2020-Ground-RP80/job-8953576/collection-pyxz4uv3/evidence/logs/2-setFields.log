@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-89839ae3b8cd
+Exec   : setFields
+Date   : Nov 08 2026
+Time   : 13:22:40
+Host   : "cnode5339"
+PID    : 917265
+I/O    : uncollated
+Case   : /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s10-20261108-limited-v2/case
+nProcs : 1
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading "setFieldsDict"
+
+Setting field default values
+    Setting internal values of volScalarField p
+    Setting internal values of volScalarField T
+    Setting internal values of volScalarField rho
+
+Setting field region values
+    Adding cells with centre within sphere, with centre = (0 0 0) and radius = 0.02
+    Setting internal values of volScalarField p
+    Setting internal values of volScalarField T
+    Setting internal values of volScalarField rho
+
+End
+

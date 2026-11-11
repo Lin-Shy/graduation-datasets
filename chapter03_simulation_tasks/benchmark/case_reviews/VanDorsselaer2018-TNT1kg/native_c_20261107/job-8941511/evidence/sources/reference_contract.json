@@ -1,0 +1,86 @@
+{
+  "case_id": "VanDorsselaer2018-TNT1kg",
+  "stage": "fixed_peak_references_for_independent_numerical_diagnostic",
+  "paper": {
+    "pdf_pages": [
+      4,
+      5
+    ],
+    "figure": 5,
+    "reference_kind": "published_numerical"
+  },
+  "required_prediction_radii_m": [
+    0.25,
+    0.5,
+    0.75,
+    1,
+    1.5,
+    2,
+    2.5,
+    3,
+    3.5,
+    4,
+    4.5,
+    5,
+    5.5
+  ],
+  "reference_groups": {
+    "OURANOS": [
+      0.5,
+      0.75,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      5.5
+    ],
+    "LS-DYNA": [
+      0.25,
+      0.5,
+      0.75,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      5.5
+    ]
+  },
+  "excluded_before_prediction": [
+    {
+      "group": "OURANOS",
+      "radius_m": 0.25,
+      "reason": "Marker not distinguishable from overplotted curves; one isolated color pixel."
+    },
+    {
+      "group": "both",
+      "radius_m": 6,
+      "reason": "Plot boundary clips marker."
+    }
+  ],
+  "quantity": "positive_peak_incident_overpressure_Pa",
+  "ambient_pressure_Pa": 101325,
+  "reference_csv_sha256": "6ae11cc2a7f776915ffadca41c13dbc5a9f97e3efebe2428d13b5d2330b9bd5d",
+  "source_sha256": {
+    "DRAFT_NOT_APPROVED_numerical_peak_readings.csv": "cab18eeab67384f8c6f9369cb8f659cfa69b1193fc55537c9a545ac38152b9f9",
+    "sources/figure5-pressure-original.png": "93bb1a4a505e03ebe04e8591ca916c675f4cff915c1b62f0a2af127da5625d92",
+    "sources/VanDorsselaer2018_convex.pdf": "43cd5f7364803026978c8fed6b323210cfba45772d7d677351e5af650de87572"
+  },
+  "reading_intervals": "digitization bounds, not experimental uncertainty",
+  "completion_gate": "native healthy terminal run and every one of the 13 required gauge histories covers the full predeclared model window",
+  "mape_limits_percent": {
+    "qualified": 30,
+    "higher_precision": 15
+  },
+  "formal_case_approval": false,
+  "gold_approval": false
+}

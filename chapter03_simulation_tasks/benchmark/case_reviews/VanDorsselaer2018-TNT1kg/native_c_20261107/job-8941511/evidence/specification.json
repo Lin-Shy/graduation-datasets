@@ -1,0 +1,320 @@
+{
+  "case_id": "VanDorsselaer2018-TNT1kg-v1-wedge8mm",
+  "identity": "independent blastFoam diagnostic versus Figure 5 numerical references",
+  "source": {
+    "mass_kg": 0.013888888888888888,
+    "density_kg_m3": 1630.0,
+    "radius_m": 0.052711809956185275,
+    "centre_m": [
+      0,
+      0,
+      0
+    ],
+    "products_Cv_J_kgK": 1000.0,
+    "E0_J_m3": 6000000000.0,
+    "JWL": {
+      "A_Pa": 373770000000.0,
+      "B_Pa": 3747000000.0,
+      "R1": 4.15,
+      "R2": 0.9,
+      "omega": 0.35
+    },
+    "energy_convention": "E0 is total JWL product internal energy per initial explosive volume; no activation energy is added",
+    "shape_identity": "full sphere represented by a rotational sector",
+    "full_sphere_mass_kg": 1.0
+  },
+  "source_phase": "tnt",
+  "initial_air": {
+    "p_Pa": 101325,
+    "rho_kg_m3": 1.225,
+    "Cv_J_kgK": 718.0,
+    "gamma": 1.4,
+    "EOS_consistent_T_K": 288.0023875845603
+  },
+  "model_scope": "Instantaneous JWL products from Yeo\u2013Tan Table 1 with inherited Cv=1000; original detonating input and air density were unpublished.",
+  "mesh": {
+    "counts": [
+      1251,
+      1250,
+      1
+    ],
+    "cells": 1563750,
+    "opening_deg": 5.0,
+    "axial_half_length_m": 5.0,
+    "midplane_radius_m": 10.0,
+    "spacing_m": [
+      0.007993605115907274,
+      0.008
+    ],
+    "orientation": "Paper X-axis is equatorial; map (r,0,0) to native (0,r,0)."
+  },
+  "comparison": {
+    "window_s": [
+      0,
+      0.022
+    ],
+    "pressure_baseline_Pa": 101325,
+    "required_sensors": [
+      "R0250",
+      "R0500",
+      "R0750",
+      "R1000",
+      "R1500",
+      "R2000",
+      "R2500",
+      "R3000",
+      "R3500",
+      "R4000",
+      "R4500",
+      "R5000",
+      "R5500"
+    ],
+    "required_prediction_count": 13,
+    "reference_rows": [
+      {
+        "trial": "OURANOS",
+        "gauge": "R0500",
+        "peak_pa": 3189770.2154663214,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R0750",
+        "peak_pa": 1595906.776404731,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R1000",
+        "peak_pa": 848342.8982440721,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R1500",
+        "peak_pa": 353893.169549099,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R2000",
+        "peak_pa": 180152.00408020258,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R2500",
+        "peak_pa": 112883.78916846888,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R3000",
+        "peak_pa": 78475.99703514615,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R3500",
+        "peak_pa": 58467.87276937589,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R4000",
+        "peak_pa": 45883.24610100845,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R4500",
+        "peak_pa": 36007.3348498562,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R5000",
+        "peak_pa": 28750.5804094488,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "OURANOS",
+        "gauge": "R5500",
+        "peak_pa": 24602.398208697778,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R0250",
+        "peak_pa": 8557183.144940006,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R0500",
+        "peak_pa": 3600733.48498562,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R0750",
+        "peak_pa": 1801520.0408020257,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R1000",
+        "peak_pa": 933092.7435461668,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R1500",
+        "peak_pa": 330215.14849681756,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R2000",
+        "peak_pa": 168098.52774253648,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R2500",
+        "peak_pa": 103523.17759307388,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R3000",
+        "peak_pa": 72594.2554998373,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R3500",
+        "peak_pa": 55030.25227613395,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R4000",
+        "peak_pa": 43560.99030694608,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R4500",
+        "peak_pa": 36007.3348498562,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R5000",
+        "peak_pa": 30283.28665574946,
+        "source_trial": "Figure 5"
+      },
+      {
+        "trial": "LS-DYNA",
+        "gauge": "R5500",
+        "peak_pa": 26139.25665958656,
+        "source_trial": "Figure 5"
+      }
+    ],
+    "MAPE_groups": {
+      "OURANOS": 12,
+      "LS-DYNA": 13
+    }
+  },
+  "input_files": [
+    {
+      "path": "0/T",
+      "sha256": "afdd7374a057e6183658b6fae2ce59c4b433e076fd8c5a825e54b764f99fdb34"
+    },
+    {
+      "path": "0/U",
+      "sha256": "78701dc2b95219c0223280df91495af844011715ad0e6ebdbc4e2ad0094f5190"
+    },
+    {
+      "path": "0/alpha.tnt",
+      "sha256": "02d9e0eab623f52e5b677413be415c6fb0e7ffd63d7044bb5959b3f41d1491a9"
+    },
+    {
+      "path": "0/p",
+      "sha256": "6e90c86e4524bf12cc144a9f0497a42ec82468f55a92ce874ab11238d7bedffb"
+    },
+    {
+      "path": "0/rho.air",
+      "sha256": "185995c91ec4947185fe9810e0902ce615580291af6a7868e69825d23e5551b2"
+    },
+    {
+      "path": "0/rho.tnt",
+      "sha256": "9608014b01637c8aba7a748e3eec42583b269b9a80037e9200514779a7153c64"
+    },
+    {
+      "path": "constant/dynamicMeshDict",
+      "sha256": "f98846b953910be0d7b9bd8d234b0c75c87fb1022f570d1b781438529cf083f7"
+    },
+    {
+      "path": "constant/phaseProperties",
+      "sha256": "0385a674838baee58f5206c4b1fe66cdd1a0184f59cc0ad36f08925be0b56f2d"
+    },
+    {
+      "path": "system/blockMeshDict",
+      "sha256": "b1584879229d565f7ce1d18015836ff84921333a60c9813c458889f1bd6fafdc"
+    },
+    {
+      "path": "system/controlDict",
+      "sha256": "2ebb5c02e42f04b80c6a2f25d9f6863c5f855ac669258268910f397433fbeff1"
+    },
+    {
+      "path": "system/decomposeParDict",
+      "sha256": "d5d20bd0b48b42a4c9ee05f84f3c320034695e29c82801c7059585d657596915"
+    },
+    {
+      "path": "system/fvSchemes",
+      "sha256": "3ab875d36178918a0517e0a2c1b2b7a54216c42246d4543f0e8c8fddf3235bdb"
+    },
+    {
+      "path": "system/fvSolution",
+      "sha256": "dd888cbc46ab856f909b742139fde2062ccfe612ec0e30102b698359e31bfce4"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "sources/TNT_supporting_primary_table.json",
+      "sha256": "d285323f8f42ccf30d347552d0a03f82712db25d9170ce0ee6c8438838c05b52"
+    },
+    {
+      "path": "sources/fixed_peak_references.csv",
+      "sha256": "6ae11cc2a7f776915ffadca41c13dbc5a9f97e3efebe2428d13b5d2330b9bd5d"
+    },
+    {
+      "path": "sources/reference_contract.json",
+      "sha256": "5a3c17a529583390b0f70ca12d413c7a4a0d856e3c629b7ed8b25c759bdab035"
+    }
+  ],
+  "package_code": [
+    {
+      "path": "foam_fields_snapshot.py",
+      "sha256": "36eb0dde71a5948b21d41c94588f8206c9f50ad3d5ed2f41bda3768f4b737a5d"
+    },
+    {
+      "path": "initialize_cartesian_products.py",
+      "sha256": "bfd081e9bf6f80633961465fabf225843f960147625c650af1d2f95c5f611531"
+    },
+    {
+      "path": "initialize_wedge_source.py",
+      "sha256": "01eef1544cf871e3610061ebadfa0bfe3bfc7efb73b9cce4157a901731c2472b"
+    },
+    {
+      "path": "score_reference_core_snapshot.py",
+      "sha256": "db54aa8acd93f0a4633551df8be71790402021d82d7661ecd1a1dbbf8b46b473"
+    },
+    {
+      "path": "score_reference_supplement.py",
+      "sha256": "5980fd46921ea2e629648f9315783a2d0553e1e7971b36895fcd3354675d12be"
+    }
+  ]
+}

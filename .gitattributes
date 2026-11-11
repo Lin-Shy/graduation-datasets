@@ -1,2 +1,7 @@
 # Preserve exact dataset and evidence bytes.
 * -text
+
+"chapter03_simulation_tasks/benchmark/case_reviews/A07/followup/ec1_g1_path_grid_20261110/continuation_20261110/job-8991098-physical-nos7seek/logs/blastFoam.log" filter=lfs diff=lfs merge=lfs -text
+"chapter03_simulation_tasks/benchmark/case_reviews/Gabriel2023-Corner100pct/job-8980940-continuation/solver.log" filter=lfs diff=lfs merge=lfs -text
+"chapter03_simulation_tasks/benchmark/case_reviews/Kristoffersen2024-Pipe99-400g/job-8943527/pipe99-terminal.tar.gz" filter=lfs diff=lfs merge=lfs -text
+"chapter03_simulation_tasks/benchmark/case_reviews/VanDorsselaer2018-TNT1kg/native_c_20261107/job-8941511/freefield-terminal.tar.gz" filter=lfs diff=lfs merge=lfs -text

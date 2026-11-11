@@ -1,0 +1,37 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-89839ae3b8cd
+Exec   : postProcess -func writeCellCentres -time 0
+Date   : Nov 07 2026
+Time   : 13:30:56
+Host   : "cnode1909"
+PID    : 3203654
+I/O    : uncollated
+Case   : /XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Time = 0
+
+Reading fields:
+
+Executing functionObjects
+    Writing cell-centre field C to 0
+    Writing the x component field of the cell-centres Cx to 0
+    Writing the y component field of the cell-centres Cy to 0
+    Writing the z component field of the cell-centres Cz to 0
+
+End
+

@@ -1,0 +1,16 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>PIPE99 · 冲量补充诊断</title>
+<style>body{max-width:1080px;margin:36px auto;padding:0 20px;font:16px/1.65 system-ui;color:#17324b}
+img{width:100%;height:auto}table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid #dfe7ed;padding:8px;text-align:right}
+td:first-child,th:first-child{text-align:left}th{background:#edf3f6}</style>
+<h1>PIPE99 · 4 ms 冲量补充诊断</h1>
+<p>完整仿真作业 8943527。冲量 MAPE　实测重复试验 <strong>7.01%</strong>（6 项） · 论文 EPX <strong>5.03%</strong>（3 项）。</p>
+<p>逐点扣除 101.3 kPa 基线，保留超压正负号，在起爆时钟 0–4 ms 对原生样本作梯形积分。
+论文把实验波前对齐到 EPX 的 Pi02。本次仿真采用瞬时 JWL 产物，时间基准沿用原生起爆时钟。
+这组结果属于运行后补充诊断，独立于事先固定的峰值评价。</p>
+<p><a href="../sources/paper-page-14.png">表 4 原页</a> ·
+<a href="../sources/paper-page-12.png">图 15 原页</a> ·
+<a href="impulse_recalculation.json">复算数据</a> · <a href="index.html">峰值审核</a></p>
+<img src="native_impulse.png" alt="三个测点的累积冲量和三组表 4 参考">
+<table><thead><tr><th>测点</th><th>参考</th><th>参考 kPa·ms</th><th>仿真 kPa·ms</th><th>APE</th></tr></thead>
+<tbody><tr><td>Pi02</td><td>T1</td><td>2354</td><td>2053.70</td><td>12.76%</td></tr><tr><td>Pi02</td><td>T2</td><td>2336</td><td>2053.70</td><td>12.08%</td></tr><tr><td>Pi02</td><td>EPX</td><td>2196</td><td>2053.70</td><td>6.48%</td></tr><tr><td>Pi03</td><td>T1</td><td>1728</td><td>1705.37</td><td>1.31%</td></tr><tr><td>Pi03</td><td>T2</td><td>1703</td><td>1705.37</td><td>0.14%</td></tr><tr><td>Pi03</td><td>EPX</td><td>1793</td><td>1705.37</td><td>4.89%</td></tr><tr><td>Pi04</td><td>T1</td><td>1712</td><td>1579.01</td><td>7.77%</td></tr><tr><td>Pi04</td><td>T2</td><td>1716</td><td>1579.01</td><td>7.98%</td></tr><tr><td>Pi04</td><td>EPX</td><td>1640</td><td>1579.01</td><td>3.72%</td></tr></tbody></table></html>

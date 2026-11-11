@@ -1,0 +1,13 @@
+FoamFile { version 2.0; format ascii; class dictionary; object phaseProperties; }
+phases (tnt air); radiationModel none;
+tnt { type basic;
+ thermoType { transport const; thermo eConst; equationOfState JWL; }
+ equationOfState { rho0 1630; A 373.77e9; B 3.747e9; R1 4.15; R2 0.9; omega 0.35; e0 0; }
+ specie { molWeight 55; } transport { mu 0; Pr 1; } thermodynamics { Cv 1000; Hf 0; }
+ residualRho 1e-6; residualAlpha 1e-10;
+}
+air { type basic; thermoType { transport const; thermo eConst; equationOfState idealGas; }
+ equationOfState { gamma 1.4; } specie { molWeight 28.97; }
+ transport { mu 0; Pr 1; } thermodynamics { Cv 718; Hf 0; }
+ residualRho 1e-6; residualAlpha 1e-10;
+}

@@ -1,0 +1,28 @@
+{
+  "method": "actual_native_wedge_mesh_64x32_midpoint_quadrature_bounded_mass_correction",
+  "cell_count": 100230,
+  "source_cells": 1620,
+  "partial_cells": 1620,
+  "uncorrected_wedge_source_volume_m3": 3.5134291412081946e-06,
+  "target_wedge_source_volume_m3": 3.5134291068082452e-06,
+  "correction_relative": -9.790990039005707e-09,
+  "actual_scaled_FV_mass_kg": 0.4050000000000001,
+  "wedge_mass_kg": 0.005625000000000001,
+  "alpha_sha256": "46c07bbe6fcd3894311324aeb8b722593fef995ff3e1c76b91426a566fba3fdc",
+  "model_initialization_only_not_source_validation": true,
+  "initial_products": {
+    "energy_convention": "Initial total product energy per initial explosive volume, no activation source",
+    "cold_energy_J_kg": 2364984.5850778515,
+    "minimum_T_K": 287.931328520266,
+    "maximum_T_K": 2326.072846506517,
+    "maximum_p_Pa": 11270773979.109737,
+    "actual_scaled_excess_energy_J": 2276637.9973454094,
+    "analytic_excess_energy_J": 2276637.9973454094,
+    "explicit_e_input": true,
+    "field_hashes": {
+      "e": "ee1d9e7919fa00c48a1dc00eadafb6922446393ff2f22e24ab0cabb16345e283",
+      "T": "c00123f3311e8cd66e5a7896af52a4fa201f2bd9efd6aa281f5bac3a1943d8ff",
+      "p": "3e83f0e95be2f0d1617a57bf315a1c1fef39bc7c2a4b396abd63a4ba4a6ab656"
+    }
+  }
+}

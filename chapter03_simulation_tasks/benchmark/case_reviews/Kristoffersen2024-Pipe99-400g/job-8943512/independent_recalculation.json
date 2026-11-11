@@ -1,0 +1,19 @@
+{
+  "case_id": "Kristoffersen2024-Pipe99-400g",
+  "job_id": "8943512",
+  "node": "cnode2628",
+  "task_completion_pass": false,
+  "peak_comparison_available": false,
+  "health_failure": "nonpositive_or_nonfinite_temperature_native_log",
+  "source_model": "programmed_burn_two_phase",
+  "fixed_reference_sizes": {
+    "experimental_repeats": 6,
+    "published_EPX": 3
+  },
+  "MAPE_percent": {
+    "experimental_repeats": null,
+    "published_EPX": null
+  },
+  "gauges": {},
+  "archive_sha256": "c898341ed994e38889b2a0a5f649b2fa6df5859c038caeb235e0e5527a2d2379"
+}

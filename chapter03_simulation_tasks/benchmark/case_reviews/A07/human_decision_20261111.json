@@ -1,0 +1,33 @@
+{
+  "scene_id": "S07",
+  "case_id": "A07",
+  "date": "2026-11-11",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S07 · 有端墙的复杂街区通过人工审核；",
+  "reviewed_card": "admission_card_20261111.html",
+  "formal_gold": false,
+  "decision": "human_qualified_selected",
+  "previous_decision": "human_decision_20261110.json",
+  "reviewed_job_id": "8991098",
+  "terminal_evidence": "followup/ec1_g1_path_grid_20261110/continuation_20261110/job-8991098-physical-nos7seek/full_window_review.json",
+  "conditional_metrics": {
+    "experimental": {
+      "denominator": 4,
+      "resolved": 4,
+      "APE_at_most_30": 3,
+      "conditional_MAPE_pct": 26.896468612469597
+    },
+    "octvce": {
+      "denominator": 4,
+      "resolved": 4,
+      "APE_at_most_30": 4,
+      "conditional_MAPE_pct": 8.670831079178496
+    }
+  },
+  "conditional_experimental_APE_percent": {
+    "G1": 28.583367513371687,
+    "G3": 26.83412100667563,
+    "G11": 34.702962901526305,
+    "G21": 17.465423028304762
+  }
+}

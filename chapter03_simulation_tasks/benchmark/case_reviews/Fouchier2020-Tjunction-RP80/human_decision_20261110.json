@@ -1,0 +1,13 @@
+{
+  "scene_id": "S06",
+  "case_id": "Fouchier2020-Tjunction-RP80",
+  "date": "2026-11-10",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S06 · 三臂 T 形街口 通过审核。",
+  "decision": "human_qualified_selected",
+  "reviewed_card": "admission_card_20261110.html",
+  "reviewed_job_id": "8981257",
+  "fixed_gauges": ["S4", "S6", "S8", "S9"],
+  "review_evidence": "横街加密版四点 0–5 ms。实测首峰 MAPE 27.28%，S8、S9 单点 APE 超过 30%。墙顶加密另列。",
+  "formal_gold": false
+}

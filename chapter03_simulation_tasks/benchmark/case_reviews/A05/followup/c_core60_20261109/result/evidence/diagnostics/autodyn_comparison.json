@@ -1,0 +1,161 @@
+{
+  "reference": "MSB450 Table B.2 shot 10 location 4 AUTODYN P+",
+  "reference_count": 25,
+  "window_s": [
+    0,
+    0.05
+  ],
+  "MAPE_percent": 33.4615049586938,
+  "rows": [
+    {
+      "sensor": "FF01",
+      "reference_kPa": 755,
+      "simulation_kPa": 382.951554183,
+      "APE_percent": 49.27793984331126
+    },
+    {
+      "sensor": "FF02",
+      "reference_kPa": 142,
+      "simulation_kPa": 77.677671563,
+      "APE_percent": 45.29741439225352
+    },
+    {
+      "sensor": "FF03",
+      "reference_kPa": 50,
+      "simulation_kPa": 29.586183548,
+      "APE_percent": 40.827632904
+    },
+    {
+      "sensor": "FF12",
+      "reference_kPa": 25,
+      "simulation_kPa": 11.568537962000002,
+      "APE_percent": 53.72584815199999
+    },
+    {
+      "sensor": "FF13",
+      "reference_kPa": 13,
+      "simulation_kPa": 9.728720642,
+      "APE_percent": 25.163687369230765
+    },
+    {
+      "sensor": "BA1L",
+      "reference_kPa": 13,
+      "simulation_kPa": 10.103500365999993,
+      "APE_percent": 22.28076641538467
+    },
+    {
+      "sensor": "BA2L",
+      "reference_kPa": 234,
+      "simulation_kPa": 128.425136768,
+      "APE_percent": 45.117462919658124
+    },
+    {
+      "sensor": "BA3L",
+      "reference_kPa": 234,
+      "simulation_kPa": 128.425677851,
+      "APE_percent": 45.117231687606846
+    },
+    {
+      "sensor": "BA4L",
+      "reference_kPa": 13,
+      "simulation_kPa": 10.103475561,
+      "APE_percent": 22.280957223076925
+    },
+    {
+      "sensor": "BA6L",
+      "reference_kPa": 113,
+      "simulation_kPa": 72.16055359399999,
+      "APE_percent": 36.1411030141593
+    },
+    {
+      "sensor": "BA7L",
+      "reference_kPa": 22,
+      "simulation_kPa": 17.753949567000003,
+      "APE_percent": 19.300229240909076
+    },
+    {
+      "sensor": "BB1L",
+      "reference_kPa": 13,
+      "simulation_kPa": 10.103498265999995,
+      "APE_percent": 22.2807825692308
+    },
+    {
+      "sensor": "BB2L",
+      "reference_kPa": 13,
+      "simulation_kPa": 10.103501224000007,
+      "APE_percent": 22.280759815384556
+    },
+    {
+      "sensor": "BB3L",
+      "reference_kPa": 234,
+      "simulation_kPa": 128.425165215,
+      "APE_percent": 45.11745076282051
+    },
+    {
+      "sensor": "BB4L",
+      "reference_kPa": 234,
+      "simulation_kPa": 128.42519862,
+      "APE_percent": 45.11743648717948
+    },
+    {
+      "sensor": "BA1C",
+      "reference_kPa": 12,
+      "simulation_kPa": 9.731934166999999,
+      "APE_percent": 18.900548608333345
+    },
+    {
+      "sensor": "BA3C",
+      "reference_kPa": 176,
+      "simulation_kPa": 105.336383481,
+      "APE_percent": 40.14978211306818
+    },
+    {
+      "sensor": "BA4C",
+      "reference_kPa": 12,
+      "simulation_kPa": 9.731932316000005,
+      "APE_percent": 18.90056403333329
+    },
+    {
+      "sensor": "BA5R",
+      "reference_kPa": 26,
+      "simulation_kPa": 18.068752133999993,
+      "APE_percent": 30.50479948461541
+    },
+    {
+      "sensor": "BB1C",
+      "reference_kPa": 12,
+      "simulation_kPa": 9.731934254000008,
+      "APE_percent": 18.90054788333327
+    },
+    {
+      "sensor": "BB3C",
+      "reference_kPa": 176,
+      "simulation_kPa": 105.336377096,
+      "APE_percent": 40.14978574090909
+    },
+    {
+      "sensor": "BB4C",
+      "reference_kPa": 176,
+      "simulation_kPa": 105.33637218199999,
+      "APE_percent": 40.149788532954545
+    },
+    {
+      "sensor": "BB5R",
+      "reference_kPa": 26,
+      "simulation_kPa": 18.06875735,
+      "APE_percent": 30.50477942307693
+    },
+    {
+      "sensor": "BC2C",
+      "reference_kPa": 176,
+      "simulation_kPa": 105.336373484,
+      "APE_percent": 40.149787793181815
+    },
+    {
+      "sensor": "BD2C",
+      "reference_kPa": 12,
+      "simulation_kPa": 9.731935492999996,
+      "APE_percent": 18.900537558333365
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "scene_id": "S11",
+  "job_id": "8976290",
+  "node": "cnode1806",
+  "mpi_ranks": 32,
+  "pressure_prefix_last_s": 0.0050100466847257,
+  "pressure_samples": 49395,
+  "delivery_complete": true,
+  "fixed_delivery_window_s": [
+    0,
+    0.005
+  ],
+  "all_fixed_first_pulses_resolved_in_prefix": true,
+  "native_logged_field_extrema": {
+    "p": [
+      691.135305989,
+      14900000.0
+    ],
+    "T": [
+      236.575579517,
+      4908.18398395
+    ]
+  },
+  "verified_MPI_faces": [
+    {
+      "gauge": "S5",
+      "rank": 12,
+      "local_face": 257513,
+      "face_centre_m": [
+        0.0005,
+        -0.3485,
+        0.0
+      ]
+    },
+    {
+      "gauge": "S2",
+      "rank": 8,
+      "local_face": 258029,
+      "face_centre_m": [
+        0.0005,
+        -0.7265,
+        0.0
+      ]
+    },
+    {
+      "gauge": "S3",
+      "rank": 0,
+      "local_face": 262736,
+      "face_centre_m": [
+        0.0005,
+        -1.2485,
+        0.0
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "gauge": "S5",
+      "position_m": [
+        0,
+        -0.35,
+        0
+      ],
+      "reference_kPa": {
+        "experiment": 20.645,
+        "published_OpenFOAM": 18.387
+      },
+      "prefix_max_kPa": 20.710998177,
+      "prefix_max_time_s": 0.0015140376975094,
+      "fixed_threshold_kPa": 6.1935,
+      "fixed_rule": {
+        "level_kPa": 6.1935,
+        "dwell_s": 4e-05,
+        "span_s": 0.00011
+      },
+      "pulse": {
+        "onset_s": 0.0006584581034208856,
+        "end_s": 0.0007684581034208855,
+        "peak_time_s": 0.00072742477795177,
+        "peak_kPa": 14.962336397000007
+      },
+      "APE_percent": {
+        "experiment": 27.52561687091302,
+        "published_OpenFOAM": 18.6254614836569
+      },
+      "unresolved": null,
+      "experiment_APE_reading_range_pct": [
+        23.96027648015446,
+        30.771589335122346
+      ]
+    },
+    {
+      "gauge": "S2",
+      "position_m": [
+        0,
+        -0.725,
+        0
+      ],
+      "reference_kPa": {
+        "experiment": 12.299,
+        "published_OpenFOAM": 12.759
+      },
+      "prefix_max_kPa": 11.102899049,
+      "prefix_max_time_s": 0.0033537983755852,
+      "fixed_threshold_kPa": 3.6897,
+      "fixed_rule": {
+        "level_kPa": 3.6897,
+        "dwell_s": 2e-05,
+        "span_s": 0.00018
+      },
+      "pulse": {
+        "onset_s": 0.0017557745266413502,
+        "end_s": 0.0019357745266413502,
+        "peak_time_s": 0.0018530685278815,
+        "peak_kPa": 10.398610765000004
+      },
+      "APE_percent": {
+        "experiment": 15.451575209366576,
+        "published_OpenFOAM": 18.499798064111577
+      },
+      "unresolved": null,
+      "experiment_APE_reading_range_pct": [
+        10.426300585752395,
+        19.942945838786624
+      ]
+    },
+    {
+      "gauge": "S3",
+      "position_m": [
+        0,
+        -1.25,
+        0
+      ],
+      "reference_kPa": {
+        "experiment": 6.463,
+        "published_OpenFOAM": 5.782
+      },
+      "prefix_max_kPa": 5.340980731000004,
+      "prefix_max_time_s": 0.0033955094817511,
+      "fixed_threshold_kPa": 1.9389,
+      "fixed_rule": {
+        "level_kPa": 1.9389,
+        "dwell_s": 2e-05,
+        "span_s": 0.00022
+      },
+      "pulse": {
+        "onset_s": 0.0033051257269112308,
+        "end_s": 0.003525125726911231,
+        "peak_time_s": 0.0033955094817511,
+        "peak_kPa": 5.340980731000004
+      },
+      "APE_percent": {
+        "experiment": 17.36065710970132,
+        "published_OpenFOAM": 7.627451902455834
+      },
+      "unresolved": null,
+      "experiment_APE_reading_range_pct": [
+        11.792225747316204,
+        22.267781531072572
+      ]
+    }
+  ],
+  "fixed_denominators": {
+    "experiment": 3,
+    "published_OpenFOAM": 3
+  },
+  "provisional_MAPE_percent": {
+    "experiment": 20.112616396660304,
+    "published_OpenFOAM": 14.917570483408104
+  },
+  "staging_receipt_sha256": "e70013bd93cfe075492d593f37456ba30790e9d5fe41bf169ebd8b5628826438",
+  "file_hashes": {
+    "p": "60a4fb3a63838e3931ba5f910a9727eea760de699526ac64a8dba8d64fc11b36",
+    "pressure_prefix.txt": "60a4fb3a63838e3931ba5f910a9727eea760de699526ac64a8dba8d64fc11b36",
+    "blastFoam.log": "701b1380db2b5a7896e05504af290cebd9c8bcdf97f9cefdf7feb30360a94048",
+    "run.json": "3228360f19947df7c23a89e68c4c562c97a53a4766959e32c76e00ac2a62fbd4",
+    "native_preflight.json": "8e8c1786fc3ca9103daf0584fd82018991c304c79da19890c4fd2067c3df6dfd"
+  },
+  "MAPE_percent": {
+    "experiment": 20.112616396660304,
+    "published_OpenFOAM": 14.917570483408104
+  },
+  "scheduler_state": "COMPLETED",
+  "mesh_cells": 2752100,
+  "checked_native_centres": [
+    {
+      "gauge": "S5",
+      "centre_m": [
+        0.0005,
+        -0.3485,
+        0.0
+      ],
+      "movement_m": 0.0
+    },
+    {
+      "gauge": "S2",
+      "centre_m": [
+        0.0005,
+        -0.7265,
+        0.0
+      ],
+      "movement_m": 0.0
+    },
+    {
+      "gauge": "S3",
+      "centre_m": [
+        0.0005,
+        -1.2485,
+        0.0
+      ],
+      "movement_m": 0.0
+    }
+  ],
+  "baseline_job_id": "8953778",
+  "pointwise_APE_comparison": [
+    {
+      "gauge": "S5",
+      "reference_kPa": {
+        "experiment": 20.645,
+        "published_OpenFOAM": 18.387
+      },
+      "before": {
+        "experiment": 27.525616735286984,
+        "published_OpenFOAM": 18.62546133137542
+      },
+      "after": {
+        "experiment": 27.52561687091302,
+        "published_OpenFOAM": 18.6254614836569
+      },
+      "after_prefix_only": false
+    },
+    {
+      "gauge": "S2",
+      "reference_kPa": {
+        "experiment": 12.299,
+        "published_OpenFOAM": 12.759
+      },
+      "before": {
+        "experiment": 15.449757573786538,
+        "published_OpenFOAM": 18.498045959714766
+      },
+      "after": {
+        "experiment": 15.451575209366576,
+        "published_OpenFOAM": 18.499798064111577
+      },
+      "after_prefix_only": false
+    },
+    {
+      "gauge": "S3",
+      "reference_kPa": {
+        "experiment": 6.463,
+        "published_OpenFOAM": 5.782
+      },
+      "before": {
+        "experiment": 31.459982484914047,
+        "published_OpenFOAM": 23.38738616395702
+      },
+      "after": {
+        "experiment": 17.36065710970132,
+        "published_OpenFOAM": 7.627451902455834
+      },
+      "after_prefix_only": false
+    }
+  ],
+  "native_timestep": {
+    "available_window": {
+      "window_s": [
+        0,
+        0.005
+      ],
+      "samples": 49307,
+      "deltaT_us": {
+        "min": 0.012,
+        "median": 0.10695213027400001,
+        "max": 0.116404851039
+      },
+      "steps_at_or_above_half_original_cap": 0,
+      "steps_with_reported_max_Courant_at_least_0p19": 49297
+    },
+    "S5": {
+      "window_s": [
+        0.0006584581034208856,
+        0.0007684581034208855
+      ],
+      "samples": 1208,
+      "deltaT_us": {
+        "min": 0.0896705160104,
+        "median": 0.0911512117688,
+        "max": 0.0923030010488
+      },
+      "steps_at_or_above_half_original_cap": 0,
+      "steps_with_reported_max_Courant_at_least_0p19": 1208
+    },
+    "S2": {
+      "window_s": [
+        0.0017557745266413502,
+        0.0019357745266413502
+      ],
+      "samples": 1735,
+      "deltaT_us": {
+        "min": 0.102885787398,
+        "median": 0.103717336474,
+        "max": 0.104586076951
+      },
+      "steps_at_or_above_half_original_cap": 0,
+      "steps_with_reported_max_Courant_at_least_0p19": 1735
+    },
+    "S3": {
+      "window_s": [
+        0.0033051257269112308,
+        0.003525125726911231
+      ],
+      "samples": 1975,
+      "deltaT_us": {
+        "min": 0.110980800625,
+        "median": 0.11137720875,
+        "max": 0.111791333529
+      },
+      "steps_at_or_above_half_original_cap": 0,
+      "steps_with_reported_max_Courant_at_least_0p19": 1975
+    }
+  }
+}

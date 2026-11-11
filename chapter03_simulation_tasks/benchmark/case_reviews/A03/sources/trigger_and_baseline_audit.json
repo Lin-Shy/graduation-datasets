@@ -1,0 +1,307 @@
+{
+  "records": [
+    {
+      "trial": "C4_20g001.txt",
+      "raw_sha256": "a5a85b8ba9ebff3a44e9c5bf1e2e557556408fc9525721de41815cf2d12a967b",
+      "samples": 20001,
+      "channel_units": {
+        "Time": "s",
+        "P001": "Bar",
+        "Pi01": "Bar",
+        "Pi02": "Bar",
+        "Pi03": "Bar",
+        "Pi04": "Bar",
+        "Pi11": "Bar",
+        "Pi12": "Bar",
+        "Pi13": "Bar",
+        "Pi14": "Bar",
+        "Triggr": "V"
+      },
+      "time_s": [
+        0.0,
+        0.04
+      ],
+      "included_primary_analysis": true,
+      "physical_zero_verified": false,
+      "pressure_baseline_verified": false,
+      "sensors": {
+        "Pi02": {
+          "minimum_raw": -5.13228,
+          "maximum_raw": 19.474,
+          "first_sample_raw": 6.0541,
+          "time_of_maximum_recorded_s": 0.000318,
+          "last_5ms_median_raw": -0.121566,
+          "last_5ms_range_raw": [
+            -0.424501,
+            0.276955
+          ]
+        },
+        "Pi03": {
+          "minimum_raw": -1.22759,
+          "maximum_raw": 10.0185,
+          "first_sample_raw": -0.356286,
+          "time_of_maximum_recorded_s": 0.000904,
+          "last_5ms_median_raw": -0.0547544,
+          "last_5ms_range_raw": [
+            -0.231913,
+            0.126507
+          ]
+        },
+        "Pi04": {
+          "minimum_raw": -1.13217,
+          "maximum_raw": 10.1946,
+          "first_sample_raw": -0.35458,
+          "time_of_maximum_recorded_s": 0.000992,
+          "last_5ms_median_raw": -0.0293074,
+          "last_5ms_range_raw": [
+            -0.221389,
+            0.14473
+          ]
+        },
+        "Triggr": {
+          "minimum_raw": -5.0323,
+          "maximum_raw": 0.218363,
+          "first_sample_raw": -0.584733,
+          "time_of_maximum_recorded_s": 0.001776,
+          "last_5ms_median_raw": -9.36656e-05,
+          "last_5ms_range_raw": [
+            -0.000311307,
+            0.000100657
+          ]
+        }
+      }
+    },
+    {
+      "trial": "C4_20g002.txt",
+      "raw_sha256": "bea97cbaf94e5c5d44b1b964c944fe4c7d80d3f7d9c09836c29cc126750fcefb",
+      "samples": 20001,
+      "channel_units": {
+        "Time": "s",
+        "P001": "Bar",
+        "Pi01": "Bar",
+        "Pi02": "Bar",
+        "Pi03": "Bar",
+        "Pi04": "Bar",
+        "Pi11": "Bar",
+        "Pi12": "Bar",
+        "Pi13": "Bar",
+        "Pi14": "Bar",
+        "Triggr": "V"
+      },
+      "time_s": [
+        0.0,
+        0.04
+      ],
+      "included_primary_analysis": true,
+      "physical_zero_verified": false,
+      "pressure_baseline_verified": false,
+      "sensors": {
+        "Pi02": {
+          "minimum_raw": -14.9477,
+          "maximum_raw": 25.6511,
+          "first_sample_raw": 0.372024,
+          "time_of_maximum_recorded_s": 0.000312,
+          "last_5ms_median_raw": -0.021419,
+          "last_5ms_range_raw": [
+            -0.448809,
+            0.237366
+          ]
+        },
+        "Pi03": {
+          "minimum_raw": -1.42149,
+          "maximum_raw": 11.5491,
+          "first_sample_raw": -0.0610368,
+          "time_of_maximum_recorded_s": 0.000864,
+          "last_5ms_median_raw": -0.047991,
+          "last_5ms_range_raw": [
+            -0.216329,
+            0.139466
+          ]
+        },
+        "Pi04": {
+          "minimum_raw": -0.852633,
+          "maximum_raw": 10.2101,
+          "first_sample_raw": -0.0865972,
+          "time_of_maximum_recorded_s": 0.000966,
+          "last_5ms_median_raw": -0.0365784,
+          "last_5ms_range_raw": [
+            -0.234536,
+            0.102416
+          ]
+        },
+        "Triggr": {
+          "minimum_raw": -5.04998,
+          "maximum_raw": 0.221941,
+          "first_sample_raw": -0.138414,
+          "time_of_maximum_recorded_s": 0.000654,
+          "last_5ms_median_raw": -0.000102734,
+          "last_5ms_range_raw": [
+            -0.000311307,
+            0.000107135
+          ]
+        }
+      }
+    },
+    {
+      "trial": "C4_20g003.txt",
+      "raw_sha256": "2d6ed3dbb75d1e4851d5d749e1a4796ab92c0f96b681ba5cb7313589403fd47c",
+      "samples": 20001,
+      "channel_units": {
+        "Time": "s",
+        "P001": "Bar",
+        "Pi01": "Bar",
+        "Pi02": "Bar",
+        "Pi03": "Bar",
+        "Pi04": "Bar",
+        "Pi11": "Bar",
+        "Pi12": "Bar",
+        "Pi13": "Bar",
+        "Pi14": "Bar",
+        "Triggr": "V"
+      },
+      "time_s": [
+        0.0,
+        0.04
+      ],
+      "included_primary_analysis": false,
+      "physical_zero_verified": false,
+      "pressure_baseline_verified": false,
+      "sensors": {
+        "Pi02": {
+          "minimum_raw": -1.44986,
+          "maximum_raw": 8.77726,
+          "first_sample_raw": 8.77237,
+          "time_of_maximum_recorded_s": 2e-06,
+          "last_5ms_median_raw": -0.0365587,
+          "last_5ms_range_raw": [
+            -0.435738,
+            0.242773
+          ]
+        },
+        "Pi03": {
+          "minimum_raw": -0.939835,
+          "maximum_raw": 13.6833,
+          "first_sample_raw": -0.0694114,
+          "time_of_maximum_recorded_s": 0.000356,
+          "last_5ms_median_raw": -0.0655979,
+          "last_5ms_range_raw": [
+            -0.231542,
+            0.110935
+          ]
+        },
+        "Pi04": {
+          "minimum_raw": -0.776654,
+          "maximum_raw": 11.2223,
+          "first_sample_raw": -0.316851,
+          "time_of_maximum_recorded_s": 0.000446,
+          "last_5ms_median_raw": -0.0472848,
+          "last_5ms_range_raw": [
+            -0.220005,
+            0.16447
+          ]
+        },
+        "Triggr": {
+          "minimum_raw": -5.0488,
+          "maximum_raw": 0.219779,
+          "first_sample_raw": -0.80734,
+          "time_of_maximum_recorded_s": 4e-06,
+          "last_5ms_median_raw": -0.000104029,
+          "last_5ms_range_raw": [
+            -0.000312603,
+            9.80665e-05
+          ]
+        }
+      }
+    },
+    {
+      "trial": "C4_20g004.txt",
+      "raw_sha256": "4b96ebd2722cc81806ce3410fe2bce220b64e2c0692e256e3c17ddafc427e7e6",
+      "samples": 20001,
+      "channel_units": {
+        "Time": "s",
+        "P001": "Bar",
+        "Pi01": "Bar",
+        "Pi02": "Bar",
+        "Pi03": "Bar",
+        "Pi04": "Bar",
+        "Pi11": "Bar",
+        "Pi12": "Bar",
+        "Pi13": "Bar",
+        "Pi14": "Bar",
+        "Triggr": "V"
+      },
+      "time_s": [
+        0.0,
+        0.04
+      ],
+      "included_primary_analysis": true,
+      "physical_zero_verified": false,
+      "pressure_baseline_verified": false,
+      "sensors": {
+        "Pi02": {
+          "minimum_raw": -4.12669,
+          "maximum_raw": 19.345,
+          "first_sample_raw": 0.191824,
+          "time_of_maximum_recorded_s": 0.000208,
+          "last_5ms_median_raw": -0.0637162,
+          "last_5ms_range_raw": [
+            -0.363923,
+            0.327846
+          ]
+        },
+        "Pi03": {
+          "minimum_raw": -0.93032,
+          "maximum_raw": 11.8439,
+          "first_sample_raw": 0.0212993,
+          "time_of_maximum_recorded_s": 0.00079,
+          "last_5ms_median_raw": -0.0579318,
+          "last_5ms_range_raw": [
+            -0.226467,
+            0.133194
+          ]
+        },
+        "Pi04": {
+          "minimum_raw": -0.840511,
+          "maximum_raw": 10.0829,
+          "first_sample_raw": -0.0129887,
+          "time_of_maximum_recorded_s": 0.000888,
+          "last_5ms_median_raw": -0.0297543,
+          "last_5ms_range_raw": [
+            -0.199873,
+            0.146101
+          ]
+        },
+        "Triggr": {
+          "minimum_raw": -5.06399,
+          "maximum_raw": 0.219992,
+          "first_sample_raw": -0.510388,
+          "time_of_maximum_recorded_s": 0.007592,
+          "last_5ms_median_raw": -8.61878e-05,
+          "last_5ms_range_raw": [
+            -0.000302534,
+            9.77713e-05
+          ]
+        }
+      }
+    }
+  ],
+  "paper_evidence": {
+    "geometry": "PDFp3 Fig2; internal sensor axial distances0.6/1.3/1.4m",
+    "trial3_exclusion": "PDFp3 section2.2",
+    "postprocessing": "PDFp7 section3.2: ambient subtraction, crop/zero prefront and fitted alignment at first gauge",
+    "drift": "PDFp10 section3.2.2 and p13 section3.2.4: late drift; comparisons at4ms"
+  },
+  "comparison_policy": {
+    "baseline_correction": "none",
+    "time_shift_s": 0,
+    "pressure_history_window_s": null,
+    "positive_impulse_window_s": null,
+    "comparison_admitted": false
+  },
+  "unblock_evidence_required": [
+    "DAQ trigger-to-detonation delay or independently calibrated physical time origin",
+    "Explicit pressure calibration/baseline convention for recorded channels",
+    "A fixed complete first-positive/4ms integration window expressed on that calibrated time axis"
+  ],
+  "conclusion": "Raw numerical records and trigger channel exist, but Header time format: Absolute is not a physical detonation-time certificate. Paper best-fit synchronization is not adopted."
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "Kristoffersen2024-Pipe99-400g",
+  "job_id": "8943527",
+  "node": "cnode2023",
+  "task_completion_pass": true,
+  "peak_comparison_available": true,
+  "health_failure": null,
+  "source_model": "instantaneous_products",
+  "fixed_reference_sizes": {
+    "experimental_repeats": 6,
+    "published_EPX": 3
+  },
+  "MAPE_percent": {
+    "experimental_repeats": 8.607848644692599,
+    "published_EPX": 26.319782968070747
+  },
+  "gauges": {
+    "Pi02": {
+      "peak_kPa": 4790.83023528,
+      "peak_time_ms": 0.205150882512,
+      "sample_count": 59991,
+      "last_sample_s": 0.00400199560724,
+      "trace_sha256": "3aab2dd93e90c704520c5e34e2aa15b7dc2faee9bff2ea05293676c6dc014489"
+    },
+    "Pi03": {
+      "peak_kPa": 3982.63163793,
+      "peak_time_ms": 0.534399684262,
+      "sample_count": 59991,
+      "last_sample_s": 0.00400199560724,
+      "trace_sha256": "90170a3090727b6ca8d7899d6099119f50d8f05d587e48db9a58b3afc2ff5601"
+    },
+    "Pi04": {
+      "peak_kPa": 3509.56250794,
+      "peak_time_ms": 0.58221202597,
+      "sample_count": 59991,
+      "last_sample_s": 0.00400199560724,
+      "trace_sha256": "fba4aa6e125ed5e493cc2aa21aa487db6f8d322ca3e475972734150b1abbacc3"
+    }
+  },
+  "archive_sha256": "36d722c47a3bd1094b8a07f73d1e88fd996d26b90503fa24d7e04abce2d96335"
+}

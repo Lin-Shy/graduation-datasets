@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>PIPE99 仿真审核</title>
+<style>body{max-width:1100px;margin:36px auto;padding:0 20px;font:16px/1.65 system-ui;color:#17324b}
+img{width:100%;height:auto}table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid #dfe7ed;padding:8px;text-align:right}
+td:first-child,th:first-child{text-align:left}th{background:#edf3f6}</style></head>
+<body><h1>PIPE99 · 400 mm 半封闭钢管</h1><p>三点 0–4 ms 时程完整。C 集群作业 8943527。</p>
+<p>仿真采用瞬时 JWL 产物近似，装药含雷管等效量共 405 g。实验为 400 g C-4 名义装药。</p>
+<p>该结果使用刚性管壁和 5° 轴对称扇区，将约 4.8 μs 的程序起爆近似为初始时刻的 JWL 产物。<a href="../job-8943512/index.html">程序起爆健康检查记录</a></p>
+<p>峰值超压 MAPE　实测重复试验 <strong>8.61%</strong>（6 项，较高精度） · 论文 EPX <strong>26.32%</strong>（3 项，合格）。≤30% 为合格，≤15% 为较高精度。</p>
+<p>比较量为固定 0–4 ms 窗口内的峰值超压，仿真时程统一扣除 101.3 kPa 基线。原文实验曲线平移到 Pi02 波前，本页只评峰值幅度。</p>
+<p><a href="../sources/paper-page-3.png">几何与测点原图</a> · <a href="../sources/paper-page-6.png">实验表 1</a>
+ · <a href="../sources/paper-page-14.png">EPX 表 4</a> · <a href="../sources/paper-page-12.png">论文压力时程</a>
+ · <a href="../sources/paper-page-9.png">论文材料与起爆模型</a> · <a href="../README.md">工况与运行记录</a>
+ · <a href="comparison.csv">逐项数值</a> · <a href="independent_recalculation.json">复算</a>
+ · <a href="collection_receipt.json">终态归档</a></p><p><a href="impulse.html">4 ms 冲量补充诊断</a></p>
+<img src="native_peak_traces.png" alt="三点仿真时程及参考峰值范围"><table><thead><tr><th>参考组</th><th>试次</th><th>测点</th><th>参考 kPa</th><th>仿真 kPa</th><th>APE</th></tr></thead>
+<tbody><tr><td>实测重复试验</td><td>T1</td><td>Pi02</td><td>6,107.90</td><td>4,790.83</td><td>21.56%</td></tr><tr><td>实测重复试验</td><td>T1</td><td>Pi03</td><td>3,975.20</td><td>3,982.63</td><td>0.19%</td></tr><tr><td>实测重复试验</td><td>T1</td><td>Pi04</td><td>3,633.50</td><td>3,509.56</td><td>3.41%</td></tr><tr><td>实测重复试验</td><td>T2</td><td>Pi02</td><td>5,897.50</td><td>4,790.83</td><td>18.77%</td></tr><tr><td>实测重复试验</td><td>T2</td><td>Pi03</td><td>3,799.10</td><td>3,982.63</td><td>4.83%</td></tr><tr><td>实测重复试验</td><td>T2</td><td>Pi04</td><td>3,614.00</td><td>3,509.56</td><td>2.89%</td></tr><tr><td>论文 EPX</td><td>PIPE99</td><td>Pi02</td><td>6,337.00</td><td>4,790.83</td><td>24.40%</td></tr><tr><td>论文 EPX</td><td>PIPE99</td><td>Pi03</td><td>5,405.00</td><td>3,982.63</td><td>26.32%</td></tr><tr><td>论文 EPX</td><td>PIPE99</td><td>Pi04</td><td>4,891.00</td><td>3,509.56</td><td>28.24%</td></tr></tbody></table></body></html>

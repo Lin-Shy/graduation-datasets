@@ -1,0 +1,10 @@
+﻿group,trial,gauge,reference_kPa,blastfoam_kPa,APE_percent
+experimental_repeats,experimental_T1_table1,Pi02,6107.9,4790.83023528,21.56338127212299
+experimental_repeats,experimental_T1_table1,Pi03,3975.2,3982.63163793,0.1869500384886295
+experimental_repeats,experimental_T1_table1,Pi04,3633.5,3509.56250794,3.4109671682950324
+experimental_repeats,experimental_T2_table1,Pi02,5897.5,4790.83023528,18.765065955404832
+experimental_repeats,experimental_T2_table1,Pi03,3799.1,3982.63163793,4.830924111763312
+experimental_repeats,experimental_T2_table1,Pi04,3614.0,3509.56250794,2.889803322080797
+published_EPX,published_EPX_table4,Pi02,6337,4790.83023528,24.39908102761559
+published_EPX,published_EPX_table4,Pi03,5405,3982.63163793,26.315788382423683
+published_EPX,published_EPX_table4,Pi04,4891,3509.56250794,28.24447949417297

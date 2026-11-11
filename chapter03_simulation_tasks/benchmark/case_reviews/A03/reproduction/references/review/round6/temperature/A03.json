@@ -1,0 +1,368 @@
+{
+  "task_id": "A03",
+  "official_gold_status": "gold_generated",
+  "saved_states": [
+    {
+      "time_s": 0.0,
+      "diagnostic": {
+        "representation": "shared_mixture",
+        "active_cells": 19020,
+        "inactive_cells": 0,
+        "meaningful_minimum_K": 287.931328520266,
+        "meaningful_maximum_K": 287.931328520266,
+        "nonpositive_or_lower_bound_cells": 0,
+        "upper_bound_cells": 0,
+        "invalid_active_density_cells": 0,
+        "active_mass_kg": 0.052791415500108005,
+        "lower_bound_affected_mass_kg": 0.0,
+        "upper_bound_affected_mass_kg": 0.0,
+        "sampled_state_constraint_passed": true,
+        "upper_temperature_applicability_established": false,
+        "scope": "Sampled internal-cell constraints only; an absent justified EOS upper range is not a scientific pass."
+      },
+      "maximum_temperature_cell": {
+        "cell": 0,
+        "position_m": [
+          -1.9950000000000043,
+          0.0016650803693030907,
+          3.7073566995355214e-20
+        ],
+        "T_K": 287.931328520266,
+        "rho_kg_m3": 1.225,
+        "volume_m3": 2.7236169608643304e-09,
+        "p": 101300.0,
+        "alpha.c4": 0.0,
+        "rho.c4": 1601.0,
+        "rho.air": 1.225,
+        "C4_mass_fraction": 0.0,
+        "alpha.air": 1.0,
+        "alpha.air_scope": "Native two-phase implicit complement of alpha.c4."
+      },
+      "files": [
+        {
+          "path": "references/runs/20261022-a03/A03/0/T",
+          "sha256": "1b3a9a9f731e263ef738eead49f97f79f203c66871ba4aad9d5409abdc510fff"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0/p",
+          "sha256": "87cd61187dec3f4cd84be6af28abcf58bc38f8e9d2351409ba95558276033777"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0/alpha.c4",
+          "sha256": "8fa44a9537450dd4c0de37e3993b30d6db601c355db1b14e7f47f21638ad48c0"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0/rho.c4",
+          "sha256": "93f95e52130bda6b720afb3cda921856c5300f5999c08880b7b18551cbba054e"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0/rho.air",
+          "sha256": "e6491935470890df850d23cdcb50e8f2d57a4df3766f143b5013e3de53352c60"
+        }
+      ]
+    },
+    {
+      "time_s": 0.001,
+      "diagnostic": {
+        "representation": "shared_mixture",
+        "active_cells": 19020,
+        "inactive_cells": 0,
+        "meaningful_minimum_K": 287.931328520266,
+        "meaningful_maximum_K": 1685.1878539799673,
+        "nonpositive_or_lower_bound_cells": 0,
+        "upper_bound_cells": 0,
+        "invalid_active_density_cells": 0,
+        "active_mass_kg": 0.05279141550010832,
+        "lower_bound_affected_mass_kg": 0.0,
+        "upper_bound_affected_mass_kg": 0.0,
+        "sampled_state_constraint_passed": true,
+        "upper_temperature_applicability_established": false,
+        "scope": "Sampled internal-cell constraints only; an absent justified EOS upper range is not a scientific pass."
+      },
+      "maximum_temperature_cell": {
+        "cell": 10777,
+        "position_m": [
+          0.13499999999999934,
+          0.08867139262443616,
+          -3.9032722254038543e-17
+        ],
+        "T_K": 1685.1878539799673,
+        "rho_kg_m3": 0.6530310092742195,
+        "volume_m3": 1.9337680422137137e-07,
+        "p": 377537.7193346139,
+        "alpha.c4": 0.5983670006746087,
+        "rho.c4": 0.7162387682585353,
+        "lambda.c4": 1.0,
+        "rho.air": 0.5588618617531346,
+        "specific_internal_energy_J_kg": 1964230.5637243977,
+        "C4_mass_fraction": 0.6562837559675058,
+        "alpha.air": 0.4016329993253913,
+        "alpha.air_scope": "Native two-phase implicit complement of alpha.c4."
+      },
+      "files": [
+        {
+          "path": "references/runs/20261022-a03/A03/0.001/T",
+          "sha256": "42c1917b6afc83d25cfe6ffbdae2d2916dd9aac0d49415f63acd3d09d3ce2402"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.001/p",
+          "sha256": "e398e6bfb9d55dbe31f03e2e93c182fe605d32ffa5a1c819b65272eb6e5d554a"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.001/alpha.c4",
+          "sha256": "e1f7e5d19ee5b5cc66da807cc3d57d99b2cd94744b1f08cef73af67158782327"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.001/rho.c4",
+          "sha256": "459f9b7a5f351556fcfc78bead69074080e8f4e6fcc7daf861414c1f45c97dc2"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.001/lambda.c4",
+          "sha256": "a2635501c366e355fc186617375dd59e7f91e5871a7a6f1e5f403c3d6eea4e0a"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.001/rho.air",
+          "sha256": "65e786d0196b1b8a80edced6ae54a4f438f60bdc39700a43852ea349e96ddf3d"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.001/rhoE",
+          "sha256": "bc3b29e2216f5b291c7d9ea19ed258e0d910fb6b0931587e4f83e2bb9ddc7c5a"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.001/U",
+          "sha256": "ec4081b91b25bcc0ec0150b1c43e12790b901f49bfc57793b079e4a3bae5549e"
+        }
+      ]
+    },
+    {
+      "time_s": 0.002,
+      "diagnostic": {
+        "representation": "shared_mixture",
+        "active_cells": 19020,
+        "inactive_cells": 0,
+        "meaningful_minimum_K": 230.31370002168921,
+        "meaningful_maximum_K": 1492.5904701964596,
+        "nonpositive_or_lower_bound_cells": 0,
+        "upper_bound_cells": 0,
+        "invalid_active_density_cells": 0,
+        "active_mass_kg": 0.05123141998347511,
+        "lower_bound_affected_mass_kg": 0.0,
+        "upper_bound_affected_mass_kg": 0.0,
+        "sampled_state_constraint_passed": true,
+        "upper_temperature_applicability_established": false,
+        "scope": "Sampled internal-cell constraints only; an absent justified EOS upper range is not a scientific pass."
+      },
+      "maximum_temperature_cell": {
+        "cell": 10860,
+        "position_m": [
+          0.1550000000000003,
+          0.07618425099549103,
+          2.6138688021905765e-17
+        ],
+        "T_K": 1492.5904701964596,
+        "rho_kg_m3": 0.4295442986476923,
+        "volume_m3": 1.6614063461272262e-07,
+        "p": 221508.19484593018,
+        "alpha.c4": 0.6416891693409291,
+        "rho.c4": 0.46944743331246985,
+        "lambda.c4": 1.0,
+        "rho.air": 0.3580828547107557,
+        "specific_internal_energy_J_kg": 1785565.7818269273,
+        "C4_mass_fraction": 0.70129980651561,
+        "alpha.air": 0.3583108306590709,
+        "alpha.air_scope": "Native two-phase implicit complement of alpha.c4."
+      },
+      "files": [
+        {
+          "path": "references/runs/20261022-a03/A03/0.002/T",
+          "sha256": "320d806c0a3e8ad5c1aca5d38539ac586b9d2dc730c3b579f0cd7c6276062334"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.002/p",
+          "sha256": "20d6bdfbf4ce49288cc232cc61a82dcf8c377e9f88bd61d000644cf2df5c31e0"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.002/alpha.c4",
+          "sha256": "237825d7dc8afbae21dd4f1c5cda5ba9d381cf3e0ab8dbdde348421ce3858aed"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.002/rho.c4",
+          "sha256": "1677bd01207045f205fa98a707b473073b98fed0d91deae34271c1162bee0f96"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.002/lambda.c4",
+          "sha256": "23b8c1c696e62ed2df3f28f33eaef6c01bab89e6215fd8696fa4bbb875e87525"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.002/rho.air",
+          "sha256": "7a4196fc178cae6b360820e4fc2f32f9b87b80ce3dcce55f34424a9316707f56"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.002/rhoE",
+          "sha256": "e5fbbd8a6b655bbf1164fea6e3ca860608401ecbcceff3632955a58df64000f1"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.002/U",
+          "sha256": "0f0b3520da8298f1caa184c625c37b549a017944d8080bd61a404994dc18c4f3"
+        }
+      ]
+    },
+    {
+      "time_s": 0.003,
+      "diagnostic": {
+        "representation": "shared_mixture",
+        "active_cells": 19020,
+        "inactive_cells": 0,
+        "meaningful_minimum_K": 277.98356667267035,
+        "meaningful_maximum_K": 1417.8025094458949,
+        "nonpositive_or_lower_bound_cells": 0,
+        "upper_bound_cells": 0,
+        "invalid_active_density_cells": 0,
+        "active_mass_kg": 0.04830952393639416,
+        "lower_bound_affected_mass_kg": 0.0,
+        "upper_bound_affected_mass_kg": 0.0,
+        "sampled_state_constraint_passed": true,
+        "upper_temperature_applicability_established": false,
+        "scope": "Sampled internal-cell constraints only; an absent justified EOS upper range is not a scientific pass."
+      },
+      "maximum_temperature_cell": {
+        "cell": 10947,
+        "position_m": [
+          0.17500000000000224,
+          0.07368686176695667,
+          -6.43446315309245e-18
+        ],
+        "T_K": 1417.8025094458949,
+        "rho_kg_m3": 0.362280118581096,
+        "volume_m3": 1.6069340069098824e-07,
+        "p": 177474.32276005376,
+        "alpha.c4": 0.6424602903337376,
+        "rho.c4": 0.39586756545109275,
+        "lambda.c4": 1.0,
+        "rho.air": 0.3019270996456351,
+        "specific_internal_energy_J_kg": 1696797.816834496,
+        "C4_mass_fraction": 0.702023594420591,
+        "alpha.air": 0.35753970966626236,
+        "alpha.air_scope": "Native two-phase implicit complement of alpha.c4."
+      },
+      "files": [
+        {
+          "path": "references/runs/20261022-a03/A03/0.003/T",
+          "sha256": "3bb23e484fd2d4ebc7cef971e2e3ab1b09b310d25aedbc6f6af6f7a5575f76ad"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.003/p",
+          "sha256": "25a6c66cbf0a18a655c96b73fcc22af692602824e3da0bd35674547a5fc131bf"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.003/alpha.c4",
+          "sha256": "028bb3794edb29d9b63f6eb39429eba2f70026977e112cb47db4766367cf5fee"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.003/rho.c4",
+          "sha256": "9584ff39a8076de31485ca5809e58677b9ed9398d27bed06568418de4a9b63e8"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.003/lambda.c4",
+          "sha256": "3e747c4fc338da1913aa358717a3ae6aeb76f99425741974a9444ac278cc2bc8"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.003/rho.air",
+          "sha256": "9878f679f741f1c4e549e82ca1e306877452ac6b46870de203d6d25c3ec25569"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.003/rhoE",
+          "sha256": "e022b91d9cda9d680eef3b332fa79b4ac5874d7455bb906395a8f3b721b33002"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.003/U",
+          "sha256": "b6d24a0d13f40d3e414fb82eed754aa2b323f5a71b893699dedb146727e59cac"
+        }
+      ]
+    },
+    {
+      "time_s": 0.004,
+      "diagnostic": {
+        "representation": "shared_mixture",
+        "active_cells": 19020,
+        "inactive_cells": 0,
+        "meaningful_minimum_K": 280.7982685817821,
+        "meaningful_maximum_K": 1436.8461418762874,
+        "nonpositive_or_lower_bound_cells": 0,
+        "upper_bound_cells": 0,
+        "invalid_active_density_cells": 0,
+        "active_mass_kg": 0.04882337228905866,
+        "lower_bound_affected_mass_kg": 0.0,
+        "upper_bound_affected_mass_kg": 0.0,
+        "sampled_state_constraint_passed": true,
+        "upper_temperature_applicability_established": false,
+        "scope": "Sampled internal-cell constraints only; an absent justified EOS upper range is not a scientific pass."
+      },
+      "maximum_temperature_cell": {
+        "cell": 10957,
+        "position_m": [
+          0.17500000000000152,
+          0.09866128112288439,
+          2.0183037586535278e-17
+        ],
+        "T_K": 1436.8461418762874,
+        "rho_kg_m3": 0.37982757918504173,
+        "volume_m3": 2.1516573990827538e-07,
+        "p": 188119.37728374376,
+        "alpha.c4": 0.6266303519215262,
+        "rho.c4": 0.41571177826203554,
+        "lambda.c4": 1.0,
+        "rho.air": 0.3196027365612175,
+        "specific_internal_energy_J_kg": 1703721.493799048,
+        "C4_mass_fraction": 0.6858312355021365,
+        "alpha.air": 0.37336964807847384,
+        "alpha.air_scope": "Native two-phase implicit complement of alpha.c4."
+      },
+      "files": [
+        {
+          "path": "references/runs/20261022-a03/A03/0.004/T",
+          "sha256": "f6789e6899701db31c3c3d5a24bfb2b29c9c04965c8bb0ac784dcb3f6895efda"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.004/p",
+          "sha256": "84503b5c63a79b213c5a4ed9814171962b530f699cc5c47dd5ffb8d1c73e0621"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.004/alpha.c4",
+          "sha256": "a5031579701e735942215ef341b73953980b3c4f3e845a29453b48b0092ba7ab"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.004/rho.c4",
+          "sha256": "1c1fdd3af1608dc7767019c4487279fd7869f843696bff22df332371eea97f1d"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.004/lambda.c4",
+          "sha256": "eaca59da299aefd4390b5896d0ad265e6785d5faed00606bfc5f5882b21f0ac3"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.004/rho.air",
+          "sha256": "fba9b55743cb9896120f4c0d39ae552ec46f2790258ed2d701caa051de12fffb"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.004/rhoE",
+          "sha256": "0eb51fe2a5f081ebed5d6e8de5906b8cea9aae52836f37c7fcaef2e27600d9f6"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03/0.004/U",
+          "sha256": "f729c6352656521e89813bae9bc4f6ac0ace64f01beb9d5ae7a7c5dccbed663f"
+        }
+      ]
+    }
+  ],
+  "human_approval": "pending",
+  "phases": [
+    "c4",
+    "air"
+  ],
+  "common_C4_model": true,
+  "nonpositive_T_observed_in_saved_states": false,
+  "early_step_temperature_evidence": null,
+  "nonpositive_T_observed_in_short_matched_input_screen": null,
+  "maximum_saved_T_K": 1685.1878539799673,
+  "scope": "Saved internal cells, not all RK stages or boundary states. A positive saved minimum does not exclude an early transient failure. High T is reported with mixture density/composition/energy; a valid EOS range still requires evidence."
+}

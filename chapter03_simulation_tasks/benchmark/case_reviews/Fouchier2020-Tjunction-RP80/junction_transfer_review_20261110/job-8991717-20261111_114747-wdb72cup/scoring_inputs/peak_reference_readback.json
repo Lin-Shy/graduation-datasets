@@ -1,0 +1,172 @@
+{
+  "case_id": "Fouchier2020-Tjunction-RP80",
+  "source": "Fouchier 2020 thesis, printed p. 87, Figure 6.22, PDF page 97",
+  "figure_sha256": "70b7d10a462f8bb3a4088074deb5c7f265adcf5c0f4050f4788f94d0de13b63e",
+  "reference_metric": "maximum overpressure of the first visible main positive pulse",
+  "reference_groups": {
+    "experiment": 4,
+    "published_OpenFOAM": 4
+  },
+  "comparison_time_origin_matched": false,
+  "own_simulation_dispatched": false,
+  "own_simulation_APE_and_MAPE": null,
+  "source_OpenFOAM_vs_experiment_MAPE_percent": 18.2686,
+  "MAPE_percent_graph_reading_range_3px": [
+    6.6363,
+    29.0288
+  ],
+  "rows": [
+    {
+      "panel": "a",
+      "gauge": "S4",
+      "nominal_position_m": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "graph_extraction_window_ms_unaligned": [
+        1.36,
+        1.55
+      ],
+      "peak_references": {
+        "experiment": {
+          "overpressure_kPa": 20.833,
+          "raster_readback_allowance_kPa_3px": 0.833,
+          "pixel_xy": [
+            162.5,
+            47
+          ],
+          "graph_peak_time_ms_unaligned": 1.4385
+        },
+        "published_OpenFOAM": {
+          "overpressure_kPa": 18.333,
+          "raster_readback_allowance_kPa_3px": 0.833,
+          "pixel_xy": [
+            162.0,
+            56
+          ],
+          "graph_peak_time_ms_unaligned": 1.4346
+        }
+      },
+      "source_OpenFOAM_vs_experiment_APE_percent": 12.0002,
+      "APE_percent_graph_reading_range_3px": [
+        4.17,
+        19.2283
+      ]
+    },
+    {
+      "panel": "b",
+      "gauge": "S6",
+      "nominal_position_m": [
+        0.0,
+        0.725,
+        0.0
+      ],
+      "graph_extraction_window_ms_unaligned": [
+        2.28,
+        2.65
+      ],
+      "peak_references": {
+        "experiment": {
+          "overpressure_kPa": 14.259,
+          "raster_readback_allowance_kPa_3px": 0.556,
+          "pixel_xy": [
+            299.5,
+            319
+          ],
+          "graph_peak_time_ms_unaligned": 2.5114
+        },
+        "published_OpenFOAM": {
+          "overpressure_kPa": 13.704,
+          "raster_readback_allowance_kPa_3px": 0.556,
+          "pixel_xy": [
+            296.0,
+            322
+          ],
+          "graph_peak_time_ms_unaligned": 2.4839
+        }
+      },
+      "source_OpenFOAM_vs_experiment_APE_percent": 3.8923,
+      "APE_percent_graph_reading_range_3px": [
+        0,
+        11.2521
+      ]
+    },
+    {
+      "panel": "c",
+      "gauge": "S8",
+      "nominal_position_m": [
+        0.45,
+        0.725,
+        0.0
+      ],
+      "graph_extraction_window_ms_unaligned": [
+        2.87,
+        3.33
+      ],
+      "peak_references": {
+        "experiment": {
+          "overpressure_kPa": 4.42,
+          "raster_readback_allowance_kPa_3px": 0.276,
+          "pixel_xy": [
+            1021.0,
+            78
+          ],
+          "graph_peak_time_ms_unaligned": 3.1408
+        },
+        "published_OpenFOAM": {
+          "overpressure_kPa": 3.131,
+          "raster_readback_allowance_kPa_3px": 0.276,
+          "pixel_xy": [
+            1017.0,
+            92
+          ],
+          "graph_peak_time_ms_unaligned": 3.1033
+        }
+      },
+      "source_OpenFOAM_vs_experiment_APE_percent": 29.1629,
+      "APE_percent_graph_reading_range_3px": [
+        17.7847,
+        39.2036
+      ]
+    },
+    {
+      "panel": "d",
+      "gauge": "S9",
+      "nominal_position_m": [
+        0.8,
+        0.725,
+        0.0
+      ],
+      "graph_extraction_window_ms_unaligned": [
+        3.45,
+        4.0
+      ],
+      "peak_references": {
+        "experiment": {
+          "overpressure_kPa": 2.302,
+          "raster_readback_allowance_kPa_3px": 0.276,
+          "pixel_xy": [
+            1075.0,
+            371
+          ],
+          "graph_peak_time_ms_unaligned": 3.6479
+        },
+        "published_OpenFOAM": {
+          "overpressure_kPa": 1.657,
+          "raster_readback_allowance_kPa_3px": 0.276,
+          "pixel_xy": [
+            1080.5,
+            378
+          ],
+          "graph_peak_time_ms_unaligned": 3.6995
+        }
+      },
+      "source_OpenFOAM_vs_experiment_APE_percent": 28.0191,
+      "APE_percent_graph_reading_range_3px": [
+        4.5903,
+        46.4313
+      ]
+    }
+  ]
+}

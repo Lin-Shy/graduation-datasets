@@ -1,0 +1,116 @@
+{
+  "scene_id": "S10",
+  "completed": true,
+  "solver_completed": true,
+  "delivery_complete": true,
+  "comparison_complete": true,
+  "failures": [],
+  "rows": [
+    {
+      "radius_m": 0.35,
+      "reference_kPa": {
+        "experiment": 23.076,
+        "published_OpenFOAM": 20.566
+      },
+      "peak_kPa": 23.565150515999996,
+      "peak_time_s": 0.00069974732602,
+      "APE_percent": {
+        "experiment": 2.119737025480998,
+        "published_OpenFOAM": 14.583052202664577
+      }
+    },
+    {
+      "radius_m": 0.475,
+      "reference_kPa": {
+        "experiment": 14.737,
+        "published_OpenFOAM": 13.055
+      },
+      "peak_kPa": 14.699553776,
+      "peak_time_s": 0.00106130711678,
+      "APE_percent": {
+        "experiment": 0.2540966546786997,
+        "published_OpenFOAM": 12.597118161623904
+      }
+    },
+    {
+      "radius_m": 0.725,
+      "reference_kPa": {
+        "experiment": 7.476,
+        "published_OpenFOAM": 7.122
+      },
+      "peak_kPa": 8.061563429000001,
+      "peak_time_s": 0.00180144558894,
+      "APE_percent": {
+        "experiment": 7.832576631888728,
+        "published_OpenFOAM": 13.192409842740824
+      }
+    }
+  ],
+  "MAPE_percent": {
+    "experiment": 3.4021367706828087,
+    "published_OpenFOAM": 13.457526735676433
+  },
+  "reference_denominators": {
+    "experiment": 3,
+    "published_OpenFOAM": 3
+  },
+  "window_s": [
+    0,
+    0.003
+  ],
+  "staging_receipt_sha256": "91e1e5204fca1aa9c7e96b37604146f4c6e269725f12f01804ececf0a09f1f60",
+  "reference_sha256": "13807d72633c19aa91d70960fe35d4411ce61b30a204a4af9c7aed4c7ee634f5",
+  "native_run": {
+    "job_id": "8953576",
+    "native_end_s": 0.0030099483638364,
+    "run_receipt_sha256": "f804cb881b42874cf97f4856c41f208cc816f7712073f8e2e7d45c1114100da4",
+    "solver_log_sha256": "b099b29b46974b298d8152e9eff5ea1dae64315d162f81feb86f6e797c18cc9f",
+    "mpi_ranks": 8,
+    "mpi_faces": {
+      "0": [
+        [
+          0.0,
+          0.35,
+          0.0
+        ],
+        2,
+        38699,
+        [
+          0.0,
+          0.34900095511,
+          -2.89521311421e-19
+        ]
+      ],
+      "1": [
+        [
+          0.0,
+          0.475,
+          0.0
+        ],
+        3,
+        38697,
+        [
+          0.0,
+          0.475000701754,
+          -4.25443948152e-19
+        ]
+      ],
+      "2": [
+        [
+          0.0,
+          0.725,
+          0.0
+        ],
+        5,
+        38692,
+        [
+          0.0,
+          0.72500045977,
+          -1.11495655378e-18
+        ]
+      ]
+    },
+    "native_initialization_receipt_sha256": "93de97fe646604b1f1843f2d57db01f8112e28965e355ec7278bc9fbd3f15c4a"
+  },
+  "native_probe_sha256": "c6ebc6685c9a6b1414e2a1084ccaa37e550e5b5a98d46af848facf993a5271d6"
+}

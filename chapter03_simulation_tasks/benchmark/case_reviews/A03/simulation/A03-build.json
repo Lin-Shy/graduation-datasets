@@ -1,0 +1,126 @@
+{
+  "condition_id": "A03-c29ea7342fb33220",
+  "end_time_s": 0.004,
+  "baseline_pa": 101300.0,
+  "probes_m": [
+    [
+      0.6,
+      0.09990482215818579,
+      0.0
+    ],
+    [
+      1.3,
+      0.09990482215818579,
+      0.0
+    ],
+    [
+      1.4,
+      0.09990482215818579,
+      0.0
+    ]
+  ],
+  "source_commit": "4e6ee07a0c1fc4629ee7206804f4f1fe802ec64c",
+  "source": {
+    "nominal_C4_kg": 0.02,
+    "author_cap_equivalent_C4_kg": 0.002,
+    "total_numerical_mass_kg": 0.022,
+    "radius_m": 0.0148587033836504,
+    "detonation_speed_m_s": 8193
+  },
+  "geometry": {
+    "inner_radius_m": 0.1,
+    "outer_radius_m": 0.125,
+    "tube_half_length_m": 1.5,
+    "domain_axial_m": [
+      -2,
+      2
+    ],
+    "domain_radial_m": [
+      0,
+      0.5
+    ],
+    "wedge_degrees": 5.0,
+    "cells": 19020,
+    "source_cell_spacing_m": 0.0025,
+    "external_region_included": true
+  },
+  "evidence": "Kristoffersen PDFp3 Fig2; material constants Table2 PDFp6; window first4ms from section3.2.4",
+  "sampling_kind": "wall_static_pressure",
+  "probe_function": "patchProbes",
+  "limitations": [
+    "blastFoam two-phase Murnaghan/JWL + ideal air is distinct from the paper single JWLS mixture model.",
+    "Equivalent cap mass is a fixed author assumption from approximate2g, not an independently measured value.",
+    "Finite source resolution, faceting, exterior boundary sensitivity and wall sampling need review.",
+    "No fitted time translation; experimental absolute time/baseline still unresolved."
+  ],
+  "plan": [
+    [
+      "blockMesh"
+    ],
+    [
+      "setFields"
+    ],
+    [
+      "checkMesh"
+    ],
+    [
+      "blastFoam"
+    ]
+  ],
+  "builder_sha256": "6d258239c137e2b2b505ee59b8032173470b5af824ebe36dd0a8ed66a4f48af9",
+  "input_files": [
+    {
+      "path": "0/alpha.c4",
+      "sha256": "e29c79f261fde2e0506a261ce6d40b425096efdcfc4a1a094a58d817730a4794"
+    },
+    {
+      "path": "0/p",
+      "sha256": "87cd61187dec3f4cd84be6af28abcf58bc38f8e9d2351409ba95558276033777"
+    },
+    {
+      "path": "0/rho.air",
+      "sha256": "e6491935470890df850d23cdcb50e8f2d57a4df3766f143b5013e3de53352c60"
+    },
+    {
+      "path": "0/rho.c4",
+      "sha256": "93f95e52130bda6b720afb3cda921856c5300f5999c08880b7b18551cbba054e"
+    },
+    {
+      "path": "0/T",
+      "sha256": "1b3a9a9f731e263ef738eead49f97f79f203c66871ba4aad9d5409abdc510fff"
+    },
+    {
+      "path": "0/U",
+      "sha256": "ef80b8c34b26f3428cdfcefbeda5a2fbcdc536437da983a37a2bcffc9d9b8383"
+    },
+    {
+      "path": "constant/dynamicMeshDict",
+      "sha256": "fd7a7802522cdcba3d26d2d752169d45e7b8cd0650091e6a2d5912bbf99d7b36"
+    },
+    {
+      "path": "constant/phaseProperties",
+      "sha256": "a1ef29dd4e4cb503a5bbd87feb4e2bc49f505e3df41cb056bd6d0b81451483af"
+    },
+    {
+      "path": "system/blockMeshDict",
+      "sha256": "d56ec384dfd7ef8811952ae7a96f70a79917d49cf3a6d430dafaeb6957ee5be3"
+    },
+    {
+      "path": "system/controlDict",
+      "sha256": "ca68a38afb0870d36a28d474d15e918aabf092bed553f30386f27cc19a2612b5"
+    },
+    {
+      "path": "system/fvSchemes",
+      "sha256": "fb53a5c55c174098b418e8707a68d066fee05e73d34af9bcf0b409a459b7be8a"
+    },
+    {
+      "path": "system/fvSolution",
+      "sha256": "dd888cbc46ab856f909b742139fde2062ccfe612ec0e30102b698359e31bfce4"
+    },
+    {
+      "path": "system/setFieldsDict",
+      "sha256": "2f5cf2028c84084000013472ad464bc98bb5dedd58b53d09a4b52cd3739ecda1"
+    }
+  ],
+  "input_identity_sha256": "c29ea7342fb3322012b246d1426ee4b4e2f2241c836fbc1e07e340221baaac2f"
+}

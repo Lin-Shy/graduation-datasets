@@ -1,0 +1,14 @@
+{
+  "case_id": "Kristoffersen2024-Pipe99-400g",
+  "scheduler_job_id": "8943527",
+  "actual_compute_node": "cnode2023",
+  "executed_specification_sha256": "28d30f73f1c47f865e60457653e2d750f410fc0b22a9dd790f7b8fa3305c31a3",
+  "archive": {
+    "path": "D:\\1\\graduation-projects\\graduation-datasets\\chapter03_simulation_tasks\\benchmark\\case_reviews\\Kristoffersen2024-Pipe99-400g\\job-8943527\\pipe99-terminal.tar.gz",
+    "sha256": "36d722c47a3bd1094b8a07f73d1e88fd996d26b90503fa24d7e04abce2d96335",
+    "bytes": 57270850
+  },
+  "archive_member_verification_sha256": "f853062d898878eae08dfc0b1a45030b4e6ce51415615923498052c487cd0af3",
+  "all_original_archive_members_verified": true,
+  "no_solver_or_reference_modified": true
+}

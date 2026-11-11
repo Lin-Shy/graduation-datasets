@@ -1,0 +1,168 @@
+{
+  "scene_id": "S07",
+  "job_id": "8985803",
+  "complete": true,
+  "scope": "EC1 G1 single directed y-grid contrast; require unchanged four wall face centres; zero physical time",
+  "physical_time_integrated_s": 0,
+  "APE_pct": null,
+  "MAPE_pct": null,
+  "mesh": {
+    "generator": "conforming_cut_prisms",
+    "cells": 3753175,
+    "faces": 11385828,
+    "points": 3879581,
+    "internal_faces": 11125150,
+    "analytic_fluid_volume_m3": 2.63757,
+    "patch_faces": {
+      "ground": 38560,
+      "outlet": 125753,
+      "B1": 10899,
+      "B2": 11476,
+      "B3": 8151,
+      "B4": 19178,
+      "B5": 7937,
+      "west_end_wall": 19362,
+      "east_end_wall": 19362
+    },
+    "base_xy_polygons": 48489,
+    "z_layers": 88,
+    "prism_quality_preflight": {
+      "selected": {
+        "analytic_low_quality_xy_faces": 0,
+        "analytic_skew_xy_faces": 0,
+        "minimum_interpolation_weight": 0.0966666666666628,
+        "minimum_volume_ratio": 0.034482758620689655,
+        "maximum_skew": 0.7925696594427025,
+        "maximum_move_fraction": 0.12,
+        "moved_grid_points": 24
+      },
+      "tried": [
+        {
+          "analytic_low_quality_xy_faces": 0,
+          "analytic_skew_xy_faces": 0,
+          "minimum_interpolation_weight": 0.0966666666666628,
+          "minimum_volume_ratio": 0.034482758620689655,
+          "maximum_skew": 0.7925696594427025,
+          "maximum_move_fraction": 0.12,
+          "moved_grid_points": 24
+        },
+        {
+          "analytic_low_quality_xy_faces": 0,
+          "analytic_skew_xy_faces": 0,
+          "minimum_interpolation_weight": 0.0966666666666628,
+          "minimum_volume_ratio": 0.034482758620689655,
+          "maximum_skew": 0.7925696594427025,
+          "maximum_move_fraction": 0.18,
+          "moved_grid_points": 24
+        },
+        {
+          "analytic_low_quality_xy_faces": 0,
+          "analytic_skew_xy_faces": 0,
+          "minimum_interpolation_weight": 0.16666666666666666,
+          "minimum_volume_ratio": 0.15,
+          "maximum_skew": 0.8851540616246806,
+          "maximum_move_fraction": 0.24,
+          "moved_grid_points": 104
+        },
+        {
+          "analytic_low_quality_xy_faces": 0,
+          "analytic_skew_xy_faces": 0,
+          "minimum_interpolation_weight": 0.16666666666666666,
+          "minimum_volume_ratio": 0.15,
+          "maximum_skew": 0.9769820971867235,
+          "maximum_move_fraction": 0.3,
+          "moved_grid_points": 131
+        },
+        {
+          "analytic_low_quality_xy_faces": 0,
+          "analytic_skew_xy_faces": 0,
+          "minimum_interpolation_weight": 0.16666666666666666,
+          "minimum_volume_ratio": 0.15,
+          "maximum_skew": 0.9769820971867235,
+          "maximum_move_fraction": 0.36,
+          "moved_grid_points": 131
+        }
+      ]
+    }
+  },
+  "strict_mesh_passed": true,
+  "gauges": [
+    {
+      "id": "G1",
+      "patch": "B2",
+      "face": 11304163,
+      "nominal_m": [
+        0.6,
+        1.1,
+        0.105
+      ],
+      "face_centre_m": [
+        0.6,
+        1.1025,
+        0.1025
+      ],
+      "face_centre_offset_m": 0.0035355339059327017,
+      "uniform_pressure_Pa": 101325,
+      "trace_sha256": "c8a2554a66b316c741f41b2b223dbc1a3a3b9e5328c209bb9df9a3133d545900"
+    },
+    {
+      "id": "G3",
+      "patch": "west_end_wall",
+      "face": 11351732,
+      "nominal_m": [
+        0,
+        0.2,
+        0.075
+      ],
+      "face_centre_m": [
+        0.0,
+        0.2025,
+        0.0725
+      ],
+      "face_centre_offset_m": 0.0035355339059327407,
+      "uniform_pressure_Pa": 101325,
+      "trace_sha256": "58dfeaba994c08cf9f40a2343a7f67129dfc947ba0ba4592a011b580075d4efc"
+    },
+    {
+      "id": "G11",
+      "patch": "west_end_wall",
+      "face": 11351842,
+      "nominal_m": [
+        0,
+        1.0,
+        0.075
+      ],
+      "face_centre_m": [
+        0.0,
+        0.9975,
+        0.0725
+      ],
+      "face_centre_offset_m": 0.0035355339059327017,
+      "uniform_pressure_Pa": 101325,
+      "trace_sha256": "919413df7d0f6bdf4b366bd73039b3bbe25f82dcb4be72ae08b2fa3b65724993"
+    },
+    {
+      "id": "G21",
+      "patch": "east_end_wall",
+      "face": 11371039,
+      "nominal_m": [
+        1.56,
+        1.0,
+        0.075
+      ],
+      "face_centre_m": [
+        1.56,
+        0.9975,
+        0.0725
+      ],
+      "face_centre_offset_m": 0.0035355339059327017,
+      "uniform_pressure_Pa": 101325,
+      "trace_sha256": "1562169240d5cec223a55d08dbe3b560f8e39af8fd9d065ed5b825bcf7720f32"
+    }
+  ],
+  "log_sha256": {
+    "checkMesh.log": "41aa7ea39643901cf867c3fe4dd65a90cba59ff22db5ab76e4e9f4c185f25221",
+    "postProcess.log": "7aa1887a134c5227670c5409f07ce24eaf242c2cf156afa0a2dddb3166d11a73",
+    "prism.log": "6f32175d540dabc804ea0cffc54915049f09b9c875ee04458927bb766ddeca86"
+  }
+}

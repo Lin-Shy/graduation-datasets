@@ -1,0 +1,87 @@
+{
+  "runtime_archive": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t024443z/payload.tar.gz",
+  "runtime_archive_sha256": "336a131aa997c58263bf4ba742d2fb877d428a4e29c76f73ea143d24cd5a4629",
+  "native_engine_sha256": "b306f434185a85a6effcfa2ed5972ae6ed6220657b8747d9b4ab978f89668e00",
+  "workspace_root": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation",
+  "partition": "deimos",
+  "nodes": 1,
+  "tasks": 64,
+  "exclusive": true,
+  "minimum_soft_quota_headroom_KiB": 16777216,
+  "run_id": "ch3-s07-r3-261110",
+  "scene_id": "S07",
+  "role": "s07_ec1_g1_y5mm_balloon_continuation",
+  "scope": "S07 same source, 64-way mesh and timestep; verify the four-probe native 2 ms seam and finish fixed windows",
+  "time_limit": "18:00:00",
+  "wall_budget_s": 63500,
+  "mesh_parent_run": "ch3-c-s07-ec1-g1-y5mm-preflight-20261110",
+  "mesh_parent_job": "8985803",
+  "mesh_parent_receipt_sha256": "667151400cae9b7b822ea6f76a5cea7d50ee12eb0981690291e2e645484c957a",
+  "mesh_boundary_sha256": "ee8b402a61ee0dcae8075611ca52c50d511768c7261f5f7258bf9e465f37d76d",
+  "input_sha256": {
+    "specification.json": "26dd26ad488ee543f7e815aa1851909916113406720e8b238acc2f5bfe669677",
+    "geometry.json": "07b665a9c974c9e7e8cf81f1c481ddf9b2d9e27f33f63c411ab459aa318efc72",
+    "reference_binding.json": "383b7896488d174bb75ce19f9542d805754f5546d4ed314128bfb8a24c5d5444",
+    "reference_peaks.json": "300f45662c9011ad30ac39f912d2111ba9cd2da3c0783f0569610e14d3414a56",
+    "preflight_mesh_receipt.json": "667151400cae9b7b822ea6f76a5cea7d50ee12eb0981690291e2e645484c957a"
+  },
+  "continuation_parent_run": "ch3-c-s07-ec1-g1-y5mm-short-20261110",
+  "continuation_parent_job": "8985923",
+  "parent_evidence_sha256": {
+    "run.json": "33fdcf6fcdd58d387ae013940f3ee23356bcb047fb41cccfe8361b3fedf3b770",
+    "run-case/system/controlDict": "b6df48b5bc02f5037de4d5a0f66622c60cffd3e333710015e7968a83a7694852",
+    "specification.json": "26dd26ad488ee543f7e815aa1851909916113406720e8b238acc2f5bfe669677",
+    "native_grid_binding.json": "044f7493a3a3cb1569b7581f002b5f8f46de763fae2fbba2596e66ed9c65b636",
+    "run-case/postProcessing/G1/0/p": "1abe523422157e55d3b6efa3edeb7762e541c1ba3a37daac8781e0ed3059c6d0",
+    "run-case/postProcessing/G3/0/p": "a8e576e704d65bd991d99a5e543559a727c68d002e1d158e22949b086f37987b",
+    "run-case/postProcessing/G11/0/p": "3ce10f14fb8129464595244266a4de18ba4114d8356fbdbe925fb1c3113ebec2",
+    "run-case/postProcessing/G21/0/p": "4e9ede428f2494f5426f14ff10f19d6f82fc95fced2a582c6e44c6c57b801b13"
+  },
+  "checkpoint": "0.002",
+  "checkpoint_index": 18540,
+  "checkpoint_clock_sha256": "34aa7df3aaa7588d5968c792bc56925ca6b0343ed6635f07cdbc025e483955d0",
+  "fixed_peak_windows_s": {
+    "G1": [
+      0,
+      0.008
+    ],
+    "G3": [
+      0,
+      0.008
+    ],
+    "G11": [
+      0,
+      0.008
+    ],
+    "G21": [
+      0,
+      0.012
+    ]
+  },
+  "delivery_window_s": [
+    0,
+    0.012
+  ],
+  "native_end_s": ".01201",
+  "launch_recovery": {
+    "failed_job_id": "8990562",
+    "failure_archive_sha256": "0e2399603adf207e7aab318a18f6587f4b65e356150c5415e930756d654599a7",
+    "failed_solver_log_sha256": "4d0fef66be6bdeca5675d2d5fd92d5228c6e6f58756059b2ad964c1ab3005484",
+    "scope": "Shorten the task-local Open MPI temporary path; preserve the original physical restart",
+    "previous_tmpdir": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s07-ec1-g1-y5mm-full-window-20261110/tmp",
+    "retry_tmpdir": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-s07-r2-261110/tmp"
+  },
+  "scheduler_launch_recovery": {
+    "diagnostic_job_id": "8991063",
+    "diagnostic_archive_sha256": "49b60559ce273d79b743f0ff71d9fc18d34b42fbeeff759f230b4f84f9f2d133",
+    "diagnostic_host": "cnode5627",
+    "confirmed_ranks": 64,
+    "last_failed_job_id": "8990820",
+    "solver_launch_prefix": [
+      "/usr/bin/srun",
+      "--nodes=1",
+      "--ntasks=64",
+      "--mpi=pmix"
+    ]
+  }
+}

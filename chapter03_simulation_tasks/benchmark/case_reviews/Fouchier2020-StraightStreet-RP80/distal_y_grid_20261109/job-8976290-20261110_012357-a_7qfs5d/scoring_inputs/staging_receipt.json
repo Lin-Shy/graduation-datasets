@@ -1,0 +1,198 @@
+{
+  "scene_id": "S11",
+  "status": "staged_conditional_inputs_native_preflight_pending",
+  "dispatch_ready": false,
+  "condition_reference_sha256": "c4350e7827943d8704f64c1030a1d02e1d12e81a1af004697fc89c4b979afb28",
+  "peak_reference_sha256": "231143be1276849f5f93d3543a21ae469bd0d71eeb631030a6f1606ca50f54dc",
+  "outer_domain_m": [
+    [
+      0,
+      1.15
+    ],
+    [
+      -1.8,
+      0
+    ],
+    [
+      0,
+      1.05
+    ]
+  ],
+  "source": {
+    "radius_m": 0.02,
+    "ambient_Pa": 100000.0,
+    "source_Pa": 14900000.0,
+    "rho_air_kg_m3": 1.3,
+    "rho_source_kg_m3": 15.868522300453813,
+    "temperature_air_K": 268.0246582685607,
+    "temperature_source_K": 3271.6578975432067,
+    "gamma": 1.35,
+    "R_J_kg_K": 287,
+    "Cv_J_kg_K": 819.9999999999998,
+    "planned_source_cells": 4194,
+    "planned_selected_source_volume_m3": 4.194e-06,
+    "allowed_relative_volume_error": 0.02,
+    "energy_anchor_J_unrounded": 614.72,
+    "printed_eq_5_6_to_5_8_with_assumed_gamma_abs_Pa": 9304256.30050124,
+    "source_status": "Table 6.7 same RP80 free-field anchor and Larcher\u2013Casadei closure; straight-street original initial fields are unverified",
+    "octant_volume_m3": 4.188790204786391e-06
+  },
+  "mesh": {
+    "planned_cells": 2752100,
+    "fluid_blocks": 72,
+    "solid_blocks_omitted": 8,
+    "boundary_macro_faces": {
+      "ground": 16,
+      "buildings": 22,
+      "streetSymmetry": 20,
+      "outlet": 56,
+      "sourceSymmetry": 14
+    },
+    "gauge_readback": [
+      {
+        "gauge": "S5",
+        "nominal_m": [
+          0,
+          -0.35,
+          0
+        ],
+        "planned_nearest_ground_face_m": [
+          0.0005,
+          -0.34849999999999964,
+          0
+        ],
+        "planned_snap_distance_m": 0.001581138830084507,
+        "shortest_exterior_image_path_at_400m_s_s": 0.005322417214010941
+      },
+      {
+        "gauge": "S2",
+        "nominal_m": [
+          0,
+          -0.725,
+          0
+        ],
+        "planned_nearest_ground_face_m": [
+          0.0005,
+          -0.7265,
+          0
+        ],
+        "planned_snap_distance_m": 0.0015811388300842437,
+        "shortest_exterior_image_path_at_400m_s_s": 0.005554066640759724
+      },
+      {
+        "gauge": "S3",
+        "nominal_m": [
+          0,
+          -1.25,
+          0
+        ],
+        "planned_nearest_ground_face_m": [
+          0.0005,
+          -1.2485000000000015,
+          0
+        ],
+        "planned_snap_distance_m": 0.001581138830082769,
+        "shortest_exterior_image_path_at_400m_s_s": 0.005875
+      }
+    ]
+  },
+  "comparison": {
+    "observation_window_s": [
+      0,
+      0.005
+    ],
+    "native_end_s": 0.00501,
+    "max_delta_t_s": 1e-06,
+    "arrival_time_scored": false
+  },
+  "mpi_decomposition": {
+    "method": "simple",
+    "ranks": 32,
+    "layout": [
+      4,
+      4,
+      2
+    ]
+  },
+  "compute_node_preflight": [
+    {
+      "cwd": "case",
+      "argv": [
+        "blockMesh"
+      ],
+      "log": "logs/blockMesh.log"
+    },
+    {
+      "cwd": "case",
+      "argv": [
+        "checkMesh"
+      ],
+      "log": "logs/checkMesh.log"
+    },
+    {
+      "cwd": "case",
+      "argv": [
+        "setFields"
+      ],
+      "log": "logs/setFields.log"
+    },
+    {
+      "cwd": "case",
+      "argv": [
+        "postProcess",
+        "-time",
+        "0",
+        "-field",
+        "p",
+        "-dict",
+        "system/preflightFunctions"
+      ],
+      "log": "logs/preflightFunctions.log"
+    },
+    {
+      "cwd": ".",
+      "argv": [
+        "python3",
+        "check_s11_native.py",
+        "--case",
+        "case",
+        "--mesh-log",
+        "logs/checkMesh.log",
+        "--probe-log",
+        "logs/preflightFunctions.log",
+        "--output",
+        "native_preflight.json"
+      ],
+      "log": "logs/check_s11_native.log"
+    }
+  ],
+  "preflight_tools_sha256": {
+    "check_s11_native.py": "895d2324fe73327cc88499165a13291c8ffcc68305dca5d3d2ff44f621298411",
+    "check_s06_native.py": "cab739798ea7943331ddbc0dd8d50dc014bc84feaed76b60fbe8f8b1287014f2",
+    "foam_fields.py": "36eb0dde71a5948b21d41c94588f8206c9f50ad3d5ed2f41bda3768f4b737a5d"
+  },
+  "local_result_readback_sha256": {
+    "score_s11.py": "2c76891c6bf49b613fd3ed5b60c3f35d3dfaea8dbbbdce24134c36ec886a0e40"
+  },
+  "reused_S06_result_readback_sha256": {
+    "score_s06.py": "54a1f4e0209c5bf95bfa0b56dbceb1feb4949989915b43b8ee62e8dd6cd45fa0",
+    "s06_first_pulse.py": "deddcfbad9ef4888c747a672a6d116f4c74ac6eb57bb73b755cd6841653c6aad"
+  },
+  "case_files": {
+    "0/p": "7e01b8af9e5a04a6664db0b5b924af50e9b9014c7578b9560304054c5de2303b",
+    "0/rho": "0cb5c3a629a5ac194bc9cfd09b63dbc4b84d0938565a0872cab9a2830d3b7c0c",
+    "0/T": "663d9ce5d3be8c729c5ff230a10c6a5340f98decae86f4f4e9583c93e303cbe2",
+    "0/U": "8454398efc81ab657aab96f24c4d4add7868421f69089fa6dd5469a67e7c7bce",
+    "constant/dynamicMeshDict": "f98846b953910be0d7b9bd8d234b0c75c87fb1022f570d1b781438529cf083f7",
+    "constant/phaseProperties": "26a1ade60b61c3d4ca9349062d7db3b479e3b8a6a8e95f183874c6284dc1c08c",
+    "constant/turbulenceProperties": "83ccd08a7cab4204a51cfd89ff8054145ad0548dbc823e3f1058ecc31ceff53a",
+    "system/blockMeshDict": "dce84202219dbd9fcba4560c29710eda89495d7f6371c026bdc6f3ffdf6df39c",
+    "system/controlDict": "56f58819c1e649e840721c3b134a62687a710898ab23b6f5bef8154cbb8dafff",
+    "system/decomposeParDict": "10b71e24b506fbf61e1c8cb984bb50a31c5297de414a6b3740dcc7c30ceece15",
+    "system/fvSchemes": "c0c874238b08e1c4084437ae5a30acad0eb3ff7b8bce3cbdc2560d10519b77fb",
+    "system/fvSolution": "f5039715eac4a54e4acd45d5d69ac00f8f43f983bb50872c544783376611dd2f",
+    "system/preflightFunctions": "47f9907835a53b5a5d89dd002dfb7724d214651772b7af867cbe74e333253298",
+    "system/setFieldsDict": "3c0bf0ffb5e0ff3fcf1ad2a5d7a7562d408f5e25e9962f3e127b842aa8f25be9"
+  },
+  "revision": "v1-limited-distal-y45"
+}

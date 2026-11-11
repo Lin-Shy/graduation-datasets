@@ -1,0 +1,170 @@
+{
+  "scene_id": "S11",
+  "case_id": "Fouchier2020-StraightStreet-RP80",
+  "allocation": {
+    "job_id": "8976290",
+    "hostname": "cnode1806",
+    "allocated_nodes": [
+      "cnode1806"
+    ],
+    "controller_job": {
+      "JobId": "8976290",
+      "JobName": "ch3-c-s11-20261109-distal-y45",
+      "UserId": "15505(15505)",
+      "GroupId": "11452(11452)",
+      "MCS_label": "N/A",
+      "Priority": "1",
+      "Nice": "0",
+      "Account": "sysu_pww",
+      "QOS": "normal",
+      "JobState": "RUNNING",
+      "Reason": "None",
+      "Dependency": "(null)",
+      "Requeue": "0",
+      "Restarts": "0",
+      "BatchFlag": "1",
+      "Reboot": "0",
+      "ExitCode": "0:0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "08:00:00",
+      "TimeMin": "N/A",
+      "SubmitTime": "2026-11-09T19:43:42",
+      "EligibleTime": "2026-11-09T19:43:42",
+      "AccrueTime": "2026-11-09T19:43:42",
+      "StartTime": "2026-11-09T19:43:43",
+      "EndTime": "2026-11-10T03:43:43",
+      "Deadline": "N/A",
+      "SuspendTime": "None",
+      "SecsPreSuspend": "0",
+      "LastSchedEval": "2026-11-09T19:43:43",
+      "Scheduler": "Main",
+      "Partition": "deimos",
+      "Sid": "ln212:2082271",
+      "ReqNodeList": "(null)",
+      "ExcNodeList": "(null)",
+      "NodeList": "cnode1806",
+      "BatchHost": "cnode1806",
+      "NumNodes": "1",
+      "NumCPUs": "64",
+      "NumTasks": "64",
+      "Task": "1",
+      "T": "0:0:*:*",
+      "ReqTRES": "cpu=64,mem=500G,node=1,billing=64",
+      "AllocTRES": "cpu=64,mem=500G,node=1,billing=64",
+      "Node": "*",
+      "C": "0:0:*:*",
+      "CoreSpec": "*",
+      "MinCPUsNode": "1",
+      "MinMemoryNode": "0",
+      "MinTmpDiskNode": "0",
+      "Features": "(null)",
+      "DelayBoot": "00:00:00",
+      "OverSubscribe": "NO",
+      "Contiguous": "0",
+      "Licenses": "(null)",
+      "Network": "(null)",
+      "Command": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/run_s11_allocated.py",
+      "WorkDir": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45",
+      "StdErr": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/logs/8976290.err",
+      "StdIn": "/dev/null",
+      "StdOut": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/logs/8976290.out"
+    }
+  },
+  "payload_sha256": "2b49e59a90a8eecf2ef884e0c4c3ed923c108a145f216c5f26455e8439bb8896",
+  "commands": [
+    {
+      "cwd": "case",
+      "argv": [
+        "blockMesh"
+      ],
+      "log": "logs/blockMesh.log",
+      "exit_code": 0,
+      "sha256": "ccece98eac955aa0ad7e5a7e3d11961bc2377f6e283c30769e57d1c58f4d2bdb"
+    },
+    {
+      "cwd": "case",
+      "argv": [
+        "checkMesh"
+      ],
+      "log": "logs/checkMesh.log",
+      "exit_code": 0,
+      "sha256": "20836025fb6af910df3a993be1263f31b90a9dd37922ae3056e0e02f7912a18d"
+    },
+    {
+      "cwd": "case",
+      "argv": [
+        "setFields"
+      ],
+      "log": "logs/setFields.log",
+      "exit_code": 0,
+      "sha256": "d920d67ae00bb6e04b509e2902643cd5646c55048bb5808018bed5c054bc308f"
+    },
+    {
+      "cwd": "case",
+      "argv": [
+        "postProcess",
+        "-time",
+        "0",
+        "-field",
+        "p",
+        "-dict",
+        "system/preflightFunctions"
+      ],
+      "log": "logs/preflightFunctions.log",
+      "exit_code": 0,
+      "sha256": "d79c1eb926f9665c1fc785d869198e3e0d9eea3f8c785cb5b1262da161d69fd3"
+    },
+    {
+      "cwd": ".",
+      "argv": [
+        "python3",
+        "check_s11_native.py",
+        "--case",
+        "case",
+        "--mesh-log",
+        "logs/checkMesh.log",
+        "--probe-log",
+        "logs/preflightFunctions.log",
+        "--output",
+        "native_preflight.json"
+      ],
+      "log": "logs/check_s11_native.log",
+      "exit_code": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "cwd": "case",
+      "argv": [
+        "decomposePar"
+      ],
+      "log": "logs/decomposePar.log",
+      "exit_code": 0,
+      "sha256": "cdd5b161d5d556c4e61eb9dadfb015672b4c2622ac98516455a8ea81c46ae2bd"
+    },
+    {
+      "cwd": "case",
+      "argv": [
+        "mpirun",
+        "--host",
+        "cnode1806:32",
+        "-np",
+        "32",
+        "--bind-to",
+        "none",
+        "blastFoam",
+        "-parallel"
+      ],
+      "log": "logs/blastFoam.log",
+      "exit_code": 0,
+      "sha256": "701b1380db2b5a7896e05504af290cebd9c8bcdf97f9cefdf7feb30360a94048"
+    }
+  ],
+  "completed": true,
+  "health_failure": null,
+  "mpi_ranks": 32,
+  "staging_receipt_sha256": "e70013bd93cfe075492d593f37456ba30790e9d5fe41bf169ebd8b5628826438",
+  "group_soft_quota_headroom_KiB": 11879840100,
+  "solver_process_succeeded": true,
+  "native_preflight_sha256": "8e8c1786fc3ca9103daf0584fd82018991c304c79da19890c4fd2067c3df6dfd",
+  "native_probe_sha256": "60a4fb3a63838e3931ba5f910a9727eea760de699526ac64a8dba8d64fc11b36"
+}

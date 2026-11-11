@@ -1,0 +1,933 @@
+{
+  "case_id": "A05-M46-0400-products-core60mm-limitedFlow",
+  "task_id": "A05",
+  "date": "2026-11-07",
+  "status": "c_cluster_material_development",
+  "authority": "user explicitly authorized supplement simulations and SSH standard case construction",
+  "tier": "m46_product_EOS_conditional_experiment_comparison",
+  "source": {
+    "mass_kg": 0.4,
+    "density_kg_m3": 1500,
+    "radius_m": 0.03992945424655081,
+    "centre_m": [
+      0,
+      0,
+      0.2
+    ],
+    "initial_actual_mass_kg": 0.3999999999999999,
+    "source_cells": 64,
+    "E0_J_m3": 7050000000,
+    "vDet_m_s": 7680,
+    "JWL": {
+      "A_Pa": 759900000000,
+      "B_Pa": 12560000000,
+      "R1": 5.1,
+      "R2": 1.5,
+      "omega": 0.29
+    },
+    "JWL_source": "Zakrisson et al. (2011), Table 3; see sources/material_binding.json",
+    "products_Cv_J_kgK": 1000,
+    "energy_convention": "E0 is total JWL product internal energy per initial explosive volume; no additional activation heat",
+    "PCJ_reference_Pa": 21150000000
+  },
+  "mesh": {
+    "domain_m": [
+      [
+        -16.1,
+        -16.1,
+        0
+      ],
+      [
+        16.1,
+        16.1,
+        16.1
+      ]
+    ],
+    "cells": 3744880,
+    "blocks": 1268,
+    "source_spacing_m": 0.02,
+    "street_spacing_target_m": 0.23,
+    "far_spacing_target_m": 0.46,
+    "actual_geometry_conformal": true,
+    "native_checkMesh": "pending_remote",
+    "gauge_region_spacing_target_m": 0.06,
+    "refined_axis_strips": {
+      "horizontal_midpoint_abs_lt_m": 2.31,
+      "vertical_midpoint_below_m": 1.16
+    },
+    "changed_block_subdivisions": 756,
+    "source_axis_strips_preserved": true
+  },
+  "initial_air": {
+    "p_Pa": 101300.0,
+    "rho_kg_m3": 1.226,
+    "Cv_J_kgK": 718,
+    "gamma": 1.4,
+    "EOS_consistent_T_K": 287.69647425556764
+  },
+  "predeclared_approximations": [
+    "Instantaneous JWL products at t=0. The literature detonation velocity and PCJ document provenance; neither drives this initialization.",
+    "Keep the existing assumed product Cv of 1000 J/(kg K) and molar mass closure. The OpenFOAM phase label petn is retained as an internal identifier for m/46 products.",
+    "Source energy is total product energy per initial charge volume, with no added activation heat. The glass shell and initiation hardware are omitted.",
+    "Keep existing ideal-gas air, rigid walls, ground and geometry. Keep HLLC, first-order reconstruction, Euler and maxCo 0.15.",
+    "The AUTODYN data provide a separate numerical diagnostic for the paper's pure-PETN surrogate. Use the fixed 24 experimental values for the primary comparison."
+  ],
+  "comparison": {
+    "reference": "MSB450/TableB.2/shot10/location4",
+    "required_prediction_count": 25,
+    "fixed_peak_APE_count": 24,
+    "excluded_unreliable_reference": [
+      "BA3C"
+    ],
+    "pressure": "native absolute static pressure minus101300Pa",
+    "window_s": [
+      0,
+      0.05
+    ],
+    "peak_method": "native all-sample maximum over complete window",
+    "mape_thresholds_percent": [
+      15,
+      30
+    ],
+    "arrival_accuracy": "not_scored_without_matched_time_origin_and_definition",
+    "pressure_baseline_Pa": 101300,
+    "required_sensors": [
+      "FF01",
+      "FF02",
+      "FF03",
+      "FF12",
+      "FF13",
+      "BA1L",
+      "BA2L",
+      "BA3L",
+      "BA4L",
+      "BA6L",
+      "BA7L",
+      "BB1L",
+      "BB2L",
+      "BB3L",
+      "BB4L",
+      "BA1C",
+      "BA3C",
+      "BA4C",
+      "BA5R",
+      "BB1C",
+      "BB3C",
+      "BB4C",
+      "BB5R",
+      "BC2C",
+      "BD2C"
+    ],
+    "reference_rows": [
+      {
+        "trial": "10",
+        "gauge": "FF01",
+        "peak_pa": 431000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "FF02",
+        "peak_pa": 119000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "FF03",
+        "peak_pa": 47000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "FF12",
+        "peak_pa": 38000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "FF13",
+        "peak_pa": 14000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA1L",
+        "peak_pa": 12000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA2L",
+        "peak_pa": 110000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA3L",
+        "peak_pa": 238000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA4L",
+        "peak_pa": 11000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA6L",
+        "peak_pa": 113000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA7L",
+        "peak_pa": 34000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BB1L",
+        "peak_pa": 12000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BB2L",
+        "peak_pa": 12000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BB3L",
+        "peak_pa": 143000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BB4L",
+        "peak_pa": 124000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA1C",
+        "peak_pa": 14000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA4C",
+        "peak_pa": 14000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BA5R",
+        "peak_pa": 43000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BB1C",
+        "peak_pa": 13000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BB3C",
+        "peak_pa": 188000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BB4C",
+        "peak_pa": 153000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BB5R",
+        "peak_pa": 47000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BC2C",
+        "peak_pa": 187000.0
+      },
+      {
+        "trial": "10",
+        "gauge": "BD2C",
+        "peak_pa": 13000.0
+      }
+    ],
+    "feature": "maximum native static wall gauge pressure over full50ms",
+    "repeat_policy": "fixed24 reliable references; all25 predictions required",
+    "excluded_before_run": {
+      "BA3C": "author marks reference unreliable; prediction remains required"
+    }
+  },
+  "reference_rows": [
+    {
+      "sensor_id": "FF01",
+      "position_m": [
+        -1.15,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 431.0,
+      "source_arrival_clock_ms": 0.56,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "FF02",
+      "position_m": [
+        -2.3,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 119.0,
+      "source_arrival_clock_ms": 2.43,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "FF03",
+      "position_m": [
+        -4.6,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 47.0,
+      "source_arrival_clock_ms": 8.02,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "FF12",
+      "position_m": [
+        -6.9,
+        0,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 38.0,
+      "source_arrival_clock_ms": 13.73,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "FF13",
+      "position_m": [
+        -4.6,
+        2.3,
+        0.0
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "ground",
+      "source_valid": true,
+      "reference_peak_kpa": 14.0,
+      "source_arrival_clock_ms": 9.63,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA1L",
+      "position_m": [
+        -2.3,
+        3.45,
+        0.2
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "patch": "A_yplus",
+      "source_valid": true,
+      "reference_peak_kpa": 12.0,
+      "source_arrival_clock_ms": 8.39,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA2L",
+      "position_m": [
+        -1.15,
+        2.3,
+        0.2
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "patch": "A_xplus",
+      "source_valid": true,
+      "reference_peak_kpa": 110.0,
+      "source_arrival_clock_ms": 2.9,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA3L",
+      "position_m": [
+        -2.3,
+        1.15,
+        0.2
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "A_yminus",
+      "source_valid": true,
+      "reference_peak_kpa": 238.0,
+      "source_arrival_clock_ms": 3.0,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA4L",
+      "position_m": [
+        -3.4499999999999997,
+        2.3,
+        0.2
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "A_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 11.0,
+      "source_arrival_clock_ms": 8.45,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA6L",
+      "position_m": [
+        -3.25,
+        1.15,
+        0.2
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "A_yminus",
+      "source_valid": true,
+      "reference_peak_kpa": 113.0,
+      "source_arrival_clock_ms": 4.81,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA7L",
+      "position_m": [
+        -3.45,
+        1.35,
+        0.2
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "A_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 34.0,
+      "source_arrival_clock_ms": 5.84,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB1L",
+      "position_m": [
+        2.3,
+        3.45,
+        0.2
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "patch": "B_yplus",
+      "source_valid": true,
+      "reference_peak_kpa": 12.0,
+      "source_arrival_clock_ms": 8.12,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB2L",
+      "position_m": [
+        3.4499999999999997,
+        2.3,
+        0.2
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "patch": "B_xplus",
+      "source_valid": true,
+      "reference_peak_kpa": 12.0,
+      "source_arrival_clock_ms": 7.62,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB3L",
+      "position_m": [
+        2.3,
+        1.15,
+        0.2
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "B_yminus",
+      "source_valid": true,
+      "reference_peak_kpa": 143.0,
+      "source_arrival_clock_ms": 2.87,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB4L",
+      "position_m": [
+        1.15,
+        2.3,
+        0.2
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "B_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 124.0,
+      "source_arrival_clock_ms": 2.86,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA1C",
+      "position_m": [
+        -2.3,
+        3.45,
+        1.15
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "patch": "A_yplus",
+      "source_valid": true,
+      "reference_peak_kpa": 14.0,
+      "source_arrival_clock_ms": 8.67,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA3C",
+      "position_m": [
+        -2.3,
+        1.15,
+        1.15
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "A_yminus",
+      "source_valid": false,
+      "reference_peak_kpa": null,
+      "source_arrival_clock_ms": null,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA4C",
+      "position_m": [
+        -3.4499999999999997,
+        2.3,
+        1.15
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "A_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 14.0,
+      "source_arrival_clock_ms": 8.73,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BA5R",
+      "position_m": [
+        -2.3,
+        2.3,
+        2.3
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "A_zplus",
+      "source_valid": true,
+      "reference_peak_kpa": 43.0,
+      "source_arrival_clock_ms": 7.45,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB1C",
+      "position_m": [
+        2.3,
+        3.45,
+        1.15
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "patch": "B_yplus",
+      "source_valid": true,
+      "reference_peak_kpa": 13.0,
+      "source_arrival_clock_ms": 8.61,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB3C",
+      "position_m": [
+        2.3,
+        1.15,
+        1.15
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "patch": "B_yminus",
+      "source_valid": true,
+      "reference_peak_kpa": 188.0,
+      "source_arrival_clock_ms": 3.35,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB4C",
+      "position_m": [
+        1.15,
+        2.3,
+        1.15
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "patch": "B_xminus",
+      "source_valid": true,
+      "reference_peak_kpa": 153.0,
+      "source_arrival_clock_ms": 3.36,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BB5R",
+      "position_m": [
+        2.3,
+        2.3,
+        2.3
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "patch": "B_zplus",
+      "source_valid": true,
+      "reference_peak_kpa": 47.0,
+      "source_arrival_clock_ms": 7.44,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BC2C",
+      "position_m": [
+        -1.15,
+        -2.3,
+        1.15
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "patch": "C_xplus",
+      "source_valid": true,
+      "reference_peak_kpa": 187.0,
+      "source_arrival_clock_ms": 3.44,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    },
+    {
+      "sensor_id": "BD2C",
+      "position_m": [
+        3.45,
+        -2.3,
+        1.15
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "patch": "D_xplus",
+      "source_valid": true,
+      "reference_peak_kpa": 13.0,
+      "source_arrival_clock_ms": 8.57,
+      "simulation_peak_kpa": null,
+      "ape_percent": null,
+      "missing_reason": "no_authenticated_task_matched_physical_simulation",
+      "interface_label_test_passed": true
+    }
+  ],
+  "agent_score": null,
+  "validated_Gold": false,
+  "human_admission": false,
+  "runtime": {
+    "mpi_ranks": 4,
+    "wall_budget_s": 86400,
+    "memory_limit_GiB": 4,
+    "CPU_quota_percent": 400,
+    "minimum_free_disk_GiB": 6
+  },
+  "input_files": [
+    {
+      "path": "0/alpha.petn",
+      "sha256": "ff5b63b8fd6c667c31189c67d0cddc64fc9206d4b177e25f8ee871dee816d71a"
+    },
+    {
+      "path": "0/p",
+      "sha256": "0b3863b028978801f96f8148afa87f7887a8ca514db8865208c164b08671014a"
+    },
+    {
+      "path": "0/rho.air",
+      "sha256": "c61b5bb68b66e2c94418693ec0f0c9b53ee073769de2abab6ab362488260a166"
+    },
+    {
+      "path": "0/rho.petn",
+      "sha256": "661f2b0cae7bc258121eb4f9f1baca88ec696361a7c17a816d656076576eea1a"
+    },
+    {
+      "path": "0/T",
+      "sha256": "e70a8a5973ffefe83bb3e7867e98cd2ca426afd443078aba00d576b44944f5b2"
+    },
+    {
+      "path": "0/U",
+      "sha256": "5b667e17f14a8762ec58072fdab2c6479389e0e4b468b8b8653c28c7d2e7b95f"
+    },
+    {
+      "path": "constant/dynamicMeshDict",
+      "sha256": "fd7a7802522cdcba3d26d2d752169d45e7b8cd0650091e6a2d5912bbf99d7b36"
+    },
+    {
+      "path": "constant/phaseProperties",
+      "sha256": "0185d6109bcc6444cc718cebe82d661f0677aa0d268e3bd3b6b6f2d4156eb0d3"
+    },
+    {
+      "path": "system/blockMeshDict",
+      "sha256": "72d92adc63773819289fee9ad9ea6c9c40085d741d2c2bdbdd8a57bf3d0d3c55"
+    },
+    {
+      "path": "system/controlDict",
+      "sha256": "19d01c994d76b6cf90e7a329f9952e951bf0f1c520530a322a683f1f44c4593d"
+    },
+    {
+      "path": "system/decomposeParDict",
+      "sha256": "2c2e079f0a89436c72e238eeb5c4c5e9afe121bce35fc36548c60fd8adaa5cca"
+    },
+    {
+      "path": "system/fvSchemes",
+      "sha256": "e544b3c0f2aacbaf088a90c5fe216290f365f11431fd473c1c15158098b2e545"
+    },
+    {
+      "path": "system/fvSolution",
+      "sha256": "d5415c05e7c0e95487d6701278661f0c92dff9e3ae72bbc761c2b203a0654828"
+    },
+    {
+      "path": "system/setFieldsDict",
+      "sha256": "d6bed16251dc675dfa28486072832edea8835ef229ace4650a1338ab913689c1"
+    }
+  ],
+  "input_manifest_sha256": "21da4963ab47826c7bc291e70f3c7bf1f2a0090062235088f0b137853776f83f",
+  "source_model": "instantaneous_products",
+  "initializer": "cartesian_products",
+  "source_phase": "petn",
+  "execution_revision": {
+    "baseline_C_job": "8940920",
+    "mesh_and_numerics": "identical input dictionaries to baseline"
+  },
+  "package_code": [
+    {
+      "path": "build_a05_supplement.py",
+      "sha256": "c683f1951c0c379eb02f9cd9514b7e00fd47127a7b64db558fed341e68f68bbf"
+    },
+    {
+      "path": "foam_fields_snapshot.py",
+      "sha256": "36eb0dde71a5948b21d41c94588f8206c9f50ad3d5ed2f41bda3768f4b737a5d"
+    },
+    {
+      "path": "initialize_cartesian_products.py",
+      "sha256": "bfd081e9bf6f80633961465fabf225843f960147625c650af1d2f95c5f611531"
+    },
+    {
+      "path": "prepare-a05-products-v5.py",
+      "sha256": "044b66b9c576717e1a666dad08a0dcd9d3002fe550f89050e6f04ab60d571d2f"
+    },
+    {
+      "path": "prepare-a05-products-v6.py",
+      "sha256": "bf99bb65a32d8b909b50f4b8f7d9e449e5c73a6d77f857e9f38c2c38acf750c7"
+    },
+    {
+      "path": "prepare-a05-products-v7.py",
+      "sha256": "242c7e1cc6499a6a9e04ae30f64e392205a58692c6749a90843f2b27a8a0379d"
+    },
+    {
+      "path": "run_reference_supplement.py",
+      "sha256": "02f3345146c7f02692d2a896e5012a0cc8773e4a227aea2d7654242b1710370e"
+    },
+    {
+      "path": "score_reference_supplement.py",
+      "sha256": "db54aa8acd93f0a4633551df8be71790402021d82d7661ecd1a1dbbf8b46b473"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "sources/comparison_and_findings.json",
+      "sha256": "36f6d1f3f992ca64a87f9c7fc7871be5d2fa8a130d99f1bfaf74358e3e0c521a"
+    },
+    {
+      "path": "sources/johansson-msb450-2012.pdf",
+      "sha256": "0eec43f9465518750b552e930b1bbdb656b530aa89d3368343893f0736e5103d"
+    },
+    {
+      "path": "sources/johansson-msb450-2012.txt",
+      "sha256": "682c6abdc5a1902f76c450a8c128ec30c8f5d9d23874e4a552a314e9ad430ab6"
+    },
+    {
+      "path": "sources/johansson-pdf-20261022.txt",
+      "sha256": "e954ed14ab28abff00e352ffe718de14859d1e71385da64e2baf3842053621e3"
+    },
+    {
+      "path": "sources/Kim2003_PETN_binder.pdf",
+      "sha256": "92f9c4b5913fa9b5283ea814b51fde855acd228ad5c2f825bcf7f5a0c9d3f6dc"
+    },
+    {
+      "path": "sources/Kim2003_receipt.json",
+      "sha256": "990244b4d55d5419293994f8568fbf45234e1e858fcf5e0c30ba438d7d1da244"
+    },
+    {
+      "path": "sources/source-and-applicability.json",
+      "sha256": "1feb9496804b0d191af052bab143ea3d658209c62dc34a3340cd4dd3a2c444b2"
+    },
+    {
+      "path": "sources/material_binding.json",
+      "sha256": "26a89e915d00417455c4bc64a5542b1945a47d1fb6a9809ec135bb32728c6927"
+    }
+  ],
+  "model_match_approved": false,
+  "Gold_approved": false,
+  "physical_model_revision": {
+    "baseline_C_job": "8940920",
+    "change": "charge mass, density and JWL only",
+    "solver_source_changes": 0
+  },
+  "numerical_configuration": {
+    "flux": "HLLC",
+    "reconstruction": "first_order_upwind",
+    "integrator": "Euler",
+    "maxCo": 0.15
+  }
+}

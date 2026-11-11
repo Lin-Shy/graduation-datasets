@@ -1,0 +1,14 @@
+{
+  "case_id": "Gabriel2023-100pct-PE4-21p3g",
+  "scheduler_job_id": "8942180",
+  "actual_compute_node": "cnode2306",
+  "executed_specification_sha256": "970cbe615ce70cca6444e480d14e297672d72e0125748b8900be899b754bd9c0",
+  "archive": {
+    "path": "D:\\1\\graduation-projects\\graduation-datasets\\chapter03_simulation_tasks\\benchmark\\case_reviews\\Gabriel2023-Corner100pct\\job-8942180\\scale100-terminal.tar.gz",
+    "sha256": "68723aadad44dfb6f2d14e5005da09a440970e6ecc51f0ae5313c8d26e3a188c",
+    "bytes": 3975490
+  },
+  "archive_member_verification_sha256": "de1c453ebb79f7cf586ce977c55b54450244f06eee4ecccfb5c66edd129d8703",
+  "all_original_archive_members_verified": true,
+  "no_solver_or_reference_modified": true
+}

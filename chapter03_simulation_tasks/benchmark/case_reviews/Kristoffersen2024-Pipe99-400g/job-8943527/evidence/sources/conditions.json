@@ -1,0 +1,44 @@
+{
+  "case_id": "Kristoffersen2024-Pipe99-400g",
+  "state": "pre_run_reference_binding",
+  "identity": "Separate experimental condition from A03, 400 mm pipe series, nominal 400 g C-4, PIPE99",
+  "source": {
+    "doi": "10.1007/s00193-024-01161-w",
+    "pdf": "../../references/experiments/mendeley-zv7y78twd9-v2/raw/Kristoffersen et al - 2024 SW - Semi-confined blast loading.pdf",
+    "sha256": "3acaacff8ae4b44b44e6a38689c69d5ab5da3c99ff21123036a6df83e4e7935b",
+    "pages_1_based": {"geometry_figure2": 3, "experimental_curves_figure5": 4, "experimental_peaks_table1": 6, "model_table2": 9, "comparison_curves_figure15": 12, "numerical_peaks_table4": 14},
+    "license": "CC-BY-4.0"
+  },
+  "condition": {
+    "geometry": {"pipe_length_m": 3.0, "inner_diameter_m": 0.4, "outer_diameter_m": 0.5, "end_openings": 2, "wall": "rigid steel", "origin": "centre of the spherical charge at mid-length and on the pipe axis", "axial_positive": "toward instrumented opening"},
+    "source": {"shape": "sphere", "explosive": "C-4", "test_nominal_kg": 0.4, "numerical_cap_equivalent_kg": 0.005, "numerical_total_kg": 0.405, "density_kg_m3": 1601, "vDet_m_s": 8193, "E0_J_m3": 9000000000, "JWL": {"A_Pa": 609770000000, "B_Pa": 12950000000, "R1": 4.5, "R2": 1.4, "omega": 0.25}},
+    "ambient_air": {"p_Pa": 101300, "rho_kg_m3": 1.225, "gamma": 1.4},
+    "mounting": "Kulite HKS-375 (M), flush with the interior wall, sampled at 0.5 MHz",
+    "gauges": {
+      "Pi02": {"axial_m": 0.6, "radius_m": 0.2},
+      "Pi03": {"axial_m": 1.3, "radius_m": 0.2},
+      "Pi04": {"axial_m": 1.4, "radius_m": 0.2}
+    }
+  },
+  "comparison": {
+    "metric": "early peak wall static overpressure",
+    "prediction": "Maximum native wall static absolute pressure minus 101300 Pa, evaluated only inside the fixed solver-time window. A maximum at either boundary invalidates peak comparison for that gauge.",
+    "simulation_time_zero": "source ignition at the sphere centre",
+    "published_time_alignment": "Figure 15 shifts the experimental traces to match the Pi02 front. Peak values are baseline-corrected pressure amplitudes. No arrival-time comparison, time shift, or waveform error is applied.",
+    "fixed_window_s": [0.0, 0.004],
+    "window_basis": "Figure 15 shows all six experimental and three EPX maxima within its first 4 ms. Section 3.2.2 reports late drift beyond approximately 5 ms. The time window is fixed before any independent solve.",
+    "completion": "Normal healthy integration and original pressure traces covering 0 to 4 ms at all three prebound gauges. Complete accuracy groups additionally require a resolved positive finite peak at each gauge. Keep task completion, accuracy availability and model-match approval separate.",
+    "experiment_denominator": 6,
+    "published_EPX_denominator": 3,
+    "mape_threshold_percent": {"pass": 30, "higher_accuracy": 15},
+    "references_kPa": {
+      "experimental_T1_table1": {"Pi02": 6107.9, "Pi03": 3975.2, "Pi04": 3633.5},
+      "experimental_T2_table1": {"Pi02": 5897.5, "Pi03": 3799.1, "Pi04": 3614.0},
+      "published_EPX_table4": {"Pi02": 6337, "Pi03": 5405, "Pi04": 4891}
+    },
+    "secondary_figures_only": "Figure 15 traces and Table 4 impulse values are retained as source evidence. They are outside this fixed peak-only evaluation."
+  },
+  "model_match_approved": false,
+  "human_case_qualified": false,
+  "Gold_approved": false
+}

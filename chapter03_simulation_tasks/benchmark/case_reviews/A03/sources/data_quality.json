@@ -1,0 +1,145 @@
+{
+  "status": "unit_conversion_verified_comparison_pending",
+  "processing_script_sha256": "6b8de1fd2b8b70a4e77586aa28e7f61894b18003130fcbaa8339e5ef6a539694",
+  "files": {
+    "C4_20g001.txt": {
+      "raw_sha256": "a5a85b8ba9ebff3a44e9c5bf1e2e557556408fc9525721de41815cf2d12a967b",
+      "processed_sha256": "9a01b514265937e2bac8f14f21c882043847a720f22ce97924b47f5ce79e6fce",
+      "samples_per_sensor": 20001,
+      "start_s": 0.0,
+      "end_s": 0.04,
+      "minimum_step_s": 1.9999999999950613e-06,
+      "maximum_step_s": 2.000000000002e-06,
+      "active_channels": [
+        "Pi02",
+        "Pi03",
+        "Pi04"
+      ],
+      "pressure_ranges_recorded_pa": {
+        "Pi02": [
+          -513228.0,
+          1947400.0
+        ],
+        "Pi03": [
+          -122759.0,
+          1001850.0
+        ],
+        "Pi04": [
+          -113216.99999999999,
+          1019460.0
+        ]
+      },
+      "unit_conversion": "Bar * 100000 -> Pa",
+      "baseline_subtraction": null,
+      "time_shift_s": 0,
+      "comparison_admitted": false,
+      "reason": "physical time zero and pressure baseline not yet independently frozen"
+    },
+    "C4_20g002.txt": {
+      "raw_sha256": "bea97cbaf94e5c5d44b1b964c944fe4c7d80d3f7d9c09836c29cc126750fcefb",
+      "processed_sha256": "312b85d794443f6f6e4ff1cf21aedc9a2aca22c979fa1ab2abe6ca969810c342",
+      "samples_per_sensor": 20001,
+      "start_s": 0.0,
+      "end_s": 0.04,
+      "minimum_step_s": 1.9999999999950613e-06,
+      "maximum_step_s": 2.000000000002e-06,
+      "active_channels": [
+        "Pi02",
+        "Pi03",
+        "Pi04"
+      ],
+      "pressure_ranges_recorded_pa": {
+        "Pi02": [
+          -1494770.0,
+          2565110.0
+        ],
+        "Pi03": [
+          -142149.0,
+          1154910.0
+        ],
+        "Pi04": [
+          -85263.3,
+          1021010.0000000001
+        ]
+      },
+      "unit_conversion": "Bar * 100000 -> Pa",
+      "baseline_subtraction": null,
+      "time_shift_s": 0,
+      "comparison_admitted": false,
+      "reason": "physical time zero and pressure baseline not yet independently frozen"
+    },
+    "C4_20g003.txt": {
+      "raw_sha256": "2d6ed3dbb75d1e4851d5d749e1a4796ab92c0f96b681ba5cb7313589403fd47c",
+      "processed_sha256": "d14f0d99bfc40502a7cf5c1b6e6a203b7fca862a1529a1549a5dd4ffc26e9e78",
+      "samples_per_sensor": 20001,
+      "start_s": 0.0,
+      "end_s": 0.04,
+      "minimum_step_s": 1.9999999999950613e-06,
+      "maximum_step_s": 2.000000000002e-06,
+      "active_channels": [
+        "Pi02",
+        "Pi03",
+        "Pi04"
+      ],
+      "pressure_ranges_recorded_pa": {
+        "Pi02": [
+          -144986.0,
+          877726.0
+        ],
+        "Pi03": [
+          -93983.5,
+          1368330.0
+        ],
+        "Pi04": [
+          -77665.4,
+          1122230.0
+        ]
+      },
+      "unit_conversion": "Bar * 100000 -> Pa",
+      "baseline_subtraction": null,
+      "time_shift_s": 0,
+      "comparison_admitted": false,
+      "reason": "physical time zero and pressure baseline not yet independently frozen"
+    },
+    "C4_20g004.txt": {
+      "raw_sha256": "4b96ebd2722cc81806ce3410fe2bce220b64e2c0692e256e3c17ddafc427e7e6",
+      "processed_sha256": "aab1445309700d3be27d8f3dc7a7df8bcad112b7d7ef8918421e5db4c88ddd86",
+      "samples_per_sensor": 20001,
+      "start_s": 0.0,
+      "end_s": 0.04,
+      "minimum_step_s": 1.9999999999950613e-06,
+      "maximum_step_s": 2.000000000002e-06,
+      "active_channels": [
+        "Pi02",
+        "Pi03",
+        "Pi04"
+      ],
+      "pressure_ranges_recorded_pa": {
+        "Pi02": [
+          -412669.0,
+          1934500.0
+        ],
+        "Pi03": [
+          -93032.0,
+          1184390.0
+        ],
+        "Pi04": [
+          -84051.1,
+          1008290.0
+        ]
+      },
+      "unit_conversion": "Bar * 100000 -> Pa",
+      "baseline_subtraction": null,
+      "time_shift_s": 0,
+      "comparison_admitted": false,
+      "reason": "physical time zero and pressure baseline not yet independently frozen"
+    }
+  },
+  "excluded_trial": "C4_20g003.txt",
+  "exclusion_basis": "original paper section 2.2 / Fig.4 omits test 3 for irregularities; raw file retained",
+  "cautions": [
+    "Pi01/Pi11/Pi12/Pi13/Pi14 channels are not the three active internal comparison sensors of series1",
+    "paper section 3.2.4 limits impulse comparisons to 4 ms due to drift; no full-window impulse computed",
+    "paper synchronizes numerical signals to experiment; benchmark has NOT adopted fitted synchronization"
+  ]
+}

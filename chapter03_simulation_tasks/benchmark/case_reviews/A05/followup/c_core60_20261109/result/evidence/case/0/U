@@ -1,0 +1,27 @@
+FoamFile { version 2.0; format ascii; class volVectorField; object U; }
+dimensions [0 1 -1 0 0 0 0];
+internalField uniform (0 0 0);
+boundaryField {
+ground { type slip; }
+outlet { type pressureInletOutletVelocity; value $internalField; }
+C_xminus { type slip; }
+A_xminus { type slip; }
+C_yminus { type slip; }
+C_zplus { type slip; }
+C_yplus { type slip; }
+A_yminus { type slip; }
+A_zplus { type slip; }
+A_yplus { type slip; }
+C_xplus { type slip; }
+A_xplus { type slip; }
+D_xminus { type slip; }
+B_xminus { type slip; }
+D_yminus { type slip; }
+D_zplus { type slip; }
+D_yplus { type slip; }
+B_yminus { type slip; }
+B_zplus { type slip; }
+B_yplus { type slip; }
+D_xplus { type slip; }
+B_xplus { type slip; }
+}

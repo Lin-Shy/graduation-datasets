@@ -1,6 +1,6 @@
 # 单人人工参考与双裁判校准
 
-2026-11-04：负责人采用现有60份人工参考及双裁判校准结果，取消额外60份验收。正式协议已冻结，三模型全量生成和评分已启动；不再另行抽样人评或重新校准。当前运行见[正式实验入口](../../../../../../graduation-experiment-results/chapter2_retrieval/README.md)及[启动记录](../../../../../../graduation-experiment-results/chapter2_retrieval/FORMAL_RUN_REPORT.md)。
+2026-11-04：负责人采用现有60份人工参考及双裁判校准结果，取消额外60份验收。正式协议已冻结，三模型全量生成和评分已启动；不再另行抽样人评或重新校准。当前运行见[正式实验入口](D:/1/graduation-projects/graduation-experiment-results/chapter2_retrieval/README.md)及[启动记录](D:/1/graduation-projects/graduation-experiment-results/chapter2_retrieval/FORMAL_RUN_REPORT.md)。
 
 ## 现有校准资料
 

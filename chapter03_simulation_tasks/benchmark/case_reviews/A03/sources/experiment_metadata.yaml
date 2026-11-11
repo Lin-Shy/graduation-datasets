@@ -1,0 +1,44 @@
+{
+  "source_id": "mendeley",
+  "doi": "10.17632/zv7y78twd9.2",
+  "version": 2,
+  "license": "CC-BY-4.0",
+  "condition_id": "Di200mm/series1/20g-repeatability",
+  "primary_trial": "C4_20g001.txt",
+  "uncertainty_trials": [
+    "C4_20g002.txt",
+    "C4_20g004.txt"
+  ],
+  "excluded_trial": "C4_20g003.txt",
+  "geometry": {
+    "inner_diameter_m": 0.2,
+    "outer_diameter_m": 0.25,
+    "length_m": 3.0,
+    "boundary": "open-ended rigid steel cylinder"
+  },
+  "source_condition": {
+    "nominal_mass_kg": 0.02,
+    "reported_cap_equivalent_kg_approx": 0.002,
+    "material": "C-4",
+    "shape": "sphere",
+    "source": "paper section 2.1, PDF pp.2-3; numerical EOS not yet calibrated"
+  },
+  "sampling_hz": 500000,
+  "sampling_evidence": "paper section 2.1; raw time spacing 2 microseconds",
+  "sensor_model": "Kulite HKS-375 (M), flush wall mounted",
+  "pressure_definition": "recorded_bar; overpressure baseline pending independent verification",
+  "pressure_unit_raw": "Bar",
+  "time_unit_raw": "s",
+  "time_zero_definition": null,
+  "candidate_impulse_window_s": [
+    0,
+    0.004
+  ],
+  "impulse_window_frozen": false,
+  "geometry_evidence": [
+    "raw/setup_sketch_200mm_1.pdf page 1",
+    "paper section 2.1 / Fig.2, PDF page 3"
+  ],
+  "status": "raw_download_verified_mapping_pending",
+  "raw_readonly_policy": "hash verified; never modify raw in place"
+}

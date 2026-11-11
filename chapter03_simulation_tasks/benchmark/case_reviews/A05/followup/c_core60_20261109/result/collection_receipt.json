@@ -1,0 +1,14 @@
+{
+  "case_id": "A05-M46-0400-products-core60mm-limitedFlow",
+  "scheduler_job_id": "8960848",
+  "actual_compute_node": "cnode1914",
+  "original_frozen_specification_sha256": "5665c98ce4ed49cc2590300f5ad8f675bcc6b9c10cd8d9f797ed84add991e7ac",
+  "archive": {
+    "path": "D:\\1\\graduation-projects\\graduation-datasets\\chapter03_simulation_tasks\\benchmark\\case_reviews\\A05\\followup\\c_core60_20261109\\result\\gauge_mesh-terminal.tar.gz",
+    "sha256": "f4220b1e6838119cf22fec48c925d2ebee3d680d484a4650b56a12a997c76b07",
+    "bytes": 20794962
+  },
+  "archive_member_verification_sha256": "37cf650127aab4f811d4b890de746be3d43fc4ff7dc52b14b78b21efae9b41a7",
+  "all_original_archive_members_verified": true,
+  "no_solver_or_reference_modified": true
+}

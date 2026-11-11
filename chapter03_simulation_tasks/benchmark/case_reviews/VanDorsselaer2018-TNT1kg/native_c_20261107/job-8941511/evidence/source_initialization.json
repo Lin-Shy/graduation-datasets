@@ -1,0 +1,24 @@
+{
+  "cell_count": 1563750,
+  "native_source_mass_kg": 0.013888888888888888,
+  "source_cells": 83,
+  "minimum_T_K": 288.0023875845603,
+  "maximum_T_K": 1771.4673995050507,
+  "maximum_p_Pa": 8426294927.496287,
+  "actual_excess_energy_J": 51122.58595347648,
+  "analytic_excess_energy_J": 51122.585953476475,
+  "energy_convention": "E0 is total JWL product internal energy per initial explosive volume; no activation energy is added",
+  "hashes": {
+    "e": "78f8199b1b31b0d49ab029e083a1f61de12dc75a8bdc58503c79954a94933110",
+    "T": "9adca408a63375f8620a5e3ec32382041b0b32b16c2bdfccba0560fd0eb124b9",
+    "p": "9bd2611beff140705b75b6c01f4157f6eb3b41f1aeceb07a4c5f00adf5bb6c4b",
+    "alpha.tnt": "8c011aa79172420b570556e5bd527f0b6975f9032b3d732db13bd42a74ef50a3",
+    "V": "1f1336040621fd50bca9dc7a4e5dfb6bfeb6996b8616f9670cfca5bcd3221da5"
+  },
+  "initialization_checks_only_not_full_run_validation": true,
+  "full_sphere_equivalent_mass_kg": 1.0,
+  "uncorrected_wedge_volume_m3": 8.520796636179859e-06,
+  "correction_relative": -6.932220683533861e-07,
+  "partial_source_cells": 83,
+  "source_volume_method": "native C and V, bounded 64 x 32 quadrature"
+}

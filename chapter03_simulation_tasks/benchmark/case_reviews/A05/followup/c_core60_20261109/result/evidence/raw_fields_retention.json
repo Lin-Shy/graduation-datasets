@@ -1,0 +1,5 @@
+{
+  "remote_case": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case",
+  "local_archive_includes_pressure_histories": true,
+  "remote_case_includes_written_native_fields_and_mesh": true
+}

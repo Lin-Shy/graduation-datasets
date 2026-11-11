@@ -1,0 +1,153 @@
+{
+  "scene_id": "S11",
+  "scope": "one independent conditional straight-street diagnostic",
+  "condition": "configuration 4 Part A RP80",
+  "source_figure_and_trial": "Fouchier 2020 Figure 6.14 and Table 6.1; one RP80 trial in configuration 4",
+  "reference_sha256": "231143be1276849f5f93d3543a21ae469bd0d71eeb631030a6f1606ca50f54dc",
+  "figure_sha256": "1bf888cc4986837bfd3f60bbd5e0db8447d98f3cbb14cf729de4ad292ff52f41",
+  "gauge_geometry_sha256": "862210317d62e3c3fa20f6b796d93268412ba159cf15bbadcd6ef384f741dfe3",
+  "wall_source_sha256": "636f063f3b27e3e615775bf8075bcd4b2a19b89fe52f6354c4368f9d0fa27915",
+  "source_anchor_sha256": "0ef0a2ccd7674cb88024bd30097c4d8eb839ac5de3e209643edfc736b99e359b",
+  "reference_denominators": {
+    "experiment": 3,
+    "published_OpenFOAM": 3
+  },
+  "reference_peak_floor_kPa": 1.0,
+  "rows": [
+    {
+      "gauge": "S5",
+      "position_m": [
+        0,
+        -0.35,
+        0
+      ],
+      "rule": {
+        "level_kPa": 6.1935,
+        "dwell_s": 4e-05,
+        "span_s": 0.00011
+      },
+      "first_pulse_readback": {
+        "experiment": {
+          "reference_peak_kPa": 20.645,
+          "raster_reproduced_peak_kPa": 20.645161,
+          "raster_peak_time_ms_unaligned": 1.425,
+          "raster_onset_ms_unaligned": 1.395529
+        },
+        "published_OpenFOAM": {
+          "reference_peak_kPa": 18.387,
+          "raster_reproduced_peak_kPa": 18.387097,
+          "raster_peak_time_ms_unaligned": 1.4325,
+          "raster_onset_ms_unaligned": 1.427526
+        }
+      },
+      "shortest_exterior_image_path_at_400m_s_s": 0.005322417214010941
+    },
+    {
+      "gauge": "S2",
+      "position_m": [
+        0,
+        -0.725,
+        0
+      ],
+      "rule": {
+        "level_kPa": 3.6897,
+        "dwell_s": 2e-05,
+        "span_s": 0.00018
+      },
+      "first_pulse_readback": {
+        "experiment": {
+          "reference_peak_kPa": 12.299,
+          "raster_reproduced_peak_kPa": 12.298851,
+          "raster_peak_time_ms_unaligned": 2.492958,
+          "raster_onset_ms_unaligned": 2.450576
+        },
+        "published_OpenFOAM": {
+          "reference_peak_kPa": 12.759,
+          "raster_reproduced_peak_kPa": 12.758621,
+          "raster_peak_time_ms_unaligned": 2.492958,
+          "raster_onset_ms_unaligned": 2.442133
+        }
+      },
+      "shortest_exterior_image_path_at_400m_s_s": 0.005554066640759724
+    },
+    {
+      "gauge": "S3",
+      "position_m": [
+        0,
+        -1.25,
+        0
+      ],
+      "rule": {
+        "level_kPa": 1.9389,
+        "dwell_s": 2e-05,
+        "span_s": 0.00022
+      },
+      "first_pulse_readback": {
+        "experiment": {
+          "reference_peak_kPa": 6.463,
+          "raster_reproduced_peak_kPa": 6.462585,
+          "raster_peak_time_ms_unaligned": 3.938185,
+          "raster_onset_ms_unaligned": 3.909566
+        },
+        "published_OpenFOAM": {
+          "reference_peak_kPa": 5.782,
+          "raster_reproduced_peak_kPa": 5.782313,
+          "raster_peak_time_ms_unaligned": 3.960094,
+          "raster_onset_ms_unaligned": 3.903952
+        }
+      },
+      "shortest_exterior_image_path_at_400m_s_s": 0.005875
+    }
+  ],
+  "wall_footprints_xyxy_order": [
+    "x_min",
+    "x_max",
+    "y_min",
+    "y_max"
+  ],
+  "wall_footprints_m": {
+    "west": [
+      -0.275,
+      -0.125,
+      -1.37,
+      0.0
+    ],
+    "east": [
+      0.125,
+      0.275,
+      -1.37,
+      0.0
+    ]
+  },
+  "wall_height_m": 0.1,
+  "wall_model_assumption": "rigid no-slip finite walls; the porous-wall discussion refers to Figure 6.15; exact Figure 6.14 wall model is unidentified",
+  "outer_domain_m": [
+    [
+      0,
+      1.15
+    ],
+    [
+      -1.8,
+      0
+    ],
+    [
+      0,
+      1.05
+    ]
+  ],
+  "domain_assumptions": "x=0 and y=0 symmetry as in Figure 5.4 configuration 2; extended rectangular rigid ground; zero-gradient exterior",
+  "source_assumptions": {
+    "radius_m": 0.02,
+    "pressure_absolute_Pa": 14900000,
+    "modelled_octant_volume_m3": 4.188790204786391e-06,
+    "status": "Table 6.7 same RP80 free-field anchor and Larcher\u2013Casadei closure; straight-street original initial fields are unverified"
+  },
+  "observation_window_s": [
+    0,
+    0.005
+  ],
+  "time_origin_aligned_to_reference": false,
+  "arrival_time_scored": false,
+  "own_simulation_dispatched": false,
+  "own_simulation_APE_MAPE": null
+}

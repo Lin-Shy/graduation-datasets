@@ -1,0 +1,78 @@
+{
+  "scope": "Closed first positive phase within shared archived prefix; baseline delivery incomplete",
+  "common_end_s": 0.00291392582916,
+  "trace_sha256": {
+    "upwind": "d190c3b09c5a26f93943d0ee6b4cf3cd8c6262848058672ce7d91a5deb78570a",
+    "vanLeer": "c6ebc6685c9a6b1414e2a1084ccaa37e550e5b5a98d46af848facf993a5271d6"
+  },
+  "pointwise": [
+    {
+      "radius_m": 0.35,
+      "experiment_Pa_s": 1.866605888648806,
+      "upwind": {
+        "first_lobe_s": [
+          0.00046174568855,
+          0.0009126573871963161
+        ],
+        "duration_ms": 0.45091169864631614,
+        "impulse_Pa_s": 2.183224597274,
+        "experimental_APE_pct": 16.96226881906964
+      },
+      "vanLeer": {
+        "first_lobe_s": [
+          0.000613957608693,
+          0.0008770535167285936
+        ],
+        "duration_ms": 0.26309590803559363,
+        "impulse_Pa_s": 2.2488169641946563,
+        "experimental_APE_pct": 20.476260032723047
+      }
+    },
+    {
+      "radius_m": 0.475,
+      "experiment_Pa_s": 1.3055378690230302,
+      "upwind": {
+        "first_lobe_s": [
+          0.000735692697158,
+          0.001299138879123759
+        ],
+        "duration_ms": 0.5634461819657591,
+        "impulse_Pa_s": 1.5865915734479201,
+        "experimental_APE_pct": 21.527809425797063
+      },
+      "vanLeer": {
+        "first_lobe_s": [
+          0.000964728086404,
+          0.0012644822201598133
+        ],
+        "duration_ms": 0.2997541337558132,
+        "impulse_Pa_s": 1.669912076332745,
+        "experimental_APE_pct": 27.909891850351777
+      }
+    },
+    {
+      "radius_m": 0.725,
+      "experiment_Pa_s": 0.9584709342250604,
+      "upwind": {
+        "first_lobe_s": [
+          0.00133748802465,
+          0.0020799192038844358
+        ],
+        "duration_ms": 0.7424311792344357,
+        "impulse_Pa_s": 0.9956743640949277,
+        "experimental_APE_pct": 3.881539704690883
+      },
+      "vanLeer": {
+        "first_lobe_s": [
+          0.00169368910562,
+          0.0020355469035177156
+        ],
+        "duration_ms": 0.34185779789771564,
+        "impulse_Pa_s": 1.1018380403951826,
+        "experimental_APE_pct": 14.957898153274407
+      }
+    }
+  ],
+  "upwind_experimental_MAPE_pct": 14.123872649852528,
+  "vanLeer_experimental_MAPE_pct": 21.114683345449745
+}

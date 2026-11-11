@@ -1,0 +1,50 @@
+{
+  "scale_pct": 100,
+  "source": "Gabriel et al. 2023, doi:10.3390/app13105956",
+  "experimental_source": "Table A1 p.21",
+  "published_numerical_source": "Table 6 p.13",
+  "workbooks": {
+    "1": {
+      "member": "ScalingP1_TestData/Test 1 _40.xlsx",
+      "sha256": "fa18abba73dcddb69271380e63950564583da002e685ff2d27bc52b3cd41c2c8"
+    },
+    "2": {
+      "member": "ScalingP1_TestData/Test 2 _40.xlsx",
+      "sha256": "84571108361fa70604959364d8589a598d2301fb25cf75759c354dbda2063827"
+    },
+    "3": {
+      "member": "ScalingP1_TestData/Test 3 _40.xlsx",
+      "sha256": "a160b613722447811d3593ea2ee4afc0dbcd94ac5f12803551b0748af2b2c4e9"
+    },
+    "4": {
+      "member": "ScalingP1_TestData/Test 4 _40.xlsx",
+      "sha256": "c286423a4e7fc7dec3ce0d45e3f3a046b30759ebd6ab8cd969997596527f3184"
+    }
+  },
+  "required_simulated_gauges": [
+    "A",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "provisional_window_ms": [
+    0,
+    5
+  ],
+  "reference_pairs_per_metric": 14,
+  "missing_reference_pairs": [
+    {
+      "trial": 2,
+      "gauge": "A"
+    },
+    {
+      "trial": 4,
+      "gauge": "B3"
+    }
+  ],
+  "viper_vs_experiment_repeat_mape_pct": {
+    "first_peak_kpa": 13.353116469320353,
+    "first_arrival_ms": 8.118647613553545
+  },
+  "new_simulation": "not_submitted_material_and_geometry_binding_pending"
+}

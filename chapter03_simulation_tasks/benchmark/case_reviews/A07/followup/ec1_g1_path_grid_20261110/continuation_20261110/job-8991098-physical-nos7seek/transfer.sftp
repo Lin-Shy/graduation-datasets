@@ -1,0 +1,4 @@
+-get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-s07-r3-261110/pressure-evidence.tar.gz pressure-evidence.tar.gz
+-get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-s07-r3-261110/archive_receipt.json archive_receipt.json
+-get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-s07-r3-261110/logs/8991098.out 8991098.out
+-get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-s07-r3-261110/logs/8991098.err 8991098.err

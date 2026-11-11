@@ -1,0 +1,13 @@
+{
+  "scene_id": "S07",
+  "case_id": "A07",
+  "date": "2026-11-10",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S07 · 有端墙的复杂街区通过审核。",
+  "decision": "human_qualified_selected",
+  "reviewed_card": "admission_card_20261110.html",
+  "reviewed_job_ids": ["8985923", "8991098"],
+  "fixed_gauges": ["G1", "G3", "G11", "G21"],
+  "review_evidence": "四点 0–3 ms 归档前缀。固定 8／8／8／12 ms 全窗交付尚未在审核材料中核验，固定组 APE／MAPE 留空。",
+  "formal_gold": false
+}

@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T1_table1",
+      "gauge": "Pi02",
+      "peak_pa": 6107900.0
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T1_table1",
+      "gauge": "Pi03",
+      "peak_pa": 3975200.0
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T1_table1",
+      "gauge": "Pi04",
+      "peak_pa": 3633500.0
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T2_table1",
+      "gauge": "Pi02",
+      "peak_pa": 5897500.0
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T2_table1",
+      "gauge": "Pi03",
+      "peak_pa": 3799100.0
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T2_table1",
+      "gauge": "Pi04",
+      "peak_pa": 3614000.0
+    },
+    {
+      "group": "published_EPX",
+      "source_trial": "published_EPX_table4",
+      "gauge": "Pi02",
+      "peak_pa": 6337000
+    },
+    {
+      "group": "published_EPX",
+      "source_trial": "published_EPX_table4",
+      "gauge": "Pi03",
+      "peak_pa": 5405000
+    },
+    {
+      "group": "published_EPX",
+      "source_trial": "published_EPX_table4",
+      "gauge": "Pi04",
+      "peak_pa": 4891000
+    }
+  ],
+  "group_sizes": {
+    "experimental_repeats": 6,
+    "published_EPX": 3
+  }
+}

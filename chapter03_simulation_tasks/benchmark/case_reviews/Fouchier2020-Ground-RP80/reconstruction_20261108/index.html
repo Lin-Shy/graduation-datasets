@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>S10 近地 RP80 限幅重构</title>
+<style>
+body{max-width:960px;margin:36px auto;padding:0 20px;font:16px/1.65 system-ui;color:#17324b}
+table{width:100%;border-collapse:collapse}th,td{border-bottom:1px solid #dfe7ed;padding:8px;text-align:left}
+img{width:100%}.status{background:#e9f5f1;padding:12px 16px}
+</style>
+<h1>S10 · 近地 RP80 限幅重构</h1>
+<p class="status">作业 <b>8953576</b> 在 C 集群 <code>cnode5339</code> 通过原生预检，使用 XYFS02 及 8 个 MPI 进程求解。新作业三点均命中已核对的地面采样面。</p>
+<h2>0.350 m 首个已观测峰</h2>
+<p>同一 0–0.779 ms 压力前缀内，基线最大值为 <b>14.95 kPa</b>，限幅重构为 <b>23.57 kPa</b>，实测为 <b>23.08 kPa</b>。近点暂算 APE 从 <b>35.20%</b> 降至 <b>2.12%</b>。两条曲线已出现内部最大值并回落。0.475 m 和 0.725 m 在此快照内尚未到波，完整窗口误差待终态回收。</p>
+<img src="../live_job_8953576_20261108/near_peak_comparison.png" alt="0.350 m 固定测点的迎风与限幅波形及实测峰值">
+<p><a href="../live_job_8953576_20261108/summary.json">近点暂算 APE、MPI 采样面和原始记录哈希</a></p>
+<h2>实测参考与既有幅值</h2>
+<p>Fouchier 论文 §6.1.4、图 6.7 给出三个固定半径的地面超压峰值，表 6.7 给出作者计算源的半径与初始压力。采用 20 mm 半球源、149 bar 初始绝压及独立重建的初始热力学状态。下表基线最大值取自原串行作业至 2.079 ms 的原生记录，用于核查传播幅值。原评分窗口为 0–3 ms，两套参考的 APE／MAPE 待完整回收。</p>
+<table>
+<thead><tr><th>半径</th><th>实测峰值</th><th>论文 OpenFOAM 峰值</th><th>基线前缀最大值</th></tr></thead>
+<tbody>
+<tr><th>0.350 m</th><td>23.08 kPa</td><td>20.57 kPa</td><td>14.95 kPa</td></tr>
+<tr><th>0.475 m</th><td>14.74 kPa</td><td>13.06 kPa</td><td>8.88 kPa</td></tr>
+<tr><th>0.725 m</th><td>7.48 kPa</td><td>7.12 kPa</td><td>4.38 kPa</td></tr>
+</tbody>
+</table>
+<p><a href="../figure6-7_peaks.png">论文图 6.7 读点</a> · <a href="../../Fouchier2020-Tjunction-RP80/evidence/thesis-081.png">表 6.7 原页</a> · <a href="../live_job_8952323_20261108/summary.json">前缀时刻、原始记录与哈希</a></p>
+<img src="../live_job_8952323_20261108/baseline_prefix.png" alt="三点原生超压前缀和实测峰值参考线">
+<h2>本次改动与验收</h2>
+<p>基线和 S06、S11 均采用 HLL 通量、一阶 Euler 和迎风重构。本次只将五个场的面重构换成已有教程使用的 vanLeer，速度采用 vanLeerV。物理模型、156,000 单元的网格、时间步控制及比较合同沿用基线。执行改为 8 个 MPI 进程并读回采样面，因此对照时同时保留串行与并行执行记录。</p>
+<p>首个作业 8953573 在读取运行库时失败，未启动仿真，证据已回收。重提后只读运行库定位到原 XYFS01，仿真产物写入 XYFS02。</p>
+<p><a href="../README.md">完整条件和固定误差定义</a> · <a href="../job-8953573/peak_score.json">首次作业终态</a></p>
+</html>

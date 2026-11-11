@@ -1,0 +1,136 @@
+{
+  "scene_id": "S06",
+  "revision": "pre_run_first_pulse_v1",
+  "reference_sha256": "01d82c34613415be54cc248b3f1324e4a09782dd8fe96a22cc81d88fc8d6a626",
+  "figure_sha256": "70b7d10a462f8bb3a4088074deb5c7f265adcf5c0f4050f4788f94d0de13b63e",
+  "method": "First upward crossing continuously sustained for 20 microseconds. Peak in the prescribed elapsed span. Both window endpoints must be strictly below the maximum.",
+  "threshold_basis": "30 percent of the pre-recorded experimental peak for each gauge; same threshold for both references and the eventual prediction",
+  "raster_method_limit": "Positive pressure trace pixels only. No visible positive pixel is evaluated as below threshold in this source audit and left blank in the plot. Native histories require actual samples.",
+  "groups": {
+    "experiment": 4,
+    "published_OpenFOAM": 4
+  },
+  "reference_peak_minimum_kPa": 1.0,
+  "time_alignment": "Elapsed duration locates the feature independently on each curve. The graph time zero remains unbound; no arrival error or shifted time-series metric.",
+  "source_curves_only": true,
+  "native_full_history_verified": false,
+  "native_APE_MAPE": null,
+  "rows": [
+    {
+      "gauge": "S4",
+      "position_m": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "rule": {
+        "level_kPa": 6.2499,
+        "dwell_s": 2e-05,
+        "span_s": 0.00012
+      },
+      "reference_curve_audit": {
+        "experiment": {
+          "onset_graph_time_ms_unaligned": 1.39962,
+          "window_end_graph_time_ms_unaligned": 1.51962,
+          "peak_graph_time_ms_unaligned": 1.43461,
+          "peak_kPa": 20.83333,
+          "difference_from_recorded_peak_kPa": 0.00033
+        },
+        "published_OpenFOAM": {
+          "onset_graph_time_ms_unaligned": 1.39605,
+          "window_end_graph_time_ms_unaligned": 1.51605,
+          "peak_graph_time_ms_unaligned": 1.43461,
+          "peak_kPa": 18.33333,
+          "difference_from_recorded_peak_kPa": 0.00033
+        }
+      }
+    },
+    {
+      "gauge": "S6",
+      "position_m": [
+        0.0,
+        0.725,
+        0.0
+      ],
+      "rule": {
+        "level_kPa": 4.2777,
+        "dwell_s": 2e-05,
+        "span_s": 0.00018
+      },
+      "reference_curve_audit": {
+        "experiment": {
+          "onset_graph_time_ms_unaligned": 2.4331,
+          "window_end_graph_time_ms_unaligned": 2.6131,
+          "peak_graph_time_ms_unaligned": 2.50744,
+          "peak_kPa": 14.25926,
+          "difference_from_recorded_peak_kPa": 0.00026
+        },
+        "published_OpenFOAM": {
+          "onset_graph_time_ms_unaligned": 2.42849,
+          "window_end_graph_time_ms_unaligned": 2.60849,
+          "peak_graph_time_ms_unaligned": 2.47612,
+          "peak_kPa": 13.7037,
+          "difference_from_recorded_peak_kPa": -0.0003
+        }
+      }
+    },
+    {
+      "gauge": "S8",
+      "position_m": [
+        0.45,
+        0.725,
+        0.0
+      ],
+      "rule": {
+        "level_kPa": 1.326,
+        "dwell_s": 2e-05,
+        "span_s": 0.0003
+      },
+      "reference_curve_audit": {
+        "experiment": {
+          "onset_graph_time_ms_unaligned": 2.96003,
+          "window_end_graph_time_ms_unaligned": 3.26003,
+          "peak_graph_time_ms_unaligned": 3.13146,
+          "peak_kPa": 4.41989,
+          "difference_from_recorded_peak_kPa": -0.00011
+        },
+        "published_OpenFOAM": {
+          "onset_graph_time_ms_unaligned": 2.97559,
+          "window_end_graph_time_ms_unaligned": 3.27559,
+          "peak_graph_time_ms_unaligned": 3.10329,
+          "peak_kPa": 3.13076,
+          "difference_from_recorded_peak_kPa": -0.00024
+        }
+      }
+    },
+    {
+      "gauge": "S9",
+      "position_m": [
+        0.8,
+        0.725,
+        0.0
+      ],
+      "rule": {
+        "level_kPa": 0.6906,
+        "dwell_s": 2e-05,
+        "span_s": 0.00028
+      },
+      "reference_curve_audit": {
+        "experiment": {
+          "onset_graph_time_ms_unaligned": 3.60798,
+          "window_end_graph_time_ms_unaligned": 3.88798,
+          "peak_graph_time_ms_unaligned": 3.6385,
+          "peak_kPa": 2.30203,
+          "difference_from_recorded_peak_kPa": 3e-05
+        },
+        "published_OpenFOAM": {
+          "onset_graph_time_ms_unaligned": 3.62559,
+          "window_end_graph_time_ms_unaligned": 3.90559,
+          "peak_graph_time_ms_unaligned": 3.67606,
+          "peak_kPa": 1.65746,
+          "difference_from_recorded_peak_kPa": 0.00046
+        }
+      }
+    }
+  ]
+}

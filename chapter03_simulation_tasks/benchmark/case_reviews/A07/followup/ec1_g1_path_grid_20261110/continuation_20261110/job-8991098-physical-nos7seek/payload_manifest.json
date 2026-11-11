@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "allocated_guard.py",
+      "bytes": 1419,
+      "sha256": "bf1276a6c8a646159e3b8d8060b1fac9b4da496ac9ec160e725f78c211fd9257"
+    },
+    {
+      "path": "allocated_mesh.py",
+      "bytes": 1926,
+      "sha256": "1772fefe4ec2a8f2bb9448a49edb176360444cb075e60643eebc99301a85592f"
+    },
+    {
+      "path": "allocated_physical.py",
+      "bytes": 9818,
+      "sha256": "2685b4876fceec97f8dabb87b6b8b85e3d17b360d1ed5f36605d3429ff788250"
+    },
+    {
+      "path": "geometry.json",
+      "bytes": 2995,
+      "sha256": "07b665a9c974c9e7e8cf81f1c481ddf9b2d9e27f33f63c411ab459aa318efc72"
+    },
+    {
+      "path": "native-env.sh",
+      "bytes": 2316,
+      "sha256": "a4f1ab79af65a7c033295d5ea5298aa1f97b28565efbee3075fb817bd476e717"
+    },
+    {
+      "path": "physical_tools.py",
+      "bytes": 5960,
+      "sha256": "a2a7f54a52a8b107087a2f34bf715285357a161ea838172d26cb48eff73da362"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 3925,
+      "sha256": "0bf6b974d71ea613315d0c45fa92275f2628bb9b720275ed721daf86b42ef00a"
+    },
+    {
+      "path": "preflight_mesh_receipt.json",
+      "bytes": 4798,
+      "sha256": "667151400cae9b7b822ea6f76a5cea7d50ee12eb0981690291e2e645484c957a"
+    },
+    {
+      "path": "reference_binding.json",
+      "bytes": 7867,
+      "sha256": "383b7896488d174bb75ce19f9542d805754f5546d4ed314128bfb8a24c5d5444"
+    },
+    {
+      "path": "reference_peaks.json",
+      "bytes": 4545,
+      "sha256": "300f45662c9011ad30ac39f912d2111ba9cd2da3c0783f0569610e14d3414a56"
+    },
+    {
+      "path": "specification.json",
+      "bytes": 3542,
+      "sha256": "26dd26ad488ee543f7e815aa1851909916113406720e8b238acc2f5bfe669677"
+    },
+    {
+      "path": "stage_runtime.py",
+      "bytes": 219,
+      "sha256": "e4e0b9920d56eaf495db42232acc291593bb5ab828a4a8603f1d8a019480a36d"
+    }
+  ]
+}

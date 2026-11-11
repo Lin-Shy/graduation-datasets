@@ -1,0 +1,161 @@
+{
+  "source_pdf_sha256": "c18e39dd62dfc22968343c642059cadd9fe15eaaf461c493ad1e308fdfd89175",
+  "printed_page": 147,
+  "pdf_page": 170,
+  "figure": "14.2",
+  "reference": "Brittle/Rose experiment reprinted in Tang (2008)",
+  "method": "Centers of PDF vector plus symbols only. Axis calibration per panel.",
+  "scope": "Max of available plotted experimental marks; raw acquisition and trigger definition not obtained. Repeated times and reversals in PDF drawing order are retained. Peak time is not arrival time.",
+  "simulation": "Tang OctVCE all three grids from Tables 14.1–14.3 and 14.5. Historical comparison only.",
+  "historical_peak_mape_pct_by_finest_cell_mm": {
+    "40": 54.024930029180794,
+    "20": 37.44215115774288,
+    "10": 27.096013627783684
+  },
+  "gauges": [
+    {
+      "gauge": "G1",
+      "experiment_marker_count": 128,
+      "axis_window_ms": [
+        0,
+        8
+      ],
+      "axis_pressure_kpa": [
+        -50,
+        250
+      ],
+      "marker_time_range_ms": [
+        0.2862813442174719,
+        7.986276140235912
+      ],
+      "drawing_order_time_reversals": 4,
+      "drawing_order_repeated_time_steps": 0,
+      "plot_box_pdf_pt": [
+        119.23101043701172,
+        88.47900390625,
+        290.02801513671875,
+        211.31201171875
+      ],
+      "experimental_plotted_peak_kpa": 206.71449781763542,
+      "time_of_plotted_peak_ms": 0.8095687150029448,
+      "octvce_table_peak_kpa_by_finest_cell_mm": {
+        "40": 98,
+        "20": 130,
+        "10": 149
+      },
+      "historical_peak_ape_pct_by_finest_cell_mm": {
+        "40": 52.59161740728214,
+        "20": 37.11132921374162,
+        "10": 27.919908098826934
+      }
+    },
+    {
+      "gauge": "G3",
+      "experiment_marker_count": 184,
+      "axis_window_ms": [
+        0,
+        8
+      ],
+      "axis_pressure_kpa": [
+        -40,
+        70
+      ],
+      "marker_time_range_ms": [
+        1.0630942778621764,
+        7.989304683630448
+      ],
+      "drawing_order_time_reversals": 16,
+      "drawing_order_repeated_time_steps": 3,
+      "plot_box_pdf_pt": [
+        338.0810241699219,
+        88.47900390625,
+        512.3870239257812,
+        211.31201171875
+      ],
+      "experimental_plotted_peak_kpa": 65.78298789165295,
+      "time_of_plotted_peak_ms": 1.363762087337497,
+      "octvce_table_peak_kpa_by_finest_cell_mm": {
+        "40": 21,
+        "20": 30.8,
+        "10": 43.6
+      },
+      "historical_peak_ape_pct_by_finest_cell_mm": {
+        "40": 68.0768528869686,
+        "20": 53.17938423422063,
+        "10": 33.72146599389673
+      }
+    },
+    {
+      "gauge": "G11",
+      "experiment_marker_count": 247,
+      "axis_window_ms": [
+        0,
+        8
+      ],
+      "axis_pressure_kpa": [
+        -40,
+        80
+      ],
+      "marker_time_range_ms": [
+        1.605406344925076,
+        7.971865268398146
+      ],
+      "drawing_order_time_reversals": 1,
+      "drawing_order_repeated_time_steps": 33,
+      "plot_box_pdf_pt": [
+        115.72100067138672,
+        252.87896728515625,
+        290.0270080566406,
+        375.7120056152344
+      ],
+      "experimental_plotted_peak_kpa": 75.00000124223818,
+      "time_of_plotted_peak_ms": 1.6886164909084869,
+      "octvce_table_peak_kpa_by_finest_cell_mm": {
+        "40": 35.5,
+        "20": 39.4,
+        "10": 43.84
+      },
+      "historical_peak_ape_pct_by_finest_cell_mm": {
+        "40": 52.66666745065697,
+        "20": 47.46666753678549,
+        "10": 41.54666763483948
+      }
+    },
+    {
+      "gauge": "G21",
+      "experiment_marker_count": 199,
+      "axis_window_ms": [
+        0,
+        12
+      ],
+      "axis_pressure_kpa": [
+        -60,
+        100
+      ],
+      "marker_time_range_ms": [
+        1.36646466581235,
+        12.0
+      ],
+      "drawing_order_time_reversals": 0,
+      "drawing_order_repeated_time_steps": 22,
+      "plot_box_pdf_pt": [
+        341.59100341796875,
+        252.87896728515625,
+        512.3880004882812,
+        375.7120056152344
+      ],
+      "experimental_plotted_peak_kpa": 81.94226921636883,
+      "time_of_plotted_peak_ms": 1.9972483667090966,
+      "octvce_table_peak_kpa_by_finest_cell_mm": {
+        "40": 46.9,
+        "20": 72.1,
+        "10": 86.2
+      },
+      "historical_peak_ape_pct_by_finest_cell_mm": {
+        "40": 42.764582371815465,
+        "20": 12.01122364622377,
+        "10": 5.196012783571593
+      }
+    }
+  ]
+}

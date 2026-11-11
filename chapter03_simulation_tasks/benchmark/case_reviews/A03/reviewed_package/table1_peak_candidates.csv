@@ -1,0 +1,10 @@
+﻿series,nominal_C4_g,trial,sensor_id,published_peak_pressure_kpa,source,pressure_definition_review,human_review
+first_Di200mm,20,1,Pi02,1947.4,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending
+first_Di200mm,20,1,Pi03,1001.8,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending
+first_Di200mm,20,1,Pi04,1019.5,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending
+first_Di200mm,20,2,Pi02,2565.1,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending
+first_Di200mm,20,2,Pi03,1154.9,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending
+first_Di200mm,20,2,Pi04,1021.0,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending
+first_Di200mm,20,4,Pi02,1934.5,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending
+first_Di200mm,20,4,Pi03,1184.4,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending
+first_Di200mm,20,4,Pi04,1008.3,"Kristoffersen2024 Table1 PDFp6, starred rows1/2/4",pending,pending

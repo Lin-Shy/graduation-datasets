@@ -1,0 +1,15 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>S11 直街下游网格加密终态首峰</title>
+<style>body{max-width:960px;margin:36px auto;padding:0 20px;color:#17324b;font:16px/1.65 system-ui}
+table{width:100%;border-collapse:collapse}td,th{padding:8px;border-bottom:1px solid #dfe7ed;text-align:left}img{width:100%}</style>
+<h1>S11 · 直街下游网格加密终态首峰</h1>
+<p>C 集群作业 <b>8976290</b>，cnode1806。已核对实际探针坐标、MPI 采样面和原生时钟。
+原生求解正常结束，固定测点完整交付 0–5 ms，逐步压力和温度检查通过。 下表只计算事前固定规则已识别的首峰。</p>
+<table><thead><tr><th>固定测点</th><th>实测 kPa</th><th>论文 kPa</th><th>全窗最大 kPa</th><th>固定首峰 kPa</th><th>实测 APE</th><th>论文 APE</th><th>波形判定</th></tr></thead>
+<tbody><tr><th>S5</th><td>20.64</td><td>18.39</td><td>20.71</td><td>14.96</td><td>27.53%</td><td>18.63%</td><td>固定首峰已识别</td></tr><tr><th>S2</th><td>12.30</td><td>12.76</td><td>11.10</td><td>10.40</td><td>15.45%</td><td>18.50%</td><td>固定首峰已识别</td></tr><tr><th>S3</th><td>6.46</td><td>5.78</td><td>5.34</td><td>5.34</td><td>17.36%</td><td>7.63%</td><td>固定首峰已识别</td></tr></tbody></table>
+<p>全固定分母首峰 MAPE。实测 <b>20.11%</b>，论文 <b>14.92%</b>。
+分母中有未识别点时，整组 MAPE 留空。全窗最大值用于幅值诊断。APE 只按事前固定首峰计算，人工入选待审核。 原生日志最低绝对压力 691.14 Pa，最低温度 236.58 K。 实测峰值的 ±3 像素图读灵敏度对应 APE S5 23.96%–30.77%，S2 10.43%–19.94%，S3 11.79%–22.27%。</p>
+<img src="first_pulse.png" alt="原生超压时程、实测峰值参考线和固定首峰阈值">
+<p><a href="../../figure6-14-000.png">论文原图</a> · <a href="../../README.md">工况和测点来源</a> ·
+<a href="p">原生压力</a> · <a href="summary.json">逐项数值与哈希</a> · <a href="scheduler.txt">调度回执</a> · <a href="../README.md">原始算例和加密区域</a></p><figure><img src="pointwise_before_after.png" alt="三点实测和论文参考逐点 APE"><figcaption>两版固定测点首峰 APE</figcaption></figure></html>

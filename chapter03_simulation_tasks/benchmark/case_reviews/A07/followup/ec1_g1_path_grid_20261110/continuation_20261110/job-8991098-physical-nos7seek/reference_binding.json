@@ -1,0 +1,314 @@
+{
+  "scene_id": "S07",
+  "task_id": "A07",
+  "condition": "Brittle EC1 / charge 1, 1:50 experimental cityscape",
+  "state": "geometry_and_four_wall_probe_inputs_staged_source_and_comparison_clock_pending",
+  "datum": "Tang Figure 14.1 lower-left origin; ground z=0, x right, y up",
+  "obstacles": [
+    {
+      "id": "B1",
+      "top": 0.4,
+      "footprint": [
+        [
+          0.3,
+          0
+        ],
+        [
+          0.66,
+          0.6
+        ],
+        [
+          0.3,
+          0.6
+        ]
+      ],
+      "footprint_area_m2": 0.10800000000000001,
+      "facet_count": 8
+    },
+    {
+      "id": "B2",
+      "top": 0.4,
+      "footprint": [
+        [
+          0.3,
+          0.9
+        ],
+        [
+          0.6,
+          0.9
+        ],
+        [
+          0.6,
+          1.3
+        ],
+        [
+          0.3,
+          1.3
+        ]
+      ],
+      "footprint_area_m2": 0.12,
+      "facet_count": 12
+    },
+    {
+      "id": "B3",
+      "top": 0.3,
+      "footprint": [
+        [
+          0.77,
+          0.9
+        ],
+        [
+          0.83,
+          0.9
+        ],
+        [
+          1.07,
+          1.3
+        ],
+        [
+          0.77,
+          1.3
+        ]
+      ],
+      "footprint_area_m2": 0.07200000000000001,
+      "facet_count": 12
+    },
+    {
+      "id": "B4",
+      "top": 0.4,
+      "footprint": [
+        [
+          0.95,
+          0.5
+        ],
+        [
+          1.43,
+          0.5
+        ],
+        [
+          1.43,
+          1.3
+        ]
+      ],
+      "footprint_area_m2": 0.19200000000000012,
+      "facet_count": 8
+    },
+    {
+      "id": "B5",
+      "top": 0.3,
+      "footprint": [
+        [
+          0.66,
+          0
+        ],
+        [
+          1.26,
+          0
+        ],
+        [
+          1.26,
+          0.2
+        ],
+        [
+          0.78,
+          0.2
+        ]
+      ],
+      "footprint_area_m2": 0.10799999999999998,
+      "facet_count": 12
+    },
+    {
+      "id": "west_end_wall",
+      "top": 0.45,
+      "footprint": [
+        [
+          -0.058,
+          0.1
+        ],
+        [
+          0,
+          0.1
+        ],
+        [
+          0,
+          1.2
+        ],
+        [
+          -0.058,
+          1.2
+        ]
+      ],
+      "candidate_wall_thickness_m": 0.058,
+      "footprint_area_m2": 0.0638,
+      "facet_count": 12
+    },
+    {
+      "id": "east_end_wall",
+      "top": 0.45,
+      "footprint": [
+        [
+          1.56,
+          0.1
+        ],
+        [
+          1.616,
+          0.1
+        ],
+        [
+          1.616,
+          1.2
+        ],
+        [
+          1.56,
+          1.2
+        ]
+      ],
+      "candidate_wall_thickness_m": 0.056,
+      "footprint_area_m2": 0.06160000000000021,
+      "facet_count": 12
+    }
+  ],
+  "cad_base_m": -0.011,
+  "experimental_wall_thickness_measured_m": null,
+  "wall_thickness_figure_readback_m": {
+    "west": 0.058029197080291965,
+    "east": 0.05583941605839415
+  },
+  "charge": {
+    "id": "EC1",
+    "figure_xyz": [
+      0.78,
+      0.35,
+      0.04
+    ],
+    "reported_shape": "sphere",
+    "experimental_material": "PE4",
+    "reported_tnt_equivalent_kg_including_detonator": 0.016,
+    "actual_pe4_mass_kg": null
+  },
+  "comparison": {
+    "rows": [
+      {
+        "id": "G1",
+        "xyz": [
+          0.6,
+          1.1,
+          0.105
+        ],
+        "patch": "B2",
+        "wall_to_fluid_normal": [
+          1,
+          0,
+          0
+        ],
+        "experimental_marker_peak_kPa": 206.71449781763542,
+        "experimental_window_s": [
+          0.0,
+          0.008
+        ],
+        "experimental_marker_count": 128,
+        "published_OctVCE_10mm_peak_kPa": 149
+      },
+      {
+        "id": "G3",
+        "xyz": [
+          0,
+          0.2,
+          0.075
+        ],
+        "patch": "west_end_wall",
+        "wall_to_fluid_normal": [
+          1,
+          0,
+          0
+        ],
+        "experimental_marker_peak_kPa": 65.78298789165295,
+        "experimental_window_s": [
+          0.0,
+          0.008
+        ],
+        "experimental_marker_count": 184,
+        "published_OctVCE_10mm_peak_kPa": 43.6
+      },
+      {
+        "id": "G11",
+        "xyz": [
+          0,
+          1.0,
+          0.075
+        ],
+        "patch": "west_end_wall",
+        "wall_to_fluid_normal": [
+          1,
+          0,
+          0
+        ],
+        "experimental_marker_peak_kPa": 75.00000124223818,
+        "experimental_window_s": [
+          0.0,
+          0.008
+        ],
+        "experimental_marker_count": 247,
+        "published_OctVCE_10mm_peak_kPa": 43.84
+      },
+      {
+        "id": "G21",
+        "xyz": [
+          1.56,
+          1.0,
+          0.075
+        ],
+        "patch": "east_end_wall",
+        "wall_to_fluid_normal": [
+          -1,
+          0,
+          0
+        ],
+        "experimental_marker_peak_kPa": 81.94226921636883,
+        "experimental_window_s": [
+          0.0,
+          0.012
+        ],
+        "experimental_marker_count": 199,
+        "published_OctVCE_10mm_peak_kPa": 86.2
+      }
+    ],
+    "required_experimental_denominator": 4,
+    "experimental_quantity": "peak wall static gauge overpressure, Tang Figure 14.2 experimental markers",
+    "pressure_transform": "(p_absolute_Pa - independently_bound_ambient_Pa) / 1000",
+    "experiment_trigger_and_solver_offset_verified": false,
+    "arrival_scored": false,
+    "numerical_reference_context": "Tang Tables 14.1/14.2/14.3/14.5 finest level (10 mm); separate numerical evidence and eligibility gate",
+    "required_delivery": "all four distinct wall faces verified against intended wall normal; all pressure histories reach 12 ms; no reduced-denominator MAPE",
+    "candidate_max_wall_face_centre_offset_m": 0.005
+  },
+  "source_limits": [
+    "Fig. 14.1 physical drawing thickness is a scale reading, not a measured dimension",
+    "Mihali/Fedorova 0.15 m and Drazin/Roosing approximately 0.20 m are separate numerical geometries",
+    "Tang 2.56 m cube and 101.325 kPa ambient are numerical settings; original domain placement and experimental ambient are unverified"
+  ],
+  "pending_before_dispatch": [
+    "EC1 actual PE-4 mass, detonator contribution and source model",
+    "wall thickness disposition, far boundary placement and ambient conditions",
+    "comparison clock binding for the 8/12 ms windows"
+  ],
+  "simulation_submitted": false,
+  "independent_APE_MAPE": null,
+  "source_sha256": {
+    "tang_brittle_primary_20261107/geometry_draft.json": "f048a12bb0acaaa4064374730c9a7371e75970771fa5fbb4b93c55154cf7db41",
+    "tang_brittle_primary_20261107/reference_peaks.json": "300f45662c9011ad30ac39f912d2111ba9cd2da3c0783f0569610e14d3414a56",
+    "ec1_wall_crosscheck_20261107/geometry_evidence.json": "ea91c0663a7cd6dcef3283c35fea061e2edfb019c6cde763719c26d9e98763f5",
+    "tang_brittle_primary_20261107/pages/Fig14.1-layout.jpeg": "e1b683db4d3177178776bff399b2b4be800a4488245317812012fe0e7711e91d"
+  },
+  "input_sha256": {
+    "geometry/triSurface/B1.stl": "a9c89697f8c5d2f5af20d1b021e32e54937f2ea77227c80b7cef6fbebc96d054",
+    "geometry/triSurface/B2.stl": "59b13bbaa593162feacbbd3ede4da13d53f2295f0965b0e9d9a3712370421de5",
+    "geometry/triSurface/B3.stl": "d76af96f46a0318de156565f91a53c52ffd9d0d13e27b646e578539902a94a9e",
+    "geometry/triSurface/B4.stl": "bf1db0cde54bb78aa9e2e76d114edaa75b0419618cfcea1c507d38b75b3b721d",
+    "geometry/triSurface/B5.stl": "00515e51198a794e29535ea1e230bf2b3acf221599c5a800c0a12f5875cee9cd",
+    "geometry/triSurface/west_end_wall.stl": "bbb3d0b2c6e7346a7bdfec4835550a16a15b33deae1b4d6f46ff9e40187451b1",
+    "geometry/triSurface/east_end_wall.stl": "c04f6ee29a917c0eee8e6b31a89b221c2d7bd92f5a0d63b444fab2382dde1081",
+    "geometry/ec1WallProbes": "82c669ede5fc010ea599901524df7a65179478ee9893c74f1291d7c8254701dc",
+    "ec1_input_overview.png": "b5b165ff04576d2d4488bc9090609f2438e64b4af0b0dd8efbaf34b52ee9aa17"
+  }
+}

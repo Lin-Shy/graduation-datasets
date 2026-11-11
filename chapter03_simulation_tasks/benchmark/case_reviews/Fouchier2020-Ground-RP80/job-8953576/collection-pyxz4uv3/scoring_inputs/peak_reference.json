@@ -1,0 +1,63 @@
+{
+  "case": "Fouchier2020-Ground-RP80",
+  "thesis_sha256": "a7912e6edb953ef6707c9ec275d1c53a0b5a2b17338006c35a78b011e3fc4bb1",
+  "thesis_pdf_page": 81,
+  "source_image": "figure6-7-000.png",
+  "source_image_sha256": "02cf811c929437a6a6109eeab5dae77c39a0fa20ef2d3affa06ef90621237e80",
+  "status": "primary_candidate_for_fixed_radial_peak_comparison",
+  "author_vs_experiment_MAPE_percent": 9.0086,
+  "independent_simulation_MAPE_percent": null,
+  "rows": [
+    {
+      "nominal_radius_m": 0.35,
+      "marker_x_px": 188.5,
+      "experiment_kPa": 23.076,
+      "experiment_marker_y_px": 152.5,
+      "experiment_reading_range_kPa_3px": [
+        22.252,
+        23.93
+      ],
+      "published_OpenFOAM_kPa": 20.566,
+      "published_OpenFOAM_marker_y_px": 162,
+      "published_OpenFOAM_reading_range_kPa_3px": [
+        19.832,
+        21.328
+      ],
+      "author_vs_experiment_APE_percent": 10.8771
+    },
+    {
+      "nominal_radius_m": 0.475,
+      "marker_x_px": 218,
+      "experiment_kPa": 14.737,
+      "experiment_marker_y_px": 189.5,
+      "experiment_reading_range_kPa_3px": [
+        14.211,
+        15.283
+      ],
+      "published_OpenFOAM_kPa": 13.055,
+      "published_OpenFOAM_marker_y_px": 199.5,
+      "published_OpenFOAM_reading_range_kPa_3px": [
+        12.589,
+        13.539
+      ],
+      "author_vs_experiment_APE_percent": 11.4134
+    },
+    {
+      "nominal_radius_m": 0.725,
+      "marker_x_px": 258,
+      "experiment_kPa": 7.476,
+      "experiment_marker_y_px": 245.5,
+      "experiment_reading_range_kPa_3px": [
+        7.209,
+        7.753
+      ],
+      "published_OpenFOAM_kPa": 7.122,
+      "published_OpenFOAM_marker_y_px": 249.5,
+      "published_OpenFOAM_reading_range_kPa_3px": [
+        6.868,
+        7.386
+      ],
+      "author_vs_experiment_APE_percent": 4.7352
+    }
+  ]
+}

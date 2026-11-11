@@ -1,0 +1,14 @@
+{
+  "case_id": "Gabriel2023-100pct-PE4-21p3g-transport8mm",
+  "scheduler_job_id": "8943232",
+  "actual_compute_node": "cnode5153",
+  "executed_specification_sha256": "1343388d714929f27035433cd7f44dc082d29b9da604e627bf6d2bfb5261d973",
+  "archive": {
+    "path": "D:\\1\\graduation-projects\\graduation-datasets\\chapter03_simulation_tasks\\benchmark\\case_reviews\\Gabriel2023-Corner100pct\\job-8943232\\scale100-terminal.tar.gz",
+    "sha256": "e67bc87a8329c7dff0b307cc685ff965f7440e85a3e63510602bd133ae8e6ce7",
+    "bytes": 7719852
+  },
+  "archive_member_verification_sha256": "4fb10b1a8b7d4ade1e50a517963fb29e5a0b26c75989a5a02303106b9c2f78c6",
+  "all_original_archive_members_verified": true,
+  "no_solver_or_reference_modified": true
+}

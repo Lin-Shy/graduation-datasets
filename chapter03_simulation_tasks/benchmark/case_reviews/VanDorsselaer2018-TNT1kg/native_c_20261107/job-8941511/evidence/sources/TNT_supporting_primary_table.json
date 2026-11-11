@@ -1,0 +1,23 @@
+{
+  "doi": "10.1177/20414196241252937",
+  "title": "Development of a fast-running method for prediction of blast propagation in partially confined spaces",
+  "online_year": 2024,
+  "issue_year": 2025,
+  "PDF_page": 7,
+  "printed_page": 12,
+  "table": 1,
+  "primary_url": "https://journals.sagepub.com/doi/pdf/10.1177/20414196241252937",
+  "checked_at_UTC": "2026-11-05T17:41:47.351405+00:00",
+  "primary_publisher_reader_verified": true,
+  "TNT": {
+    "rho0_kg_m3": 1630,
+    "E0_J_m3": 6000000000.0,
+    "A_Pa": 373770000000.0,
+    "B_Pa": 3747000000.0,
+    "R1": 4.15,
+    "R2": 0.9,
+    "omega": 0.35
+  },
+  "normal_local_pdf_download": "failed_connectivity_curl28; no PDF obtained, no restriction bypass attempted",
+  "scope": "supporting parameter family, not Denny exact defaults or its caloric closure"
+}

@@ -1,0 +1,541 @@
+{
+  "case_id": "A05-M46-0400-products-core60mm-limitedFlow",
+  "status": "complete_conditional_pressure_diagnostic",
+  "predictions": {
+    "FF01": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 382951.554183,
+      "full_peak_Pa": 382951.554183
+    },
+    "FF02": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 77677.67156300001,
+      "full_peak_Pa": 77677.67156300001
+    },
+    "FF03": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 29586.183548,
+      "full_peak_Pa": 29586.183548
+    },
+    "FF12": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 11568.537962000002,
+      "full_peak_Pa": 11568.537962000002
+    },
+    "FF13": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 9728.720642,
+      "full_peak_Pa": 9728.720642
+    },
+    "BA1L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 10103.500365999993,
+      "full_peak_Pa": 10103.500365999993
+    },
+    "BA2L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 128425.136768,
+      "full_peak_Pa": 128425.136768
+    },
+    "BA3L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 128425.67785099999,
+      "full_peak_Pa": 128425.67785099999
+    },
+    "BA4L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 10103.475561,
+      "full_peak_Pa": 10103.475561
+    },
+    "BA6L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 72160.553594,
+      "full_peak_Pa": 72160.553594
+    },
+    "BA7L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 17753.949567000003,
+      "full_peak_Pa": 17753.949567000003
+    },
+    "BB1L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 10103.498265999995,
+      "full_peak_Pa": 10103.498265999995
+    },
+    "BB2L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 10103.501224000007,
+      "full_peak_Pa": 10103.501224000007
+    },
+    "BB3L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 128425.16521499999,
+      "full_peak_Pa": 128425.16521499999
+    },
+    "BB4L": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 128425.19862000001,
+      "full_peak_Pa": 128425.19862000001
+    },
+    "BA1C": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 9731.934167,
+      "full_peak_Pa": 9731.934167
+    },
+    "BA3C": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 105336.383481,
+      "full_peak_Pa": 105336.383481
+    },
+    "BA4C": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 9731.932316000006,
+      "full_peak_Pa": 9731.932316000006
+    },
+    "BA5R": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 18068.752133999995,
+      "full_peak_Pa": 18068.752133999995
+    },
+    "BB1C": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 9731.934254000007,
+      "full_peak_Pa": 9731.934254000007
+    },
+    "BB3C": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 105336.37709600001,
+      "full_peak_Pa": 105336.37709600001
+    },
+    "BB4C": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 105336.37218199999,
+      "full_peak_Pa": 105336.37218199999
+    },
+    "BB5R": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 18068.75735,
+      "full_peak_Pa": 18068.75735
+    },
+    "BC2C": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 105336.37348400001,
+      "full_peak_Pa": 105336.37348400001
+    },
+    "BD2C": {
+      "sample_count": 38888,
+      "first_time_s": 0.0,
+      "last_time_s": 0.05,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 9731.935492999997,
+      "full_peak_Pa": 9731.935492999997
+    }
+  },
+  "rows": [
+    {
+      "trial": "10",
+      "sensor_id": "FF01",
+      "reference_peak_Pa": 431000.0,
+      "simulation_peak_Pa": 382951.554183,
+      "APE_percent": 11.148131280046403
+    },
+    {
+      "trial": "10",
+      "sensor_id": "FF02",
+      "reference_peak_Pa": 119000.0,
+      "simulation_peak_Pa": 77677.67156300001,
+      "APE_percent": 34.72464574537815
+    },
+    {
+      "trial": "10",
+      "sensor_id": "FF03",
+      "reference_peak_Pa": 47000.0,
+      "simulation_peak_Pa": 29586.183548,
+      "APE_percent": 37.050673302127656
+    },
+    {
+      "trial": "10",
+      "sensor_id": "FF12",
+      "reference_peak_Pa": 38000.0,
+      "simulation_peak_Pa": 11568.537962000002,
+      "APE_percent": 69.55647904736841
+    },
+    {
+      "trial": "10",
+      "sensor_id": "FF13",
+      "reference_peak_Pa": 14000.0,
+      "simulation_peak_Pa": 9728.720642,
+      "APE_percent": 30.50913827142857
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA1L",
+      "reference_peak_Pa": 12000.0,
+      "simulation_peak_Pa": 10103.500365999993,
+      "APE_percent": 15.804163616666726
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA2L",
+      "reference_peak_Pa": 110000.0,
+      "simulation_peak_Pa": 128425.136768,
+      "APE_percent": 16.75012433454545
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA3L",
+      "reference_peak_Pa": 238000.0,
+      "simulation_peak_Pa": 128425.67785099999,
+      "APE_percent": 46.039631155042024
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA4L",
+      "reference_peak_Pa": 11000.0,
+      "simulation_peak_Pa": 10103.475561,
+      "APE_percent": 8.150222172727279
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA6L",
+      "reference_peak_Pa": 113000.0,
+      "simulation_peak_Pa": 72160.553594,
+      "APE_percent": 36.1411030141593
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA7L",
+      "reference_peak_Pa": 34000.0,
+      "simulation_peak_Pa": 17753.949567000003,
+      "APE_percent": 47.7825012735294
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BB1L",
+      "reference_peak_Pa": 12000.0,
+      "simulation_peak_Pa": 10103.498265999995,
+      "APE_percent": 15.804181116666708
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BB2L",
+      "reference_peak_Pa": 12000.0,
+      "simulation_peak_Pa": 10103.501224000007,
+      "APE_percent": 15.804156466666608
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BB3L",
+      "reference_peak_Pa": 143000.0,
+      "simulation_peak_Pa": 128425.16521499999,
+      "APE_percent": 10.192192157342667
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BB4L",
+      "reference_peak_Pa": 124000.0,
+      "simulation_peak_Pa": 128425.19862000001,
+      "APE_percent": 3.5687085645161374
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA1C",
+      "reference_peak_Pa": 14000.0,
+      "simulation_peak_Pa": 9731.934167,
+      "APE_percent": 30.486184521428576
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA4C",
+      "reference_peak_Pa": 14000.0,
+      "simulation_peak_Pa": 9731.932316000006,
+      "APE_percent": 30.4861977428571
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BA5R",
+      "reference_peak_Pa": 43000.0,
+      "simulation_peak_Pa": 18068.752133999995,
+      "APE_percent": 57.97964620000002
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BB1C",
+      "reference_peak_Pa": 13000.0,
+      "simulation_peak_Pa": 9731.934254000007,
+      "APE_percent": 25.138967276923022
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BB3C",
+      "reference_peak_Pa": 188000.0,
+      "simulation_peak_Pa": 105336.37709600001,
+      "APE_percent": 43.970012182978714
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BB4C",
+      "reference_peak_Pa": 153000.0,
+      "simulation_peak_Pa": 105336.37218199999,
+      "APE_percent": 31.152697920261446
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BB5R",
+      "reference_peak_Pa": 47000.0,
+      "simulation_peak_Pa": 18068.75735,
+      "APE_percent": 61.55583542553192
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BC2C",
+      "reference_peak_Pa": 187000.0,
+      "simulation_peak_Pa": 105336.37348400001,
+      "APE_percent": 43.67038851122994
+    },
+    {
+      "trial": "10",
+      "sensor_id": "BD2C",
+      "reference_peak_Pa": 13000.0,
+      "simulation_peak_Pa": 9731.935492999997,
+      "APE_percent": 25.138957746153867
+    }
+  ],
+  "full_window_all_sensors": true,
+  "required_sensors": [
+    "FF01",
+    "FF02",
+    "FF03",
+    "FF12",
+    "FF13",
+    "BA1L",
+    "BA2L",
+    "BA3L",
+    "BA4L",
+    "BA6L",
+    "BA7L",
+    "BB1L",
+    "BB2L",
+    "BB3L",
+    "BB4L",
+    "BA1C",
+    "BA3C",
+    "BA4C",
+    "BA5R",
+    "BB1C",
+    "BB3C",
+    "BB4C",
+    "BB5R",
+    "BC2C",
+    "BD2C"
+  ],
+  "fixed_APE_denominator": 24,
+  "pooled_MAPE_percent": 31.191872460232336,
+  "per_trial_MAPE_percent": {
+    "10": 31.191872460232336
+  },
+  "model_match_approved": false,
+  "Gold_approved": false,
+  "admission": "requires independent model health and reference matching review",
+  "pressure_baseline_Pa": 101300,
+  "time_shift_s": 0,
+  "source_files": [
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/FF01/0/p",
+      "sha256": "01e5835cb1b536d44dc0a1f90976f285f74a4a6ad8fd41f76255e12d490e5d1a"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/FF02/0/p",
+      "sha256": "ba9cb3f75be91ba2958dbdb65d196499682ebb8481cc600ed33b8f51bc089c7f"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/FF03/0/p",
+      "sha256": "c854075023b5cd6a8116f64e2ab13a5245cd218bcecc47568233f839a0ef98d4"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/FF12/0/p",
+      "sha256": "4144d18ec6274dfe2e17af126898c88bf7e6bd5a6dc71efb3ce733f11f12dbf9"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/FF13/0/p",
+      "sha256": "fb5b5f81d46d196fa74d4794b97a45edc999db9e701aee4a2f926a66b1d4a194"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA1L/0/p",
+      "sha256": "5ef5a683dcf3e78cebcbc36aef415b1cb24635de12532401d681365350480ea4"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA2L/0/p",
+      "sha256": "bec9f9cbb28a6c88ad7a00a9a266f3ff8d14e7f84589525f8f3b20b075f7897a"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA3L/0/p",
+      "sha256": "feadf623ffe8200e4cbd375fb56ec8011f7107f411b69b451ed328de09ce2883"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA4L/0/p",
+      "sha256": "65b20ad25ceeb2bd480f29afb956301f0e54373adaf7b658da7be6b0e892190b"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA6L/0/p",
+      "sha256": "6023c26efd8610f0660a666561f2750900c93a314c7858468220494ac7f92d72"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA7L/0/p",
+      "sha256": "e8fc5e46782d5754f5b9724379de144d10ea2a53e97f1f2f7c862e2f769f950b"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BB1L/0/p",
+      "sha256": "c2edb2ae8b539c926b2c5602248718aff975a7335a86c05d33636e9a2d5a8286"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BB2L/0/p",
+      "sha256": "67632499803ebf663b1100dc301bfedd6e420648100df419509c01d32cbe7485"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BB3L/0/p",
+      "sha256": "010cc4268262cf2264d6c2d22e39d9659353b016fba9ad18b3c9d4587aba1d22"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BB4L/0/p",
+      "sha256": "c0096170749a8260de80f9d039ab744d2a73b7e7c3c2cae05499063232ce6d2f"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA1C/0/p",
+      "sha256": "399037f10275d2e84203d1bd986c7b3dfbb4c87b01fec9392ce8af36063d187d"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA3C/0/p",
+      "sha256": "42eb43a1e21b2d79d6202b57bdb86151d656ee0824bda829fff43a69879b465c"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA4C/0/p",
+      "sha256": "9b59e595e4cc876abeefd0713c3c1e07d7a383dc9d3ead9335d979957dbe0b01"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BA5R/0/p",
+      "sha256": "8d71778340a95cd80d70631f07d7ecdccfeccb44eab37699efd69e8e2aebaf8b"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BB1C/0/p",
+      "sha256": "1549c28e7e451fd31c3c69511a4dcf705c6fa87852ea42673481a16fb5d718c6"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BB3C/0/p",
+      "sha256": "ffd3aec0951f92986825ec9845165dad7a1f3d41402b2476a6e06a00b2fedb96"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BB4C/0/p",
+      "sha256": "53a8515e57ee1d8544ee3bd777d45e65114ac0e9a28727170c817e750dd1012d"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BB5R/0/p",
+      "sha256": "9a432e0367cb48bcaa487aeaef140c751297044d114fd841fd6a15bd733d70e1"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BC2C/0/p",
+      "sha256": "c34c460fefbee4d2a682f507e638ecdd1692829e491c1e2551338a97ad2f4d6c"
+    },
+    {
+      "path": "/XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s05-core60-limited-20261109/cases/gauge_mesh/run-case/postProcessing/BD2C/0/p",
+      "sha256": "aa782f8f22211443c26431e39cd314655e3b744c3a9399fd6a4a18463cad0826"
+    }
+  ]
+}

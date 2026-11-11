@@ -1,0 +1,13 @@
+{
+  "scene_id": "S02",
+  "case_id": "PIPE99",
+  "date": "2026-11-08",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S02 通过",
+  "decision": "human_qualified_selected",
+  "scope": "PIPE99 only, representative of the 400 mm series",
+  "reviewed_job_id": "8943527",
+  "reviewed_comparison": "job-8943527/comparison.csv",
+  "reviewed_contract": "reference_contract.json",
+  "formal_gold": false
+}

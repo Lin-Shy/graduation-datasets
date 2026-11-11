@@ -1,0 +1,502 @@
+{
+  "task_id": "A05",
+  "data_form": "R2 published scalars",
+  "source": {
+    "path": "sources/round5/johansson-msb450-2012.pdf",
+    "sha256": "0eec43f9465518750b552e930b1bbdb656b530aa89d3368343893f0736e5103d",
+    "pdf_page_1based": 119,
+    "printed_page": "B.2",
+    "table": "B.2",
+    "shot": 10,
+    "source_location": 4,
+    "experimental_charge_mass_kg": 0.4
+  },
+  "experimental_rows": 25,
+  "source_reliable_experimental_rows": 24,
+  "source_rejected_sensors": [
+    "BA3C"
+  ],
+  "missing_value_policy": "Source dash denotes unreliable measurement, retained as missing; never imputed zero.",
+  "metric_definitions": {
+    "peak": "Published peak positive overpressure, Pa.",
+    "arrival": "Source table ta; not automatically the evaluator threshold crossing. Independent trigger/algorithm evidence still required.",
+    "positive_impulse": "Sum of every positive overpressure phase to source tend=50ms, equations3.7/3.8 printed page28. Not leading-positive-phase impulse.",
+    "negative_impulse": "Published positive magnitude of summed negative phases to50ms; not signed negative integral.",
+    "window_end_s": 0.05,
+    "source_clock_zero_independently_verified": false
+  },
+  "FF02_definition_conflict_preserved": {
+    "table_B2": {
+      "peak_kPa": 119,
+      "arrival_ms": 2.43,
+      "total_positive_impulse_Pa_s": 141,
+      "negative_magnitude_Pa_s": 167
+    },
+    "table_2_2": {
+      "peak_kPa": 119,
+      "arrival_ms": 2.55,
+      "leading_positive_impulse_Pa_s": 67,
+      "leading_duration_ms": 1.49
+    },
+    "policy": "Do not merge distinct impulse/arrival definitions or select whichever gives smaller prediction error."
+  },
+  "source_model_mapping": {
+    "pdf_page_1based": 33,
+    "printed_page": 23,
+    "physical_source": "0.4kg Sprangdeg m/46, about86% PETN and14% mineral oil, spherical in a glass container.",
+    "published_numerical_approximation": "AUTODYN pure PETN mass0.86*0.4=0.344kg; this is an author modelling choice, not measured pure-PETN experimental mass.",
+    "pure_PETN_density_kg_m3": 1770,
+    "air_density_kg_m3": 1.226,
+    "ambient_pressure_Pa": 101300,
+    "detonation_velocity_m_s": 8300,
+    "CJ_pressure_Pa": 33500000000.0,
+    "CJ_energy_density_J_m3": 10100000000.0,
+    "complete_blastFoam_material_model_available": false,
+    "remaining": "Full JWL coefficients, initial-state mapping and ideal-gas transition/remap are not uniquely defined by Table3.2. CJ energy is not automatically initial e0."
+  },
+  "sensor_mapping": [
+    {
+      "sensor_id": "BA1L",
+      "existing_task_sensor": {
+        "sensor_id": "BA1L",
+        "position_m": [
+          -2.3,
+          3.45,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA1C",
+      "existing_task_sensor": {
+        "sensor_id": "BA1C",
+        "position_m": [
+          -2.3,
+          3.45,
+          1.15
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA2L",
+      "existing_task_sensor": {
+        "sensor_id": "BA2L",
+        "position_m": [
+          -1.15,
+          2.3,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA3L",
+      "existing_task_sensor": {
+        "sensor_id": "BA3L",
+        "position_m": [
+          -2.3,
+          1.15,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA3C",
+      "existing_task_sensor": {
+        "sensor_id": "BA3C",
+        "position_m": [
+          -2.3,
+          1.15,
+          1.15
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA4L",
+      "existing_task_sensor": {
+        "sensor_id": "BA4L",
+        "position_m": [
+          -3.4499999999999997,
+          2.3,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          -1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA4C",
+      "existing_task_sensor": {
+        "sensor_id": "BA4C",
+        "position_m": [
+          -3.4499999999999997,
+          2.3,
+          1.15
+        ],
+        "normal_from_solid_to_fluid": [
+          -1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA5R",
+      "existing_task_sensor": {
+        "sensor_id": "BA5R",
+        "position_m": [
+          -2.3,
+          2.3,
+          2.3
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "sensor_id": "BB1L",
+      "existing_task_sensor": {
+        "sensor_id": "BB1L",
+        "position_m": [
+          2.3,
+          3.45,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BB1C",
+      "existing_task_sensor": {
+        "sensor_id": "BB1C",
+        "position_m": [
+          2.3,
+          3.45,
+          1.15
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BB2L",
+      "existing_task_sensor": {
+        "sensor_id": "BB2L",
+        "position_m": [
+          3.4499999999999997,
+          2.3,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BB3L",
+      "existing_task_sensor": {
+        "sensor_id": "BB3L",
+        "position_m": [
+          2.3,
+          1.15,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BB3C",
+      "existing_task_sensor": {
+        "sensor_id": "BB3C",
+        "position_m": [
+          2.3,
+          1.15,
+          1.15
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BB4L",
+      "existing_task_sensor": {
+        "sensor_id": "BB4L",
+        "position_m": [
+          1.15,
+          2.3,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          -1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BB4C",
+      "existing_task_sensor": {
+        "sensor_id": "BB4C",
+        "position_m": [
+          1.15,
+          2.3,
+          1.15
+        ],
+        "normal_from_solid_to_fluid": [
+          -1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BB5R",
+      "existing_task_sensor": {
+        "sensor_id": "BB5R",
+        "position_m": [
+          2.3,
+          2.3,
+          2.3
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA6L",
+      "existing_task_sensor": {
+        "sensor_id": "BA6L",
+        "position_m": [
+          -3.25,
+          1.15,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BA7L",
+      "existing_task_sensor": {
+        "sensor_id": "BA7L",
+        "position_m": [
+          -3.45,
+          1.35,
+          0.2
+        ],
+        "normal_from_solid_to_fluid": [
+          -1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BC2C",
+      "existing_task_sensor": {
+        "sensor_id": "BC2C",
+        "position_m": [
+          -1.15,
+          -2.3,
+          1.15
+        ],
+        "normal_from_solid_to_fluid": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "BD2C",
+      "existing_task_sensor": {
+        "sensor_id": "BD2C",
+        "position_m": [
+          3.45,
+          -2.3,
+          1.15
+        ],
+        "normal_from_solid_to_fluid": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "sensor_id": "FF01",
+      "existing_task_sensor": {
+        "sensor_id": "FF01",
+        "position_m": [
+          -1.15,
+          0,
+          0.0
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          0,
+          1
+        ],
+        "elevation_note": "nominal ground plane; wooden gauge-board thickness is not stated"
+      }
+    },
+    {
+      "sensor_id": "FF02",
+      "existing_task_sensor": {
+        "sensor_id": "FF02",
+        "position_m": [
+          -2.3,
+          0,
+          0.0
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          0,
+          1
+        ],
+        "elevation_note": "nominal ground plane; wooden gauge-board thickness is not stated"
+      }
+    },
+    {
+      "sensor_id": "FF03",
+      "existing_task_sensor": {
+        "sensor_id": "FF03",
+        "position_m": [
+          -4.6,
+          0,
+          0.0
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          0,
+          1
+        ],
+        "elevation_note": "nominal ground plane; wooden gauge-board thickness is not stated"
+      }
+    },
+    {
+      "sensor_id": "FF12",
+      "existing_task_sensor": {
+        "sensor_id": "FF12",
+        "position_m": [
+          -6.9,
+          0,
+          0.0
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          0,
+          1
+        ],
+        "elevation_note": "nominal ground plane; wooden gauge-board thickness is not stated"
+      }
+    },
+    {
+      "sensor_id": "FF13",
+      "existing_task_sensor": {
+        "sensor_id": "FF13",
+        "position_m": [
+          -4.6,
+          2.3,
+          0.0
+        ],
+        "normal_from_solid_to_fluid": [
+          0,
+          0,
+          1
+        ],
+        "elevation_note": "nominal ground plane; wooden gauge-board thickness is not stated"
+      }
+    }
+  ],
+  "formal_scoring_eligible": false,
+  "human_scientific_approval": "pending",
+  "reasons": [
+    "Original A05 physical model and complete simulation window are not built.",
+    "Table arrival definition and independent DAQ clock/calibration remain unresolved.",
+    "R2 supports listed scalars only; it cannot supply pressure-history NRMSE or replace the confirmed R3 curve."
+  ],
+  "visual_confirmation_reused_or_requested": false,
+  "original_location4_FF02_confirmation_unchanged": true,
+  "source_table_visual_QA": "Native PDF page119 rendered and read against all25 transcribed rows; no user confirmation reused for this new table.",
+  "source_page_evidence": [
+    {
+      "path": "references/review/round5/source-figures/johansson-msb450-page21.png",
+      "sha256": "e2c9db07dc9b3272ff3e8bc6a0c687988559bf7578f07db38d0c887542db2d09"
+    },
+    {
+      "path": "references/review/round5/source-figures/johansson-msb450-page33.png",
+      "sha256": "a361a6e7b8ee03076a4a7b110ae5305f728bceb4babefa6488f97ff113f1721e"
+    },
+    {
+      "path": "references/review/round5/source-figures/johansson-msb450-page38.png",
+      "sha256": "be1a220ff77407b2a1604037d78dc5ad3d1912023f7303459489ac8b489f1cf6"
+    },
+    {
+      "path": "references/review/round5/source-figures/johansson-msb450-page119.png",
+      "sha256": "e24c6bad0d9708c65a9f4f37373dd9b5cf97dd484bfecc810b50bff34c4f8144"
+    }
+  ],
+  "files": [
+    {
+      "path": "references/experiments/round5-johansson-msb450-shot10/experimental_R2.csv",
+      "sha256": "66559dbc15be3e95635b004f1702e9fd5ec03207228295b886d56985b772f68d"
+    },
+    {
+      "path": "references/experiments/round5-johansson-msb450-shot10/published_AUTODYN_not_experiment.csv",
+      "sha256": "57c42433437d3268393b54b00558fa33afcf7fac608c138501a8aeca26959ad6"
+    }
+  ]
+}

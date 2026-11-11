@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "browser_check.json",
+      "sha256": "ba515bd448752f9d4d8675f9ee2981ef5c358c47fdb9f77f8f81566347093fe2",
+      "bytes": 537
+    },
+    {
+      "path": "review-top.png",
+      "sha256": "da438086cd93f8317ed2bc374aa74751b5ca99fd53d411a06d6cb89694f3f5be",
+      "bytes": 140792
+    },
+    {
+      "path": "visual_qa.json",
+      "sha256": "f32f482c9dee7be5b7a6a4c42cb7a0cfceeab94baeb7c8ab39e393d750d466d7",
+      "bytes": 587
+    }
+  ]
+}

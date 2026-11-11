@@ -1,0 +1,34 @@
+FoamFile { version 2.0; format ascii; class dictionary; object controlDict; }
+application blastFoam;
+startFrom startTime; startTime 0; stopAt endTime; endTime 0.05;
+deltaT 1e-8; adjustTimeStep yes; maxCo 0.15; maxDeltaT 1e-5;
+writeControl adjustableRunTime; writeInterval 0.005; purgeWrite 0;
+writeFormat binary; writePrecision 12; writeCompression off; timePrecision 14; runTimeModifiable false;
+functions {
+
+BA1L { type patchProbes; libs ("libsampling.so"); patchName A_yplus; fields (p); probeLocations ((-2.3 3.45 0.2)); writeControl timeStep; writeInterval 1; }
+BA1C { type patchProbes; libs ("libsampling.so"); patchName A_yplus; fields (p); probeLocations ((-2.3 3.45 1.15)); writeControl timeStep; writeInterval 1; }
+BA2L { type patchProbes; libs ("libsampling.so"); patchName A_xplus; fields (p); probeLocations ((-1.15 2.3 0.2)); writeControl timeStep; writeInterval 1; }
+BA3L { type patchProbes; libs ("libsampling.so"); patchName A_yminus; fields (p); probeLocations ((-2.3 1.15 0.2)); writeControl timeStep; writeInterval 1; }
+BA3C { type patchProbes; libs ("libsampling.so"); patchName A_yminus; fields (p); probeLocations ((-2.3 1.15 1.15)); writeControl timeStep; writeInterval 1; }
+BA4L { type patchProbes; libs ("libsampling.so"); patchName A_xminus; fields (p); probeLocations ((-3.4499999999999997 2.3 0.2)); writeControl timeStep; writeInterval 1; }
+BA4C { type patchProbes; libs ("libsampling.so"); patchName A_xminus; fields (p); probeLocations ((-3.4499999999999997 2.3 1.15)); writeControl timeStep; writeInterval 1; }
+BA5R { type patchProbes; libs ("libsampling.so"); patchName A_zplus; fields (p); probeLocations ((-2.3 2.3 2.3)); writeControl timeStep; writeInterval 1; }
+BB1L { type patchProbes; libs ("libsampling.so"); patchName B_yplus; fields (p); probeLocations ((2.3 3.45 0.2)); writeControl timeStep; writeInterval 1; }
+BB1C { type patchProbes; libs ("libsampling.so"); patchName B_yplus; fields (p); probeLocations ((2.3 3.45 1.15)); writeControl timeStep; writeInterval 1; }
+BB2L { type patchProbes; libs ("libsampling.so"); patchName B_xplus; fields (p); probeLocations ((3.4499999999999997 2.3 0.2)); writeControl timeStep; writeInterval 1; }
+BB3L { type patchProbes; libs ("libsampling.so"); patchName B_yminus; fields (p); probeLocations ((2.3 1.15 0.2)); writeControl timeStep; writeInterval 1; }
+BB3C { type patchProbes; libs ("libsampling.so"); patchName B_yminus; fields (p); probeLocations ((2.3 1.15 1.15)); writeControl timeStep; writeInterval 1; }
+BB4L { type patchProbes; libs ("libsampling.so"); patchName B_xminus; fields (p); probeLocations ((1.15 2.3 0.2)); writeControl timeStep; writeInterval 1; }
+BB4C { type patchProbes; libs ("libsampling.so"); patchName B_xminus; fields (p); probeLocations ((1.15 2.3 1.15)); writeControl timeStep; writeInterval 1; }
+BB5R { type patchProbes; libs ("libsampling.so"); patchName B_zplus; fields (p); probeLocations ((2.3 2.3 2.3)); writeControl timeStep; writeInterval 1; }
+BA6L { type patchProbes; libs ("libsampling.so"); patchName A_yminus; fields (p); probeLocations ((-3.25 1.15 0.2)); writeControl timeStep; writeInterval 1; }
+BA7L { type patchProbes; libs ("libsampling.so"); patchName A_xminus; fields (p); probeLocations ((-3.45 1.35 0.2)); writeControl timeStep; writeInterval 1; }
+BC2C { type patchProbes; libs ("libsampling.so"); patchName C_xplus; fields (p); probeLocations ((-1.15 -2.3 1.15)); writeControl timeStep; writeInterval 1; }
+BD2C { type patchProbes; libs ("libsampling.so"); patchName D_xplus; fields (p); probeLocations ((3.45 -2.3 1.15)); writeControl timeStep; writeInterval 1; }
+FF01 { type patchProbes; libs ("libsampling.so"); patchName ground; fields (p); probeLocations ((-1.15 0 0.0)); writeControl timeStep; writeInterval 1; }
+FF02 { type patchProbes; libs ("libsampling.so"); patchName ground; fields (p); probeLocations ((-2.3 0 0.0)); writeControl timeStep; writeInterval 1; }
+FF03 { type patchProbes; libs ("libsampling.so"); patchName ground; fields (p); probeLocations ((-4.6 0 0.0)); writeControl timeStep; writeInterval 1; }
+FF12 { type patchProbes; libs ("libsampling.so"); patchName ground; fields (p); probeLocations ((-6.9 0 0.0)); writeControl timeStep; writeInterval 1; }
+FF13 { type patchProbes; libs ("libsampling.so"); patchName ground; fields (p); probeLocations ((-4.6 2.3 0.0)); writeControl timeStep; writeInterval 1; }
+}

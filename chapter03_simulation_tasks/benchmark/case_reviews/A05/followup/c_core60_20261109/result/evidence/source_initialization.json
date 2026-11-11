@@ -1,0 +1,19 @@
+{
+  "cell_count": 3744880,
+  "native_source_mass_kg": 0.3999999999999999,
+  "source_cells": 64,
+  "minimum_T_K": 287.69647425556764,
+  "maximum_T_K": 2848.827702730212,
+  "maximum_p_Pa": 8674672577.287254,
+  "actual_excess_energy_J": 1879932.466666666,
+  "analytic_excess_energy_J": 1879932.4666666666,
+  "energy_convention": "E0 is total JWL product internal energy per initial explosive volume; no additional activation heat",
+  "hashes": {
+    "e": "4e563bf18113d59a7e6d2ce723e39406f3ddddeacd102888caa2a48e891ca2f0",
+    "T": "95fc2998ed58f108ebacec8d8624aef2a9ec8299fe94c09c3dcb73b0084ea22a",
+    "p": "11ad7772f22bc6e07916e875345522d2205b0d293ee2980a2767a680ad1de415",
+    "alpha.petn": "89fbbcf30d04f50ee1848e54e915895da1a3dd6b2c35f103de7e22c62f66a2af",
+    "V": "f9f5b9d7a61725ce971206a2b5982b82d589fb42f01d8708c18fb7728edff408"
+  },
+  "initialization_checks_only_not_full_run_validation": true
+}

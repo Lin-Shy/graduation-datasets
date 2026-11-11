@@ -1,0 +1,14 @@
+{
+  "case_id": "VanDorsselaer2018-TNT1kg-v1-wedge8mm",
+  "scheduler_job_id": "8941511",
+  "actual_compute_node": "cnode1909",
+  "original_frozen_specification_sha256": "0b913690b6a40b9e53e0d6c3fc287333e51c68da9e1f815ca6005f9a5f70f3db",
+  "archive": {
+    "path": "D:\\1\\graduation-projects\\graduation-datasets\\chapter03_simulation_tasks\\benchmark\\case_reviews\\VanDorsselaer2018-TNT1kg\\native_c_20261107\\job-8941511\\freefield-terminal.tar.gz",
+    "sha256": "430e653f7aeea587f64dd69a132a98d3265c8b265aef4f74482115f649606ce5",
+    "bytes": 527369194
+  },
+  "archive_member_verification_sha256": "535ba3ec4d812fa5d27ad5894903c87a79a0b72e94a7eb3a91ae28e4c49eaadd",
+  "all_original_archive_members_verified": true,
+  "no_solver_or_reference_modified": true
+}

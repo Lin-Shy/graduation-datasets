@@ -1,0 +1,362 @@
+{
+  "at_UTC": "2026-11-06T17:25:56.986128+00:00",
+  "classification": "reference_extraction_draft_requires_visual_check_and_condition_closure_not_run_ready",
+  "source_PDF_sha256": "43cd5f7364803026978c8fed6b323210cfba45772d7d677351e5af650de87572",
+  "source_PDF_page": 5,
+  "source_figure": 5,
+  "source_asset_sha256": "93bb1a4a505e03ebe04e8591ca916c675f4cff915c1b62f0a2af127da5625d92",
+  "source_asset_size_pixels": [
+    515,
+    480
+  ],
+  "reference_kind": "published_numerical_only_not_experimental",
+  "calibration": {
+    "x_pixels": [
+      64,
+      495
+    ],
+    "scaled_distance_values": [
+      0,
+      6
+    ],
+    "y_pixels": [
+      20,
+      419
+    ],
+    "pressure_bar_values": [
+      100,
+      0.1
+    ],
+    "y_scale": "log10",
+    "one_bar_Pa": 100000
+  },
+  "extraction": "At each predeclared radius take median curve-color pixel y in expected column +/-1 and visually located local ROI; no simulation outputs used.",
+  "reading_interval": "Envelope of selected pixels with additional +/-2 vertical pixels. This is a digitization reading interval, not a statistical confidence interval.",
+  "radius_policy": "All thirteen fully visible numerical marker locations0.25 through5.5m are included in each code group. The6m right-edge curves are clipped at the plotting boundary, so no6m marker value is adopted before any simulation exists.",
+  "paper_conditions": {
+    "TNT_full_sphere_mass_kg": 1,
+    "domain_description_m": [
+      10,
+      10
+    ],
+    "reported_square_mesh_spacing_m": 0.004,
+    "initial_air_pressure_Pa": 101325,
+    "sampling": "X-axis in paper axisymmetric diagram",
+    "metric": "maximum positive overpressure"
+  },
+  "remaining": [
+    "Original paper does not report its complete TNT JWL/energy parameter set or ambient density/temperature.",
+    "Native source representation, geometry/boundaries, sample mapping and full metric window must be fixed and justified before dispatch.",
+    "Visual verification of digitized curves and row values is still required."
+  ],
+  "A02_Hexomax_condition_replaced": false,
+  "simulation_started": false,
+  "APE_MAPE_available": false,
+  "model_match_approved": false,
+  "Gold_approved": false,
+  "all_rows": [
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 0.25,
+      "scaled_distance_m_kg_minus1over3": 0.25,
+      "pixel_x_column": 82,
+      "nominal_pixel_y": 21.0,
+      "color_pixel_count": 1,
+      "peak_overpressure_Pa": 9828363.332770025,
+      "reading_lower_Pa": 9493877.17927583,
+      "reading_upper_Pa": 10174634.027476063
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 0.5,
+      "scaled_distance_m_kg_minus1over3": 0.5,
+      "pixel_x_column": 100,
+      "nominal_pixel_y": 86.0,
+      "color_pixel_count": 20,
+      "peak_overpressure_Pa": 3189770.2154663214,
+      "reading_lower_Pa": 2925266.337436645,
+      "reading_upper_Pa": 3478190.65131413
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 0.75,
+      "scaled_distance_m_kg_minus1over3": 0.75,
+      "pixel_x_column": 118,
+      "nominal_pixel_y": 126.0,
+      "color_pixel_count": 20,
+      "peak_overpressure_Pa": 1595906.776404731,
+      "reading_lower_Pa": 1463570.1180190798,
+      "reading_upper_Pa": 1740209.3740624848
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 1,
+      "scaled_distance_m_kg_minus1over3": 1,
+      "pixel_x_column": 136,
+      "nominal_pixel_y": 162.5,
+      "color_pixel_count": 12,
+      "peak_overpressure_Pa": 848342.8982440721,
+      "reading_lower_Pa": 798464.5497739087,
+      "reading_upper_Pa": 901337.0389517434
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 1.5,
+      "scaled_distance_m_kg_minus1over3": 1.5,
+      "pixel_x_column": 172,
+      "nominal_pixel_y": 213.0,
+      "color_pixel_count": 7,
+      "peak_overpressure_Pa": 353893.169549099,
+      "reading_lower_Pa": 335981.8286283783,
+      "reading_upper_Pa": 372759.372031494
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 2,
+      "scaled_distance_m_kg_minus1over3": 2,
+      "pixel_x_column": 208,
+      "nominal_pixel_y": 252.0,
+      "color_pixel_count": 8,
+      "peak_overpressure_Pa": 180152.00408020258,
+      "reading_lower_Pa": 171034.10003378405,
+      "reading_upper_Pa": 189755.98765218505
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 2.5,
+      "scaled_distance_m_kg_minus1over3": 2.5,
+      "pixel_x_column": 244,
+      "nominal_pixel_y": 279.0,
+      "color_pixel_count": 10,
+      "peak_overpressure_Pa": 112883.78916846888,
+      "reading_lower_Pa": 105331.0445370937,
+      "reading_upper_Pa": 118901.67424419899
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 3,
+      "scaled_distance_m_kg_minus1over3": 3,
+      "pixel_x_column": 280,
+      "nominal_pixel_y": 300.0,
+      "color_pixel_count": 8,
+      "peak_overpressure_Pa": 78475.99703514615,
+      "reading_lower_Pa": 74504.14773728917,
+      "reading_upper_Pa": 82659.58738801813
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 3.5,
+      "scaled_distance_m_kg_minus1over3": 3.5,
+      "pixel_x_column": 315,
+      "nominal_pixel_y": 317.0,
+      "color_pixel_count": 7,
+      "peak_overpressure_Pa": 58467.87276937589,
+      "reading_lower_Pa": 50905.759020366815,
+      "reading_upper_Pa": 61584.821106602605
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 4,
+      "scaled_distance_m_kg_minus1over3": 4,
+      "pixel_x_column": 351,
+      "nominal_pixel_y": 331.0,
+      "color_pixel_count": 8,
+      "peak_overpressure_Pa": 45883.24610100845,
+      "reading_lower_Pa": 39948.80193954171,
+      "reading_upper_Pa": 48329.30238571752
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 4.5,
+      "scaled_distance_m_kg_minus1over3": 4.5,
+      "pixel_x_column": 387,
+      "nominal_pixel_y": 345.0,
+      "color_pixel_count": 8,
+      "peak_overpressure_Pa": 36007.3348498562,
+      "reading_lower_Pa": 32454.74457411332,
+      "reading_upper_Pa": 39948.80193954171
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 5,
+      "scaled_distance_m_kg_minus1over3": 5,
+      "pixel_x_column": 423,
+      "nominal_pixel_y": 358.0,
+      "color_pixel_count": 9,
+      "peak_overpressure_Pa": 28750.5804094488,
+      "reading_lower_Pa": 27295.44792402007,
+      "reading_upper_Pa": 33021.51484968176
+    },
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 5.5,
+      "scaled_distance_m_kg_minus1over3": 5.5,
+      "pixel_x_column": 459,
+      "nominal_pixel_y": 367.0,
+      "color_pixel_count": 5,
+      "peak_overpressure_Pa": 24602.398208697778,
+      "reading_lower_Pa": 23765.111138110755,
+      "reading_upper_Pa": 25913.963014396602
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 0.25,
+      "scaled_distance_m_kg_minus1over3": 0.25,
+      "pixel_x_column": 82,
+      "nominal_pixel_y": 29.0,
+      "color_pixel_count": 18,
+      "peak_overpressure_Pa": 8557183.144940006,
+      "reading_lower_Pa": 7712906.117627996,
+      "reading_upper_Pa": 9330927.435461668
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 0.5,
+      "scaled_distance_m_kg_minus1over3": 0.5,
+      "pixel_x_column": 100,
+      "nominal_pixel_y": 79.0,
+      "color_pixel_count": 21,
+      "peak_overpressure_Pa": 3600733.48498562,
+      "reading_lower_Pa": 3302151.4849681756,
+      "reading_upper_Pa": 4064644.3957096296
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 0.75,
+      "scaled_distance_m_kg_minus1over3": 0.75,
+      "pixel_x_column": 118,
+      "nominal_pixel_y": 119.0,
+      "color_pixel_count": 19,
+      "peak_overpressure_Pa": 1801520.0408020257,
+      "reading_lower_Pa": 1652133.40635737,
+      "reading_upper_Pa": 1998719.6386572507
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 1,
+      "scaled_distance_m_kg_minus1over3": 1,
+      "pixel_x_column": 136,
+      "nominal_pixel_y": 157.0,
+      "color_pixel_count": 18,
+      "peak_overpressure_Pa": 933092.7435461668,
+      "reading_lower_Pa": 855718.3144940006,
+      "reading_upper_Pa": 1035231.7759307388
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 1.5,
+      "scaled_distance_m_kg_minus1over3": 1.5,
+      "pixel_x_column": 172,
+      "nominal_pixel_y": 217.0,
+      "color_pixel_count": 17,
+      "peak_overpressure_Pa": 330215.14849681756,
+      "reading_lower_Pa": 302832.86655749456,
+      "reading_upper_Pa": 366361.4544020716
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 2,
+      "scaled_distance_m_kg_minus1over3": 2,
+      "pixel_x_column": 208,
+      "nominal_pixel_y": 256.0,
+      "color_pixel_count": 15,
+      "peak_overpressure_Pa": 168098.52774253648,
+      "reading_lower_Pa": 154159.36928422726,
+      "reading_upper_Pa": 180152.00408020258
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 2.5,
+      "scaled_distance_m_kg_minus1over3": 2.5,
+      "pixel_x_column": 244,
+      "nominal_pixel_y": 284.0,
+      "color_pixel_count": 15,
+      "peak_overpressure_Pa": 103523.17759307388,
+      "reading_lower_Pa": 96596.72580093832,
+      "reading_upper_Pa": 112883.78916846888
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 3,
+      "scaled_distance_m_kg_minus1over3": 3,
+      "pixel_x_column": 280,
+      "nominal_pixel_y": 304.5,
+      "color_pixel_count": 16,
+      "peak_overpressure_Pa": 72594.2554998373,
+      "reading_lower_Pa": 67153.34791115142,
+      "reading_upper_Pa": 78475.99703514615
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 3.5,
+      "scaled_distance_m_kg_minus1over3": 3.5,
+      "pixel_x_column": 315,
+      "nominal_pixel_y": 320.5,
+      "color_pixel_count": 16,
+      "peak_overpressure_Pa": 55030.25227613395,
+      "reading_lower_Pa": 50905.759020366815,
+      "reading_upper_Pa": 59488.92077934337
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 4,
+      "scaled_distance_m_kg_minus1over3": 4,
+      "pixel_x_column": 351,
+      "nominal_pixel_y": 334.0,
+      "color_pixel_count": 14,
+      "peak_overpressure_Pa": 43560.99030694608,
+      "reading_lower_Pa": 40646.44395709628,
+      "reading_upper_Pa": 46684.52370703789
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 4.5,
+      "scaled_distance_m_kg_minus1over3": 4.5,
+      "pixel_x_column": 387,
+      "nominal_pixel_y": 345.0,
+      "color_pixel_count": 14,
+      "peak_overpressure_Pa": 36007.3348498562,
+      "reading_lower_Pa": 33598.18286283781,
+      "reading_upper_Pa": 38589.234670299025
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 5,
+      "scaled_distance_m_kg_minus1over3": 5,
+      "pixel_x_column": 423,
+      "nominal_pixel_y": 355.0,
+      "color_pixel_count": 12,
+      "peak_overpressure_Pa": 30283.28665574946,
+      "reading_lower_Pa": 28257.115029208297,
+      "reading_upper_Pa": 32454.74457411332
+    },
+    {
+      "reference_group": "LS-DYNA",
+      "radius_m": 5.5,
+      "scaled_distance_m_kg_minus1over3": 5.5,
+      "pixel_x_column": 459,
+      "nominal_pixel_y": 363.5,
+      "color_pixel_count": 14,
+      "peak_overpressure_Pa": 26139.25665958656,
+      "reading_lower_Pa": 24180.130845257205,
+      "reading_upper_Pa": 28257.115029208297
+    }
+  ],
+  "proposed_reference_groups": [
+    "OURANOS",
+    "LS-DYNA"
+  ],
+  "proposed_radius_count": 13,
+  "proposed_reference_row_count": 26,
+  "comparison_set_frozen": false,
+  "all_rows_reference_approved": false,
+  "simulation_dispatch_allowed": false,
+  "draft_readings_csv": "DRAFT_NOT_APPROVED_numerical_peak_readings.csv",
+  "unreliable_candidate_rows": [
+    {
+      "reference_group": "OURANOS",
+      "radius_m": 0.25,
+      "reason": "Only one color pixel found; no reliable local marker-center reading."
+    }
+  ]
+}

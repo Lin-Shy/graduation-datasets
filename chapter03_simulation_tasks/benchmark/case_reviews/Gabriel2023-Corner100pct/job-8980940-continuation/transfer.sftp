@@ -1,0 +1,15 @@
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/continuation-receipt.json continuation-receipt.json
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/solver.log solver.log
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/parent-run.json parent-run.json
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/parent-accounting.txt parent-accounting.txt
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/logs/8980940.out scheduler.out
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/logs/8980940.err scheduler.err
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/run-case/system/controlDict controlDict
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/run-case/postProcessing/A/0.003/p A-continuation.p
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/stitched/A-native.txt A-native.txt
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/run-case/postProcessing/B1/0.003/p B1-continuation.p
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/stitched/B1-native.txt B1-native.txt
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/run-case/postProcessing/B2/0.003/p B2-continuation.p
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/stitched/B2-native.txt B2-native.txt
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/run-case/postProcessing/B3/0.003/p B3-continuation.p
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s04-shadow-y5mm-terminal-resume/stitched/B3-native.txt B3-native.txt

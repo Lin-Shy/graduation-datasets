@@ -1,0 +1,10 @@
+FoamFile { version 2.0; format ascii; class dictionary; object fvSchemes; }
+fluxScheme HLLC;
+ddtSchemes { default Euler; timeIntegrator Euler; }
+gradSchemes { default cellLimited leastSquares 1; }
+divSchemes { default none; div(alphaRhoPhi.petn,lambda.petn) Gauss upwind; }
+laplacianSchemes { default Gauss linear corrected; }
+interpolationSchemes { default linear; reconstruct(alpha) upwind; reconstruct(rho) vanLeer;
+ reconstruct(U) vanLeerV; reconstruct(e) vanLeer; reconstruct(p) vanLeer;
+ reconstruct(speedOfSound) vanLeer; reconstruct(lambda.petn) upwind; }
+snGradSchemes { default corrected; }

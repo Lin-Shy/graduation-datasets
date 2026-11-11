@@ -1,0 +1,100 @@
+{
+  "case_id": "A03",
+  "case_key": "pipe91",
+  "archived_run_receipt_sha256": "a4c72e11058a0625b53be919749c7c8a20990ca3d7669f3f04b5dc6512089907",
+  "native_pressure_sha256": "f98a27cc4f8d063d20134f732a797440849c87c0c518065ac1fc3525b1c6fa04",
+  "reference_pdf_sha256": "3acaacff8ae4b44b44e6a38689c69d5ab5da3c99ff21123036a6df83e4e7935b",
+  "published_trial_to_archived_trial": {
+    "T1": "1",
+    "T2": "4"
+  },
+  "paper_table": 4,
+  "source_page_sha256": "6dcb44a77a47442b3435e11b0023cb1a9620aa4c2a81c0e84cb3121289ea8855",
+  "reference_table_transcription_sha256": "459f4184e00d77446bd2f8fc44611aefce6a5651f7d9b0f095a3ff62b35a429c",
+  "task_completion_pass": true,
+  "scope": "post_run_diagnostic_outside_frozen_peak_contract",
+  "metric": "signed wall overpressure integral 0\u20134 ms, native ignition time; trapezoidal rule",
+  "alignment": "Paper section 3.2.4 aligns the experiment and the EPX result at the nearest gauge. The independent simulation uses its native ignition clock without a fitted shift.",
+  "fixed_reference_sizes": {
+    "experimental_repeats": 6,
+    "published_EPX": 3
+  },
+  "MAPE_percent": {
+    "experimental_repeats": 22.789398350207122,
+    "published_EPX": 16.382924550256366
+  },
+  "rows": [
+    {
+      "group": "published_EPX",
+      "trial": "EPX",
+      "gauge": "Pi02",
+      "reference_kPa_ms": 866,
+      "prediction_kPa_ms": 734.1491135901799,
+      "APE_percent": 15.225275566953814
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T1",
+      "gauge": "Pi02",
+      "reference_kPa_ms": 898,
+      "prediction_kPa_ms": 734.1491135901799,
+      "APE_percent": 18.24620115922272
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T2",
+      "gauge": "Pi02",
+      "reference_kPa_ms": 938,
+      "prediction_kPa_ms": 734.1491135901799,
+      "APE_percent": 21.732503881643925
+    },
+    {
+      "group": "published_EPX",
+      "trial": "EPX",
+      "gauge": "Pi03",
+      "reference_kPa_ms": 633,
+      "prediction_kPa_ms": 522.5765505585931,
+      "APE_percent": 17.444462786952123
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T1",
+      "gauge": "Pi03",
+      "reference_kPa_ms": 664,
+      "prediction_kPa_ms": 522.5765505585931,
+      "APE_percent": 21.29871226527213
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T2",
+      "gauge": "Pi03",
+      "reference_kPa_ms": 672,
+      "prediction_kPa_ms": 522.5765505585931,
+      "APE_percent": 22.235632357352223
+    },
+    {
+      "group": "published_EPX",
+      "trial": "EPX",
+      "gauge": "Pi04",
+      "reference_kPa_ms": 554,
+      "prediction_kPa_ms": 462.70614445537814,
+      "APE_percent": 16.479035296863156
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T1",
+      "gauge": "Pi04",
+      "reference_kPa_ms": 628,
+      "prediction_kPa_ms": 462.70614445537814,
+      "APE_percent": 26.32067763449393
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T2",
+      "gauge": "Pi04",
+      "reference_kPa_ms": 633,
+      "prediction_kPa_ms": 462.70614445537814,
+      "APE_percent": 26.9026628032578
+    }
+  ]
+}

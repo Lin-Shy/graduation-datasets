@@ -1,0 +1,159 @@
+{
+  "job_id": "8953576",
+  "baseline_job_id": "8952323",
+  "common_prefix_s": [
+    0,
+    0.00236266921908
+  ],
+  "required_scoring_window_s": [
+    0,
+    0.003
+  ],
+  "delivery_complete": false,
+  "fixed_MAPE_percent": null,
+  "rows": [
+    {
+      "radius_m": 0.35,
+      "experimental_peak_kPa": 23.076,
+      "published_peak_kPa": 20.566,
+      "observed_peaks": {
+        "Upwind": {
+          "peak_time_s": 0.000739627431131,
+          "peak_kPa": 14.953736443999995,
+          "experimental_APE_pct": 35.19788332466634,
+          "published_APE_pct": 27.289038004473422
+        },
+        "vanLeer": {
+          "peak_time_s": 0.00069974732602,
+          "peak_kPa": 23.565150515999996,
+          "experimental_APE_pct": 2.119737025480998,
+          "published_APE_pct": 14.583052202664577
+        }
+      }
+    },
+    {
+      "radius_m": 0.475,
+      "experimental_peak_kPa": 14.737,
+      "published_peak_kPa": 13.055,
+      "observed_peaks": {
+        "Upwind": {
+          "peak_time_s": 0.00110759593084,
+          "peak_kPa": 8.879850804000002,
+          "experimental_APE_pct": 39.74451513876636,
+          "published_APE_pct": 31.981227085407873
+        },
+        "vanLeer": {
+          "peak_time_s": 0.00106130711678,
+          "peak_kPa": 14.699553776,
+          "experimental_APE_pct": 0.2540966546786997,
+          "published_APE_pct": 12.597118161623904
+        }
+      }
+    },
+    {
+      "radius_m": 0.725,
+      "experimental_peak_kPa": 7.476,
+      "published_peak_kPa": 7.122,
+      "observed_peaks": {
+        "Upwind": {
+          "peak_time_s": 0.00186436194268,
+          "peak_kPa": 4.382464580999993,
+          "experimental_APE_pct": 41.37955349117185,
+          "published_APE_pct": 38.465816048862784
+        },
+        "vanLeer": {
+          "peak_time_s": 0.00180144558894,
+          "peak_kPa": 8.061563429000001,
+          "experimental_APE_pct": 7.832576631888728,
+          "published_APE_pct": 13.192409842740824
+        }
+      }
+    }
+  ],
+  "mpi_faces": {
+    "0": [
+      [
+        0.0,
+        0.35,
+        0.0
+      ],
+      2,
+      38699,
+      [
+        0.0,
+        0.34900095511,
+        -2.89521311421e-19
+      ]
+    ],
+    "1": [
+      [
+        0.0,
+        0.475,
+        0.0
+      ],
+      3,
+      38697,
+      [
+        0.0,
+        0.475000701754,
+        -4.25443948152e-19
+      ]
+    ],
+    "2": [
+      [
+        0.0,
+        0.725,
+        0.0
+      ],
+      5,
+      38692,
+      [
+        0.0,
+        0.72500045977,
+        -1.11495655378e-18
+      ]
+    ]
+  },
+  "native_logged_field_extrema": {
+    "p": [
+      822.647578384,
+      14900000.0
+    ],
+    "T": [
+      256.819134364,
+      8123.25976715
+    ]
+  },
+  "file_hashes": {
+    "p": "bb9e9ed39613dbe36fdc0cd73acb02c9c5159fb69fecccf81eeacf1dcf5bc8c1",
+    "6-mpirun.log": "dabd1fffb3ad0dc39cdc7067dbba290f416e4c053ec0cd9a68dab3ffc344c37d",
+    "run.json": "24bf8f84cfff04947c8ea304dba8afebbf3c11fd39c6402fe3b879b20958eddc",
+    "native_initialization_receipt.json": "93de97fe646604b1f1843f2d57db01f8112e28965e355ec7278bc9fbd3f15c4a"
+  },
+  "provisional_prefix_MAPE_percent": {
+    "experimental": 3.4021367706828087,
+    "published": 13.457526735676433
+  },
+  "baseline_terminal": {
+    "scheduler_state": "TIMEOUT",
+    "delivery_complete": false,
+    "last_probe_time_s": 0.00291392582916,
+    "scheduler_terminal": "job-8952323/collection-2kzubwzy/scheduler_terminal.json",
+    "probe_sha256": "d190c3b09c5a26f93943d0ee6b4cf3cd8c6262848058672ce7d91a5deb78570a",
+    "solver_log_sha256": "e5023532e510150c6b7f0276fa1862da38cf68ee068d337812e024f7c3522619",
+    "extrema": {
+      "p": [
+        884.683701294,
+        14900000.0
+      ],
+      "T": [
+        260.350135642,
+        3647.69262096
+      ]
+    }
+  },
+  "baseline_provisional_prefix_MAPE_percent": {
+    "experimental": 38.77398398486818,
+    "published": 32.57869371291469
+  }
+}

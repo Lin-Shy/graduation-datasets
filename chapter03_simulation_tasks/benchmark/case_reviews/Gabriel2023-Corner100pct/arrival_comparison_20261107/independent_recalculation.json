@@ -1,0 +1,87 @@
+{
+  "binding_sha256": "39e585e006ef4986551e28f1699b38786ae02c99610e64a8ae82bb5c2901030c",
+  "reference_group_sizes": {
+    "experiment": 14,
+    "published_Viper": 4
+  },
+  "attempts": {
+    "8942180": {
+      "native_task_completion_pass": true,
+      "arrival_comparison_complete": true,
+      "gauges": {
+        "A": {
+          "arrival_ms": 0.43764324314529224,
+          "samples": 34335,
+          "trace_sha256": "d86b4ebd18aaf8eef870ee64319acb7d9a8f615dbcd87311a9c7aefeee95d154"
+        },
+        "B1": {
+          "arrival_ms": 0.6899747276653525,
+          "samples": 34335,
+          "trace_sha256": "a00ad287f13a82d8a1703cf106a130bccfc8b20c61f205201bbdb1590533b1a9"
+        },
+        "B2": {
+          "arrival_ms": 1.0969731891529244,
+          "samples": 34335,
+          "trace_sha256": "6baa7f63d055740536a660b984307d841043bfb7938c203a4a3a8498a243c676"
+        },
+        "B3": {
+          "arrival_ms": 1.5596776409995394,
+          "samples": 34335,
+          "trace_sha256": "52dd094a620055772a1343bda7349a6fe7523399705957d4f2201dad8763914d"
+        }
+      },
+      "groups": {
+        "experiment": {
+          "compared": 14,
+          "expected": 14,
+          "MAPE_percent": 14.916159768056215
+        },
+        "published_Viper": {
+          "compared": 4,
+          "expected": 4,
+          "MAPE_percent": 7.897232501559432
+        }
+      },
+      "archive_sha256": "68723aadad44dfb6f2d14e5005da09a440970e6ecc51f0ae5313c8d26e3a188c"
+    },
+    "8943232": {
+      "native_task_completion_pass": true,
+      "arrival_comparison_complete": true,
+      "gauges": {
+        "A": {
+          "arrival_ms": 0.4425816489706873,
+          "samples": 67191,
+          "trace_sha256": "41972e8f7d84aa65a19ef6d062be3647ae112903f9d956411cf13f20301c4ae8"
+        },
+        "B1": {
+          "arrival_ms": 0.6996315100852107,
+          "samples": 67191,
+          "trace_sha256": "1861dc15663da5b159d4b90fbff1e2c45bf60ceaa191bb50a3e108a019fdbac9"
+        },
+        "B2": {
+          "arrival_ms": 1.1161580972837675,
+          "samples": 67191,
+          "trace_sha256": "dc0190b97e273ecd2a85cece0ff0a50627ed092368b7ee66d67d955622cc41e5"
+        },
+        "B3": {
+          "arrival_ms": 1.5870843211635741,
+          "samples": 67191,
+          "trace_sha256": "79eb8772f7923089e48cbf0f3f0a78dcd6e6e9ed95271a7d92eee8ab2c8b29ed"
+        }
+      },
+      "groups": {
+        "experiment": {
+          "compared": 14,
+          "expected": 14,
+          "MAPE_percent": 14.09015677120838
+        },
+        "published_Viper": {
+          "compared": 4,
+          "expected": 4,
+          "MAPE_percent": 6.810491117427248
+        }
+      },
+      "archive_sha256": "e67bc87a8329c7dff0b307cc685ff965f7440e85a3e63510602bd133ae8e6ce7"
+    }
+  }
+}

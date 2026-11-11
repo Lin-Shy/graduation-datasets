@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>1 kg TNT 数值对照</title>
+<style>body{max-width:1100px;margin:35px auto;padding:0 20px;font:16px/1.7 system-ui;color:#203045}
+img{max-width:100%} table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+td,th{padding:4px 12px;text-align:right;border-bottom:1px solid #dae1e8}td:first-child,th:first-child{text-align:left}</style>
+<h1>1 kg TNT 自由场数值对照</h1>
+<p>作业 8941511 · 13/13 点完整覆盖 0–22 ms。峰值以静压减去 101325 Pa，零时刻对应瞬时产物初始化。</p>
+<p><strong>OURANOS 12 项 MAPE 27.37% · LS-DYNA 13 项 MAPE 28.78%</strong>。
+参考来自论文图 5 数值曲线，读图范围由误差棒显示。逐点在图读范围内取值，对应的组 MAPE 范围为
+OURANOS 21.50%–32.30%，LS-DYNA 22.86%–34.59%。</p>
+<p>终态正常。原生日志全域最低绝对压力 34.33 Pa（1.259 ms），
+最低温度 20.54 K（1.259 ms）。全域三维场写出于 0、11 和 22 ms，极值时刻仅保留全域日志。暂缓入选。</p>
+<p><a href="../../peak_comparison_20261107/index.html">原文图、参考与点位规则</a> ·
+<a href="../README.md">完整计算设置</a> · <a href="collection_receipt.json">C 集群归档核验</a> ·
+<a href="independent_recalculation.json">独立复算</a> · <a href="comparison.csv">逐点数据</a></p>
+<img src="peak_and_ape.png" alt="两组峰值和逐点 APE">
+<img src="native_pressure.png" alt="全部 13 点原生时程">
+<h2>全部逐点对比</h2><table><thead><tr><th>参考组</th><th>距离（m）</th><th>论文峰值（kPa）</th>
+<th>本次峰值（kPa）</th><th>APE</th></tr></thead><tbody><tr><td>OURANOS</td><td>0.5</td><td>3189.770</td><td>2494.841</td><td>21.79%</td></tr><tr><td>OURANOS</td><td>0.75</td><td>1595.907</td><td>1157.888</td><td>27.45%</td></tr><tr><td>OURANOS</td><td>1</td><td>848.343</td><td>588.483</td><td>30.63%</td></tr><tr><td>OURANOS</td><td>1.5</td><td>353.893</td><td>239.565</td><td>32.31%</td></tr><tr><td>OURANOS</td><td>2</td><td>180.152</td><td>126.628</td><td>29.71%</td></tr><tr><td>OURANOS</td><td>2.5</td><td>112.884</td><td>79.886</td><td>29.23%</td></tr><tr><td>OURANOS</td><td>3</td><td>78.476</td><td>55.834</td><td>28.85%</td></tr><tr><td>OURANOS</td><td>3.5</td><td>58.468</td><td>41.819</td><td>28.47%</td></tr><tr><td>OURANOS</td><td>4</td><td>45.883</td><td>32.804</td><td>28.51%</td></tr><tr><td>OURANOS</td><td>4.5</td><td>36.007</td><td>26.676</td><td>25.92%</td></tr><tr><td>OURANOS</td><td>5</td><td>28.751</td><td>22.249</td><td>22.61%</td></tr><tr><td>OURANOS</td><td>5.5</td><td>24.602</td><td>18.954</td><td>22.96%</td></tr><tr><td>LS-DYNA</td><td>0.25</td><td>8557.183</td><td>4780.920</td><td>44.13%</td></tr><tr><td>LS-DYNA</td><td>0.5</td><td>3600.733</td><td>2494.841</td><td>30.71%</td></tr><tr><td>LS-DYNA</td><td>0.75</td><td>1801.520</td><td>1157.888</td><td>35.73%</td></tr><tr><td>LS-DYNA</td><td>1</td><td>933.093</td><td>588.483</td><td>36.93%</td></tr><tr><td>LS-DYNA</td><td>1.5</td><td>330.215</td><td>239.565</td><td>27.45%</td></tr><tr><td>LS-DYNA</td><td>2</td><td>168.099</td><td>126.628</td><td>24.67%</td></tr><tr><td>LS-DYNA</td><td>2.5</td><td>103.523</td><td>79.886</td><td>22.83%</td></tr><tr><td>LS-DYNA</td><td>3</td><td>72.594</td><td>55.834</td><td>23.09%</td></tr><tr><td>LS-DYNA</td><td>3.5</td><td>55.030</td><td>41.819</td><td>24.01%</td></tr><tr><td>LS-DYNA</td><td>4</td><td>43.561</td><td>32.804</td><td>24.69%</td></tr><tr><td>LS-DYNA</td><td>4.5</td><td>36.007</td><td>26.676</td><td>25.92%</td></tr><tr><td>LS-DYNA</td><td>5</td><td>30.283</td><td>22.249</td><td>26.53%</td></tr><tr><td>LS-DYNA</td><td>5.5</td><td>26.139</td><td>18.954</td><td>27.49%</td></tr></tbody></table></html>

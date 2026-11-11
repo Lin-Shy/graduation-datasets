@@ -1,0 +1,487 @@
+{
+  "case_id": "Kristoffersen2024-Pipe99-400g",
+  "terminal_receipt": {
+    "case_id": "Kristoffersen2024-Pipe99-400g",
+    "case_key": "pipe99",
+    "pid": 77507,
+    "uid": 15505,
+    "started_at": 1794039990.3425612,
+    "allocation": {
+      "job_id": "8943527",
+      "hostname": "cnode2023",
+      "uid": 15505,
+      "allocated_nodes": [
+        "cnode2023"
+      ],
+      "controller_job": {
+        "JobId": "8943527",
+        "JobName": "ch3-c-full-20261107t082551z",
+        "UserId": "15505(15505)",
+        "GroupId": "11452(11452)",
+        "MCS_label": "N/A",
+        "Priority": "1",
+        "Nice": "0",
+        "Account": "sysu_pww",
+        "QOS": "normal",
+        "JobState": "RUNNING",
+        "Reason": "None",
+        "Dependency": "(null)",
+        "Requeue": "0",
+        "Restarts": "0",
+        "BatchFlag": "1",
+        "Reboot": "0",
+        "ExitCode": "0:0",
+        "RunTime": "00:00:01",
+        "TimeLimit": "05:00:00",
+        "TimeMin": "N/A",
+        "SubmitTime": "2026-11-07T16:26:16",
+        "EligibleTime": "2026-11-07T16:26:16",
+        "AccrueTime": "2026-11-07T16:26:16",
+        "StartTime": "2026-11-07T16:26:17",
+        "EndTime": "2026-11-07T21:26:17",
+        "Deadline": "N/A",
+        "SuspendTime": "None",
+        "SecsPreSuspend": "0",
+        "LastSchedEval": "2026-11-07T16:26:17",
+        "Scheduler": "Main",
+        "Partition": "deimos",
+        "Sid": "ln202:57462",
+        "ReqNodeList": "(null)",
+        "ExcNodeList": "(null)",
+        "NodeList": "cnode2023",
+        "BatchHost": "cnode2023",
+        "NumNodes": "1",
+        "NumCPUs": "64",
+        "NumTasks": "64",
+        "Task": "1",
+        "T": "0:0:*:*",
+        "ReqTRES": "cpu=64,mem=500G,node=1,billing=64",
+        "AllocTRES": "cpu=64,mem=500G,node=1,billing=64",
+        "Node": "*",
+        "C": "0:0:*:*",
+        "CoreSpec": "*",
+        "MinCPUsNode": "1",
+        "MinMemoryNode": "0",
+        "MinTmpDiskNode": "0",
+        "Features": "(null)",
+        "DelayBoot": "00:00:00",
+        "OverSubscribe": "NO",
+        "Contiguous": "0",
+        "Licenses": "(null)",
+        "Network": "(null)",
+        "Command": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/batch.sh",
+        "WorkDir": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z",
+        "StdErr": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/logs/8943527.err",
+        "StdIn": "/dev/null",
+        "StdOut": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/logs/8943527.out"
+      },
+      "CPU_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "raw_controller_job": "JobId=8943527 JobName=ch3-c-full-20261107t082551z UserId=15505(15505) GroupId=11452(11452) MCS_label=N/A Priority=1 Nice=0 Account=sysu_pww QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:01 TimeLimit=05:00:00 TimeMin=N/A SubmitTime=2026-11-07T16:26:16 EligibleTime=2026-11-07T16:26:16 AccrueTime=2026-11-07T16:26:16 StartTime=2026-11-07T16:26:17 EndTime=2026-11-07T21:26:17 Deadline=N/A SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-07T16:26:17 Scheduler=Main Partition=deimos AllocNode:Sid=ln202:57462 ReqNodeList=(null) ExcNodeList=(null) NodeList=cnode2023 BatchHost=cnode2023 NumNodes=1 NumCPUs=64 NumTasks=64 CPUs/Task=1 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=64,mem=500G,node=1,billing=64 AllocTRES=cpu=64,mem=500G,node=1,billing=64 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryNode=0 MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null) Command=/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/batch.sh WorkDir=/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z StdErr=/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/logs/8943527.err StdIn=/dev/null StdOut=/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/logs/8943527.out Power= \n"
+    },
+    "actual_CPU_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "execution_extension": {
+      "case_id": "Kristoffersen2024-Pipe99-400g",
+      "physical_window_s": [
+        0.0,
+        0.004
+      ],
+      "MPI_ranks": 16,
+      "specification_sha256": "28d30f73f1c47f865e60457653e2d750f410fc0b22a9dd790f7b8fa3305c31a3",
+      "initializer": "initialize_source.py",
+      "wall_budget_s": 14400,
+      "integration_end_time_s": 0.004002,
+      "unchanged_maxDeltaT_s": 1e-06,
+      "references_sha256": "a40ea5b91bbe4243ae28ea196d33ab511aa4d73e533a6c837e1ba193b8d0d3b8",
+      "CPU_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "specification_sha256": "28d30f73f1c47f865e60457653e2d750f410fc0b22a9dd790f7b8fa3305c31a3",
+    "actual_runner_sha256": "5b7bd04036ef438f08cba92eea1cc1162abdfe00a9748ba020ece730f8d122ae",
+    "completed": true,
+    "health_failure": null,
+    "commands": [
+      {
+        "argv": [
+          "blockMesh"
+        ],
+        "started_at": 1794039990.34981,
+        "log": "0-blockMesh.log",
+        "process_group_leader_PID": 77515,
+        "exit_code": 0,
+        "finished_at": 1794039991.3627872,
+        "sha256": "b2b24f8b017ebf006f8bb07fc40d03f42057a583bea71bb71153972aad6c6499"
+      },
+      {
+        "argv": [
+          "/usr/bin/python3",
+          "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/cases/pipe99/initialize_source.py",
+          "--package",
+          "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/cases/pipe99",
+          "--case",
+          "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/cases/pipe99/run-case"
+        ],
+        "started_at": 1794039991.367129,
+        "log": "1-python3.log",
+        "process_group_leader_PID": 77518,
+        "exit_code": 0,
+        "finished_at": 1794039998.3895624,
+        "sha256": "b1a1b1ece3e2256018c2901e2a30a2e58a373fb4056a25a803b927fd963388cb"
+      },
+      {
+        "argv": [
+          "checkMesh"
+        ],
+        "started_at": 1794039998.3941433,
+        "log": "2-checkMesh.log",
+        "process_group_leader_PID": 77519,
+        "exit_code": 0,
+        "finished_at": 1794040001.4249847,
+        "sha256": "d1d68b18470a185579b8e8099e6b018f818927b0838f0bbb6ce7caa9d486cf5a"
+      },
+      {
+        "argv": [
+          "decomposePar"
+        ],
+        "started_at": 1794040001.4594476,
+        "log": "3-decomposePar.log",
+        "process_group_leader_PID": 77574,
+        "exit_code": 0,
+        "finished_at": 1794040003.487372,
+        "sha256": "0170780d9448b4342f6c168e43ce88a93ec41a107cd537e0e44830fc1bb61886"
+      },
+      {
+        "argv": [
+          "mpirun",
+          "--host",
+          "cnode2023:16",
+          "-np",
+          "16",
+          "--bind-to",
+          "none",
+          "-x",
+          "LD_PRELOAD=/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t082551z/runtime/data/chapter3-native-runtime/thermo-cache/libphaseFluid_basic_const_eConst_JWL_specie______4578ed329e0d1256b0b8b8129f9d4093e76746a8.so",
+          "blastFoam",
+          "-parallel"
+        ],
+        "started_at": 1794040003.4908798,
+        "log": "4-blastFoam.log",
+        "process_group_leader_PID": 77985,
+        "exit_code": 0,
+        "finished_at": 1794041788.9957798,
+        "sha256": "bb74798d27dd049025ea16e4c2180e5d87b5c8513dd58c982789351c26d5f3c0"
+      }
+    ],
+    "formal_DSH_score_or_Gold": false,
+    "pristine_start_time_s": 0,
+    "decomposition_execution_only": {
+      "old_sha256": "f7ebc93226f2fa309fc4163c1126b7e8b21083d2d1668f4b9ae7916e26547151",
+      "new_sha256": "f7ebc93226f2fa309fc4163c1126b7e8b21083d2d1668f4b9ae7916e26547151"
+    },
+    "integration_end_control": {
+      "original_sha256": "37593648ac1ef19f2f08762d64459c8bedf702c3c8c2a43724bb23668403b290",
+      "executed_sha256": "77528a984e304638f89dac9e0123031d6c5957939d66ad1c311d0d360c8c36c3",
+      "original_endTime_s": 0.004,
+      "integration_endTime_s": 0.004002,
+      "fixed_comparison_window_s": [
+        0.0,
+        0.004
+      ],
+      "only_numeric_entry_changed": "endTime",
+      "all_samples_after_comparison_end_excluded_by_unchanged_scorer": true
+    },
+    "new_development_attempt_wall_budget_s": 14400,
+    "observed_time_s": 0.0040019956072377,
+    "finished_at": 1794041790.1494894,
+    "fixed_scorer_exit_code": 0,
+    "task_completion_pass": true
+  },
+  "files": [
+    {
+      "path": "0-blockMesh.log",
+      "bytes": 9724,
+      "sha256": "b2b24f8b017ebf006f8bb07fc40d03f42057a583bea71bb71153972aad6c6499"
+    },
+    {
+      "path": "1-python3.log",
+      "bytes": 1183,
+      "sha256": "b1a1b1ece3e2256018c2901e2a30a2e58a373fb4056a25a803b927fd963388cb"
+    },
+    {
+      "path": "2-checkMesh.log",
+      "bytes": 3195,
+      "sha256": "d1d68b18470a185579b8e8099e6b018f818927b0838f0bbb6ce7caa9d486cf5a"
+    },
+    {
+      "path": "3-decomposePar.log",
+      "bytes": 6009,
+      "sha256": "0170780d9448b4342f6c168e43ce88a93ec41a107cd537e0e44830fc1bb61886"
+    },
+    {
+      "path": "4-blastFoam.log",
+      "bytes": 20658303,
+      "sha256": "bb74798d27dd049025ea16e4c2180e5d87b5c8513dd58c982789351c26d5f3c0"
+    },
+    {
+      "path": "case/0/T",
+      "bytes": 946,
+      "sha256": "15ab07356c0cae73a9f35e54848698d38dee5a44e716bc663554321485bda94c"
+    },
+    {
+      "path": "case/0/U",
+      "bytes": 968,
+      "sha256": "2ced64014c14197cb9aaed1006adbd567519dc8e84b00c70bf65ed4ec12ba4f5"
+    },
+    {
+      "path": "case/0/alpha.c4",
+      "bytes": 938,
+      "sha256": "4e55190d375759184ffff7af00dbf69a6e5e58ae42f82b95ece6e1323467cbc9"
+    },
+    {
+      "path": "case/0/p",
+      "bytes": 997,
+      "sha256": "263b9c26672956f4637bda80a51232578a47a793a1d4eb127e818fd8d72cab3a"
+    },
+    {
+      "path": "case/0/rho.air",
+      "bytes": 942,
+      "sha256": "1fda6e1446902730a9b5d9ac55e8b509b09f15a0c258465810e747ae4427b3d7"
+    },
+    {
+      "path": "case/0/rho.c4",
+      "bytes": 940,
+      "sha256": "319f3919249fb3520d4838b91fc2b03c262560c93d048980e81431df2ab59e87"
+    },
+    {
+      "path": "case/constant/dynamicMeshDict",
+      "bytes": 110,
+      "sha256": "f98846b953910be0d7b9bd8d234b0c75c87fb1022f570d1b781438529cf083f7"
+    },
+    {
+      "path": "case/constant/phaseProperties",
+      "bytes": 1080,
+      "sha256": "036b3a4d0496a412384f214c6c1db36f64083aef20369c28611452fbea51dc6a"
+    },
+    {
+      "path": "case/system/blockMeshDict",
+      "bytes": 10839,
+      "sha256": "97884998843708525aa390e5b344ee2630bd246a20b190e88a5489b0fe1456bc"
+    },
+    {
+      "path": "case/system/controlDict",
+      "bytes": 1091,
+      "sha256": "37593648ac1ef19f2f08762d64459c8bedf702c3c8c2a43724bb23668403b290"
+    },
+    {
+      "path": "case/system/decomposeParDict",
+      "bytes": 121,
+      "sha256": "f7ebc93226f2fa309fc4163c1126b7e8b21083d2d1668f4b9ae7916e26547151"
+    },
+    {
+      "path": "case/system/fvSchemes",
+      "bytes": 598,
+      "sha256": "5d7e68ad576762f43c03511e35136d8a8c94096cad9b119cb800af593a454443"
+    },
+    {
+      "path": "case/system/fvSolution",
+      "bytes": 951,
+      "sha256": "dd888cbc46ab856f909b742139fde2062ccfe612ec0e30102b698359e31bfce4"
+    },
+    {
+      "path": "diagnostics/peak_comparison.csv",
+      "bytes": 875,
+      "sha256": "ee0bd6f4ca6cb9066dba7e85ad40903fb26f4972d282e30f63df379915b4b4b1"
+    },
+    {
+      "path": "diagnostics/peak_comparison.json",
+      "bytes": 4154,
+      "sha256": "e9f9d4a44b8e626771c052acf0d7f7b1914277d2456c078953d18fd1c0d6857d"
+    },
+    {
+      "path": "fixed-scoring.log",
+      "bytes": 170,
+      "sha256": "3a52c1f1ebdccf679d1838d92e6e6a4e9e971432f58cd5c6bdaea043f46b4d37"
+    },
+    {
+      "path": "foam_mesh_snapshot.py",
+      "bytes": 5700,
+      "sha256": "6dd50d6591deaa7b9682a2192e1cba2066c0816a4296f8524068eafefd4314f6"
+    },
+    {
+      "path": "initialize_source.py",
+      "bytes": 6419,
+      "sha256": "71e0159a2a85559aad61a4f1320ee69d57d86630974b7ac1471e99f2c7626739"
+    },
+    {
+      "path": "run-case/postProcessing/Pi02/0/p",
+      "bytes": 2399713,
+      "sha256": "3aab2dd93e90c704520c5e34e2aa15b7dc2faee9bff2ea05293676c6dc014489"
+    },
+    {
+      "path": "run-case/postProcessing/Pi03/0/p",
+      "bytes": 2399713,
+      "sha256": "90170a3090727b6ca8d7899d6099119f50d8f05d587e48db9a58b3afc2ff5601"
+    },
+    {
+      "path": "run-case/postProcessing/Pi04/0/p",
+      "bytes": 2399713,
+      "sha256": "fba4aa6e125ed5e493cc2aa21aa487db6f8d322ca3e475972734150b1abbacc3"
+    },
+    {
+      "path": "run-case/system/blockMeshDict",
+      "bytes": 10839,
+      "sha256": "97884998843708525aa390e5b344ee2630bd246a20b190e88a5489b0fe1456bc"
+    },
+    {
+      "path": "run-case/system/controlDict",
+      "bytes": 1096,
+      "sha256": "77528a984e304638f89dac9e0123031d6c5957939d66ad1c311d0d360c8c36c3"
+    },
+    {
+      "path": "run-case/system/decomposeParDict",
+      "bytes": 121,
+      "sha256": "f7ebc93226f2fa309fc4163c1126b7e8b21083d2d1668f4b9ae7916e26547151"
+    },
+    {
+      "path": "run-case/system/fvSchemes",
+      "bytes": 598,
+      "sha256": "5d7e68ad576762f43c03511e35136d8a8c94096cad9b119cb800af593a454443"
+    },
+    {
+      "path": "run-case/system/fvSolution",
+      "bytes": 951,
+      "sha256": "dd888cbc46ab856f909b742139fde2062ccfe612ec0e30102b698359e31bfce4"
+    },
+    {
+      "path": "run.json",
+      "bytes": 8773,
+      "sha256": "8f71cb2627c094a9d8812283e548de71835c6ab5b4d2284d1298fc9f6ea73e82"
+    },
+    {
+      "path": "score_reference_supplement.py",
+      "bytes": 4714,
+      "sha256": "d9436c0277987e7fd013cecc5d0a20605a84f3e67decf1a25ed0ab3c61067a97"
+    },
+    {
+      "path": "source_initialization.json",
+      "bytes": 1273,
+      "sha256": "6026bf05702b4bade1329ed8221333e8662467eceb012a2299cee5eae54fda6a"
+    },
+    {
+      "path": "sources/conditions.json",
+      "bytes": 3387,
+      "sha256": "3473aaf6b5be651899819d994f0493ce4c2a8b247cea44bb2185c2f2a0879493"
+    },
+    {
+      "path": "sources/pipe99_references.json",
+      "bytes": 1414,
+      "sha256": "a40ea5b91bbe4243ae28ea196d33ab511aa4d73e533a6c837e1ba193b8d0d3b8"
+    },
+    {
+      "path": "specification.json",
+      "bytes": 28269,
+      "sha256": "28d30f73f1c47f865e60457653e2d750f410fc0b22a9dd790f7b8fa3305c31a3"
+    }
+  ],
+  "derived_after_collection": true,
+  "original_archive_manifest_sha256": "a161111ac1ec35248e4e6969776a1405fe922bf04d4e2df8b90e330e246c0cba",
+  "raw_written_native_fields_retained_on_C": true,
+  "local_original_tar_contains_probes_and_run_evidence": true
+}

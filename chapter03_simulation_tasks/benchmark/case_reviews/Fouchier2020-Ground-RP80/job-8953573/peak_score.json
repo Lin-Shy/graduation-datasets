@@ -1,0 +1,65 @@
+{
+  "scene_id": "S10",
+  "completed": false,
+  "solver_completed": false,
+  "delivery_complete": false,
+  "comparison_complete": false,
+  "failures": [
+    "required native command failed or is missing"
+  ],
+  "rows": [
+    {
+      "radius_m": 0.35,
+      "reference_kPa": {
+        "experiment": 23.076,
+        "published_OpenFOAM": 20.566
+      },
+      "peak_kPa": null,
+      "peak_time_s": null,
+      "APE_percent": {
+        "experiment": null,
+        "published_OpenFOAM": null
+      }
+    },
+    {
+      "radius_m": 0.475,
+      "reference_kPa": {
+        "experiment": 14.737,
+        "published_OpenFOAM": 13.055
+      },
+      "peak_kPa": null,
+      "peak_time_s": null,
+      "APE_percent": {
+        "experiment": null,
+        "published_OpenFOAM": null
+      }
+    },
+    {
+      "radius_m": 0.725,
+      "reference_kPa": {
+        "experiment": 7.476,
+        "published_OpenFOAM": 7.122
+      },
+      "peak_kPa": null,
+      "peak_time_s": null,
+      "APE_percent": {
+        "experiment": null,
+        "published_OpenFOAM": null
+      }
+    }
+  ],
+  "MAPE_percent": {
+    "experiment": null,
+    "published_OpenFOAM": null
+  },
+  "reference_denominators": {
+    "experiment": 3,
+    "published_OpenFOAM": 3
+  },
+  "window_s": [
+    0,
+    0.003
+  ],
+  "staging_receipt_sha256": "91e1e5204fca1aa9c7e96b37604146f4c6e269725f12f01804ececf0a09f1f60",
+  "reference_sha256": "13807d72633c19aa91d70960fe35d4411ce61b30a204a4af9c7aed4c7ee634f5"
+}

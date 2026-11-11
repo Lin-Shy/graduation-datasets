@@ -1,0 +1,19 @@
+﻿group,trial,gauge,reference_kPa,blastfoam_kPa,APE_pct
+experimental_repeats,1,A,303.054,,
+experimental_repeats,1,B1,63.373,47.505482402,25.03829327631641
+experimental_repeats,1,B2,36.282,25.285599658,30.308142720908442
+experimental_repeats,1,B3,30.215,16.848629971,44.23753112361409
+experimental_repeats,2,B1,74.219,47.505482402,35.99282878777671
+experimental_repeats,2,B2,39.32,25.285599658,35.692778082400814
+experimental_repeats,2,B3,32.62,16.848629971,48.348773847332914
+experimental_repeats,3,A,239.755,,
+experimental_repeats,3,B1,70.96,47.505482402,33.05315332299887
+experimental_repeats,3,B2,38.0,25.285599658,33.458948268421054
+experimental_repeats,3,B3,29.347,16.848629971,42.588237397348955
+experimental_repeats,4,A,219.157,,
+experimental_repeats,4,B1,66.417,47.505482402,28.473911194423113
+experimental_repeats,4,B2,33.955,25.285599658,25.532028690914448
+published_viper,same scale Viper,A,151.0,,
+published_viper,same scale Viper,B1,69.0,47.505482402,31.15147477971014
+published_viper,same scale Viper,B2,38.0,25.285599658,33.458948268421054
+published_viper,same scale Viper,B3,28.0,16.848629971,39.82632153214285

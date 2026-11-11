@@ -1,0 +1,279 @@
+{
+  "id": "A03",
+  "name": "半受限钢筒内部爆炸",
+  "version": "1.0.0-candidate",
+  "level": "advanced",
+  "split": "test",
+  "parent_case_id": null,
+  "source_family_id": "kristoffersen-cylinder",
+  "experiment_id": "mendeley-zv7y78twd9-v2-Di200-series1",
+  "asset_hashes": [],
+  "source_refs": [
+    "mendeley"
+  ],
+  "scenario_tags": [
+    "internal_blast",
+    "venting"
+  ],
+  "change_dimensions": [
+    "source",
+    "geometry",
+    "mesh",
+    "boundary",
+    "materials",
+    "time_controls",
+    "probe/postprocess"
+  ],
+  "scorable_quantities": [
+    "pressure_history",
+    "peak_overpressure",
+    "arrival_time",
+    "field_snapshot",
+    "positive_impulse"
+  ],
+  "status": "blocked",
+  "source_verification": "design_and_input_provenance_verified_experiment_claim_separate",
+  "agent_input": {
+    "instruction_zh": "从空白case目录创建半受限钢筒内部爆炸的完整blastFoam案例。按公开target_conditions的固定模型、源、几何/网格、初边值和观测条件运行至至少0.004s，输出原生压力与指定场、建网及完整求解日志。默认docs_only，不复制完整教程或私有参考案例。物理数值输入已版本化，科学验收阈值尚未冻结，当前不用于正式Agent评分。 数值源使用20gC4加作者固定2g雷管等效假设；与论文JWLS模型不同。实验基线/物理零点仍未校准，不得通过拟合时间平移提交实验误差。",
+    "input_mode": "empty_case",
+    "initial_case_manifest": null,
+    "permitted_reference_policy": "docs_only",
+    "allowed_geometry_assets": [],
+    "target_conditions": {
+      "end_time_s": 0.004,
+      "baseline_pa": 101300.0,
+      "probes_m": [
+        [
+          0.6,
+          0.09990482215818579,
+          0.0
+        ],
+        [
+          1.3,
+          0.09990482215818579,
+          0.0
+        ],
+        [
+          1.4,
+          0.09990482215818579,
+          0.0
+        ]
+      ],
+      "source_commit": "4e6ee07a0c1fc4629ee7206804f4f1fe802ec64c",
+      "source": {
+        "nominal_C4_kg": 0.02,
+        "author_cap_equivalent_C4_kg": 0.002,
+        "total_numerical_mass_kg": 0.022,
+        "radius_m": 0.0148587033836504,
+        "detonation_speed_m_s": 8193
+      },
+      "geometry": {
+        "inner_radius_m": 0.1,
+        "outer_radius_m": 0.125,
+        "tube_half_length_m": 1.5,
+        "domain_axial_m": [
+          -2,
+          2
+        ],
+        "domain_radial_m": [
+          0,
+          0.5
+        ],
+        "wedge_degrees": 5.0,
+        "cells": 19020,
+        "source_cell_spacing_m": 0.0025,
+        "external_region_included": true
+      },
+      "evidence": "Kristoffersen PDFp3 Fig2; material constants Table2 PDFp6; window first4ms from section3.2.4",
+      "sampling_kind": "wall_static_pressure",
+      "probe_function": "patchProbes",
+      "limitations": [
+        "blastFoam two-phase Murnaghan/JWL + ideal air is distinct from the paper single JWLS mixture model.",
+        "Equivalent cap mass is a fixed author assumption from approximate2g, not an independently measured value.",
+        "Finite source resolution, faceting, exterior boundary sensitivity and wall sampling need review.",
+        "No fitted time translation; experimental absolute time/baseline still unresolved."
+      ],
+      "input_identity_sha256": "c29ea7342fb3322012b246d1426ee4b4e2f2241c836fbc1e07e340221baaac2f",
+      "condition_id": "A03-c29ea7342fb33220",
+      "design_attribution": "显式版本化的官方/实验资料派生数值条件；不冒称原实验精确复刻",
+      "initial_state": {
+        "p_absolute_Pa": 101300.0,
+        "rho_air_kg_m3": 1.225,
+        "velocity_m_s": [
+          0,
+          0,
+          0
+        ],
+        "temperature_input_K": 287.931328520266,
+        "effective_air_temperature_K": 287.931328520266,
+        "input_minus_effective_temperature_K": 0.0,
+        "note": "输入温度与EOS状态的差值单独记录；不一致时求解器依EOS修正T，不将输入温度误当有效初始温度。"
+      },
+      "numerics": {
+        "solver": "blastFoam",
+        "version": "6.2.0",
+        "openfoam": "9",
+        "source_commit": "4e6ee07a0c1fc4629ee7206804f4f1fe802ec64c",
+        "end_time_s": 0.004,
+        "initial_delta_t_s": 1e-08,
+        "maximum_delta_t_s": 1e-06,
+        "target_maxCo": 0.5,
+        "integration": "RK2SSP",
+        "flux": "Kurganov",
+        "pressure_interpolation": "cellPoint; patchProbes for A03",
+        "write_interval_s": 0.001
+      },
+      "resources": {
+        "cpus": 1,
+        "wall_seconds": 7200,
+        "memory_mib": 3072,
+        "file_size_mib": 512,
+        "minimum_free_mib": 2048,
+        "storage_budget_mib": 2048,
+        "restart_policy": "保留所有检查点；重启须另存输入差异、latestTime和追加日志；当前正式评分尚不支持多段重启。"
+      },
+      "boundary_assumptions": "axisymmetric rigid steel tube with two open ends and exterior ambient domain",
+      "model_assumptions": [
+        "compressible inviscid flow; rigid walls where specified",
+        "constant-gamma1.4 calorically perfect air; no air dissociation or structural damage model",
+        "detonation representation and EOS constants are fixed numerical inputs, not proof of experimental accuracy"
+      ],
+      "material_specification": "/*--------------------------------*- C++ -*----------------------------------*\\\n| =========                 |                                                 |\n| \\\\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |\n|  \\\\    /   O peration     | Version:  2.3.0                                 |\n|   \\\\  /    A nd           | Web:      www.OpenFOAM.org                      |\n|    \\\\/     M anipulation  |                                                 |\n\\*---------------------------------------------------------------------------*/\nFoamFile\n{\n    version     2.0;\n    format      ascii;\n    class       dictionary;\n    location    \"constant\";\n    object      phaseProperties;\n}\n// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //\n\nphases (c4 air);\n\nradiationModel none;\n\nc4\n{\n    type detonating;\n    reactants\n    {\n        thermoType\n        {\n            transport   const;\n            thermo      eConst;\n            equationOfState Murnaghan;\n        }\n        equationOfState\n        {\n            Gamma           0.25;\n            pRef            101300;\n            rho0            1601;\n            K0              0.0;\n        }\n        specie\n        {\n            molWeight       55.0;\n        }\n        transport\n        {\n            mu              0;              // Viscosity\n            Pr              1;              // Prandtl number\n        }\n        thermodynamics\n        {\n            Cv              815;           // Heat capacity\n            Hf              0.0;\n        }\n    }\n    products\n    {\n        thermoType\n        {\n            transport   const;\n            thermo      eConst;\n            equationOfState JWL;\n        }\n        equationOfState\n        {\n            rho0      1601;\n            A         609.77e9;\n            B         12.95e9;\n            R1        4.50;\n            R2        1.4;\n            omega     0.25;\n        }\n        specie\n        {\n            molWeight       55.0;\n        }\n        transport\n        {\n            mu              0;              // Viscosity\n            Pr              1;              // Prandtl number\n        }\n        thermodynamics\n        {\n            Cv              1400;           // Heat capacity\n            Hf              0.0;\n        }\n    }\n\n    activationModel linear;\n    initiation\n    {\n        E0          9.0e9;\n        points ((0 0 0));\n        vDet       8193;\n    }\n\n    residualRho     1e-6;           // Minimum density of the phase\n    residualAlpha   1e-10;          // Minimum volume fraction used for division\n}\n\nair\n{\n    type basic;\n    thermoType\n    {\n        transport   const;\n        thermo      eConst;\n        equationOfState idealGas;\n    }\n    equationOfState\n    {\n        gamma           1.4;            // Heat capactiy ratio\n    }\n    specie\n    {\n        molWeight       28.97;\n    }\n    transport\n    {\n        mu              0;\n        Pr              1;\n    }\n    thermodynamics\n    {\n        type        eConst;\n        Cv          718;\n        Hf          0;\n    }\n\n    residualRho     1e-6;\n    residualAlpha   1e-10;\n}\n\n// ************************************************************************* //\n"
+    },
+    "required_deliverables": [
+      "complete_case",
+      "solver_outputs",
+      "pressure_histories",
+      "postprocessing_report"
+    ],
+    "public_materials": []
+  },
+  "runtime": {
+    "blastfoam_version": "6.2.0",
+    "blastfoam_commit": "4e6ee07a0c1fc4629ee7206804f4f1fe802ec64c",
+    "openfoam_version": "9",
+    "solver": "blastFoam",
+    "resource_profile_id": "linux-reference-1cpu-3GiB-20261022"
+  },
+  "private_contract": "references/contracts/A03.yaml",
+  "reference": {
+    "gold_status": "gold_generated",
+    "gold_manifest": "references/gold/A03/reference.yaml",
+    "experiment_refs": [
+      "references/experiments/mendeley-zv7y78twd9-v2/experiment_metadata.yaml"
+    ],
+    "experimental_available_form": "raw_timeseries",
+    "thresholds_frozen": false
+  },
+  "provenance": {
+    "source_commit": null,
+    "input_sha256": null,
+    "curated_by": "Codex / specification v1.0; not human scientific validation"
+  },
+  "unresolved": [
+    "保留2ms完整候选和原试次。20g C4加作者2g雷管等效源、楔形源质量/旋转体积、NWLS差异与独立DAQ零点尚未闭合；同属公共激活输运风险。",
+    "客观科学证据、人工科学批准与正式合同冻结分别记录；目前没有正式ready任务。"
+  ],
+  "readiness_evidence": [],
+  "protocol_id": "docs_only",
+  "construction_progress": {
+    "updated_at": "2026-10-27",
+    "previous_status": "blocked",
+    "observed_run_progress": {
+      "captured_utc": "2026-10-22T06:01:56.596029+00:00",
+      "last_observed_time_s": 0.004,
+      "target_time_s": 0.004,
+      "budget_wall_s": 7200,
+      "run_ended": true,
+      "solver_completed": true
+    },
+    "source_verified": true,
+    "contract_frozen": false,
+    "reference_input_built": true,
+    "reference_run_complete": true,
+    "gold_generated": true,
+    "gold_validated": false,
+    "ready": false,
+    "resolved": [
+      "已构建完整初始案例并逐文件SHA256绑定；物性、几何、结束时间、测点与资源已显式落地",
+      "真实完整求解与基础场/探针检查通过",
+      "已独立核对实际网格与装药体积；名义球体积偏差=1.322%"
+    ],
+    "evidence": [
+      {
+        "path": "references/construction/20261022-a03/A03-build.json",
+        "sha256": "2b3bc7f1477d65fb65ac0afff6a7338e839de4e3565f6968fb4ab5b493117fbe"
+      },
+      {
+        "path": "references/runs/20261022-a03/A03-audit.json",
+        "sha256": "f37a1081e5b31739354e847cbd51e0c339d35fcdb2549a4ce788ee88de463054"
+      },
+      {
+        "path": "references/runs/20261022-a03/A03-wedge-physics.json",
+        "sha256": "59b9f58b67ba04663454274d22f297c23fa62c907207c3215d892b883852ee10"
+      }
+    ],
+    "blocked_reasons": [
+      "保留2ms完整候选和原试次。20g C4加作者2g雷管等效源、楔形源质量/旋转体积、NWLS差异与独立DAQ零点尚未闭合；同属公共激活输运风险。",
+      "model_applicability:The same Kurganov/Riemann activation path is present. Its observed transport/caloric failure requires independent repair validation, source/EOS applicability and a new version decision.",
+      "source_mass_and_support:Actual wedge mass, angular-volume scaling and nominal source differences reported; physical source resolution/uncertainty not accepted.",
+      "mesh_and_boundary_sensitivity:mesh_and_boundary_sensitivity requires independently justified task-specific evidence",
+      "time_step_sensitivity:time_step_sensitivity requires independently justified task-specific evidence",
+      "thermodynamics_and_conservation:Positive saved fields do not establish all-stage admissibility. Common transport risk, full RK source/energy budget and EOS temperature range remain unresolved.",
+      "repeatability:repeatability requires independently justified task-specific evidence",
+      "threshold_basis:No independent, frozen task-specific pressure/convergence acceptance basis. Absolute Kelvin positivity, phase identities and IEEE construction checks do not supply a pressure error tolerance."
+    ],
+    "digitization_status": null,
+    "numerical_review_status": "numerical_review_pending",
+    "scientific_review_ready": false,
+    "scientific_review_status": "technical_evidence_incomplete",
+    "technical_actions": [
+      "model_applicability:The same Kurganov/Riemann activation path is present. Its observed transport/caloric failure requires independent repair validation, source/EOS applicability and a new version decision.",
+      "source_mass_and_support:Actual wedge mass, angular-volume scaling and nominal source differences reported; physical source resolution/uncertainty not accepted.",
+      "mesh_and_boundary_sensitivity:mesh_and_boundary_sensitivity requires independently justified task-specific evidence",
+      "time_step_sensitivity:time_step_sensitivity requires independently justified task-specific evidence",
+      "thermodynamics_and_conservation:Positive saved fields do not establish all-stage admissibility. Common transport risk, full RK source/energy budget and EOS temperature range remain unresolved.",
+      "repeatability:repeatability requires independently justified task-specific evidence",
+      "threshold_basis:No independent, frozen task-specific pressure/convergence acceptance basis. Absolute Kelvin positivity, phase identities and IEEE construction checks do not supply a pressure error tolerance."
+    ],
+    "human_decisions": [
+      "模型与物理假设的独立科学判断",
+      "有独立依据后的逐测点误差阈值签核"
+    ],
+    "candidate_diagnostic_evidence": [
+      {
+        "path": "references/review/round4/candidates/A03-physics.json",
+        "sha256": "59b9f58b67ba04663454274d22f297c23fa62c907207c3215d892b883852ee10"
+      }
+    ],
+    "round4_scientific_evidence": [
+      {
+        "path": "references/review/round4/science/A03-experiment-interface.json",
+        "sha256": "a1e1a6c32f67a8318a0d2a190bdeee84813c74324bb608388447da959928116b"
+      }
+    ],
+    "round5": {
+      "evidence_packet": {
+        "path": "references/review/round5/tasks/A03.json",
+        "sha256": "712e1ab4036d1f86e279e3de20fbce474f347c4da201414ed3df313e2f5dd677"
+      },
+      "completed_validation_checks": [],
+      "next_evidence": "保持原4ms完整候选及四份原始试次；22g作者等效源、楔质量、论文JWLS差异及独立DAQ零点/基线尚未闭合。"
+    },
+    "round4_blocked_reasons_retained": [
+      "离散装药体积偏差超过1%诊断标记；需保守初始化和网格敏感性复核，1%不是正式评分阈值",
+      "四重复原始数据和触发通道已审计；DAQ物理零点/基线校准仍缺；原生patchProbes提取已验证，曲面采样物理映射、初始楔形源约束的正式P适配与网格敏感性待复核",
+      "分辨率/边界/时间步敏感性及实际几何科学核验未完成；数值阈值未冻结；重复性未完成",
+      "人工科学复核pending；不能由自动脚本批准",
+      "隔离原型通过真实攻击探测，但尚未绑定该任务完整Agent运行及命令/资源策略"
+    ],
+    "round6": {
+      "evidence_packet": {
+        "path": "references/review/round6/tasks/A03.json",
+        "sha256": "0505355d70ed6d394de90d6ce5514b3995b71a0d0544a87aa82600774e9c0833"
+      },
+      "next_evidence": "保留2ms完整候选和原试次。20g C4加作者2g雷管等效源、楔形源质量/旋转体积、NWLS差异与独立DAQ零点尚未闭合；同属公共激活输运风险。",
+      "common_C4_transport_risk": true
+    }
+  }
+}

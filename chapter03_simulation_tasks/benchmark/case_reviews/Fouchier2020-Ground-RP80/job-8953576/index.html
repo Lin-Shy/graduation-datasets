@@ -1,0 +1,15 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>S10 固定三点终态审核</title>
+<style>body{max-width:1000px;margin:32px auto;padding:0 18px;font:16px/1.6 system-ui;color:#17324b}
+table{border-collapse:collapse;width:100%}td,th{text-align:right;padding:7px;border-bottom:1px solid #dfe7ed}img{width:100%}</style>
+<h1>S10 · RP80 近地无障碍传播</h1>
+<p>C 集群作业 8953576 正常终止，三条压力时程完整覆盖固定 0–3 ms 窗口。全组三点实测峰值 MAPE 为
+<strong>3.40%</strong>，论文数值参考组为 13.46%。人工入选待审核。</p>
+<p>限幅作业采用 8 个 MPI 进程，迎风基线为串行并在 2.914 ms 触及调度时限。原文图 6.7 的峰值用于固定比较，
+图 6.8 的面板和时钟仍待核实。</p>
+<table><thead><tr><th>固定半径</th><th>实测 kPa</th><th>论文 kPa</th><th>本次 kPa</th><th>峰时 ms</th>
+<th>实测 APE</th><th>论文 APE</th></tr></thead><tbody><tr><th>0.350 m</th><td>23.076</td><td>20.566</td><td>23.565</td><td>0.700</td><td>2.12%</td><td>14.58%</td></tr><tr><th>0.475 m</th><td>14.737</td><td>13.055</td><td>14.700</td><td>1.061</td><td>0.25%</td><td>12.60%</td></tr><tr><th>0.725 m</th><td>7.476</td><td>7.122</td><td>8.062</td><td>1.801</td><td>7.83%</td><td>13.19%</td></tr></tbody></table>
+<img src="radial_peaks.png" alt="三个固定半径完整压力时程和论文实测峰值">
+<p><a href="../figure6-7_peaks.png">原文图 6.7</a> · <a href="../reconstruction_20261108/index.html">工况、网格与数值设置</a> ·
+<a href="../live_job_8953576_terminal_baseline_20261108/index.html">同窗迎风基线对照</a> ·
+<a href="peak_score.json">终态评分</a> · <a href="collection-pyxz4uv3/evidence/case/postProcessing/groundPressure/0/p">原生压力文件</a></p></html>

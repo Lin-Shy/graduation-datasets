@@ -1,0 +1,407 @@
+{
+  "case_id": "VanDorsselaer2018-TNT1kg-v1-wedge8mm",
+  "status": "complete_conditional_pressure_diagnostic",
+  "predictions": {
+    "R0250": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 4780919.73706,
+      "full_peak_Pa": 4780919.73706
+    },
+    "R0500": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 2494841.01755,
+      "full_peak_Pa": 2494841.01755
+    },
+    "R0750": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 1157888.08553,
+      "full_peak_Pa": 1157888.08553
+    },
+    "R1000": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 588482.591466,
+      "full_peak_Pa": 588482.591466
+    },
+    "R1500": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 239564.54983899998,
+      "full_peak_Pa": 239564.54983899998
+    },
+    "R2000": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 126628.46778400001,
+      "full_peak_Pa": 126628.46778400001
+    },
+    "R2500": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 79886.12728799999,
+      "full_peak_Pa": 79886.12728799999
+    },
+    "R3000": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 55833.93325900001,
+      "full_peak_Pa": 55833.93325900001
+    },
+    "R3500": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 41819.335630999994,
+      "full_peak_Pa": 41819.335630999994
+    },
+    "R4000": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 32803.802450999996,
+      "full_peak_Pa": 32803.802450999996
+    },
+    "R4500": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 26675.633434000003,
+      "full_peak_Pa": 26675.633434000003
+    },
+    "R5000": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 22249.427484,
+      "full_peak_Pa": 22249.427484
+    },
+    "R5500": {
+      "sample_count": 15004,
+      "first_time_s": 0.0,
+      "last_time_s": 0.0220498908114,
+      "complete": true,
+      "errors": [],
+      "observed_partial_peak_Pa": 18953.993189,
+      "full_peak_Pa": 18953.993189
+    }
+  },
+  "rows": [
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R0500",
+      "reference_peak_Pa": 3189770.2154663214,
+      "simulation_peak_Pa": 2494841.01755,
+      "APE_percent": 21.786183673883475,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R0750",
+      "reference_peak_Pa": 1595906.776404731,
+      "simulation_peak_Pa": 1157888.08553,
+      "APE_percent": 27.446383294486804,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R1000",
+      "reference_peak_Pa": 848342.8982440721,
+      "simulation_peak_Pa": 588482.591466,
+      "APE_percent": 30.631517905783088,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R1500",
+      "reference_peak_Pa": 353893.169549099,
+      "simulation_peak_Pa": 239564.54983899998,
+      "APE_percent": 32.30596958278877,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R2000",
+      "reference_peak_Pa": 180152.00408020258,
+      "simulation_peak_Pa": 126628.46778400001,
+      "APE_percent": 29.710208648233642,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R2500",
+      "reference_peak_Pa": 112883.78916846888,
+      "simulation_peak_Pa": 79886.12728799999,
+      "APE_percent": 29.231532821088116,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R3000",
+      "reference_peak_Pa": 78475.99703514615,
+      "simulation_peak_Pa": 55833.93325900001,
+      "APE_percent": 28.852215494638056,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R3500",
+      "reference_peak_Pa": 58467.87276937589,
+      "simulation_peak_Pa": 41819.335630999994,
+      "APE_percent": 28.47467566341154,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R4000",
+      "reference_peak_Pa": 45883.24610100845,
+      "simulation_peak_Pa": 32803.802450999996,
+      "APE_percent": 28.50592484501873,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R4500",
+      "reference_peak_Pa": 36007.3348498562,
+      "simulation_peak_Pa": 26675.633434000003,
+      "APE_percent": 25.91611252198373,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R5000",
+      "reference_peak_Pa": 28750.5804094488,
+      "simulation_peak_Pa": 22249.427484,
+      "APE_percent": 22.61224932805953,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "OURANOS",
+      "sensor_id": "R5500",
+      "reference_peak_Pa": 24602.398208697778,
+      "simulation_peak_Pa": 18953.993189,
+      "APE_percent": 22.9587578080127,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R0250",
+      "reference_peak_Pa": 8557183.144940006,
+      "simulation_peak_Pa": 4780919.73706,
+      "APE_percent": 44.12974858570099,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R0500",
+      "reference_peak_Pa": 3600733.48498562,
+      "simulation_peak_Pa": 2494841.01755,
+      "APE_percent": 30.712977565459457,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R0750",
+      "reference_peak_Pa": 1801520.0408020257,
+      "simulation_peak_Pa": 1157888.08553,
+      "APE_percent": 35.7271604364437,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R1000",
+      "reference_peak_Pa": 933092.7435461668,
+      "simulation_peak_Pa": 588482.591466,
+      "APE_percent": 36.93203644157549,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R1500",
+      "reference_peak_Pa": 330215.14849681756,
+      "simulation_peak_Pa": 239564.54983899998,
+      "APE_percent": 27.451980646699866,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R2000",
+      "reference_peak_Pa": 168098.52774253648,
+      "simulation_peak_Pa": 126628.46778400001,
+      "APE_percent": 24.670091115879938,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R2500",
+      "reference_peak_Pa": 103523.17759307388,
+      "simulation_peak_Pa": 79886.12728799999,
+      "APE_percent": 22.83261667062208,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R3000",
+      "reference_peak_Pa": 72594.2554998373,
+      "simulation_peak_Pa": 55833.93325900001,
+      "APE_percent": 23.08767012683923,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R3500",
+      "reference_peak_Pa": 55030.25227613395,
+      "simulation_peak_Pa": 41819.335630999994,
+      "APE_percent": 24.006643798112105,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R4000",
+      "reference_peak_Pa": 43560.99030694608,
+      "simulation_peak_Pa": 32803.802450999996,
+      "APE_percent": 24.69454385712342,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R4500",
+      "reference_peak_Pa": 36007.3348498562,
+      "simulation_peak_Pa": 26675.633434000003,
+      "APE_percent": 25.91611252198373,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R5000",
+      "reference_peak_Pa": 30283.28665574946,
+      "simulation_peak_Pa": 22249.427484,
+      "APE_percent": 26.529019994017673,
+      "source_trial": "Figure 5"
+    },
+    {
+      "trial": "LS-DYNA",
+      "sensor_id": "R5500",
+      "reference_peak_Pa": 26139.25665958656,
+      "simulation_peak_Pa": 18953.993189,
+      "APE_percent": 27.48840016439935,
+      "source_trial": "Figure 5"
+    }
+  ],
+  "full_window_all_sensors": true,
+  "required_sensors": [
+    "R0250",
+    "R0500",
+    "R0750",
+    "R1000",
+    "R1500",
+    "R2000",
+    "R2500",
+    "R3000",
+    "R3500",
+    "R4000",
+    "R4500",
+    "R5000",
+    "R5500"
+  ],
+  "fixed_APE_denominator": 25,
+  "pooled_MAPE_percent": null,
+  "per_trial_MAPE_percent": {
+    "LS-DYNA": 28.783000148065923,
+    "OURANOS": 27.369310965615682
+  },
+  "model_match_approved": false,
+  "Gold_approved": false,
+  "admission": "requires independent model health and reference matching review",
+  "pressure_baseline_Pa": 101325,
+  "time_shift_s": 0,
+  "source_files": [
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R0250/0/p",
+      "sha256": "1c81510e70e398f9b2c34d534dca5abbbf19a86e69c022c5ebd069f9434435d4"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R0500/0/p",
+      "sha256": "a20802d7860e8ff63d7fd279d9d213fc65eb2cc5174c7c25090c2bbf3838373a"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R0750/0/p",
+      "sha256": "7bf23e7d99abe13ba9808783d45e98a9c7b11db9c9e9af42737c5c9f377708e8"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R1000/0/p",
+      "sha256": "6d67967a6ccb5951a767cc91193440e27fb2081442c6c41db4fcde679c1966a5"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R1500/0/p",
+      "sha256": "a869ab43d10e4812fbcd5e650a32ab28074dfe427da49d8014027c0371b08f38"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R2000/0/p",
+      "sha256": "f5b13dccbca2689f8dca5de8f4c54c9fd385f2119bf7ede2eb850d4b62f08b9d"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R2500/0/p",
+      "sha256": "e11b9731aa2ed90b783271452f0232d0b3074150ab00ced56b34fb6878169983"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R3000/0/p",
+      "sha256": "7914dca1f1d2fd2d39d2781f1e21415a0605d492a6efb884d845c3e13f65df34"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R3500/0/p",
+      "sha256": "8c80bc834c8dfa289ae9e08e9482689cd14a2b703887ecbe7a215cfac7774f25"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R4000/0/p",
+      "sha256": "92abfd30ecc38eb5fcf0e3f26f08de1ceda880f07956288bb9c431675512d55d"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R4500/0/p",
+      "sha256": "b47d2bbc099ee4ddd0ffebf40191bfac5f0ed535df12d83e264dce12b98a329e"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R5000/0/p",
+      "sha256": "9d05783f1d1f9914935aaecae1fc93f2906cf707a1128ba8ce34163f657df675"
+    },
+    {
+      "path": "/XYFS01/sysu_pww_2/dsh-simulation/runs/ch3-c-full-20261107t052720z/cases/freefield/run-case/postProcessing/R5500/0/p",
+      "sha256": "191dc4b16845c7d7e359bed075d3df8b813e788436d679fd68d512c7d4658e8b"
+    }
+  ],
+  "pooled_MAPE_not_defined_reason": "OURANOS and LS-DYNA are distinct published numerical reference groups."
+}

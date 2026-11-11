@@ -1,0 +1,12 @@
+FoamFile { version 2.0; format ascii; class dictionary; object controlDict; }
+application blastFoam;
+startFrom latestTime; startTime 0; stopAt endTime; endTime 0.00501;
+deltaT 1e-08; adjustTimeStep yes; maxCo 0.15; maxDeltaT 2e-06;
+writeControl adjustableRunTime; writeInterval 0.001; purgeWrite 0;
+writeFormat binary; writePrecision 12; writeCompression off; timePrecision 14; runTimeModifiable false;
+functions {
+A { type probes; libs ("libsampling.so"); fields (p); probeLocations ((0.14 0.2 0.54)); fixedLocations true; interpolationScheme cellPoint; writeControl timeStep; writeInterval 1; }
+B1 { type probes; libs ("libsampling.so"); fields (p); probeLocations ((0.14 0.6 0.54)); fixedLocations true; interpolationScheme cellPoint; writeControl timeStep; writeInterval 1; }
+B2 { type probes; libs ("libsampling.so"); fields (p); probeLocations ((0.14 0.8 0.54)); fixedLocations true; interpolationScheme cellPoint; writeControl timeStep; writeInterval 1; }
+B3 { type probes; libs ("libsampling.so"); fields (p); probeLocations ((0.14 1 0.54)); fixedLocations true; interpolationScheme cellPoint; writeControl timeStep; writeInterval 1; }
+}

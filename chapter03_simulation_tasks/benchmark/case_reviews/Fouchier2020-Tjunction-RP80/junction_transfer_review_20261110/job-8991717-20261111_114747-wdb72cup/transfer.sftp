@@ -1,0 +1,5 @@
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s06-20261110-turn-crest/case/postProcessing/groundPressure/0/p p
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s06-20261110-turn-crest/logs/blastFoam.log blastFoam.log
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s06-20261110-turn-crest/run.json run.json
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s06-20261110-turn-crest/native_preflight.json native_preflight.json
+get /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s06-20261110-turn-crest/logs/checkMesh.log checkMesh.log

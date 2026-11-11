@@ -1,0 +1,35 @@
+{
+  "scene_id": "S10",
+  "case_id": "Fouchier2020-Ground-RP80",
+  "date": "2026-11-10",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S10 我看了，峰值超压和首正相冲量通过，同意作为首版 benchmark 的一个案例。绝对到达时间先不纳入评分，冲量的图读不确定性保留在审核记录里。",
+  "decision": "human_qualified_selected",
+  "reviewed_job_id": "8953576",
+  "reviewed_card": "admission_card_20261110.html",
+  "reference_type": "experiment",
+  "reference": "Fouchier (2020), Figure 6.7",
+  "fixed_radii_m": [0.350, 0.475, 0.725],
+  "native_pressure_window_ms": [0, 3],
+  "approved_scoring_metrics": {
+    "peak_overpressure": {
+      "mape_pct": 3.40,
+      "points_at_or_below_30_pct": 3,
+      "fixed_point_count": 3,
+      "evidence": "job-8953576/index.html"
+    },
+    "first_positive_phase_impulse": {
+      "mape_pct": 21.11,
+      "points_at_or_below_30_pct_nominal": 3,
+      "fixed_point_count": 3,
+      "digitization_sensitivity_px": 3,
+      "mape_sensitivity_range_pct": [16.79, 25.60],
+      "ape_sensitivity_at_0p475_m_pct": [23.34, 32.65],
+      "evidence": "positive_impulse_review_20261110/impulse_pointwise.csv"
+    }
+  },
+  "excluded_from_scoring": {
+    "absolute_arrival_time": "Figure 6.8 panel mapping and experimental time zero are unresolved"
+  },
+  "formal_gold": false
+}

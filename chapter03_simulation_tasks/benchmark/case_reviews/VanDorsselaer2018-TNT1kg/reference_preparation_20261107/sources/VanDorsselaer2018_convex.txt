@@ -1,0 +1,389 @@
+15th International LS-DYNA® Users Conference                                                                                       Blast
+
+
+                    Experiments and Simulations of Explosives:
+                Shock Wave Propagation around a Convex Structure
+                                       N. Van Dorsselaer, S. Eveillard, S. Trélat
+                              Institut de Radioprotection et de Sûreté Nucléaire (IRSN)
+                        31, Avenue de la Division Leclerc, 92260 Fontenay-aux-Roses, France
+                   nicolas.vandorsselaer@irsn.fr, sebastien.eveillard@irsn.fr, sophie.trelat@irsn.fr
+
+
+                                                              Abstract
+IRSN provides technical support to the relevant French authorities involved in the security of nuclear material, nuclear facilities and in
+the transportation of nuclear material. In order to improve its knowledge on blast wave propagation, IRSN has set-up a laboratory scale
+able to perform detonations of solid explosives against rigid structures (no damage or deformation). In July, 2017, the 7th experimental
+campaign was conducted on this set-up to study the shock wave propagation around a convex structure. Several configurations were
+tested, involving a charge of 50 g of TNT equivalent and a horizontal half cylinder. The pressure data obtained have been compared
+with simulations performed using LS-DYNA® and OURANOS (French software developed by CEA). Concerning simulations, a process
+of validation was conducted on both software programs, in order to test mesh choices (mesh size, structured or unstructured mesh…)
+and boundary conditions (mesh boundaries, coupling…).
+
+
+
+                                                           Introduction
+
+IRSN is a French public institute with industrial and commercial activities, placed under the joint authorities of
+the Ministries of Defense, Environment, Industry, Research, and Health. It is the national expert in nuclear and
+radiation risks, and its activities cover all the related scientific and technical issues.
+IRSN is entrusted, among others, to assess and conduct researches in the area of the protection of nuclear facilities
+and transport of radioactive and fissile materials against malicious acts. In this context, IRSN establishes projects
+and studies to improve its knowledge of blast characteristics and weapons effects.
+
+In 2006, IRSN designed and built an experimental set-up to achieve non-destructive shock wave propagation
+studies on a small scale. This set-up is composed of a modular table, sensors and targets able to perform the
+detonation of solid explosives up to 64 g of TNT equivalent. It was used to conduct six experimental campaigns
+between 2006 and 2011 ([1]).
+In 2017, a new experimental campaign was set up to investigate blast wave propagation around a convex structure
+([2]). The present paper summarizes some of these experimental tests, and introduces additional numerical
+simulations realized using two different software programs: LS-DYNA and OURANOS (French eulerian
+software program developed by Atomic Energy and Alternative energies Commission (CEA)). The objectives of
+this work intend to improve IRSN knowledge about blast characteristics whenever an explosion occurs near
+critical infrastructures, and to evaluate software capability to reproduce experiments.
+
+
+                                                  Experimental Campaign
+
+The blast table has been principally designed to study shock waves reflection phenomena and interaction with
+different non deformable structures. It measures 1.6 x 2.4 meters and features an array of mounting holes that
+facilitates the placement of modular 0.4 x 0.4 x 0.05 m wooden plates, and pressure transducers (see Figure 1).
+June 10-12, 2018                                                                                                                        1
+15th International LS-DYNA® Users Conference                                                                                           Blast
+
+For this campaign, eleven piezoelectric pressure transducers (Kistler, 603B (0-200 bar)) are mounted on an elastic
+support inserted in the holes provided for this purpose. Each pressure transducer is calibrated prior to the tests
+with its amplifier and connection cable.
+
+
+
+
+                                     Figure 1: Schematic view of the laboratory scale table
+
+Experimental campaigns are performed at the Ariane Group’s research center located near Paris (Vert-le-Petit,
+France). Ariane Group handles all the experiment pyrotechnics and also provides the data recording system
+(NICOLET Genesis data acquisition system, sampling rate of 5 MHz). During experiments, the modular table is
+mounted and placed at the center of a closed bunker, so as to avoid the perturbation from shock reflection on the
+bunker walls.
+
+The main objective of the 7th campaign is to study the interaction of a blast wave with a cylindrical surface. For
+that purpose, a set-up using a wooden semi-cylindrical target lying on the table has been chosen (see Figure 2,
+[3]).
+
+                              d+R                                      Parameters:
+                                                                       • W : mass of explosive charge (kg of TNT);
+                                                                       • d : distance between the cylinder and the center of the
+                          d                                              charge (m);
+                                                                       • R : radius of cylinder (m);
+                                                                       • λ : distance between the impact point and the center of the
+                                                                         charge (m);
+                                                                       • O : center of explosive charge;
+                                                                       • C : center of cylinder ;
+                                                                       • I : impact point along cylinder profile;
+                                                                       • β : incidence angle;
+                                                   β                   • μ : observation angle on cylinder surface.
+                                                                       Hypothesis:
+                              λ                I
+                                                       R
+                                                                       Plane blast wave at the impact point ((OI)┴(incident wave)).
+            Charge (W)
+                                                                  α2
+        O                                              μ   C
+
+                         Figure 2: Diagram of the experimental configuration involving a semi-cylinder
+
+June 10-12, 2018                                                                                                                          2
+15th International LS-DYNA® Users Conference                                                                  Blast
+The target is sufficiently rigid to withstand repeated blast loading without damage nor deformation. The cylinder,
+with a diameter of 0.4 m, has the same length than the table in order to avoid bypass of the shock wave at cylinder
+endpoints (see Figure 3). Pressure gauges can be placed at the cylinder surface due to the holes created in the
+section that faces the blast.
+
+
+
+
+               Figure 3: View of the wooden half cylinder lying on the table with holes for sensor positioning
+
+The explosive charge is a Hexomax® hemisphere, initiated from the bottom using electrical detonators. For this
+work, the mass used is 50 g of TNT equivalent, placed directly on the table, on the dedicated steel plate (see
+Figure 4).
+
+
+
+
+               Figure 4: Example of initial configuration of the experiment with the Hexomax® hemisphere
+
+
+For this experimental campaign, three trials with different configurations have been performed:
+   1. A free field test, in order to characterize the explosive charge and check the TNT equivalent,
+   2. A configuration n°1 with the cylinder placed at 0.6 m from the center of the charge,
+   3. A configuration n°2 with the cylinder placed at 0.4 m from the center of the charge.
+
+
+
+
+June 10-12, 2018                                                                                                 3
+15th International LS-DYNA® Users Conference                                                                Blast
+The distance of 0.6 m used in configuration n°1 is the minimum distance beyond which it is assumed that the 2D
+axisymmetric effects begin to be non-effective in a numerical simulation. When this kind of configuration (very
+long cylinder) is simulated using 2D axisymmetric dimension, a torus is then modeled instead of a cylinder which
+can have consequences on the results at a small distance (artificial containment area). This point will be
+investigated in the second part of the study with the comparison between simulation and experiment.
+
+The distance of 0.4 m used in configuration n°2 is the approximate limit of detonation products area [3]. The
+objective is here to maximize the shock wave on the cylinder without disturbing it by detonation products arrival.
+In this case, a 2D axisymmetric modeling could cause a pressure increase due to the reason explained above.
+
+
+                                  Calibration of Numerical Simulations
+
+After this experimental campaign, an additional phase of numerical simulation was realized. The aim is to
+compare pressure data obtained during the tests with simulations realized with two different software programs:
+LS-DYNA and OURANOS, a French eulerian code developed by CEA, which specialized in blast and weapon
+effects among others.
+
+In order to make a fair comparison, modeling choices and software options were as similar as possible, while
+trying to make the most of each code regarding numerical resolution options (for example, numerical scheme is
+not the same between the two software items). LS-DYNA and OURANOS simulations have been run on different
+working stations, making it difficult to compare computation time. The comparison presented in this paper will
+only concern the evolution of the positive phase of the shock wave: maximum of positive overpressure and
+positive impulse.
+
+For both software programs, 2D axisymmetric MMALE models have been developed for all configurations in
+order to be able to achieve a sufficient mesh size on a 16 cores workstation. For air, a perfect gas behavior is used
+with an initial pressure of 101325 Pa. For the explosive, a modeling with Johnson-Wilkins-Lee equation of state
+is used. A scale factor of 0.4 is applied on the CFL condition for the calculation time.
+
+Regarding the differences between the two codes, they principally concern the eulerian calculation scheme. For
+OURANOS, a Godunov ([4]) scheme is used. For LS-DYNA, a bulk viscosity model for shock treatment (finite
+element method) is used; a Van Leer advection method is chosen ([5]).
+
+In order to calibrate models and make a first comparison between the two codes, a preliminary configuration (not
+experimentally tested) using more classical characteristics has been simulated: a free field air blast with 1 kg of
+TNT. The objectives are to check if a mesh size of 4 mm/kg1/3 is able to provide peaks of pressure with relatively
+small diffusion, and to compare the results with data from literature.
+In this regards, numerical models of a 10 m by 10 m domain with a structured square mesh have been prepared
+for the detonation of a 1 kg TNT sphere. Results in terms of maximum of overpressure and positive impulse have
+been compared with two different reference sources: Kinney & Graham ([6]) and TM5-1300 ([7]). Pressures are
+extracted from the simulation along the X-axis. Figure 5 presents these comparisons depending on the reduced
+distance from the charge.
+
+
+
+
+June 10-12, 2018                                                                                                   4
+15th International LS-DYNA® Users Conference                                                                           Blast
+
+
+
+
+       Figure 5: Overpressure (left) and impulse (right) versus reduced distance for preliminary configuration (TNT)
+
+For the maximum of overpressure, the comparison shows that LS-DYNA and OURANOS give very similar
+results in all areas (from 0.25 to 6 m/kg1/3). Both software programs are able to produce a peak of overpressure
+with a maximum very close to the literature references (only a few percent of error). These observations confirm
+the choice of the mesh size of 4 mm/kg1/3 of TNT. Regarding the positive impulse, for a reduced distance above
+1 m/kg1/3, results are very similar between the two codes but always underestimate the values from Kinney and
+TM5-1300. For smaller distances, OURANOS seems to give a higher impulse, closer to the TM5-1300 reference
+than LS-DYNA.
+
+Using the same model, a study of the effects of the mesh shape has been performed. The aim is to quantify the
+differences for a spherical shock wave induced by a structured square mesh depending on the angle. These
+differences are simulated for two distances (1 and 5 m/kg1/3) and for several angles (0°, 20°, 45°, 70°, 90°), as it
+is explained on Figure 6.
+
+
+
+
+                          Figure 6: Diagram explaining sensors positions in the mesh shape study
+
+Regarding OURANOS, only the square structured mesh has been tested because it is the one recommended for
+eulerian calculations in this software. As for LS-DYNA, two meshes have been tested; one square structured mesh
+and another one with a butterfly mesh perfectly fitting the charge surface. A view of the two types of meshes
+(square or butterfly) is available on the following Figure 7.
+
+
+June 10-12, 2018                                                                                                          5
+15th International LS-DYNA® Users Conference                                                                     Blast
+
+
+
+
+           Figure 7: Views of LS-DYNA structured square mesh (left) and butterfly mesh (right) near the charge
+
+A comparison of the results in terms of maximum of overpressure and impulse in the positive phase has been
+done for all angles. A summary of maximum relative errors is presented in the following Table 1. These errors
+are calculated with the difference between minimum and maximum values observed for all angles at a same
+distance.
+
+                                                    OURANOS           LS-DYNA         LS-DYNA
+                     Distance
+                                       Data          Square            Square         Butterfly
+                     (m/kg1/3)
+                                                      mesh              mesh            mesh
+
+                                  Overpressure                        ≈ 24-25 %         ≈ 4-5 %
+                         1                             ≈ 7-8 %
+                                     Impulse                            > 40 %          ≈ 2-3 %
+                                  Overpressure                                 ≈ 9-10 %
+                         5                             ≈ 1-2 %
+                                     Impulse                                     <1%
+                      Table 1: Summary of maximum errors due to sensors positions for all meshes
+
+This comparison shows that LS-DYNA presents a dispersion of the results more important than OURANOS for
+a structured square mesh for short distances. Regarding LS-DYNA, it seems to be highly recommended to use a
+butterfly mesh to reduce the error in this area. Therefore in the present study, all LS-DYNA models will be
+performed with a butterfly mesh to initialize properly the spherical shock wave.
+
+
+                         Comparison between Simulations and Experiments
+The first three trials of this experimental campaign are in free field, involving a charge of 42 g of Hexomax® (50 g
+in TNT equivalent). To compare experimental results with simulation in this work, the chosen method consists in
+keeping the best two trails (regarding literature standards Kinney & Graham and TM5-1300), in order to make an
+average and consider an experimental uncertainty of 20 %.
+
+Numerical simulation models have been developed for this configuration using the mesh size validated in the
+previous case (4 mm/kg1/3 of TNT, so for this case a mesh size of 1.86 mm). The domain size is 2 m by 2 m, and
+
+
+June 10-12, 2018                                                                                                    6
+15th International LS-DYNA® Users Conference                                                   Blast
+                                             ®
+the JWL equation of state for Hexomax is provided by Ariane Group based on a Cheetah 2.0 calculation
+(thermochemical code developed by LLNL, [8]).
+
+Figure 8 presents a comparison between simulation and experiment in terms of maximum of overpressure and
+positive impulse depending on the distance from the center of the charge.
+
+
+
+
+ Figure 8: Comparison between simulation and experiment in terms of Overpressure (left) and Impulse (right) for free field
+                                       experimental configuration (Hexomax®)
+
+Concerning the overpressure, the comparison shows that values obtained by both software programs fall within
+the experimental uncertainty for most of the points. LS-DYNA seems to give a smoother evolution with the
+distance than OURANOS, with higher values close to the charge. Regarding the impulse, both software programs
+give the same behavior with values always in the experimental uncertainty. As observed before with TNT
+simulations, greater values are obtained for OURANOS close to the charge for the impulse.
+These results show that LS-DYNA and OURANOS are able to reproduce detonation of Hexomax® charges in
+free field compared to these experiments on a small scale.
+
+After these free field tests, two more complicated configurations have been performed involving a half cylinder
+lying on the experimental table (three shots each). This cylinder, of a diameter of 0.4 m, is placed at 0.6 m from
+the center of the charge in configuration n°1 and 0.4 m in configuration n°2. The comparison between simulation
+and experiment was based on five sensors placed on the cylinder and two sensors located upstream and
+downstream the cylinder. Moreover, in order to evaluate software capability to reproduce the maximum of
+reflected pressure, a point is added in the curves at the bottom left of the cylinder (the location where the shock
+wave hits first the structure) based on an estimation by Kinney (estimation of incident overpressure with
+equivalent mass of TNT) and TM5-1300 (estimation of reflected coefficient). In this paper, only overpressures
+are compared for the two configurations, impulses being processed and analyzed at this time.
+Concerning these configurations, numerical models of a fluid domain of 2 m by 2 m have been created. In these
+models, a major difference exists between LS-DYNA and OURANOS concerning the cylinder treatment. In
+OURANOS, a structured square mesh is used for the entire domain, and the cylinder is modeled by a “fictitious
+fluid” acting as a fixed rigid body. In LS-DYNA, mesh boundaries follow the cylinder surface with a “slip”
+condition. These two different kinds of modeling are shown in the following Figure 9.
+
+
+June 10-12, 2018                                                                                                             7
+15th International LS-DYNA® Users Conference                                                                          Blast
+
+
+
+
+                Figure 9: Comparison of cylinder modeling between OURANOS (left) and LS-DYNA (right)
+
+As it is shown in the following Figure 10, multiple reflections occur during the shock wave propagation. This
+view of the simulation of configuration n°1 (cylinder at 0.6 m from the center of the charge) confirms that
+detonation products do not seem to have any influence on the blast interaction with structure.
+
+
+
+
+Figure 10: View of multiple reflections of the shock wave and detonation products in LS-DYNA calculation (configuration n°1)
+
+A comparison of the overpressures between simulation and experiment is presented in Figure 11 for configuration
+n°1. As the distance between the charge’s center and the sensor increases, the overpressure decreases until the
+shock wave reaches the cylinder. The reflected pressure causes a peak centered at the exact position of the
+beginning of the structure, where the reflection coefficient is maximum. Then, as the shock wave propagates
+around the cylinder, the overpressure highly decreases to achieve a relaxation phase on the back side. Downstream
+the cylinder, the overpressure increases again a little bit due to the reflection on the ground.
+
+
+
+
+June 10-12, 2018                                                                                                          8
+15th International LS-DYNA® Users Conference                                                                      Blast
+
+
+
+
+  Figure 11: Comparison between simulation and experiment in terms of overpressure for experimental configuration n°1
+                                  (cylinder placed at 60 cm from the charge’s center)
+
+The comparison between simulation and experiment shows that LS-DYNA and OURANOS both give
+overpressures within the experimental uncertainty for all points. As observed before, LS-DYNA calculates a
+higher pressure peak close to the charge than OURANOS, in the free field area upstream the cylinder. However,
+at the cylinder’s surface, LS-DYNA seems to underestimate the reflected pressure. In fact, for the peak value, the
+difference between simulation and estimation is much higher for LS-DYNA than for OURANOS.
+
+The same comparison is presented in Figure 12 for configuration n°2. A similar evolution of the overpressure is
+observed for this case, with a greater pressure peak on the cylinder due to the proximity of the charge.
+
+
+
+
+  Figure 12: Comparison between simulation and experiment in terms of overpressure for experimental configuration n°2
+                                  (cylinder placed at 40 cm from the charge’s center)
+
+
+
+June 10-12, 2018                                                                                                        9
+15th International LS-DYNA® Users Conference                                                                                      Blast
+
+For this configuration, the comparison between simulation and experiment also shows that LS-DYNA and
+OURANOS both give overpressures within the experimental uncertainty for all points. Observation made for
+configuration n°1 about an underestimate of the reflected pressure on the cylinder is also applicable in this case
+in a similar proportion. Contrary to what it was expected, a pressure increase due to the artificial containment
+effect (2D axisymmetric dimension models a torus in place of a straight cylinder) is not observed. This point has
+to be confirmed by a 3D simulation of configuration n°2, in order to find out whether other effects do offset this
+2D axisymmetric containment effect or not.
+
+                                                          Conclusion
+In order to improve its knowledge on blast wave propagation, IRSN has developed a laboratory scale set-up able
+to perform detonations of solid explosives against rigid structures. In July, 2017, the 7th experimental campaign
+was conducted on this set-up to study the shock wave propagation around a convex structure. Three configurations
+have been tested, involving a charge of 50g of TNT equivalent: one configuration in free field and two
+configurations with a horizontal semi-cylinder placed at 0.6 m and 0.4 m from the charge’s center.
+After a calibration phase, the pressure data obtained by experiment have been compared with results from
+simulations performed using LS-DYNA and OURANOS (French software program developed by CEA). This
+comparison has shown that both software programs are able to give results in the experimental uncertainty of 20
+%. However, in terms of reflected pressure on the cylinder, OURANOS seems to give higher results, with a lower
+error compared to estimation made with literature references.
+
+This work will be completed by a comparison between simulation and experiment for the positive impulse
+(experimental results are not yet processed for cylinder configurations). Additional simulations (3D dimension)
+and experiments have to be conducted to confirm these first results based on pressure sensors. In particular, an
+experimental campaign implementing a technology able to visualize the shock wave propagation could make
+possible a better understanding of phenomena and a more precise evaluation of software programs capability to
+reproduce them.
+
+                                                            References
+[1]    Cheval, K., Loiseau, O., Vala, V. “Laboratory scale tests for the assessment of solid explosive blast effects. Part II: Reflected
+       blast series of tests”, Journal of Loss Prevention in the Process Industries, 25, 436-442, 2012.
+[2]    Trélat, S., Eveillard, S., Van Dorsselaer, N., “Shock wave propagation around convex structure”, IAEA International
+       Conference Physical Protection of Nuclear Material and Nuclear Facilities, Vienna, Austria, 13-17 November 2017.
+[3]    Eveillard, S., « Propagation d’une onde de choc en présence d’une barrière de protection », Thèse de l’Université d’Orléans,
+       France, 12 Septembre 2013.
+[4]    Godunov, S., K., “A Difference Scheme for Numerical Solution of Discontinuous Solution of Hydrodynamic Equations”,
+       Math. Sbornik, vol. 47, 1959, p. 271-306, translated US Joint Publ. Res. Service, JPRS 7226, 1969.
+[5]    “LS-DYNA Theory Manual”, Compiled by John O. Hallquist, March 2006.
+[6]    Kinney, GF, Graham, KJ, “Explosives shocks in air”, Second edition, Springer-Verlag, 1985.
+[7]    "Structures to Resist the Effects of Accidental Explosions", TM 5-1300, NAVFAC P-397, AFM 88-22.
+[8]    Fried, L.E., Howard, W.M. and Souers, P.C. (1998), “CHEETAH 2.0 User's Manual”, UCRL - MA - 117541 Rev. 5,
+       Lawrence Livermore National Laboratory, August.
+
+
+
+
+June 10-12, 2018                                                                                                                     10
+

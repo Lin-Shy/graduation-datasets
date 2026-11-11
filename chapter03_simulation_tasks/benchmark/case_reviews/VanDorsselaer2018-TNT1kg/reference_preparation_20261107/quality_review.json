@@ -1,0 +1,34 @@
+{
+  "at_UTC": "2026-11-06T17:29:20.206950+00:00",
+  "classification": "published_numerical_source_lead_not_comparison_ready",
+  "source_scope": "Paper preliminary1kg full-sphere TNT free-field calculation; explicitly not an experimental test. It is distinct from A02 Hexomax.",
+  "source_identity": {
+    "PDF_page": 4,
+    "conditions": "10m by10m domain,4mm square mesh, air101325Pa,2D axisymmetric MMALE, X-axis sampling."
+  },
+  "source_plot": {
+    "PDF_page": 5,
+    "figure": 5,
+    "ordinate": "maximum positive overpressure, bar, logarithmic",
+    "abscissa": "distance from charge center, m/kg^(1/3)"
+  },
+  "all26_candidate_readings_preserved_as_draft": true,
+  "trusted_or_frozen_reference_rows": 0,
+  "unreliable_first_OURANOS_reading": {
+    "radius_m": 0.25,
+    "color_pixels": 1,
+    "adopted": false
+  },
+  "remaining": [
+    "Complete original TNT JWL/energy and ambient density/temperature not reported. External TNT parameters would be explicit model assumptions, not verified exact reproduction.",
+    "Define native geometry, boundary placement, source representation, axis mapping and full peak window before dispatch.",
+    "Visually verify every adopted digitized reference and reading interval; fix reference groups and denominator before any predictions."
+  ],
+  "original_paper_mesh_versus_native_mesh_not_silently_equated": true,
+  "original_Hexomax_best2of3_reference_selection_not_adopted": true,
+  "simulation_dispatch_allowed": false,
+  "native_input_package_created": false,
+  "APE_MAPE_available": false,
+  "A02_replaced": false,
+  "human_admission_or_Gold_changed": false
+}

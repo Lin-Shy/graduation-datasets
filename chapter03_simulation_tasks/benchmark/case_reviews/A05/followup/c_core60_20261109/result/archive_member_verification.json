@@ -1,0 +1,462 @@
+{
+  "archive_sha256": "f4220b1e6838119cf22fec48c925d2ebee3d680d484a4650b56a12a997c76b07",
+  "all_members_verified": true,
+  "verified_count": 91,
+  "files": [
+    {
+      "path": "allocated_guard.py",
+      "bytes": 1419,
+      "sha256": "bf1276a6c8a646159e3b8d8060b1fac9b4da496ac9ec160e725f78c211fd9257"
+    },
+    {
+      "path": "allocated_mesh.py",
+      "bytes": 1926,
+      "sha256": "1772fefe4ec2a8f2bb9448a49edb176360444cb075e60643eebc99301a85592f"
+    },
+    {
+      "path": "allocated_quota.json",
+      "bytes": 108,
+      "sha256": "0213ad25335f3b0d99ab0c303068ac3c605ac48889dc42e310940c7ea19f305c"
+    },
+    {
+      "path": "allocation.json",
+      "bytes": 4205,
+      "sha256": "a34be091baf2f9aaa21f4345c70345b38f005c6a6b07ff30aeb2f97ece0e23c2"
+    },
+    {
+      "path": "autodyn_reference.json",
+      "bytes": 1044,
+      "sha256": "5c9ef92f4d7da2dd6a06a2d6ba10d92f8e3a9a4c3f678066e71909cf118c4200"
+    },
+    {
+      "path": "batch.sh",
+      "bytes": 3828,
+      "sha256": "16a3ecab5d151113b845a09d411b3c02d1d8f4d04e90617fd9942245ed7e6eda"
+    },
+    {
+      "path": "bootstrap_allocation.json",
+      "bytes": 3349,
+      "sha256": "7f8adc557d8e5ede7bac9a234bae8cb6bd32e73c7e23de739c2fa1fe19fdcefe"
+    },
+    {
+      "path": "cases/gauge_mesh/0-blockMesh.log",
+      "bytes": 156723,
+      "sha256": "a204c48c04fe3318a0fc0a8abcc4d829ff0af13e7eeb92b138583ed080e5ff82"
+    },
+    {
+      "path": "cases/gauge_mesh/1-setFields.log",
+      "bytes": 11997,
+      "sha256": "6c893a15f8dbd903307be7d67936c81647ddb6561d18c80e1755a6f4e9c3576d"
+    },
+    {
+      "path": "cases/gauge_mesh/2-postProcess.log",
+      "bytes": 1165,
+      "sha256": "caf52b86addf52ced6c1775e8d4219a1c960f62cf642dc21b11cec4c3c8f8551"
+    },
+    {
+      "path": "cases/gauge_mesh/3-python3.log",
+      "bytes": 856,
+      "sha256": "ffc9a469fc400feca0ccb78abf798651fbfd3dd506adabf2d8f8f1745a1a4348"
+    },
+    {
+      "path": "cases/gauge_mesh/4-checkMesh.log",
+      "bytes": 4289,
+      "sha256": "cd084b830cc5ac95347cf6970816ce12ff07a2278398db72a732ac961e8221d0"
+    },
+    {
+      "path": "cases/gauge_mesh/5-decomposePar.log",
+      "bytes": 28955,
+      "sha256": "b71fac45274e63913752af49583899a645d9ef8dedbd6a8d0664e3a7cfb9d924"
+    },
+    {
+      "path": "cases/gauge_mesh/6-blastFoam.log",
+      "bytes": 13459752,
+      "sha256": "7e8346d8c7b4b3ce83b98624cf24c36eace2a998e82b157b2acfd42319555067"
+    },
+    {
+      "path": "cases/gauge_mesh/build_a05_supplement.py",
+      "bytes": 11479,
+      "sha256": "c683f1951c0c379eb02f9cd9514b7e00fd47127a7b64db558fed341e68f68bbf"
+    },
+    {
+      "path": "cases/gauge_mesh/case/0/T",
+      "bytes": 872,
+      "sha256": "e70a8a5973ffefe83bb3e7867e98cd2ca426afd443078aba00d576b44944f5b2"
+    },
+    {
+      "path": "cases/gauge_mesh/case/0/U",
+      "bytes": 734,
+      "sha256": "5b667e17f14a8762ec58072fdab2c6479389e0e4b468b8b8653c28c7d2e7b95f"
+    },
+    {
+      "path": "cases/gauge_mesh/case/0/alpha.petn",
+      "bytes": 867,
+      "sha256": "ff5b63b8fd6c667c31189c67d0cddc64fc9206d4b177e25f8ee871dee816d71a"
+    },
+    {
+      "path": "cases/gauge_mesh/case/0/p",
+      "bytes": 899,
+      "sha256": "0b3863b028978801f96f8148afa87f7887a8ca514db8865208c164b08671014a"
+    },
+    {
+      "path": "cases/gauge_mesh/case/0/rho.air",
+      "bytes": 869,
+      "sha256": "c61b5bb68b66e2c94418693ec0f0c9b53ee073769de2abab6ab362488260a166"
+    },
+    {
+      "path": "cases/gauge_mesh/case/0/rho.petn",
+      "bytes": 842,
+      "sha256": "661f2b0cae7bc258121eb4f9f1baca88ec696361a7c17a816d656076576eea1a"
+    },
+    {
+      "path": "cases/gauge_mesh/case/constant/dynamicMeshDict",
+      "bytes": 112,
+      "sha256": "fd7a7802522cdcba3d26d2d752169d45e7b8cd0650091e6a2d5912bbf99d7b36"
+    },
+    {
+      "path": "cases/gauge_mesh/case/constant/phaseProperties",
+      "bytes": 1048,
+      "sha256": "0185d6109bcc6444cc718cebe82d661f0677aa0d268e3bd3b6b6f2d4156eb0d3"
+    },
+    {
+      "path": "cases/gauge_mesh/case/system/blockMeshDict",
+      "bytes": 141441,
+      "sha256": "72d92adc63773819289fee9ad9ea6c9c40085d741d2c2bdbdd8a57bf3d0d3c55"
+    },
+    {
+      "path": "cases/gauge_mesh/case/system/controlDict",
+      "bytes": 4407,
+      "sha256": "19d01c994d76b6cf90e7a329f9952e951bf0f1c520530a322a683f1f44c4593d"
+    },
+    {
+      "path": "cases/gauge_mesh/case/system/decomposeParDict",
+      "bytes": 122,
+      "sha256": "2c2e079f0a89436c72e238eeb5c4c5e9afe121bce35fc36548c60fd8adaa5cca"
+    },
+    {
+      "path": "cases/gauge_mesh/case/system/fvSchemes",
+      "bytes": 611,
+      "sha256": "e544b3c0f2aacbaf088a90c5fe216290f365f11431fd473c1c15158098b2e545"
+    },
+    {
+      "path": "cases/gauge_mesh/case/system/fvSolution",
+      "bytes": 978,
+      "sha256": "d5415c05e7c0e95487d6701278661f0c92dff9e3ae72bbc761c2b203a0654828"
+    },
+    {
+      "path": "cases/gauge_mesh/case/system/setFieldsDict",
+      "bytes": 10028,
+      "sha256": "d6bed16251dc675dfa28486072832edea8835ef229ace4650a1338ab913689c1"
+    },
+    {
+      "path": "cases/gauge_mesh/diagnostics/autodyn_comparison.json",
+      "bytes": 3793,
+      "sha256": "061e27e77ef6399430400b7534763f2a93f77a44edcf81145ee78983d721a551"
+    },
+    {
+      "path": "cases/gauge_mesh/diagnostics/peak_comparison.csv",
+      "bytes": 1332,
+      "sha256": "4c12788ab24e8d0b4fbf1745928b0f5cb6caa52b0defb7926768a85e1fbe109b"
+    },
+    {
+      "path": "cases/gauge_mesh/diagnostics/peak_comparison.json",
+      "bytes": 17572,
+      "sha256": "689b8b636d9b2c52bbed72823f3bda1f1caa814c5f8e1cd931bc714870ad192a"
+    },
+    {
+      "path": "cases/gauge_mesh/fixed-scoring.log",
+      "bytes": 98,
+      "sha256": "0ea96d2dc303a73eeb4baf34e07c333af74c3cf27e2914dad7b0c757f05b8f48"
+    },
+    {
+      "path": "cases/gauge_mesh/foam_fields_snapshot.py",
+      "bytes": 5642,
+      "sha256": "36eb0dde71a5948b21d41c94588f8206c9f50ad3d5ed2f41bda3768f4b737a5d"
+    },
+    {
+      "path": "cases/gauge_mesh/initialize_cartesian_products.py",
+      "bytes": 3546,
+      "sha256": "bfd081e9bf6f80633961465fabf225843f960147625c650af1d2f95c5f611531"
+    },
+    {
+      "path": "cases/gauge_mesh/prepare-a05-products-v5.py",
+      "bytes": 5902,
+      "sha256": "044b66b9c576717e1a666dad08a0dcd9d3002fe550f89050e6f04ab60d571d2f"
+    },
+    {
+      "path": "cases/gauge_mesh/prepare-a05-products-v6.py",
+      "bytes": 1736,
+      "sha256": "bf99bb65a32d8b909b50f4b8f7d9e449e5c73a6d77f857e9f38c2c38acf750c7"
+    },
+    {
+      "path": "cases/gauge_mesh/prepare-a05-products-v7.py",
+      "bytes": 2170,
+      "sha256": "242c7e1cc6499a6a9e04ae30f64e392205a58692c6749a90843f2b27a8a0379d"
+    },
+    {
+      "path": "cases/gauge_mesh/raw_fields_retention.json",
+      "bytes": 256,
+      "sha256": "e2c116db5973f6da63488e2bad4fc41e961ee36e9d49ab4cf927d3cda53d0b45"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA1C/0/p",
+      "bytes": 1555587,
+      "sha256": "399037f10275d2e84203d1bd986c7b3dfbb4c87b01fec9392ce8af36063d187d"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA1L/0/p",
+      "bytes": 1555586,
+      "sha256": "5ef5a683dcf3e78cebcbc36aef415b1cb24635de12532401d681365350480ea4"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA2L/0/p",
+      "bytes": 1555586,
+      "sha256": "bec9f9cbb28a6c88ad7a00a9a266f3ff8d14e7f84589525f8f3b20b075f7897a"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA3C/0/p",
+      "bytes": 1555587,
+      "sha256": "42eb43a1e21b2d79d6202b57bdb86151d656ee0824bda829fff43a69879b465c"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA3L/0/p",
+      "bytes": 1555586,
+      "sha256": "feadf623ffe8200e4cbd375fb56ec8011f7107f411b69b451ed328de09ce2883"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA4C/0/p",
+      "bytes": 1555587,
+      "sha256": "9b59e595e4cc876abeefd0713c3c1e07d7a383dc9d3ead9335d979957dbe0b01"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA4L/0/p",
+      "bytes": 1555586,
+      "sha256": "65b20ad25ceeb2bd480f29afb956301f0e54373adaf7b658da7be6b0e892190b"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA5R/0/p",
+      "bytes": 1555585,
+      "sha256": "8d71778340a95cd80d70631f07d7ecdccfeccb44eab37699efd69e8e2aebaf8b"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA6L/0/p",
+      "bytes": 1555587,
+      "sha256": "6023c26efd8610f0660a666561f2750900c93a314c7858468220494ac7f92d72"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BA7L/0/p",
+      "bytes": 1555587,
+      "sha256": "e8fc5e46782d5754f5b9724379de144d10ea2a53e97f1f2f7c862e2f769f950b"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BB1C/0/p",
+      "bytes": 1555586,
+      "sha256": "1549c28e7e451fd31c3c69511a4dcf705c6fa87852ea42673481a16fb5d718c6"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BB1L/0/p",
+      "bytes": 1555585,
+      "sha256": "c2edb2ae8b539c926b2c5602248718aff975a7335a86c05d33636e9a2d5a8286"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BB2L/0/p",
+      "bytes": 1555585,
+      "sha256": "67632499803ebf663b1100dc301bfedd6e420648100df419509c01d32cbe7485"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BB3C/0/p",
+      "bytes": 1555586,
+      "sha256": "ffd3aec0951f92986825ec9845165dad7a1f3d41402b2476a6e06a00b2fedb96"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BB3L/0/p",
+      "bytes": 1555585,
+      "sha256": "010cc4268262cf2264d6c2d22e39d9659353b016fba9ad18b3c9d4587aba1d22"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BB4C/0/p",
+      "bytes": 1555586,
+      "sha256": "53a8515e57ee1d8544ee3bd777d45e65114ac0e9a28727170c817e750dd1012d"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BB4L/0/p",
+      "bytes": 1555585,
+      "sha256": "c0096170749a8260de80f9d039ab744d2a73b7e7c3c2cae05499063232ce6d2f"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BB5R/0/p",
+      "bytes": 1555584,
+      "sha256": "9a432e0367cb48bcaa487aeaef140c751297044d114fd841fd6a15bd733d70e1"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BC2C/0/p",
+      "bytes": 1555588,
+      "sha256": "c34c460fefbee4d2a682f507e638ecdd1692829e491c1e2551338a97ad2f4d6c"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/BD2C/0/p",
+      "bytes": 1555587,
+      "sha256": "aa782f8f22211443c26431e39cd314655e3b744c3a9399fd6a4a18463cad0826"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/FF01/0/p",
+      "bytes": 1555582,
+      "sha256": "01e5835cb1b536d44dc0a1f90976f285f74a4a6ad8fd41f76255e12d490e5d1a"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/FF02/0/p",
+      "bytes": 1555581,
+      "sha256": "ba9cb3f75be91ba2958dbdb65d196499682ebb8481cc600ed33b8f51bc089c7f"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/FF03/0/p",
+      "bytes": 1555581,
+      "sha256": "c854075023b5cd6a8116f64e2ab13a5245cd218bcecc47568233f839a0ef98d4"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/FF12/0/p",
+      "bytes": 1555581,
+      "sha256": "4144d18ec6274dfe2e17af126898c88bf7e6bd5a6dc71efb3ce733f11f12dbf9"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/postProcessing/FF13/0/p",
+      "bytes": 1555583,
+      "sha256": "fb5b5f81d46d196fa74d4794b97a45edc999db9e701aee4a2f926a66b1d4a194"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/system/blockMeshDict",
+      "bytes": 141441,
+      "sha256": "72d92adc63773819289fee9ad9ea6c9c40085d741d2c2bdbdd8a57bf3d0d3c55"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/system/controlDict",
+      "bytes": 4407,
+      "sha256": "19d01c994d76b6cf90e7a329f9952e951bf0f1c520530a322a683f1f44c4593d"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/system/decomposeParDict",
+      "bytes": 123,
+      "sha256": "b640b6ffda446deba43a7fb2ceb386d25a404d9b11b52a2f1a848746ba2df46d"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/system/fvSchemes",
+      "bytes": 611,
+      "sha256": "e544b3c0f2aacbaf088a90c5fe216290f365f11431fd473c1c15158098b2e545"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/system/fvSolution",
+      "bytes": 978,
+      "sha256": "d5415c05e7c0e95487d6701278661f0c92dff9e3ae72bbc761c2b203a0654828"
+    },
+    {
+      "path": "cases/gauge_mesh/run-case/system/setFieldsDict",
+      "bytes": 10028,
+      "sha256": "d6bed16251dc675dfa28486072832edea8835ef229ace4650a1338ab913689c1"
+    },
+    {
+      "path": "cases/gauge_mesh/run.json",
+      "bytes": 9716,
+      "sha256": "b35ce7631d3f95d7896e4b8f638399d1fdb7d7bf3e75bdee0e06244aad166663"
+    },
+    {
+      "path": "cases/gauge_mesh/run_reference_supplement.py",
+      "bytes": 4949,
+      "sha256": "02f3345146c7f02692d2a896e5012a0cc8773e4a227aea2d7654242b1710370e"
+    },
+    {
+      "path": "cases/gauge_mesh/score_reference_supplement.py",
+      "bytes": 3997,
+      "sha256": "db54aa8acd93f0a4633551df8be71790402021d82d7661ecd1a1dbbf8b46b473"
+    },
+    {
+      "path": "cases/gauge_mesh/source_initialization.json",
+      "bytes": 904,
+      "sha256": "f6eb2fd9c8f78a438d84f3b651c93f64556ac86515a2eeba0b2b73128ce6bbc2"
+    },
+    {
+      "path": "cases/gauge_mesh/sources/Kim2003_PETN_binder.pdf",
+      "bytes": 372585,
+      "sha256": "92f9c4b5913fa9b5283ea814b51fde855acd228ad5c2f825bcf7f5a0c9d3f6dc"
+    },
+    {
+      "path": "cases/gauge_mesh/sources/Kim2003_receipt.json",
+      "bytes": 308,
+      "sha256": "990244b4d55d5419293994f8568fbf45234e1e858fcf5e0c30ba438d7d1da244"
+    },
+    {
+      "path": "cases/gauge_mesh/sources/comparison_and_findings.json",
+      "bytes": 15703,
+      "sha256": "36f6d1f3f992ca64a87f9c7fc7871be5d2fa8a130d99f1bfaf74358e3e0c521a"
+    },
+    {
+      "path": "cases/gauge_mesh/sources/johansson-msb450-2012.pdf",
+      "bytes": 5419002,
+      "sha256": "0eec43f9465518750b552e930b1bbdb656b530aa89d3368343893f0736e5103d"
+    },
+    {
+      "path": "cases/gauge_mesh/sources/johansson-msb450-2012.txt",
+      "bytes": 308816,
+      "sha256": "682c6abdc5a1902f76c450a8c128ec30c8f5d9d23874e4a552a314e9ad430ab6"
+    },
+    {
+      "path": "cases/gauge_mesh/sources/johansson-pdf-20261022.txt",
+      "bytes": 48420,
+      "sha256": "e954ed14ab28abff00e352ffe718de14859d1e71385da64e2baf3842053621e3"
+    },
+    {
+      "path": "cases/gauge_mesh/sources/material_binding.json",
+      "bytes": 2816,
+      "sha256": "26a89e915d00417455c4bc64a5542b1945a47d1fb6a9809ec135bb32728c6927"
+    },
+    {
+      "path": "cases/gauge_mesh/sources/source-and-applicability.json",
+      "bytes": 12275,
+      "sha256": "1feb9496804b0d191af052bab143ea3d658209c62dc34a3340cd4dd3a2c444b2"
+    },
+    {
+      "path": "cases/gauge_mesh/specification.json",
+      "bytes": 23172,
+      "sha256": "a8d0f170b903b24c3411476c2d2386e56af92bb827c52d66009b6f30749e949d"
+    },
+    {
+      "path": "derive_gauge_mesh.py",
+      "bytes": 5025,
+      "sha256": "ddc3e4cd5cc989a77323e3e49a02fd81340dc787b0f3a2ae4559d643947aab91"
+    },
+    {
+      "path": "mesh_derivation.json",
+      "bytes": 486,
+      "sha256": "8c24013a6e1cc1d919ffded204f13e75acf447132f684b349cfe4a076c108481"
+    },
+    {
+      "path": "native-env.sh",
+      "bytes": 2380,
+      "sha256": "f510a68e15d1f25149762c6aa69a22fe483de9f37991f1fb32217790ad276a3e"
+    },
+    {
+      "path": "payload_manifest.json",
+      "bytes": 6500,
+      "sha256": "869116057ab5eb153216b4df07e34e2befc9bd84efa5d049ad894d8e3dc80b8b"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 1468,
+      "sha256": "fa6fda218010f08525a31a73cc9cbe0ea08510d0fe611809c433916a6a6483b7"
+    },
+    {
+      "path": "refinement_binding.json",
+      "bytes": 1895,
+      "sha256": "653f6451458b8655f1eba8dcec03a087162dddc759643c34d076c9871108d1d5"
+    },
+    {
+      "path": "run_full_windows.py",
+      "bytes": 12066,
+      "sha256": "bf5fb16223a5edd20b0728265537e759bb7a6e312a31fc34bfeec6afaf504a10"
+    },
+    {
+      "path": "score_autodyn.py",
+      "bytes": 1253,
+      "sha256": "f763f2019546ba3cf5cd1b105739cefcaa5c9874a6c37d47a89faa46f3777df1"
+    }
+  ]
+}

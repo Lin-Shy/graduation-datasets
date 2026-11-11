@@ -1,0 +1,20 @@
+{
+  "scene_id": "S05",
+  "case_id": "A05",
+  "date": "2026-11-10",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S05 的六点叠图我看了，可以入选。",
+  "decision": "human_qualified_selected",
+  "reviewed_job_id": "8963364",
+  "reference_condition": "MSB450 location IV, shot 10",
+  "reviewed_card": "admission_card_20261110.html",
+  "waveform_review_gauges": ["FF02", "FF12", "BA2L", "BA3L", "BB3L", "BB4L"],
+  "experimental_peak_mape_pct": 29.969,
+  "experimental_peak_rounding_sensitivity_mape_pct": [28.52, 31.33],
+  "experimental_cumulative_positive_pressure_impulse_mape_pct": 13.35,
+  "experimental_cumulative_negative_pressure_impulse_magnitude_mape_pct": 10.91,
+  "waveform_reference_binding": "Location and gauge labels plus six matches to shot 10 peaks; explicit shot numbers and common time zero remain unresolved",
+  "absolute_arrival_time_scored": false,
+  "full_waveform_error_scored": false,
+  "formal_gold": false
+}

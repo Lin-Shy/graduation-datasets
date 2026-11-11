@@ -1,0 +1,50 @@
+{
+  "case_id": "Gabriel2023-100pct-PE4-21p3g-transport8mm",
+  "job_id": "8943232",
+  "node": "cnode5153",
+  "task_completion_pass": true,
+  "fixed_reference_sizes": {
+    "experimental_repeats": 14,
+    "published_viper": 4
+  },
+  "MAPE_pct": {
+    "experimental_repeats": null,
+    "published_viper": null
+  },
+  "peak_comparison_available": false,
+  "gauges": {
+    "A": {
+      "peak_kPa": 88.788329424,
+      "peak_time_ms": 0.489909476852,
+      "peak_gate_end_ms": 0.49,
+      "peak_resolved": false,
+      "sample_count": 67191,
+      "trace_sha256": "41972e8f7d84aa65a19ef6d062be3647ae112903f9d956411cf13f20301c4ae8"
+    },
+    "B1": {
+      "peak_kPa": 47.505482402,
+      "peak_time_ms": 0.827055212567,
+      "peak_gate_end_ms": 1.0,
+      "peak_resolved": true,
+      "sample_count": 67191,
+      "trace_sha256": "1861dc15663da5b159d4b90fbff1e2c45bf60ceaa191bb50a3e108a019fdbac9"
+    },
+    "B2": {
+      "peak_kPa": 25.285599658,
+      "peak_time_ms": 1.33244738581,
+      "peak_gate_end_ms": 1.55,
+      "peak_resolved": true,
+      "sample_count": 67191,
+      "trace_sha256": "dc0190b97e273ecd2a85cece0ff0a50627ed092368b7ee66d67d955622cc41e5"
+    },
+    "B3": {
+      "peak_kPa": 16.848629971,
+      "peak_time_ms": 1.85609627993,
+      "peak_gate_end_ms": 2.05,
+      "peak_resolved": true,
+      "sample_count": 67191,
+      "trace_sha256": "79eb8772f7923089e48cbf0f3f0a78dcd6e6e9ed95271a7d92eee8ab2c8b29ed"
+    }
+  },
+  "archive_sha256": "e67bc87a8329c7dff0b307cc685ff965f7440e85a3e63510602bd133ae8e6ce7"
+}

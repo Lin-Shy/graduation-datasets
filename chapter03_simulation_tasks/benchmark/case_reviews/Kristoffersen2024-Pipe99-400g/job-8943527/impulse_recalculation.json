@@ -1,0 +1,93 @@
+{
+  "case_id": "Kristoffersen2024-Pipe99-400g",
+  "job_id": "8943527",
+  "archive_sha256": "36d722c47a3bd1094b8a07f73d1e88fd996d26b90503fa24d7e04abce2d96335",
+  "table_4_source_page_sha256": "6dcb44a77a47442b3435e11b0023cb1a9620aa4c2a81c0e84cb3121289ea8855",
+  "reference_pdf_sha256": "3acaacff8ae4b44b44e6a38689c69d5ab5da3c99ff21123036a6df83e4e7935b",
+  "task_completion_pass": true,
+  "scope": "post_run_diagnostic_outside_frozen_peak_contract",
+  "metric": "signed wall overpressure integral 0\u20134 ms, native ignition time; trapezoidal rule",
+  "alignment": "zero fitted shift; paper aligns experimental fronts to EPX Pi02",
+  "fixed_reference_sizes": {
+    "experimental_repeats": 6,
+    "published_EPX": 3
+  },
+  "MAPE_percent": {
+    "experimental_repeats": 7.006979048539597,
+    "published_EPX": 5.02878945654146
+  },
+  "rows": [
+    {
+      "group": "experimental_repeats",
+      "trial": "T1",
+      "gauge": "Pi02",
+      "reference_kPa_ms": 2354,
+      "prediction_kPa_ms": 2053.702713604939,
+      "APE_percent": 12.756894069458836
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T2",
+      "gauge": "Pi02",
+      "reference_kPa_ms": 2336,
+      "prediction_kPa_ms": 2053.702713604939,
+      "APE_percent": 12.084644109377612
+    },
+    {
+      "group": "published_EPX",
+      "trial": "EPX",
+      "gauge": "Pi02",
+      "reference_kPa_ms": 2196,
+      "prediction_kPa_ms": 2053.702713604939,
+      "APE_percent": 6.479839999775092
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T1",
+      "gauge": "Pi03",
+      "reference_kPa_ms": 1728,
+      "prediction_kPa_ms": 1705.3682144170361,
+      "APE_percent": 1.3097098138289223
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T2",
+      "gauge": "Pi03",
+      "reference_kPa_ms": 1703,
+      "prediction_kPa_ms": 1705.3682144170361,
+      "APE_percent": 0.13906132807024207
+    },
+    {
+      "group": "published_EPX",
+      "trial": "EPX",
+      "gauge": "Pi03",
+      "reference_kPa_ms": 1793,
+      "prediction_kPa_ms": 1705.3682144170361,
+      "APE_percent": 4.88743924054455
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T1",
+      "gauge": "Pi04",
+      "reference_kPa_ms": 1712,
+      "prediction_kPa_ms": 1579.0069382794022,
+      "APE_percent": 7.768286315455476
+    },
+    {
+      "group": "experimental_repeats",
+      "trial": "T2",
+      "gauge": "Pi04",
+      "reference_kPa_ms": 1716,
+      "prediction_kPa_ms": 1579.0069382794022,
+      "APE_percent": 7.9832786550464885
+    },
+    {
+      "group": "published_EPX",
+      "trial": "EPX",
+      "gauge": "Pi04",
+      "reference_kPa_ms": 1640,
+      "prediction_kPa_ms": 1579.0069382794022,
+      "APE_percent": 3.7190891293047406
+    }
+  ]
+}

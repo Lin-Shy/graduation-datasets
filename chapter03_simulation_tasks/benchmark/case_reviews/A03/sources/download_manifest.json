@@ -1,0 +1,68 @@
+[
+  {
+    "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/C4_20g001.txt",
+    "sha256": "a5a85b8ba9ebff3a44e9c5bf1e2e557556408fc9525721de41815cf2d12a967b",
+    "size_bytes": 2161569,
+    "url": "https://data.mendeley.com/public-files/datasets/zv7y78twd9/files/77384d48-7791-4b86-a937-6945acf006cd/file_downloaded",
+    "publisher_file_id": "77384d48-7791-4b86-a937-6945acf006cd",
+    "publisher_sha256": "a5a85b8ba9ebff3a44e9c5bf1e2e557556408fc9525721de41815cf2d12a967b",
+    "retrieved_at": "2026-10-21T13:30:21.308699+00:00",
+    "license": "CC-BY-4.0",
+    "attribution": "Kristoffersen, Martin; Hauge, Knut Ove (2024), Mendeley Data V2, doi:10.17632/zv7y78twd9.2"
+  },
+  {
+    "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/C4_20g002.txt",
+    "sha256": "bea97cbaf94e5c5d44b1b964c944fe4c7d80d3f7d9c09836c29cc126750fcefb",
+    "size_bytes": 2151266,
+    "url": "https://data.mendeley.com/public-files/datasets/zv7y78twd9/files/69452992-78b1-49f5-ad33-56361687e976/file_downloaded",
+    "publisher_file_id": "69452992-78b1-49f5-ad33-56361687e976",
+    "publisher_sha256": "bea97cbaf94e5c5d44b1b964c944fe4c7d80d3f7d9c09836c29cc126750fcefb",
+    "retrieved_at": "2026-10-21T13:30:21.321298+00:00",
+    "license": "CC-BY-4.0",
+    "attribution": "Kristoffersen, Martin; Hauge, Knut Ove (2024), Mendeley Data V2, doi:10.17632/zv7y78twd9.2"
+  },
+  {
+    "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/C4_20g003.txt",
+    "sha256": "2d6ed3dbb75d1e4851d5d749e1a4796ab92c0f96b681ba5cb7313589403fd47c",
+    "size_bytes": 2148482,
+    "url": "https://data.mendeley.com/public-files/datasets/zv7y78twd9/files/20e4c990-a0f3-4f8d-858c-801ac151b952/file_downloaded",
+    "publisher_file_id": "20e4c990-a0f3-4f8d-858c-801ac151b952",
+    "publisher_sha256": "2d6ed3dbb75d1e4851d5d749e1a4796ab92c0f96b681ba5cb7313589403fd47c",
+    "retrieved_at": "2026-10-21T13:30:21.318211+00:00",
+    "license": "CC-BY-4.0",
+    "attribution": "Kristoffersen, Martin; Hauge, Knut Ove (2024), Mendeley Data V2, doi:10.17632/zv7y78twd9.2"
+  },
+  {
+    "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/C4_20g004.txt",
+    "sha256": "4b96ebd2722cc81806ce3410fe2bce220b64e2c0692e256e3c17ddafc427e7e6",
+    "size_bytes": 2129956,
+    "url": "https://data.mendeley.com/public-files/datasets/zv7y78twd9/files/15ef4a73-2fd2-4ca0-ac75-bfa3a55165e3/file_downloaded",
+    "publisher_file_id": "15ef4a73-2fd2-4ca0-ac75-bfa3a55165e3",
+    "publisher_sha256": "4b96ebd2722cc81806ce3410fe2bce220b64e2c0692e256e3c17ddafc427e7e6",
+    "retrieved_at": "2026-10-21T13:30:43.973807+00:00",
+    "license": "CC-BY-4.0",
+    "attribution": "Kristoffersen, Martin; Hauge, Knut Ove (2024), Mendeley Data V2, doi:10.17632/zv7y78twd9.2"
+  },
+  {
+    "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/setup_sketch_200mm_1.pdf",
+    "sha256": "29c5f002bc39682dd27b0ec3f87bf029a2d0daeda604af3174ad16cc8cc64d12",
+    "size_bytes": 151006,
+    "url": "https://data.mendeley.com/public-files/datasets/zv7y78twd9/files/8666c274-fed2-4ff3-98e3-254dcab14759/file_downloaded",
+    "publisher_file_id": "8666c274-fed2-4ff3-98e3-254dcab14759",
+    "publisher_sha256": "29c5f002bc39682dd27b0ec3f87bf029a2d0daeda604af3174ad16cc8cc64d12",
+    "retrieved_at": "2026-10-21T13:30:43.020080+00:00",
+    "license": "CC-BY-4.0",
+    "attribution": "Kristoffersen, Martin; Hauge, Knut Ove (2024), Mendeley Data V2, doi:10.17632/zv7y78twd9.2"
+  },
+  {
+    "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/Kristoffersen et al - 2024 SW - Semi-confined blast loading.pdf",
+    "sha256": "3acaacff8ae4b44b44e6a38689c69d5ab5da3c99ff21123036a6df83e4e7935b",
+    "size_bytes": 4323788,
+    "url": "https://data.mendeley.com/public-files/datasets/zv7y78twd9/files/cf821c08-09cd-4ca6-9ff2-e521a670ded5/file_downloaded",
+    "publisher_file_id": "cf821c08-09cd-4ca6-9ff2-e521a670ded5",
+    "publisher_sha256": "3acaacff8ae4b44b44e6a38689c69d5ab5da3c99ff21123036a6df83e4e7935b",
+    "retrieved_at": "2026-10-21T13:30:43.949268+00:00",
+    "license": "CC-BY-4.0",
+    "attribution": "Kristoffersen, Martin; Hauge, Knut Ove (2024), Mendeley Data V2, doi:10.17632/zv7y78twd9.2"
+  }
+]

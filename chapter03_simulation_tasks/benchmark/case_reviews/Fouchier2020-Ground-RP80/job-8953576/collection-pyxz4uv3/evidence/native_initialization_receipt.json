@@ -1,0 +1,7 @@
+{
+  "cell_count": 156000,
+  "source_cell_count": 316,
+  "observed_wedge_source_volume_m3": 2.3507051661943873e-07,
+  "relative_source_volume_error": 0.010141136771775638,
+  "eos_consistent_at_all_cell_centres": true
+}

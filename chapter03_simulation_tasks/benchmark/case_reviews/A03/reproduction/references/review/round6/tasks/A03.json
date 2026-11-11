@@ -1,0 +1,208 @@
+{
+  "task_id": "A03",
+  "round": "round6",
+  "updated_at": "2026-10-27",
+  "split": "test",
+  "level": "advanced",
+  "objective_checks": {
+    "complete_task_matched_run": {
+      "status": "passed",
+      "reason": "Declared original candidate input, raw hashes and all original numerical sensor windows verified; experimental equivalence remains a separate model/mapping condition.",
+      "files": [
+        {
+          "path": "references/review/round6/gold-recount.json",
+          "sha256": "aa86aa56c126b427f33d947b6c2a22c157f034337999fb4a8157c962500db316"
+        },
+        {
+          "path": "references/construction/20261022-a03/A03-build.json",
+          "sha256": "2b3bc7f1477d65fb65ac0afff6a7338e839de4e3565f6968fb4ab5b493117fbe"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03-run.json",
+          "sha256": "a4c72e11058a0625b53be919749c7c8a20990ca3d7669f3f04b5dc6512089907"
+        }
+      ]
+    },
+    "model_applicability": {
+      "status": "pending",
+      "reason": "The same Kurganov/Riemann activation path is present. Its observed transport/caloric failure requires independent repair validation, source/EOS applicability and a new version decision.",
+      "files": [
+        {
+          "path": "references/review/round6/C4-mechanism.json",
+          "sha256": "eb25e35fd3aa9199d71a1de01366a98d7680f7682247e61dd17673000a19b0fb"
+        },
+        {
+          "path": "references/review/round6/C4-thermal-controls.json",
+          "sha256": "dcc46f9452c2639ef9963f65adc06e495384efca1ae4afc848949a67641ab536"
+        },
+        {
+          "path": "references/review/round6/temperature-policy-controls.json",
+          "sha256": "0b213649261a6f850632e324bbfa12c992827908ca0d9c87d59076d8fcf394ed"
+        },
+        {
+          "path": "references/review/round6/source-mass-energy/index.json",
+          "sha256": "f06dfd29182c6a2a8286c02f48d36facca944b1ab296fc973a479e08a3ded71a"
+        }
+      ]
+    },
+    "source_mass_and_support": {
+      "status": "pending",
+      "reason": "Actual wedge mass, angular-volume scaling and nominal source differences reported; physical source resolution/uncertainty not accepted.",
+      "files": [
+        {
+          "path": "references/review/round6/source-mass-energy/A03.json",
+          "sha256": "ed7d5b75c13d3ad0c5e0c2be6f9e6caa6b589d4f579ff8123c0b9ca462618094"
+        },
+        {
+          "path": "references/review/round6/source-mass-energy/A03-native-source.json",
+          "sha256": "59b9f58b67ba04663454274d22f297c23fa62c907207c3215d892b883852ee10"
+        }
+      ]
+    },
+    "mesh_and_boundary_sensitivity": {
+      "status": "pending",
+      "reason": "mesh_and_boundary_sensitivity requires independently justified task-specific evidence",
+      "files": []
+    },
+    "time_step_sensitivity": {
+      "status": "pending",
+      "reason": "time_step_sensitivity requires independently justified task-specific evidence",
+      "files": []
+    },
+    "all_required_sensors": {
+      "status": "passed",
+      "reason": "Declared original candidate input, raw hashes and all original numerical sensor windows verified; experimental equivalence remains a separate model/mapping condition.",
+      "files": [
+        {
+          "path": "references/review/round6/gold-recount.json",
+          "sha256": "aa86aa56c126b427f33d947b6c2a22c157f034337999fb4a8157c962500db316"
+        },
+        {
+          "path": "references/construction/20261022-a03/A03-build.json",
+          "sha256": "2b3bc7f1477d65fb65ac0afff6a7338e839de4e3565f6968fb4ab5b493117fbe"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03-run.json",
+          "sha256": "a4c72e11058a0625b53be919749c7c8a20990ca3d7669f3f04b5dc6512089907"
+        }
+      ]
+    },
+    "thermodynamics_and_conservation": {
+      "status": "pending",
+      "reason": "Positive saved fields do not establish all-stage admissibility. Common transport risk, full RK source/energy budget and EOS temperature range remain unresolved.",
+      "files": [
+        {
+          "path": "references/review/round6/temperature/A03.json",
+          "sha256": "e74841326a354ca5a8636ca71032a8229839e485d9fdf9c4e9fa77fcfd83a27a"
+        },
+        {
+          "path": "references/review/round6/C4-mechanism.json",
+          "sha256": "eb25e35fd3aa9199d71a1de01366a98d7680f7682247e61dd17673000a19b0fb"
+        },
+        {
+          "path": "references/review/round6/C4-thermal-controls.json",
+          "sha256": "dcc46f9452c2639ef9963f65adc06e495384efca1ae4afc848949a67641ab536"
+        },
+        {
+          "path": "references/review/round6/temperature-policy-controls.json",
+          "sha256": "0b213649261a6f850632e324bbfa12c992827908ca0d9c87d59076d8fcf394ed"
+        }
+      ]
+    },
+    "repeatability": {
+      "status": "pending",
+      "reason": "repeatability requires independently justified task-specific evidence",
+      "files": []
+    },
+    "reference_identity": {
+      "status": "passed",
+      "reason": "Declared original candidate input, raw hashes and all original numerical sensor windows verified; experimental equivalence remains a separate model/mapping condition.",
+      "files": [
+        {
+          "path": "references/review/round6/gold-recount.json",
+          "sha256": "aa86aa56c126b427f33d947b6c2a22c157f034337999fb4a8157c962500db316"
+        },
+        {
+          "path": "references/construction/20261022-a03/A03-build.json",
+          "sha256": "2b3bc7f1477d65fb65ac0afff6a7338e839de4e3565f6968fb4ab5b493117fbe"
+        },
+        {
+          "path": "references/runs/20261022-a03/A03-run.json",
+          "sha256": "a4c72e11058a0625b53be919749c7c8a20990ca3d7669f3f04b5dc6512089907"
+        }
+      ]
+    },
+    "threshold_basis": {
+      "status": "pending",
+      "reason": "No independent, frozen task-specific pressure/convergence acceptance basis. Absolute Kelvin positivity, phase identities and IEEE construction checks do not supply a pressure error tolerance.",
+      "files": [
+        {
+          "path": "references/contracts/A03.yaml",
+          "sha256": "6e9f7249a5ac5fcea0a2349f8dc538bea115d2fb11b6040e9dbeaea6055864d1"
+        }
+      ]
+    }
+  },
+  "objective_evidence_assessment": {
+    "scientific_review_ready": false,
+    "objective_evidence_complete": false,
+    "status": "technical_evidence_incomplete",
+    "technical_blockers": [
+      "model_applicability:The same Kurganov/Riemann activation path is present. Its observed transport/caloric failure requires independent repair validation, source/EOS applicability and a new version decision.",
+      "source_mass_and_support:Actual wedge mass, angular-volume scaling and nominal source differences reported; physical source resolution/uncertainty not accepted.",
+      "mesh_and_boundary_sensitivity:mesh_and_boundary_sensitivity requires independently justified task-specific evidence",
+      "time_step_sensitivity:time_step_sensitivity requires independently justified task-specific evidence",
+      "thermodynamics_and_conservation:Positive saved fields do not establish all-stage admissibility. Common transport risk, full RK source/energy budget and EOS temperature range remain unresolved.",
+      "repeatability:repeatability requires independently justified task-specific evidence",
+      "threshold_basis:No independent, frozen task-specific pressure/convergence acceptance basis. Absolute Kelvin positivity, phase identities and IEEE construction checks do not supply a pressure error tolerance."
+    ],
+    "human_scientific_approval": "pending",
+    "scientific_acceptance": "not_determined",
+    "human_review_required": true,
+    "gold_validated": false,
+    "ready": false,
+    "meaning": "Review-ready only means objective evidence is complete; it grants no scientific signoff, contract freezing, or release."
+  },
+  "scientific_review_ready": false,
+  "objective_evidence_complete": false,
+  "status": "technical_evidence_incomplete",
+  "technical_blockers": [
+    "model_applicability:The same Kurganov/Riemann activation path is present. Its observed transport/caloric failure requires independent repair validation, source/EOS applicability and a new version decision.",
+    "source_mass_and_support:Actual wedge mass, angular-volume scaling and nominal source differences reported; physical source resolution/uncertainty not accepted.",
+    "mesh_and_boundary_sensitivity:mesh_and_boundary_sensitivity requires independently justified task-specific evidence",
+    "time_step_sensitivity:time_step_sensitivity requires independently justified task-specific evidence",
+    "thermodynamics_and_conservation:Positive saved fields do not establish all-stage admissibility. Common transport risk, full RK source/energy budget and EOS temperature range remain unresolved.",
+    "repeatability:repeatability requires independently justified task-specific evidence",
+    "threshold_basis:No independent, frozen task-specific pressure/convergence acceptance basis. Absolute Kelvin positivity, phase identities and IEEE construction checks do not supply a pressure error tolerance."
+  ],
+  "human_scientific_approval": "pending",
+  "scientific_acceptance": "not_determined",
+  "human_review_required": true,
+  "gold_validated": false,
+  "ready": false,
+  "meaning": "Review-ready only means objective evidence is complete; it grants no scientific signoff, contract freezing, or release.",
+  "next_evidence": "保留2ms完整候选和原试次。20g C4加作者2g雷管等效源、楔形源质量/旋转体积、NWLS差异与独立DAQ零点尚未闭合；同属公共激活输运风险。",
+  "supporting_evidence": [
+    {
+      "path": "references/review/round6/temperature/A03.json",
+      "sha256": "e74841326a354ca5a8636ca71032a8229839e485d9fdf9c4e9fa77fcfd83a27a"
+    },
+    {
+      "path": "references/review/round6/source-mass-energy/A03.json",
+      "sha256": "ed7d5b75c13d3ad0c5e0c2be6f9e6caa6b589d4f579ff8123c0b9ca462618094"
+    }
+  ],
+  "prior_scientific_packet": {
+    "path": "references/review/round5/tasks/A03.json",
+    "sha256": "712e1ab4036d1f86e279e3de20fbce474f347c4da201414ed3df313e2f5dd677"
+  },
+  "original_physical_input_unchanged": true,
+  "reviewer": null,
+  "signed_utc": null,
+  "researcher_choice": null,
+  "original_contract": {
+    "path": "references/contracts/A03.yaml",
+    "sha256": "6e9f7249a5ac5fcea0a2349f8dc538bea115d2fb11b6040e9dbeaea6055864d1"
+  },
+  "common_C4_transport_risk": true
+}

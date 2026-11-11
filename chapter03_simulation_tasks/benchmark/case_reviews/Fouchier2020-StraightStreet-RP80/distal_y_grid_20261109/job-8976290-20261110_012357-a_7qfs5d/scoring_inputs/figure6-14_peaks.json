@@ -1,0 +1,78 @@
+{
+  "case": "Fouchier2020-StraightStreet-RP80",
+  "thesis_sha256": "a7912e6edb953ef6707c9ec275d1c53a0b5a2b17338006c35a78b011e3fc4bb1",
+  "thesis_pdf_page": 88,
+  "source_image": "figure6-14-000.png",
+  "source_image_sha256": "1bf888cc4986837bfd3f60bbd5e0db8447d98f3cbb14cf729de4ad292ff52f41",
+  "status": "candidate_first_incident_pulse_only",
+  "author_vs_experiment_MAPE_percent": 8.4048,
+  "independent_simulation_MAPE_percent": null,
+  "rows": [
+    {
+      "panel": "a",
+      "caption_radius_m": 0.35,
+      "graph_window_ms_unaligned": [
+        1.37,
+        1.53
+      ],
+      "reading_allowance_kPa_3px": 0.968,
+      "experiment_kPa": 20.645,
+      "experiment_pixel_xy": [
+        136.0,
+        81
+      ],
+      "experiment_graph_peak_time_ms_unaligned": 1.4325,
+      "published_OpenFOAM_kPa": 18.387,
+      "published_OpenFOAM_pixel_xy": [
+        136.5,
+        88
+      ],
+      "published_OpenFOAM_graph_peak_time_ms_unaligned": 1.4363,
+      "author_vs_experiment_APE_percent": 10.9373
+    },
+    {
+      "panel": "b",
+      "caption_radius_m": 0.725,
+      "graph_window_ms_unaligned": [
+        2.4,
+        2.72
+      ],
+      "reading_allowance_kPa_3px": 0.69,
+      "experiment_kPa": 12.299,
+      "experiment_pixel_xy": [
+        169.5,
+        368
+      ],
+      "experiment_graph_peak_time_ms_unaligned": 2.4969,
+      "published_OpenFOAM_kPa": 12.759,
+      "published_OpenFOAM_pixel_xy": [
+        170.5,
+        366
+      ],
+      "published_OpenFOAM_graph_peak_time_ms_unaligned": 2.5047,
+      "author_vs_experiment_APE_percent": 3.7401
+    },
+    {
+      "panel": "c",
+      "caption_radius_m": 1.25,
+      "graph_window_ms_unaligned": [
+        3.9,
+        4.12
+      ],
+      "reading_allowance_kPa_3px": 0.408,
+      "experiment_kPa": 6.463,
+      "experiment_pixel_xy": [
+        186.5,
+        659
+      ],
+      "experiment_graph_peak_time_ms_unaligned": 3.9409,
+      "published_OpenFOAM_kPa": 5.782,
+      "published_OpenFOAM_pixel_xy": [
+        191.5,
+        664
+      ],
+      "published_OpenFOAM_graph_peak_time_ms_unaligned": 3.9683,
+      "author_vs_experiment_APE_percent": 10.5369
+    }
+  ]
+}

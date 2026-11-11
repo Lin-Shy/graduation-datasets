@@ -1,0 +1,10 @@
+group,source_trial,gauge,reference_peak_Pa,simulation_peak_Pa,APE_percent
+experimental_repeats,experimental_T1_table1,Pi02,6107900.0,4790830.23528,21.563381272122992
+experimental_repeats,experimental_T1_table1,Pi03,3975200.0,3982631.63793,0.18695003848863456
+experimental_repeats,experimental_T1_table1,Pi04,3633500.0,3509562.50794,3.4109671682950347
+experimental_repeats,experimental_T2_table1,Pi02,5897500.0,4790830.23528,18.76506595540484
+experimental_repeats,experimental_T2_table1,Pi03,3799100.0,3982631.63793,4.830924111763317
+experimental_repeats,experimental_T2_table1,Pi04,3614000.0,3509562.50794,2.889803322080799
+published_EPX,published_EPX_table4,Pi02,6337000,4790830.23528,24.399081027615598
+published_EPX,published_EPX_table4,Pi03,5405000,3982631.63793,26.31578838242368
+published_EPX,published_EPX_table4,Pi04,4891000,3509562.50794,28.24447949417297

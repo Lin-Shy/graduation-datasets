@@ -1,0 +1,15 @@
+{
+  "scene_id": "S10",
+  "job_id": "8953576",
+  "scope": "Secondary diagnostic on the existing complete three-radius RP80 job; keep primary peaks unchanged.",
+  "radii_m": [0.35, 0.475, 0.725],
+  "native_window_s": [0, 0.003],
+  "ambient_pressure_Pa": 100000,
+  "feature": "First continuous positive gauge-pressure lobe that reaches the seed; integrate from its preceding zero crossing to its subsequent zero crossing using piecewise linear pressure.",
+  "seed_kPa": 0.25,
+  "sensitivity_seed_kPa": [0.1, 0.5],
+  "closed_lobe_and_peak_gate": "Require both zero crossings inside the fixed window and require the pre-existing scored peak in this first lobe.",
+  "references": "Fouchier Fig. 6.7 right panel, fixed experimental and published OpenFOAM markers in separate groups; Fig. 6.1 experimental centers and Fig. 6.7 3-pixel ranges for sensitivity only.",
+  "score_gate": "All three fixed radii and positive references required for each MAPE. No fitting, time shifting, extension or replacement of original peak evidence.",
+  "qualification": "Conditional diagnostic; exact aggregation and experimental zero-crossing extraction unavailable."
+}

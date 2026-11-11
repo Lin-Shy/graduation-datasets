@@ -1,0 +1,275 @@
+{
+  "task_id": "A03",
+  "date": "2026-11-05",
+  "status": "complete_evidence_for_human_review",
+  "comparison_kind": "existing_operator_numerical_candidate_vs_published_experimental_features",
+  "not_an_agent_e2e_run": true,
+  "conditional_assumptions": [
+    "Treat Table1 first-series Ppeak as the comparable overpressure feature; pressure-definition approval remains pending.",
+    "Use the existing numerical gauge definition p_absolute-101300Pa and native full0..4ms peaks.",
+    "Use Pi02/Pi03/Pi04 mapped to P1/P2/P3 without sensor removal.",
+    "Report every retained experimental trial1/2/4 separately; trial3 is excluded by the paper, not by prediction error.",
+    "No fitted time shift, smoothing, amplitude scaling, or candidate-result-driven reference selection."
+  ],
+  "formal_eligibility": "pending_condition_pressure_clock_and_model_review",
+  "numerical_result": {
+    "peak_overpressure_kpa": [
+      1740.6882325899999,
+      1081.7464424,
+      991.6785124299998
+    ],
+    "peak_clock_ms": [
+      0.339432813818,
+      0.899634468991,
+      0.989779753155
+    ],
+    "sample_count_each_sensor": 6015,
+    "window_s": [
+      0.0,
+      0.004
+    ],
+    "native_and_exported_series_match": true,
+    "wall_seconds_solver": 6814.048301883042,
+    "wall_seconds_all_commands": 7006.2640469148755,
+    "solver_completed": true,
+    "mesh_ok": true,
+    "all_command_exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "operator_reference_delivery_complete_is_not_agent_task_success": true
+  },
+  "trials": [
+    {
+      "trial": 1,
+      "n_expected": 3,
+      "n_compared": 3,
+      "reference_peaks_kpa": [
+        1947.4,
+        1001.8,
+        1019.5
+      ],
+      "ape_percent": [
+        10.614756465543813,
+        7.980279736474349,
+        2.728934533594915
+      ],
+      "diagnostic_peak_mape_percent": 7.10799024520436,
+      "conditional_numerical_band": "higher_accuracy",
+      "formal_pass": null
+    },
+    {
+      "trial": 2,
+      "n_expected": 3,
+      "n_compared": 3,
+      "reference_peaks_kpa": [
+        2565.1,
+        1154.9,
+        1021.0
+      ],
+      "ape_percent": [
+        32.13955664145647,
+        6.334189765347658,
+        2.8718401145935513
+      ],
+      "diagnostic_peak_mape_percent": 13.781862173799228,
+      "conditional_numerical_band": "higher_accuracy",
+      "formal_pass": null
+    },
+    {
+      "trial": 4,
+      "n_expected": 3,
+      "n_compared": 3,
+      "reference_peaks_kpa": [
+        1934.5,
+        1184.4,
+        1008.3
+      ],
+      "ape_percent": [
+        10.018700822434743,
+        8.66713590003378,
+        1.6484664851730748
+      ],
+      "diagnostic_peak_mape_percent": 6.778101069213865,
+      "conditional_numerical_band": "higher_accuracy",
+      "formal_pass": null
+    }
+  ],
+  "pointwise_errors": [
+    {
+      "trial": 1,
+      "experiment_sensor": "Pi02",
+      "numerical_sensor": "P1",
+      "reference_table1_kpa": 1947.4,
+      "simulation_peak_overpressure_kpa": 1740.6882325899999,
+      "signed_error_kpa": -206.71176741000022,
+      "ape_percent": 10.614756465543813,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    },
+    {
+      "trial": 1,
+      "experiment_sensor": "Pi03",
+      "numerical_sensor": "P2",
+      "reference_table1_kpa": 1001.8,
+      "simulation_peak_overpressure_kpa": 1081.7464424,
+      "signed_error_kpa": 79.94644240000002,
+      "ape_percent": 7.980279736474349,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    },
+    {
+      "trial": 1,
+      "experiment_sensor": "Pi04",
+      "numerical_sensor": "P3",
+      "reference_table1_kpa": 1019.5,
+      "simulation_peak_overpressure_kpa": 991.6785124299998,
+      "signed_error_kpa": -27.82148757000016,
+      "ape_percent": 2.728934533594915,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    },
+    {
+      "trial": 2,
+      "experiment_sensor": "Pi02",
+      "numerical_sensor": "P1",
+      "reference_table1_kpa": 2565.1,
+      "simulation_peak_overpressure_kpa": 1740.6882325899999,
+      "signed_error_kpa": -824.41176741,
+      "ape_percent": 32.13955664145647,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    },
+    {
+      "trial": 2,
+      "experiment_sensor": "Pi03",
+      "numerical_sensor": "P2",
+      "reference_table1_kpa": 1154.9,
+      "simulation_peak_overpressure_kpa": 1081.7464424,
+      "signed_error_kpa": -73.15355760000011,
+      "ape_percent": 6.334189765347658,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    },
+    {
+      "trial": 2,
+      "experiment_sensor": "Pi04",
+      "numerical_sensor": "P3",
+      "reference_table1_kpa": 1021.0,
+      "simulation_peak_overpressure_kpa": 991.6785124299998,
+      "signed_error_kpa": -29.32148757000016,
+      "ape_percent": 2.8718401145935513,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    },
+    {
+      "trial": 4,
+      "experiment_sensor": "Pi02",
+      "numerical_sensor": "P1",
+      "reference_table1_kpa": 1934.5,
+      "simulation_peak_overpressure_kpa": 1740.6882325899999,
+      "signed_error_kpa": -193.81176741000013,
+      "ape_percent": 10.018700822434743,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    },
+    {
+      "trial": 4,
+      "experiment_sensor": "Pi03",
+      "numerical_sensor": "P2",
+      "reference_table1_kpa": 1184.4,
+      "simulation_peak_overpressure_kpa": 1081.7464424,
+      "signed_error_kpa": -102.65355760000011,
+      "ape_percent": 8.66713590003378,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    },
+    {
+      "trial": 4,
+      "experiment_sensor": "Pi04",
+      "numerical_sensor": "P3",
+      "reference_table1_kpa": 1008.3,
+      "simulation_peak_overpressure_kpa": 991.6785124299998,
+      "signed_error_kpa": -16.621487570000113,
+      "ape_percent": 1.6484664851730748,
+      "assessment": "conditional_diagnostic_not_formal_score"
+    }
+  ],
+  "arrival_time_mape": {
+    "value": null,
+    "reason": "No independently verified experimental time zero and arrival definition. Peak clock is not arrival time."
+  },
+  "history_error": {
+    "value": null,
+    "reason": "Raw recording clock and solver start are not independently aligned; displayed curves are unshifted diagnostics only."
+  },
+  "mass_diagnostics": {
+    "analytic_sphere_volume_m3": 1.3741411617738925e-05,
+    "actual_equivalent_full_source_volume_m3": 1.3923129903938396e-05,
+    "nominal_mass_kg": 0.02200000000000002,
+    "actual_initial_C4_mass_kg": 0.022290930976205367,
+    "actual_wedge_phase_mass_kg": 0.0003095962635584079,
+    "axisymmetric_revolution_mass_kg": 0.022319248657887838,
+    "mass_definition": "actual_initial_C4_mass is the finite-volume wedge mass scaled by360/angle. Exact axial revolution instead scales by2pi/sin(angle) for this single angular cell; both reported to separate faceting and source discretisation.",
+    "relative_volume_difference": 0.0132241352820615
+  },
+  "temperature_evidence": {
+    "nonpositive_T_observed_in_saved_states": false,
+    "early_step_temperature_evidence": null,
+    "maximum_saved_T_K": 1685.1878539799673,
+    "scope": "Saved internal cells, not all RK stages or boundary states. A positive saved minimum does not exclude an early transient failure. High T is reported with mixture density/composition/energy; a valid EOS range still requires evidence."
+  },
+  "per_task_approval": false,
+  "gold_approved": false,
+  "ready": false,
+  "new_solver_runs": 0,
+  "solver_changes": 0,
+  "source_snapshot": [
+    {
+      "path": "references/runs/20261022-a03/A03/postProcessing/probes/0/p",
+      "sha256": "f98a27cc4f8d063d20134f732a797440849c87c0c518065ac1fc3525b1c6fa04"
+    },
+    {
+      "path": "references/runs/20261022-a03/A03-pressure.csv",
+      "sha256": "130dcaf2cef79becc5a07afa7e2a5b056486597d575c65798a961ec600864e79"
+    },
+    {
+      "path": "references/runs/20261022-a03/A03-run.json",
+      "sha256": "a4c72e11058a0625b53be919749c7c8a20990ca3d7669f3f04b5dc6512089907"
+    },
+    {
+      "path": "references/runs/20261022-a03/A03-audit.json",
+      "sha256": "f37a1081e5b31739354e847cbd51e0c339d35fcdb2549a4ce788ee88de463054"
+    },
+    {
+      "path": "references/runs/20261022-a03/A03-build.json",
+      "sha256": "2b3bc7f1477d65fb65ac0afff6a7338e839de4e3565f6968fb4ab5b493117fbe"
+    },
+    {
+      "path": "references/review/round6/source-mass-energy/A03.json",
+      "sha256": "ed7d5b75c13d3ad0c5e0c2be6f9e6caa6b589d4f579ff8123c0b9ca462618094"
+    },
+    {
+      "path": "references/review/round6/temperature/A03.json",
+      "sha256": "e74841326a354ca5a8636ca71032a8229839e485d9fdf9c4e9fa77fcfd83a27a"
+    },
+    {
+      "path": "references/review/feature_mape_20261105/human_review/A03/table1_peak_candidates.csv",
+      "sha256": "7c36ff9c09f4ff35730313684152ad5adb3043cdcda5a87a109551b88dfa8f59"
+    },
+    {
+      "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/Kristoffersen et al - 2024 SW - Semi-confined blast loading.pdf",
+      "sha256": "3acaacff8ae4b44b44e6a38689c69d5ab5da3c99ff21123036a6df83e4e7935b"
+    },
+    {
+      "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/C4_20g001.txt",
+      "sha256": "a5a85b8ba9ebff3a44e9c5bf1e2e557556408fc9525721de41815cf2d12a967b"
+    },
+    {
+      "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/C4_20g002.txt",
+      "sha256": "bea97cbaf94e5c5d44b1b964c944fe4c7d80d3f7d9c09836c29cc126750fcefb"
+    },
+    {
+      "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/C4_20g003.txt",
+      "sha256": "2d6ed3dbb75d1e4851d5d749e1a4796ab92c0f96b681ba5cb7313589403fd47c"
+    },
+    {
+      "path": "references/experiments/mendeley-zv7y78twd9-v2/raw/C4_20g004.txt",
+      "sha256": "4b96ebd2722cc81806ce3410fe2bce220b64e2c0692e256e3c17ddafc427e7e6"
+    }
+  ]
+}

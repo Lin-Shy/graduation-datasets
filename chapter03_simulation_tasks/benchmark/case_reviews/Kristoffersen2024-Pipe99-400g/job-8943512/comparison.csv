@@ -1,0 +1,10 @@
+﻿group,trial,gauge,reference_kPa,blastfoam_kPa,APE_percent
+experimental_repeats,experimental_T1_table1,Pi02,6107.9,,
+experimental_repeats,experimental_T1_table1,Pi03,3975.2,,
+experimental_repeats,experimental_T1_table1,Pi04,3633.5,,
+experimental_repeats,experimental_T2_table1,Pi02,5897.5,,
+experimental_repeats,experimental_T2_table1,Pi03,3799.1,,
+experimental_repeats,experimental_T2_table1,Pi04,3614.0,,
+published_EPX,published_EPX_table4,Pi02,6337,,
+published_EPX,published_EPX_table4,Pi03,5405,,
+published_EPX,published_EPX_table4,Pi04,4891,,

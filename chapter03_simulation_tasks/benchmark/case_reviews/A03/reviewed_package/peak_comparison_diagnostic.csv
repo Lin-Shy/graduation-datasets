@@ -1,0 +1,10 @@
+﻿trial,experiment_sensor,numerical_sensor,reference_table1_kpa,simulation_peak_overpressure_kpa,signed_error_kpa,ape_percent,assessment
+1,Pi02,P1,1947.4,1740.6882325899999,-206.71176741000022,10.614756465543813,conditional_diagnostic_not_formal_score
+1,Pi03,P2,1001.8,1081.7464424,79.94644240000002,7.980279736474349,conditional_diagnostic_not_formal_score
+1,Pi04,P3,1019.5,991.6785124299998,-27.82148757000016,2.728934533594915,conditional_diagnostic_not_formal_score
+2,Pi02,P1,2565.1,1740.6882325899999,-824.41176741,32.13955664145647,conditional_diagnostic_not_formal_score
+2,Pi03,P2,1154.9,1081.7464424,-73.15355760000011,6.334189765347658,conditional_diagnostic_not_formal_score
+2,Pi04,P3,1021.0,991.6785124299998,-29.32148757000016,2.8718401145935513,conditional_diagnostic_not_formal_score
+4,Pi02,P1,1934.5,1740.6882325899999,-193.81176741000013,10.018700822434743,conditional_diagnostic_not_formal_score
+4,Pi03,P2,1184.4,1081.7464424,-102.65355760000011,8.66713590003378,conditional_diagnostic_not_formal_score
+4,Pi04,P3,1008.3,991.6785124299998,-16.621487570000113,1.6484664851730748,conditional_diagnostic_not_formal_score

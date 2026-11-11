@@ -1,0 +1,114 @@
+{
+  "scene_id": "S10",
+  "revision": "v1-limited",
+  "dispatch_ready": true,
+  "qualification_scope": "independent conditional diagnostic",
+  "source_reference_sha256": "0ef0a2ccd7674cb88024bd30097c4d8eb839ac5de3e209643edfc736b99e359b",
+  "peak_reference_sha256": "13807d72633c19aa91d70960fe35d4411ce61b30a204a4af9c7aed4c7ee634f5",
+  "geometry": {
+    "axial_height_m": 1.4,
+    "table_radius_m": 1.4,
+    "wedge_angle_deg": 5,
+    "planned_cells": 156000,
+    "cells_along_height_radius_azimuth": [
+      300,
+      520,
+      1
+    ],
+    "ground_is_x_equals_zero": true,
+    "ground_probe_radii_m": [
+      0.35,
+      0.475,
+      0.725
+    ],
+    "scope": "Model height selected independently. Outer patch is zero-gradient. Table radius is physical."
+  },
+  "source_check": {
+    "selected_cell_pressure_absolute_Pa": 14900000,
+    "ambient_pressure_absolute_Pa": 100000,
+    "gas_constant_J_kg_K": 287,
+    "target_wedge_volume_m3": 2.3271056693194444e-07,
+    "max_relative_volume_error": 0.02
+  },
+  "comparison": {
+    "pressure": "wall static overpressure in kPa",
+    "pressure_baseline_Pa": 100000,
+    "fixed_candidate_window_s": [
+      0,
+      0.003
+    ],
+    "native_end_s": 0.00301,
+    "required_gauges": 3,
+    "reference_denominators": {
+      "experiment": 3,
+      "published_OpenFOAM": 3
+    },
+    "minimum_reference_peak_kPa": 1.0,
+    "completion": "All three wall probes have a sample at time zero and at every solver step, solver terminates normally, and field health passes.",
+    "peak": "Maximum positive static overpressure within the fixed window. Interpolate the right endpoint only if needed. A maximum at either endpoint is unresolved.",
+    "arrival_time_scored": false
+  },
+  "compute_node_preflight": [
+    [
+      "blockMesh"
+    ],
+    [
+      "checkMesh"
+    ],
+    [
+      "setFields"
+    ],
+    [
+      "postProcess",
+      "-func",
+      "writeCellVolumes",
+      "-time",
+      "0"
+    ],
+    [
+      "python3",
+      "../check_s10_initialization.py",
+      "."
+    ]
+  ],
+  "post_preflight_solver": [
+    "blastFoam",
+    "-parallel"
+  ],
+  "post_run_readback": [
+    "python3",
+    "score_s10.py",
+    "--run",
+    "<collected-native-run>",
+    "--output",
+    "<new-score.json>"
+  ],
+  "case_files": {
+    "0/p": "422416c5fd8f2481847e6702bcfa0731255d06fde5f69483ed74c80b3a0acb48",
+    "0/rho": "fab60cbc4c36a6ea1fbec46f34a92ed640e6526ebace6b7bea6107a5944d33fd",
+    "0/T": "4c66a236ffe3e0a60d0462e536547be3953d39cfac4f9604c5d6c20712599752",
+    "0/U": "2d92b6b195f4a3bded52e1df0d281bfa3c8f24992fdc6af9e0528550b3518c95",
+    "constant/dynamicMeshDict": "f98846b953910be0d7b9bd8d234b0c75c87fb1022f570d1b781438529cf083f7",
+    "constant/phaseProperties": "26a1ade60b61c3d4ca9349062d7db3b479e3b8a6a8e95f183874c6284dc1c08c",
+    "constant/turbulenceProperties": "83ccd08a7cab4204a51cfd89ff8054145ad0548dbc823e3f1058ecc31ceff53a",
+    "system/blockMeshDict": "5a50a43201a7b89057fdf45c2c804d3b5dfbdb32ef1c87d12d2928110c87a469",
+    "system/controlDict": "dabc41b78d6d448268b187de9cc19352a20a0a7ab6dc8d14ad3ddff8db46c240",
+    "system/fvSchemes": "c0c874238b08e1c4084437ae5a30acad0eb3ff7b8bce3cbdc2560d10519b77fb",
+    "system/fvSolution": "f5039715eac4a54e4acd45d5d69ac00f8f43f983bb50872c544783376611dd2f",
+    "system/setFieldsDict": "2a520fc6cae24982e466ce6dac5c4c6e157240844cb260625009ff2568785a80",
+    "system/decomposeParDict": "8299ef8f465762bb4e286c29e64a4189e1249ff9e2f1cd0d9e8a3ad84f301b35"
+  },
+  "readback_tools_sha256": {
+    "check_s10_initialization.py": "70136c564368b433a8a5304494e376cb42f0e99b144c43c18a3dcb29f5e60f11",
+    "foam_fields.py": "36eb0dde71a5948b21d41c94588f8206c9f50ad3d5ed2f41bda3768f4b737a5d",
+    "score_s10.py": "fcf037a5af1f7b160be17731176a43620cd8a3924e7a7f323a61626316c015ee"
+  },
+  "mpi_decomposition": {
+    "ranks": 8,
+    "directional_splits": [
+      1,
+      8,
+      1
+    ]
+  }
+}

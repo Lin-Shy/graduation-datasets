@@ -1,0 +1,14 @@
+{
+  "at_UTC": "2026-11-06T17:30:47.691430+00:00",
+  "reviewer": "assistant visual QA, not human approval",
+  "visually_inspected": [
+    "review-top.png",
+    "source Figure5 pressure image and original PDF5 rendered page"
+  ],
+  "findings": [
+    "Source chart is readable, all26 candidate table rows are present in browser DOM.",
+    "The top notice explicitly states no native input, no simulation, no APE/MAPE and no A02 substitution.",
+    "First OURANOS0.25m row is visibly labelled unreliable and not adopted."
+  ],
+  "new_simulation_or_reference_approval": false
+}

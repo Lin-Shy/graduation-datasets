@@ -1,0 +1,13 @@
+{
+  "scene_id": "S04",
+  "case_id": "Gabriel2023-Corner100pct",
+  "date": "2026-11-10",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S04 · 有限刚性拐角通过审核",
+  "decision": "human_qualified_selected",
+  "reviewed_card": "admission_card_20261110.html",
+  "reviewed_job_id": "8980940",
+  "fixed_gauges": ["A", "B1", "B2", "B3"],
+  "review_evidence": "100% 尺度，5 mm 版四点 0–5 ms。A 首峰未匹配，B2、B3 的首个正压冲量在 5 ms 内未闭合。",
+  "formal_gold": false
+}

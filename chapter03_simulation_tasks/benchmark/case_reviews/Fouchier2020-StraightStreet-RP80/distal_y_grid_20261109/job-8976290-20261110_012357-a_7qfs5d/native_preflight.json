@@ -1,0 +1,74 @@
+{
+  "scene_id": "S11",
+  "staging_receipt_sha256": "e70013bd93cfe075492d593f37456ba30790e9d5fe41bf169ebd8b5628826438",
+  "mesh_log_sha256": "20836025fb6af910df3a993be1263f31b90a9dd37922ae3056e0e02f7912a18d",
+  "initialization": {
+    "mesh_cell_count": 2752100,
+    "source_cell_count": 4194,
+    "source_volume_m3": 4.194e-06,
+    "relative_source_volume_error": 0.0012437469911135146,
+    "all_cells_match_staged_thermodynamic_states": true,
+    "field_sha256": {
+      "V": "3e81da49e9628047064caf835f43faffe3b7b6e5b0d8aa059b011a58eca11f2e",
+      "p": "42b15dce219d0506c0e4c86c3eaca483e9a1351d51ec3286c4d1abaa3267d62f",
+      "rho": "983873c0e1945943b98a5ed73b9544d6025be1eccbd455b1d9fdcbf24a4d0fd8",
+      "T": "f0ec031c05d54e975cfd3a38dcaa42ccba1fac92205c5029f2cea83876781115"
+    }
+  },
+  "sampling": {
+    "ground_face_range": [
+      8178600,
+      8213490
+    ],
+    "gauges": [
+      {
+        "gauge": "S5",
+        "nominal_m": [
+          0.0,
+          -0.35,
+          0.0
+        ],
+        "face_id": 8181685,
+        "face_centre_m": [
+          0.0005,
+          -0.3485,
+          0.0
+        ],
+        "offset_m": 0.001581138830084191
+      },
+      {
+        "gauge": "S2",
+        "nominal_m": [
+          0.0,
+          -0.725,
+          0.0
+        ],
+        "face_id": 8181643,
+        "face_centre_m": [
+          0.0005,
+          -0.7265,
+          0.0
+        ],
+        "offset_m": 0.0015811388300842437
+      },
+      {
+        "gauge": "S3",
+        "nominal_m": [
+          0.0,
+          -1.25,
+          0.0
+        ],
+        "face_id": 8179213,
+        "face_centre_m": [
+          0.0005,
+          -1.2485,
+          0.0
+        ],
+        "offset_m": 0.0015811388300842437
+      }
+    ],
+    "native_probe_log_sha256": "d79c1eb926f9665c1fc785d869198e3e0d9eea3f8c785cb5b1262da161d69fd3",
+    "boundary_sha256": "661121d4ba66be6ecedc52a0c0cbd952a1bf1d60924b975d6d7c45712844ecf1",
+    "preflight_sample_sha256": "d9dd35f7de2f4f83ca2db7dd3e429755d64eff7f458964e2055b45a1aaeb7f50"
+  }
+}

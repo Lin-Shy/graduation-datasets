@@ -1,0 +1,89 @@
+{
+  "scene_id": "S06",
+  "staging_receipt_sha256": "dcf20644e7b3722975b48e91755ecd1015b9f23a1dad5b6eac374a2a59c0f402",
+  "mesh_log_sha256": "958fc43d6b0280f9db4bd6d5d716035371f8a575a287fbc45dbaa96cf5d31886",
+  "initialization": {
+    "mesh_cell_count": 4476800,
+    "source_cell_count": 8388,
+    "source_volume_m3": 8.388e-06,
+    "relative_source_volume_error": 0.0012437469911135146,
+    "all_cells_match_staged_thermodynamic_states": true,
+    "field_sha256": {
+      "V": "d0882e209729d18dcdabf9937ce2ba32785251ba6c13dca67bca7d5616c99e79",
+      "p": "9692f9eebef371fab046597f4fe096dd32a729e22930b14e3f6e55add70db26f",
+      "rho": "bc566b7d1b60fe84a5e6777454f4b85b0b3af91334ceaf8ecb584d4ee7966d40",
+      "T": "fc4f1c200874ca029d939e3edd50f450e62f2cdde4589cee0aebe11b31683a9b"
+    }
+  },
+  "sampling": {
+    "ground_face_range": [
+      13308505,
+      13359450
+    ],
+    "gauges": [
+      {
+        "gauge": "S4",
+        "nominal_m": [
+          0.0,
+          0.35,
+          0.0
+        ],
+        "face_id": 13310435,
+        "face_centre_m": [
+          0.0005,
+          0.352712507861,
+          0.0
+        ],
+        "offset_m": 0.0027582057385167856
+      },
+      {
+        "gauge": "S6",
+        "nominal_m": [
+          0.0,
+          0.725,
+          0.0
+        ],
+        "face_id": 13312107,
+        "face_centre_m": [
+          0.0005,
+          0.725,
+          0.0
+        ],
+        "offset_m": 0.0005
+      },
+      {
+        "gauge": "S8",
+        "nominal_m": [
+          0.45,
+          0.725,
+          0.0
+        ],
+        "face_id": 13325103,
+        "face_centre_m": [
+          0.446195652174,
+          0.725,
+          0.0
+        ],
+        "offset_m": 0.003804347826000032
+      },
+      {
+        "gauge": "S9",
+        "nominal_m": [
+          0.8,
+          0.725,
+          0.0
+        ],
+        "face_id": 13348349,
+        "face_centre_m": [
+          0.803804346095,
+          0.725,
+          0.0
+        ],
+        "offset_m": 0.003804346094999911
+      }
+    ],
+    "native_probe_log_sha256": "cf4a2ad075c0a6f41b5aab77796ac5db24012c3b64d866f5984e2ffdf31f99d3",
+    "boundary_sha256": "71f52eb2d5dbd770488b94fcb24419ae2e720d4e89d0087e82ad9d71147dc2d4",
+    "preflight_sample_sha256": "3f6fa1ce038776d665864dc53bdbbe8dbb46091de51519bdee704e6f810dfbc7"
+  }
+}

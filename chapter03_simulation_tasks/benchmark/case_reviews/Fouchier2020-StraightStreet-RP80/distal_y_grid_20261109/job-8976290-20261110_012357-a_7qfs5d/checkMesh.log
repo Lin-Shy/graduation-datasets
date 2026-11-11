@@ -1,0 +1,81 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-89839ae3b8cd
+Exec   : checkMesh
+Date   : Nov 09 2026
+Time   : 19:44:14
+Host   : "cnode1806"
+PID    : 473109
+I/O    : uncollated
+Case   : /XYFS02/HDD_POOL/sysu_pww/sysu_pww_2/dsh-simulation/runs/ch3-c-s11-20261109-distal-y45/case
+nProcs : 1
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Time = 0
+
+Mesh stats
+    points:           2830284
+    faces:            8334000
+    internal faces:   8178600
+    cells:            2752100
+    faces per cell:   6
+    boundary patches: 5
+    point zones:      0
+    face zones:       0
+    cell zones:       0
+
+Overall number of cells of each type:
+    hexahedra:     2752100
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology                  
+    ground              34890    35524    ok (non-closed singly connected)  
+    buildings           21328    21609    ok (non-closed singly connected)  
+    streetSymmetry      18796    19125    ok (non-closed singly connected)  
+    outlet              69636    70120    ok (non-closed singly connected)  
+    sourceSymmetry      10750    11016    ok (non-closed singly connected)  
+
+Checking geometry...
+    Overall domain bounding box (0 -1.8 0) (1.15 0 1.05)
+    Mesh has 3 geometric (non-empty/wedge) directions (1 1 1)
+    Mesh has 3 solution (non-empty) directions (1 1 1)
+    Boundary openness (3.33640275479e-14 5.17831472526e-15 5.14268345279e-15) OK.
+    Max cell openness = 3.34082911832e-16 OK.
+    Max aspect ratio = 60.6068891295 OK.
+    Minimum face area = 1e-06. Maximum face area = 0.00120262452008.  Face area magnitudes OK.
+    Min volume = 1e-09. Max volume = 1.73237279282e-05.  Total volume = 2.15295.  Cell volumes OK.
+    Mesh non-orthogonality Max: 0 average: 0
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 1.66513244082e-12 OK.
+    Coupled point location match (average 0) OK.
+
+Mesh OK.
+
+End
+

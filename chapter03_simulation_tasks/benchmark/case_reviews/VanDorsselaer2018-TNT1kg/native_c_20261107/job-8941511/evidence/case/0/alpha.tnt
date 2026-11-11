@@ -1,0 +1,4 @@
+FoamFile { version 2.0; format ascii; class volScalarField; object alpha.tnt; }
+dimensions [0 0 0 0 0 0 0];
+internalField uniform 0;
+boundaryField { outlet { type zeroGradient; } front { type wedge; } back { type wedge; } }

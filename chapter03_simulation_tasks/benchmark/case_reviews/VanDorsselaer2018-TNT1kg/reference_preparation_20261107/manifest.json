@@ -1,0 +1,65 @@
+{
+  "scope": "Primary-source numerical lead and explicitly unapproved candidate readings, no native input or score",
+  "files": [
+    {
+      "path": "DRAFT_NOT_APPROVED_numerical_peak_readings.csv",
+      "sha256": "cab18eeab67384f8c6f9369cb8f659cfa69b1193fc55537c9a545ac38152b9f9",
+      "bytes": 2321
+    },
+    {
+      "path": "extract_reference.py",
+      "sha256": "391380e15636c60e54ffd7d8129542356e4113d3b018ccd9e087e3d416843698",
+      "bytes": 4713
+    },
+    {
+      "path": "index.html",
+      "sha256": "3eff01f695e85446c31a7d3271255de1105ca9cc8aa244e40d6c576a421dec57",
+      "bytes": 4414
+    },
+    {
+      "path": "quality_review.json",
+      "sha256": "3099640fdc6eafcc49d1fa2b0e47078efab08cb936b13f434cd3dde0e302208a",
+      "bytes": 1645
+    },
+    {
+      "path": "reference_extraction.json",
+      "sha256": "d1278ee1514aa231195646e2f7a7a8480e5826f3fe12af97af6d97bf59b96657",
+      "bytes": 12141
+    },
+    {
+      "path": "reference_extraction_initial.json",
+      "sha256": "7584a60f9a25c6f74ced7a3f6a0b224f9b64049d78f4de8a039207b24f3227bc",
+      "bytes": 11736
+    },
+    {
+      "path": "review_reference.py",
+      "sha256": "d618a76993e2fbfe3c3d0bb914cc64e6cb07ad6bdddb35985cac2517316e8176",
+      "bytes": 12796
+    },
+    {
+      "path": "sources/figure5-pressure-original.png",
+      "sha256": "93bb1a4a505e03ebe04e8591ca916c675f4cff915c1b62f0a2af127da5625d92",
+      "bytes": 43427
+    },
+    {
+      "path": "sources/pdf-page-04.png",
+      "sha256": "266d1ee3f41b3d1f48788dda968f6979f6ce6fb2fd7633025885cd78f7a6d2ca",
+      "bytes": 294651
+    },
+    {
+      "path": "sources/pdf-page-05.png",
+      "sha256": "d9753facabe9e1689968e10ed7f93bab6f62349a126b57a901b64c7237a1e1a9",
+      "bytes": 304778
+    },
+    {
+      "path": "sources/VanDorsselaer2018_convex.pdf",
+      "sha256": "43cd5f7364803026978c8fed6b323210cfba45772d7d677351e5af650de87572",
+      "bytes": 917177
+    },
+    {
+      "path": "sources/VanDorsselaer2018_convex.txt",
+      "sha256": "b912b523e72c5e13c1938ca61c2f389de8ab36752a0255b78fc1af876ab3fd4f",
+      "bytes": 27196
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "job_id": "8941511",
+  "node": "cnode1909",
+  "native_task_complete": true,
+  "required_histories": 13,
+  "full_window_ms": [
+    0,
+    22
+  ],
+  "group_sizes": {
+    "OURANOS": 12,
+    "LS-DYNA": 13
+  },
+  "MAPE_percent": {
+    "OURANOS": 27.369310965615682,
+    "LS-DYNA": 28.783000148065927
+  },
+  "sample_counts": {
+    "0.25": 15004,
+    "0.5": 15004,
+    "0.75": 15004,
+    "1": 15004,
+    "1.5": 15004,
+    "2": 15004,
+    "2.5": 15004,
+    "3": 15004,
+    "3.5": 15004,
+    "4": 15004,
+    "4.5": 15004,
+    "5": 15004,
+    "5.5": 15004
+  },
+  "native_log_global_minima": {
+    "absolute_pressure_Pa": {
+      "value": 34.3298838839,
+      "simulation_time_s": 0.0012585784602794
+    },
+    "temperature_K": {
+      "value": 20.5405635507,
+      "simulation_time_s": 0.0012585784602794
+    }
+  },
+  "MAPE_range_using_graph_reading_intervals_percent": {
+    "OURANOS": [
+      21.503967788124466,
+      32.30291114488736
+    ],
+    "LS-DYNA": [
+      22.85659186760905,
+      34.59126247054949
+    ]
+  },
+  "independent_APE_recalculation_matches_native": true,
+  "numerical_reference_only": true,
+  "physical_health_review_open": true,
+  "human_admission": false,
+  "Gold_approved": false
+}

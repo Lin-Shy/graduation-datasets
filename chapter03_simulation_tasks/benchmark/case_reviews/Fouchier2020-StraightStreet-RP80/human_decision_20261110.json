@@ -1,0 +1,18 @@
+{
+  "scene_id": "S11",
+  "case_id": "Fouchier2020-StraightStreet-RP80",
+  "date": "2026-11-10",
+  "source": "owner decision in the current conversation",
+  "verbatim": "S11 · 无岔口直街，虽然正压冲量的误差超过要求，但是经过时程曲线可视化高度对准原资料结果，符合要求可以入选。",
+  "decision": "human_qualified_selected",
+  "reviewed_job_id": "8976290",
+  "reviewed_card": "admission_card_20261110.html",
+  "fixed_gauges": ["S5", "S2", "S3"],
+  "first_peak_experimental_mape_pct": 20.11,
+  "first_positive_pressure_impulse_experimental_mape_pct": 57.87,
+  "first_positive_pressure_impulse_passed_30_pct": false,
+  "waveform_review": "accepted by owner for admission; local comparison uses each trace's own first peak as time zero",
+  "absolute_arrival_time_scored": false,
+  "full_waveform_error_scored": false,
+  "formal_gold": false
+}

@@ -1,0 +1,126 @@
+{
+  "job_id": "8953576",
+  "trace_sha256": "c6ebc6685c9a6b1414e2a1084ccaa37e550e5b5a98d46af848facf993a5271d6",
+  "references_sha256": "8191e3c603e99fe28a7a0f692edfdff1e04c3b6fcbf1cf855ebb3db0e2c5022b",
+  "protocol_sha256": "e0e6f5a7886a6d8494479f9b6bfb801c3f2cf20d8241a9c9aef1352a9e6a7698",
+  "metrics": {
+    "experimental": {
+      "denominator": 3,
+      "resolved": 3,
+      "MAPE_pct": 21.114683345449745,
+      "MAPE_range_3px_pct": [
+        16.79044800063226,
+        25.599026058956024
+      ]
+    },
+    "published_OpenFOAM": {
+      "denominator": 3,
+      "resolved": 3,
+      "MAPE_pct": 13.65672766503135
+    },
+    "Fig_6_1_experimental_center": {
+      "denominator": 3,
+      "resolved": 3,
+      "MAPE_pct": 21.726153742450105
+    }
+  },
+  "peak_comparison": {
+    "Fig_6_1_experimental_center_MAPE_pct": 4.93752119706136,
+    "Fig_6_7_experimental_MAPE_pct": 3.4021367706828087
+  },
+  "rows": [
+    {
+      "radius_m": 0.35,
+      "native_impulse_Pa_s": 2.2488169641946563,
+      "closed_first_lobe_s": [
+        0.000613957608693,
+        0.0008770535167285936
+      ],
+      "seed_sensitivity": {
+        "0.1": [
+          0.000613957608693,
+          0.0008770535167285936,
+          2.2488169641946563
+        ],
+        "0.5": [
+          0.000613957608693,
+          0.0008770535167285936,
+          2.2488169641946563
+        ]
+      },
+      "experiment_Pa_s": 1.866605888648806,
+      "published_OpenFOAM_Pa_s": 1.9880213889885394,
+      "experimental_APE_pct": 20.476260032723047,
+      "published_OpenFOAM_APE_pct": 13.118348557547652,
+      "Fig_6_1_experimental_center_APE_pct": 21.144534141821374,
+      "Fig_6_1_peak_center_APE_pct": 14.614114098059073,
+      "Fig_6_7_peak_APE_pct": 2.119737025480998,
+      "experimental_APE_range_3px_pct": [
+        16.174818725569683,
+        24.936964745852535
+      ]
+    },
+    {
+      "radius_m": 0.475,
+      "native_impulse_Pa_s": 1.669912076332745,
+      "closed_first_lobe_s": [
+        0.000964728086404,
+        0.0012644822201598133
+      ],
+      "seed_sensitivity": {
+        "0.1": [
+          0.000964728086404,
+          0.0012644822201598133,
+          1.669912076332745
+        ],
+        "0.5": [
+          0.000964728086404,
+          0.0012644822201598133,
+          1.669912076332745
+        ]
+      },
+      "experiment_Pa_s": 1.3055378690230302,
+      "published_OpenFOAM_Pa_s": 1.4737406155824797,
+      "experimental_APE_pct": 27.909891850351777,
+      "published_OpenFOAM_APE_pct": 13.311125355171866,
+      "Fig_6_1_experimental_center_APE_pct": 28.520719845985564,
+      "Fig_6_1_peak_center_APE_pct": 0.12564895904851536,
+      "Fig_6_7_peak_APE_pct": 0.2540966546786997,
+      "experimental_APE_range_3px_pct": [
+        23.34304281097098,
+        32.64583117381487
+      ]
+    },
+    {
+      "radius_m": 0.725,
+      "native_impulse_Pa_s": 1.1018380403951826,
+      "closed_first_lobe_s": [
+        0.00169368910562,
+        0.0020355469035177156
+      ],
+      "seed_sensitivity": {
+        "0.1": [
+          0.00169368910562,
+          0.0020355469035177156,
+          1.1018380403951826
+        ],
+        "0.5": [
+          0.00169368910562,
+          0.0020355469035177156,
+          1.1018380403951826
+        ]
+      },
+      "experiment_Pa_s": 0.9584709342250604,
+      "published_OpenFOAM_Pa_s": 0.9619619515387939,
+      "experimental_APE_pct": 14.957898153274407,
+      "published_OpenFOAM_APE_pct": 14.540709082374532,
+      "Fig_6_1_experimental_center_APE_pct": 15.51320723954338,
+      "Fig_6_1_peak_center_APE_pct": 0.07280053407649267,
+      "Fig_6_7_peak_APE_pct": 7.832576631888728,
+      "experimental_APE_range_3px_pct": [
+        10.85348246535612,
+        19.214282257200672
+      ]
+    }
+  ]
+}

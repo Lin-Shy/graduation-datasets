@@ -1,0 +1,50 @@
+{
+  "job_id": "8952323",
+  "delivery_complete": false,
+  "fixed_MAPE_percent": null,
+  "prefix_last_time_s": 0.00207942255091,
+  "comparison_window_s": [
+    0,
+    0.003
+  ],
+  "pressure_prefix_samples": 13366,
+  "native_logged_field_extrema": {
+    "p": [
+      884.683701294,
+      14900000.0
+    ],
+    "T": [
+      260.350135642,
+      3647.69262096
+    ]
+  },
+  "file_hashes": {
+    "p": "08d411d8a6f07315714464f33a255db7b73b5ebce047da16e455b30be38471ca",
+    "5-blastFoam.log": "3aa1395ecfe393e86c9e357dbd1fe590580f019ccc344505924f956755c899a2",
+    "run.json": "32293c5a061db1959359fb65b9d3f50eccb525c209e383162d05600538148235",
+    "native_initialization_receipt.json": "93de97fe646604b1f1843f2d57db01f8112e28965e355ec7278bc9fbd3f15c4a"
+  },
+  "rows": [
+    {
+      "radius_m": 0.35,
+      "observed_prefix_max_kPa": 14.953736443999995,
+      "observed_prefix_max_time_ms": 0.739627431131,
+      "experiment_peak_kPa": 23.076,
+      "published_OpenFOAM_peak_kPa": 20.566
+    },
+    {
+      "radius_m": 0.475,
+      "observed_prefix_max_kPa": 8.879850804000002,
+      "observed_prefix_max_time_ms": 1.10759593084,
+      "experiment_peak_kPa": 14.737,
+      "published_OpenFOAM_peak_kPa": 13.055
+    },
+    {
+      "radius_m": 0.725,
+      "observed_prefix_max_kPa": 4.382464580999993,
+      "observed_prefix_max_time_ms": 1.86436194268,
+      "experiment_peak_kPa": 7.476,
+      "published_OpenFOAM_peak_kPa": 7.122
+    }
+  ]
+}

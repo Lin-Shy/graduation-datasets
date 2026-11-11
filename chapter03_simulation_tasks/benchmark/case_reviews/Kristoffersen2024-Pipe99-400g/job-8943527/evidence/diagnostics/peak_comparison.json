@@ -1,0 +1,145 @@
+{
+  "case_id": "Kristoffersen2024-Pipe99-400g",
+  "solver_completed_and_passed_log_checks": true,
+  "full_window_all_sensors": true,
+  "full_reference_MAPE_available": true,
+  "peak_gate_failure_gauges": [],
+  "predictions": {
+    "Pi02": {
+      "sample_count": 59991,
+      "first_time_s": 0.0,
+      "last_time_s": 0.00400199560724,
+      "complete": true,
+      "errors": [],
+      "peak_gate_end_s": 0.004,
+      "gate_peak_Pa": 4790830.23528,
+      "gate_peak_time_s": 0.000205150882512,
+      "primary_peak_resolved": true,
+      "files": [
+        {
+          "path": "postProcessing/Pi02/0/p",
+          "sha256": "3aab2dd93e90c704520c5e34e2aa15b7dc2faee9bff2ea05293676c6dc014489"
+        }
+      ]
+    },
+    "Pi03": {
+      "sample_count": 59991,
+      "first_time_s": 0.0,
+      "last_time_s": 0.00400199560724,
+      "complete": true,
+      "errors": [],
+      "peak_gate_end_s": 0.004,
+      "gate_peak_Pa": 3982631.63793,
+      "gate_peak_time_s": 0.000534399684262,
+      "primary_peak_resolved": true,
+      "files": [
+        {
+          "path": "postProcessing/Pi03/0/p",
+          "sha256": "90170a3090727b6ca8d7899d6099119f50d8f05d587e48db9a58b3afc2ff5601"
+        }
+      ]
+    },
+    "Pi04": {
+      "sample_count": 59991,
+      "first_time_s": 0.0,
+      "last_time_s": 0.00400199560724,
+      "complete": true,
+      "errors": [],
+      "peak_gate_end_s": 0.004,
+      "gate_peak_Pa": 3509562.50794,
+      "gate_peak_time_s": 0.00058221202597,
+      "primary_peak_resolved": true,
+      "files": [
+        {
+          "path": "postProcessing/Pi04/0/p",
+          "sha256": "fba4aa6e125ed5e493cc2aa21aa487db6f8d322ca3e475972734150b1abbacc3"
+        }
+      ]
+    }
+  },
+  "fixed_denominators": {
+    "experimental_repeats": 6,
+    "published_EPX": 3
+  },
+  "MAPE_percent": {
+    "experimental_repeats": 8.607848644692602,
+    "published_EPX": 26.31978296807075
+  },
+  "rows": [
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T1_table1",
+      "gauge": "Pi02",
+      "reference_peak_Pa": 6107900.0,
+      "simulation_peak_Pa": 4790830.23528,
+      "APE_percent": 21.563381272122992
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T1_table1",
+      "gauge": "Pi03",
+      "reference_peak_Pa": 3975200.0,
+      "simulation_peak_Pa": 3982631.63793,
+      "APE_percent": 0.18695003848863456
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T1_table1",
+      "gauge": "Pi04",
+      "reference_peak_Pa": 3633500.0,
+      "simulation_peak_Pa": 3509562.50794,
+      "APE_percent": 3.4109671682950347
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T2_table1",
+      "gauge": "Pi02",
+      "reference_peak_Pa": 5897500.0,
+      "simulation_peak_Pa": 4790830.23528,
+      "APE_percent": 18.76506595540484
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T2_table1",
+      "gauge": "Pi03",
+      "reference_peak_Pa": 3799100.0,
+      "simulation_peak_Pa": 3982631.63793,
+      "APE_percent": 4.830924111763317
+    },
+    {
+      "group": "experimental_repeats",
+      "source_trial": "experimental_T2_table1",
+      "gauge": "Pi04",
+      "reference_peak_Pa": 3614000.0,
+      "simulation_peak_Pa": 3509562.50794,
+      "APE_percent": 2.889803322080799
+    },
+    {
+      "group": "published_EPX",
+      "source_trial": "published_EPX_table4",
+      "gauge": "Pi02",
+      "reference_peak_Pa": 6337000,
+      "simulation_peak_Pa": 4790830.23528,
+      "APE_percent": 24.399081027615598
+    },
+    {
+      "group": "published_EPX",
+      "source_trial": "published_EPX_table4",
+      "gauge": "Pi03",
+      "reference_peak_Pa": 5405000,
+      "simulation_peak_Pa": 3982631.63793,
+      "APE_percent": 26.31578838242368
+    },
+    {
+      "group": "published_EPX",
+      "source_trial": "published_EPX_table4",
+      "gauge": "Pi04",
+      "reference_peak_Pa": 4891000,
+      "simulation_peak_Pa": 3509562.50794,
+      "APE_percent": 28.24447949417297
+    }
+  ],
+  "formal_DSH_score": false,
+  "model_match_approved": false,
+  "Gold_approved": false
+}

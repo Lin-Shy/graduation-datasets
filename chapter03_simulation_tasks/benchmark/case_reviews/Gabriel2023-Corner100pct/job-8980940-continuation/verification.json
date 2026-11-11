@@ -1,0 +1,272 @@
+{
+  "job_id": "8980940",
+  "scheduler_state": "COMPLETED",
+  "scheduler_exit": "0:0",
+  "full_delivery_verified": true,
+  "native_health_failure": null,
+  "native_failure_detail": null,
+  "parent_job": "8975795",
+  "original_job": "8973953",
+  "two_seams": {
+    "A": [
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "B1": [
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "B2": [
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "B3": [
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    ]
+  },
+  "checkpoints_ms": [
+    2,
+    3.0
+  ],
+  "native_sample_count_per_probe": 216551,
+  "native_end_s": 0.00501000177861,
+  "full_peak_groups": {
+    "experimental_repeats": {
+      "count": 14,
+      "baseline": {
+        "comparable": 11,
+        "APE_at_most_30": 6,
+        "MAPE_pct": null
+      },
+      "corrected": {
+        "comparable": 11,
+        "APE_at_most_30": 8,
+        "MAPE_pct": null
+      }
+    },
+    "published_viper": {
+      "count": 4,
+      "baseline": {
+        "comparable": 3,
+        "APE_at_most_30": 2,
+        "MAPE_pct": null
+      },
+      "corrected": {
+        "comparable": 3,
+        "APE_at_most_30": 3,
+        "MAPE_pct": null
+      }
+    }
+  },
+  "fixed_shadow_groups": {
+    "experimental_repeats": {
+      "count": 11,
+      "baseline": {
+        "comparable": 11,
+        "APE_at_most_30": 6,
+        "MAPE_pct": 30.690165379713086
+      },
+      "corrected": {
+        "comparable": 11,
+        "APE_at_most_30": 8,
+        "MAPE_pct": 23.65836409883592
+      }
+    },
+    "published_viper": {
+      "count": 3,
+      "baseline": {
+        "comparable": 3,
+        "APE_at_most_30": 2,
+        "MAPE_pct": 30.68126581261578
+      },
+      "corrected": {
+        "comparable": 3,
+        "APE_at_most_30": 3,
+        "MAPE_pct": 23.49673969910737
+      }
+    }
+  },
+  "arrival_groups": {
+    "experiment": {
+      "expected": 14,
+      "comparable": 14,
+      "APE_at_most_30": 12,
+      "MAPE_pct": 12.078237965247643
+    },
+    "published_Viper": {
+      "expected": 4,
+      "comparable": 4,
+      "APE_at_most_30": 4,
+      "MAPE_pct": 5.101312376158867
+    }
+  }
+}

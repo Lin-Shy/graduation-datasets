@@ -1,0 +1,258 @@
+{
+  "scene_id": "S06",
+  "job_id": "8991717",
+  "node": "cnode1838",
+  "mpi_ranks": 32,
+  "pressure_prefix_last_s": 0.0050100495978927,
+  "pressure_samples": 47698,
+  "delivery_complete": true,
+  "fixed_delivery_window_s": [
+    0,
+    0.005
+  ],
+  "all_fixed_first_pulses_resolved_in_prefix": true,
+  "native_logged_field_extrema": {
+    "p": [
+      684.037217253,
+      14900000.0
+    ],
+    "T": [
+      234.608868353,
+      5603.96024589
+    ]
+  },
+  "verified_MPI_faces": [
+    {
+      "gauge": "S4",
+      "rank": 8,
+      "local_face": 434029,
+      "face_centre_m": [
+        0.0005,
+        0.352712507861,
+        0.0
+      ]
+    },
+    {
+      "gauge": "S6",
+      "rank": 8,
+      "local_face": 435017,
+      "face_centre_m": [
+        0.0005,
+        0.725,
+        0.0
+      ]
+    },
+    {
+      "gauge": "S8",
+      "rank": 9,
+      "local_face": 343306,
+      "face_centre_m": [
+        0.446195652174,
+        0.725,
+        0.0
+      ]
+    },
+    {
+      "gauge": "S9",
+      "rank": 10,
+      "local_face": 340987,
+      "face_centre_m": [
+        0.803804346095,
+        0.725,
+        0.0
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "gauge": "S4",
+      "position_m": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "reference_kPa": {
+        "experiment": 20.833,
+        "published_OpenFOAM": 18.333
+      },
+      "prefix_max_kPa": 21.019429927000004,
+      "prefix_max_time_s": 0.0015148334034161,
+      "fixed_threshold_kPa": 6.2499,
+      "fixed_rule": {
+        "level_kPa": 6.2499,
+        "dwell_s": 2e-05,
+        "span_s": 0.00012
+      },
+      "pulse": {
+        "onset_s": 0.000669307273533004,
+        "end_s": 0.000789307273533004,
+        "peak_time_s": 0.00073666737886415,
+        "peak_kPa": 15.238473570999995
+      },
+      "APE_percent": {
+        "experiment": 26.85415652570443,
+        "published_OpenFOAM": 16.879541968035802
+      },
+      "unresolved": null,
+      "experiment_APE_reading_range_pct": [
+        23.807632145000024,
+        29.6664194082895
+      ]
+    },
+    {
+      "gauge": "S6",
+      "position_m": [
+        0.0,
+        0.725,
+        0.0
+      ],
+      "reference_kPa": {
+        "experiment": 14.259,
+        "published_OpenFOAM": 13.704
+      },
+      "prefix_max_kPa": 11.914352173000006,
+      "prefix_max_time_s": 0.0018350190846461,
+      "fixed_threshold_kPa": 4.2777,
+      "fixed_rule": {
+        "level_kPa": 4.2777,
+        "dwell_s": 2e-05,
+        "span_s": 0.00018
+      },
+      "pulse": {
+        "onset_s": 0.0017615073996391098,
+        "end_s": 0.0019415073996391099,
+        "peak_time_s": 0.0018350190846461,
+        "peak_kPa": 11.914352173000006
+      },
+      "APE_percent": {
+        "experiment": 16.44328372957426,
+        "published_OpenFOAM": 13.059309887624009
+      },
+      "unresolved": null,
+      "experiment_APE_reading_range_pct": [
+        13.05296524118801,
+        19.5791280931488
+      ]
+    },
+    {
+      "gauge": "S8",
+      "position_m": [
+        0.45,
+        0.725,
+        0.0
+      ],
+      "reference_kPa": {
+        "experiment": 4.42,
+        "published_OpenFOAM": 3.131
+      },
+      "prefix_max_kPa": 3.2197850590000017,
+      "prefix_max_time_s": 0.0043467684903887,
+      "fixed_threshold_kPa": 1.326,
+      "fixed_rule": {
+        "level_kPa": 1.326,
+        "dwell_s": 2e-05,
+        "span_s": 0.0003
+      },
+      "pulse": {
+        "onset_s": 0.0023559364640155242,
+        "end_s": 0.002655936464015524,
+        "peak_time_s": 0.0024757348298375,
+        "peak_kPa": 3.100026838999998
+      },
+      "APE_percent": {
+        "experiment": 29.863646176470628,
+        "published_OpenFOAM": 0.9892418077292141
+      },
+      "unresolved": null,
+      "experiment_APE_reading_range_pct": [
+        25.192402533783834,
+        33.985799850937006
+      ]
+    },
+    {
+      "gauge": "S9",
+      "position_m": [
+        0.8,
+        0.725,
+        0.0
+      ],
+      "reference_kPa": {
+        "experiment": 2.302,
+        "published_OpenFOAM": 1.657
+      },
+      "prefix_max_kPa": 1.6612611960000068,
+      "prefix_max_time_s": 0.0036378395226948,
+      "fixed_threshold_kPa": 0.6906,
+      "fixed_rule": {
+        "level_kPa": 0.6906,
+        "dwell_s": 2e-05,
+        "span_s": 0.00028
+      },
+      "pulse": {
+        "onset_s": 0.0030830452953200752,
+        "end_s": 0.003363045295320075,
+        "peak_time_s": 0.003188327229646,
+        "peak_kPa": 1.5354199430000008
+      },
+      "APE_percent": {
+        "experiment": 33.30061064291917,
+        "published_OpenFOAM": 7.337360108630005
+      },
+      "unresolved": null,
+      "experiment_APE_reading_range_pct": [
+        24.21421801579462,
+        40.441429674165995
+      ]
+    }
+  ],
+  "fixed_denominators": {
+    "experiment": 4,
+    "published_OpenFOAM": 4
+  },
+  "provisional_MAPE_percent": {
+    "experiment": 26.61542426866712,
+    "published_OpenFOAM": 9.566363443004757
+  },
+  "staging_receipt_sha256": "dcf20644e7b3722975b48e91755ecd1015b9f23a1dad5b6eac374a2a59c0f402",
+  "file_hashes": {
+    "p": "fdf8e4bffe19ea85150ca339cb5ffe8930834f10ff73b6062342ff177d15d501",
+    "pressure_prefix.txt": "fdf8e4bffe19ea85150ca339cb5ffe8930834f10ff73b6062342ff177d15d501",
+    "blastFoam.log": "8f2f99e074b257d3a9734797a5223cefa3d90e6d99ed25526e6f738dcec43402",
+    "run.json": "60a4de6f0974e9558e178b1e7f0e50f4213d45862883ec40289461f0315d1ee0",
+    "native_preflight.json": "a45162aa0c575dc62fdc55b4fcc90d7295228a32e9c73a282906bf51cd94040a"
+  },
+  "scheduler_state": "COMPLETED",
+  "previous_job": "8981257",
+  "previous_pointwise_APE_percent": {
+    "S4": {
+      "experiment": 27.4531878462055,
+      "published_OpenFOAM": 17.560260862924732
+    },
+    "S6": {
+      "experiment": 17.06958973280034,
+      "published_OpenFOAM": 13.710980735551667
+    },
+    "S8": {
+      "experiment": 30.128767760181116,
+      "published_OpenFOAM": 1.3635111785373755
+    },
+    "S9": {
+      "experiment": 34.4777167245874,
+      "published_OpenFOAM": 8.97266378998202
+    }
+  },
+  "native_field_extrema": {
+    "p": [
+      684.037217253,
+      14900000.0
+    ],
+    "T": [
+      234.608868353,
+      5603.96024589
+    ]
+  },
+  "MAPE_percent": {
+    "experiment": 26.61542426866712,
+    "published_OpenFOAM": 9.566363443004757
+  }
+}
