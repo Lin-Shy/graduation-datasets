@@ -1,8 +1,8 @@
 # 第4章独立RSI任务数据集
 
-更新：2026-11-16。状态：存放入口已建立，本轮未创建正式任务集，待执行清单P0/P1整理。允许利用已有真实物理案例先推进开发试点，同时建设按任务族隔离的正式评价池。
+更新：2026-11-17。状态：存放入口已建立，本轮未创建正式任务集，由研究agent结合问题和实际证据自主安排整理。允许利用已有真实物理案例先推进开发试点，同时建设按任务族隔离的正式评价池。
 
-研究定义见[第4章共享设计](../../graduation-thesis-materials/graduation-research/chapters/chapter04.md)，唯一详细任务清单见[DSH执行计划](../../PrincipiaBlastFoam-DSH/experiments/self_evolution/PLAN.md)。不再引用已失效的action-plans入口。
+研究定义见[第4章共享设计](../../graduation-thesis-materials/graduation-research/chapters/chapter04.md)，自主研究任务计划见[DSH执行计划](../../PrincipiaBlastFoam-DSH/experiments/self_evolution/PLAN.md)。具体算例和建设顺序由研究需要决定。
 
 本目录维护任务、来源族、模型侧资源、评分侧参考及开发暴露；运行、版本和结果保存在实验项目。已有[人工入选场景](../chapter03_simulation_tasks/benchmark/approved/README.md)只有物理案例资格，不自动提供第4章正式成功标签。原件按路径和哈希引用，不复制或覆盖一套仿真结果。
 
